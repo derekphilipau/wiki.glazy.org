@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Using LIPGLOSS - LIPGLOSS - Glazy Ceramics Wiki</title>
+    <meta name="description" content="Currently, to use LIPGLOSS, you need to install Python 3, the linear programming API PuLP, and the GLPK library (and possibly the tkinter Python package). See the README.md file on Github for more details. 
+UPDATE: There&amp;hellip;">
+    <meta name="generator" content="Discourse 2.9.0.beta4 - https://github.com/discourse/discourse version 461936f2112eb06cec2a271410aa51870ce194b5">
+<link rel="icon" type="image/png" href="../../uploads/default/optimized/1X/b9980f0d32995d157772e19e6ef3f681836cb6d6_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/optimized/1X/298ce0a9b33fec2c63a516f4dc3372528e8b491a_2_180x180.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="index.html" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://wiki.glazy.org","potentialAction":{"@type":"SearchAction","target":"https://wiki.glazy.org/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="Glazy Ceramics Wiki Search">
+
+    <link href="https://wiki.glazy.org/stylesheets/color_definitions_simple-light_1_1_5b88dc2feaaf719dda9235c485a1fc0188f60af7.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://wiki.glazy.org/stylesheets/desktop_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+  <link href="https://wiki.glazy.org/stylesheets/discourse-details_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://wiki.glazy.org/stylesheets/discourse-local-dates_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://wiki.glazy.org/stylesheets/discourse-presence_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://wiki.glazy.org/stylesheets/lazy-yt_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="https://wiki.glazy.org/stylesheets/poll_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://wiki.glazy.org/stylesheets/poll_desktop_c7bbe5b6429a75202c48a17e0dfdc61260b87c90.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://wiki.glazy.org/stylesheets/desktop_theme_2_4ffb441af06b36b2412af6f818a65f5971163880.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="custom header links"/>
+<link href="https://wiki.glazy.org/stylesheets/desktop_theme_1_4204be42e2586a1a754214edef6567f8a5aecc19.css?__ws=wiki.glazy.org" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1" data-theme-name="default theme"/>
+
+    <meta name="google-site-verification" content="aotmESjCYDH-7T5Y80oo5hYqXPh6W0UKts_y7SzwD_c">
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Using LIPGLOSS&#39;" href="238.rss" />
+    <meta property="og:site_name" content="Glazy Ceramics Wiki" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://wiki.glazy.org/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" />
+<meta property="og:image" content="https://wiki.glazy.org/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" />
+<meta property="og:url" content="https://wiki.glazy.org/t/using-lipgloss/238" />
+<meta name="twitter:url" content="https://wiki.glazy.org/t/using-lipgloss/238" />
+<meta property="og:title" content="Using LIPGLOSS" />
+<meta name="twitter:title" content="Using LIPGLOSS" />
+<meta property="og:description" content="Currently, to use LIPGLOSS, you need to install Python 3, the linear programming API PuLP, and the GLPK library (and possibly the tkinter Python package). See the README.md file on Github for more details.  UPDATE: There is now a version 2, with slightly different installation requirements, described in this readme file. This is hopefully easier to install.  To open the graphical user interface, run the main.py script. You’ll be presented with a window that shows a list of ingredients and ‘other..." />
+<meta name="twitter:description" content="Currently, to use LIPGLOSS, you need to install Python 3, the linear programming API PuLP, and the GLPK library (and possibly the tkinter Python package). See the README.md file on Github for more details.  UPDATE: There is now a version 2, with slightly different installation requirements, described in this readme file. This is hopefully easier to install.  To open the graphical user interface, run the main.py script. You’ll be presented with a window that shows a list of ingredients and ‘other..." />
+<meta property="article:published_time" content="2017-05-22T19:22:14+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler">
+    
+<script src="https://wiki.glazy.org/theme-javascripts/2d54affbdc4b8a1efe86a6baecc945c2527397b3.js?__ws=wiki.glazy.org" data-theme-id="2"></script>
+    <header>
+  <a href="https://wiki.glazy.org/">
+    <h1>Glazy Ceramics Wiki</h1>
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="index.html">Using LIPGLOSS</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://wiki.glazy.org/c/open-source-ceramics/14" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #231F20'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Open-Source Ceramics</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://wiki.glazy.org/c/open-source-ceramics/lipgloss/52" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #AB9364'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>LIPGLOSS</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+
+      <div id='post_1' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Glazy Ceramics Wiki'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='https://wiki.glazy.org/uploads/default/original/1X/4174dad4b7e95dddbbbd3d29384e51bf645d1f3e.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://wiki.glazy.org/u/Pieter_Mostert'><span itemprop='name'>Pieter_Mostert</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="index.html">
+
+            <link itemprop="image" href="../../uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG">
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2017-05-22T19:22:14Z' class='post-time'>
+                May 22, 2017,  7:22pm
+              </time>
+              <meta itemprop='dateModified' content='2019-08-18T14:38:55Z'>
+          <span itemprop='position'>#1</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Currently, to use LIPGLOSS, you need to install <a href="https://www.python.org/downloads/" rel="nofollow noopener">Python 3</a>, the linear programming API <a href="https://github.com/coin-or/pulp" rel="nofollow noopener">PuLP</a>, and the <a href="https://www.gnu.org/software/glpk/" rel="nofollow noopener">GLPK</a> library (and possibly the <a href="https://wiki.python.org/moin/TkInter" rel="nofollow noopener">tkinter</a> Python package). See the <a href="https://github.com/PieterMostert/Lipgloss/blob/master/README.md" rel="nofollow noopener">README.md</a> file on Github for more details.</p>
+<p>UPDATE: There is now a version 2, with slightly different installation requirements, described in <a href="https://github.com/PieterMostert/LIPGLOSS2/blob/master/README.md" rel="nofollow noopener">this</a> readme file. This is hopefully easier to install.</p>
+<p>To open the graphical user interface, run the <span>main.py</span> script. You’ll be presented with a window that shows a list of ingredients and ‘other restrictions’ in the panel on the left. Some of these will have already been selected by default, but you can add or remove items by clicking on the buttons.</p>
+<p><img src="../../uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" width="590" height="700"></p>
+<p>In the panel on the right, the selected ingredients and other restrictions will be shown, as well as any oxides that appear in the selected ingredients. The two columns on the left, which contain values in blue, are for entering the desired lower and upper bounds on the oxide, ingredient, or other restriction. Bounds on oxides can be expressed as UMF, percent weight or percent mole by selecting the appropriate radio button above.</p>
+<p>When you click the <code>Calculate restrictions</code> button, the two columns on the right will be filled with lower and upper bounds for each oxide, ingredient, or other restriction, printed in red (assuming there is at least one recipe that satisfies the bounds; otherwise, an error message will appear). These are lower and upper bounds for the corresponding item among all possible recipes using the ingredients selected that satisfy the bounds you’ve imposed. Naturally, the bounds on the right are at least as restrictive as the bounds on the left.</p>
+<p><img src="../../uploads/default/original/1X/e488cc43507424e81074ef1e03d9c1a52aa24ff7.JPG" width="585" height="691"></p>
+<p>You can now progressively strengthen the bounds on the left, based on the calculated bounds. This may be as simple as unselecting an ingredient whose calculated lower bound is zero. Given a single oxide, ingredient, or other restriction, you can narrow it’s range to any interval that overlaps the calculated interval, and be guaranteed that the problem still has a solution (but be aware that the endpoints displayed have been rounded to a certain number of decimal places).</p>
+<p>However, it’s important to note that if you restrict the bounds for <em>two</em> or more items simultaneously, a solution is not guaranteed even if the restricted intervals both overlap their respective calculated intervals. For example, if only two ingredients are selected and no restrictions are imposed, the bounds on the percentages of these ingredients will be 0 and 100. If you then impose the bounds 0 to 40 on both these ingredient percentages, there will be no solution, simply because the sum of the ingredient percentages must add up to 100.</p>
+<p>If you want to restrict the bounds for two variables simultaneously, you have the option of plotting the set of possible values of those two variables. That is to say, for each point in the region shown, there is at least one recipe where the variables take on the <em>x</em> and <em>y</em> values of the point, and which satisfies all the constraints. The <em>x</em> and <em>y</em> variables to plot can be selected by clicking on the left and right hand labels in the central panel, respectively. An asterisk should appear next to the label when you click on it.</p>
+<p>When the <em>x</em> and <em>y</em> variables have been selected, the program will display a green region representing all possible points (<em>x</em>,<em>y</em>) that are consistent with the constraints.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG" data-download-href="https://wiki.glazy.org/uploads/default/ad85da2e1fc32fa343bad80be66101a1874bde3c" title="Calc LIPGLOSS 2.JPG"><img src="../../uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG" width="690" height="451" srcset="../../uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG, ../../uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_1035x676.JPG 1.5x, ../../uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Calc LIPGLOSS 2.JPG</span><span class="informations">1054×689 113 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>A collection of ingredient and other restrictions with lower and upper bounds will be referred to as a bounded recipe. Bounded recipes can be saved, or saved as new bounded recipes. If you start with the default bounds and narrow them down to a recipe - i.e. all upper and lower bounds are effectively the same - you should save this as a new bounded recipe, otherwise you’ll have to undo all your restrictions when you start working on a new problem. Saved bounded recipes can be opened through the <code>File</code> menu.</p>
+<p>LIPGLOSS will come pre-installed with common types of ingredients, but most of these should be updated to reflect the analyses of the ingredients in your studio. To do this, click  <code>Options &gt; Edit Ingredients</code> to open the ingredient editor.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8a9fda70b0fce25e67babb46e17adf33afdd0fee" title="IngredientEditor.JPG"><img src="../../uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" width="690" height="410" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IngredientEditor.JPG</span><span class="informations">947×563 100 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>Oxide percentages that are zero can be left blank.</p>
+<p>The order in which ingredients are displayed can be rearranged by right-clicking on an ingredient’s name, then dragging and dropping.</p>
+<p>The other restrictions can be edited by clicking  <code>Options &gt; Edit Other Restrictions</code> to open the ‘other restriction’ editor.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8862e5a4031912b8078922cb7a02b08ccd20273e" title="Other restriction editor.JPG"><img src="../../uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" alt="Other%20restriction%20editor" data-base62-sha1="jswOXnwWwnDQW0LhnkFgY6KWRBA" width="690" height="205" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8862e5a4031912b8078922cb7a02b08ccd20273e_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Other restriction editor.JPG</span><span class="informations">939×279 46.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>At the moment, using this to create a new restriction will require some knowledge of the code used, so this isn’t very user friendly. If you’d like to add a new restriction and don’t know how, feel free to ask a question in the comments section below.</p>
+        </div>
+
+        <meta itemprop='headline' content='Using LIPGLOSS'>
+          <meta itemprop='keywords' content=''>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_2' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Glazy Ceramics Wiki'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='https://wiki.glazy.org/uploads/default/original/1X/4174dad4b7e95dddbbbd3d29384e51bf645d1f3e.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://wiki.glazy.org/u/Pieter_Mostert'><span itemprop='name'>Pieter_Mostert</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="index.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2017-05-22T19:23:07Z' class='post-time'>
+                May 22, 2017,  7:23pm
+              </time>
+              <meta itemprop='dateModified' content='2018-10-27T07:20:21Z'>
+          <span itemprop='position'>#2</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>If installing the GLPK library is a problem, comment out <code>solver = GLPK(msg=0)</code> and uncomment <code>solver = PULP_CBC_CMD()</code> in model/lipgloss/lp_recipe_problem<span>.py</span>. This will result in the COIN-OR <a href="https://projects.coin-or.org/Cbc">Cbc</a> solver being used, which comes with PuLP. Note, however, that it is released under the <a href="https://en.wikipedia.org/wiki/Eclipse_Public_License">Eclipse Public Licence</a>, which is <a href="https://eclipse.org/legal/eplfaq.php">incompatible with the GPL</a>.</p>
+        </div>
+
+        <meta itemprop='headline' content='Using LIPGLOSS'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_3' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Glazy Ceramics Wiki'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='https://wiki.glazy.org/uploads/default/original/1X/4174dad4b7e95dddbbbd3d29384e51bf645d1f3e.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://wiki.glazy.org/u/Pieter_Mostert'><span itemprop='name'>Pieter_Mostert</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="index.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2017-05-23T20:50:55Z' class='post-time'>
+                May 23, 2017,  8:50pm
+              </time>
+              <meta itemprop='dateModified' content='2017-05-23T20:50:55Z'>
+          <span itemprop='position'>#3</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>This is a reply to a comment by <a class="mention" href="https://wiki.glazy.org/u/derek">@derek</a> on the Open-source Ceramics Facebook group, about having the ability to enter analyses that don’t add up to 100% as targets.</p>
+<p>It could be done, but I’d first like to see how we can integrate this with Glazy. For the purpose of sharing analyses, it would be better to enter them in Glazy. They could then be rescaled to 100% in the process of importing them to LIPGLOSS. I’d also like to have the option to decide whether I want the UMF, % weight, or % mole analysis as my target oxide composition. (In theory, it shouldn’t matter, but because of rounding errors, the program will most likely find different forms of the same analysis to be inconsistent)</p>
+<p>As an aside, if your analysis <em>does</em> add up to 100%, it’s enough to fill in either all the lower bounds, or all the upper bounds. The same goes for fluxes in the UMF.</p>
+        </div>
+
+        <meta itemprop='headline' content='Using LIPGLOSS'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://wiki.glazy.org/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://wiki.glazy.org/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://wiki.glazy.org/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://wiki.glazy.org/tos' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://wiki.glazy.org/privacy' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    <div class="container" style="max-width:1110px;margin-right:auto;margin-left:auto;margin-top:40px;margin-bottom:20px;">
+  <hr>
+  This text and all user contributions to the Glazy &amp; the Glazy Wiki are licensed under the 
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>; 
+  additional terms may apply. By using this site, you agree to the 
+  <a href="https://wiki.glazy.org/tos">Terms of Use</a> and 
+  <a href="https://wiki.glazy.org/privacy">Privacy Policy</a>.    
+  <hr>
+  <div style="width: 100%; text-align: center;">
+    <a href="https://www.ceramicmaterialsworkshop.com/online-classes.html"><img src="https://wiki.glazy.org/uploads/default/original/1X/b93f50a3a80d38ba5c164451f032ceb7cc5791c9.png" alt="Ceramic Materials Workshop" width="200" style="padding: 5px 20px; 5px 0;"></a>
+    <a href="https://mightymudmixer.com/"><img src="https://wiki.glazy.org/uploads/default/original/1X/df087c7ec72bb595683070ec595a647a2dd14d4e.png" alt="Mighty Mud Mixer" width="200" style="padding: 5px 0 5px 20px;"></a>
+    <a href="https://gasworksnyc.com/"><img src="https://wiki.glazy.org/uploads/default/original/1X/863ac838fcff544d3e37ec2271634c1aacbd2f1b.png" alt="Gasworks NYC" width="200" style="padding: 5px 0 5px 20px;"></a>
+  </div>
+</div>
+
+    
+  </body>
+  
+</html>

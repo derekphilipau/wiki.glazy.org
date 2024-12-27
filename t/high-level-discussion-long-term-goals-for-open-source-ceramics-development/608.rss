@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>High-level discussion, Long-term goals for Open-Source Ceramics development</title>
+    <link>https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608</link>
+    <description>I think we need higher-level documentation describing all of the software that we are working on (including all Glazy repositories), and maybe even a long-term vision of what we&#39;d like to accomplish.  To kick-start the discussion (please add to this!):
+
+## Knowledge Sharing
+
+We need a place where we can discuss and **share knowledge**.  _Not Facebook groups_.  Our data needs to be searchable, archivable, accessible.  I have tried numerous open-source alternatives, including Flarum, but Discourse still seems to be the best.  If we go with Discourse, we need someone to take over moderation, updates to the system, backups, etc. of the server.  And we need people to actually use Discourse, so that when people log in it feels like a living, inhabited system.  **NEEDS: Moderator/Administrator of Discourse.**
+
+## Software unification  
+
+We&#39;ve had a number of discussions in this group about software standards.  For example, standardizing EXACTLY how analyses are calculated using the same molar masses.  (See https://wiki.glazy.org/t/glaze-calculation-in-software/234)  Ideally if multiple people are writing different calculation tools, we can all use the same underlying core library.
+
+I mentioned this in another thread with Pieter: Even though I don&#39;t like Javascript, I feel that Glazy is heading towards a pure Javascript implementation.  But for the time being Glazy has both PHP and Javascript.
+
+The two core libraries underlying all the calculation are here:
+ - https://github.com/derekphilipau/ceramicscalc-js
+ - https://github.com/derekphilipau/ceramicscalc
+
+[Added by Pieter] Lipgloss is written in Python, and currently only exists as a desktop app. I&#39;ve tried to separate the computational core from the rest of the app; this can be found here:
+ - https://github.com/PieterMostert/Lipgloss/tree/master/model/lipgloss
+
+I should be able to convert this to Javascript (assuming that&#39;s the route we decide to take), but I think the way I&#39;ve implemented things needs a review first. 
+
+I still intend to develop the desktop version of Lipgloss, since it&#39;s likely that the version implemented on Glazy won&#39;t be as customizable.
+
+### Immediate needs for Software Development
+
+There are immediate needs for help with these libraries. 
+
+#### Tests
+
+The code should be FULLY tested.  Running the tests should show that the calculations are correct and verifiable.
+
+#### Documentation
+
+There should be developer documentation as well as comments throughout the code explaining EXACTLY how glaze calculation works.  Anyone should be able to read this documentation and understand glaze calculation.
+
+https://github.com/derekphilipau/ceramicscalc/issues/2
+https://github.com/derekphilipau/ceramicscalc-js/issues/2
+
+#### Blends
+
+We need to fully implement blends:
+ - https://github.com/derekphilipau/ceramicscalc-js/issues/1
+ - https://github.com/derekphilipau/ceramicscalc/issues/1
+
+#### Typescript
+
+Once the above issues have been addressed, we will urgently need a pure Typescript implementation of ceramicscalc.  See this issue:  https://github.com/derekphilipau/ceramicscalc-js/issues/3</description>
+    
+    <lastBuildDate>Sat, 23 Mar 2019 20:54:49 +0000</lastBuildDate>
+    <category>Open-Source Ceramics</category>
+    <atom:link href="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>High-level discussion, Long-term goals for Open-Source Ceramics development</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>Layering is definitely on the roadmap, it is related to Blends and Composite Recipes (recipes of recipes). The infrastructure is in place, its just a matter of time.</p>
+<p>Im happy to hear any suggestions for improving usability and menus, i know it is a confusing system and look forward to hearing your thoughts!</p>
+          <p><a href="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/3</link>
+        <pubDate>Sat, 23 Mar 2019 20:54:49 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-608-3</guid>
+        <source url="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608.rss">High-level discussion, Long-term goals for Open-Source Ceramics development</source>
+      </item>
+      <item>
+        <title>High-level discussion, Long-term goals for Open-Source Ceramics development</title>
+        <dc:creator><![CDATA[JeffNielson]]></dc:creator>
+        <description><![CDATA[
+            <p>I believe a strong consideration should be to include the concept of ;layering.  Although some feel this is not worth studying, I believe it to be an integral part of how the typical ceramic glaze is used in practice. Images that are uploaded so often include layers but then their is just a description about it with the pictures.  This limits our ability to  have a well documented data set.</p>
+<p>Another strong consideration would be to work on the menu structure. and usability.  Perhaps doing an evaluation with artists or students would be good.  I have a bunch of recommendations to make it easier to navigate but a formal eval might be nice.</p>
+          <p><a href="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/2</link>
+        <pubDate>Sat, 23 Mar 2019 20:15:02 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-608-2</guid>
+        <source url="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608.rss">High-level discussion, Long-term goals for Open-Source Ceramics development</source>
+      </item>
+      <item>
+        <title>High-level discussion, Long-term goals for Open-Source Ceramics development</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>I think we need higher-level documentation describing all of the software that we are working on (including all Glazy repositories), and maybe even a long-term vision of what we’d like to accomplish.  To kick-start the discussion (please add to this!):</p>
+<h2>Knowledge Sharing</h2>
+<p>We need a place where we can discuss and <strong>share knowledge</strong>.  <em>Not Facebook groups</em>.  Our data needs to be searchable, archivable, accessible.  I have tried numerous open-source alternatives, including Flarum, but Discourse still seems to be the best.  If we go with Discourse, we need someone to take over moderation, updates to the system, backups, etc. of the server.  And we need people to actually use Discourse, so that when people log in it feels like a living, inhabited system.  <strong>NEEDS: Moderator/Administrator of Discourse.</strong></p>
+<h2>Software unification</h2>
+<p>We’ve had a number of discussions in this group about software standards.  For example, standardizing EXACTLY how analyses are calculated using the same molar masses.  (See <a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234" class="inline-onebox">Glaze Calculation in Software</a>)  Ideally if multiple people are writing different calculation tools, we can all use the same underlying core library.</p>
+<p>I mentioned this in another thread with Pieter: Even though I don’t like Javascript, I feel that Glazy is heading towards a pure Javascript implementation.  But for the time being Glazy has both PHP and Javascript.</p>
+<p>The two core libraries underlying all the calculation are here:</p>
+<ul>
+<li><a href="https://github.com/derekphilipau/ceramicscalc-js" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js</a></li>
+<li><a href="https://github.com/derekphilipau/ceramicscalc" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc</a></li>
+</ul>
+<p>[Added by Pieter] Lipgloss is written in Python, and currently only exists as a desktop app. I’ve tried to separate the computational core from the rest of the app; this can be found here:</p>
+<ul>
+<li><a href="https://github.com/PieterMostert/Lipgloss/tree/master/model/lipgloss" rel="nofollow noopener">https://github.com/PieterMostert/Lipgloss/tree/master/model/lipgloss</a></li>
+</ul>
+<p>I should be able to convert this to Javascript (assuming that’s the route we decide to take), but I think the way I’ve implemented things needs a review first.</p>
+<p>I still intend to develop the desktop version of Lipgloss, since it’s likely that the version implemented on Glazy won’t be as customizable.</p>
+<h3>Immediate needs for Software Development</h3>
+<p>There are immediate needs for help with these libraries.</p>
+<h4>Tests</h4>
+<p>The code should be FULLY tested.  Running the tests should show that the calculations are correct and verifiable.</p>
+<h4>Documentation</h4>
+<p>There should be developer documentation as well as comments throughout the code explaining EXACTLY how glaze calculation works.  Anyone should be able to read this documentation and understand glaze calculation.</p>
+<p></p><aside class="onebox githubissue">
+  <header class="source">
+      <a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">github.com/derekphilipau/ceramicscalc</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://github.com/derekphilipau" rel="nofollow noopener">
+<img src="https://wiki.glazy.org/uploads/default/original/1X/9582b712b1f46c26f23e17618d759ed25f2e9f60.jpeg" class="thumbnail onebox-avatar" width="96" height="96">
+</a>
+
+<h4><a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">Issue: Documentation</a></h4>
+
+<div class="date" style="margin-top:10px;">
+	<div class="user" style="margin-top:10px;">
+	opened by <a href="https://github.com/derekphilipau" target="_blank" rel="nofollow noopener">derekphilipau</a>
+	on <a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">2018-11-10</a>
+	</div>
+	<div class="user">
+	</div>
+</div>
+
+<pre class="content" style="white-space: pre-wrap;">The entire library should be very well documented, along with as much explanation as possible of glaze calculation and how the...</pre>
+
+<div class="labels">
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<aside class="onebox githubissue">
+  <header class="source">
+      <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">github.com/derekphilipau/ceramicscalc-js</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://github.com/derekphilipau" rel="nofollow noopener">
+<img src="https://wiki.glazy.org/uploads/default/original/1X/9582b712b1f46c26f23e17618d759ed25f2e9f60.jpeg" class="thumbnail onebox-avatar" width="96" height="96">
+</a>
+
+<h4><a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">Issue: Documentation</a></h4>
+
+<div class="date" style="margin-top:10px;">
+	<div class="user" style="margin-top:10px;">
+	opened by <a href="https://github.com/derekphilipau" target="_blank" rel="nofollow noopener">derekphilipau</a>
+	on <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">2018-11-10</a>
+	</div>
+	<div class="user">
+	</div>
+</div>
+
+<pre class="content" style="white-space: pre-wrap;">The entire library should be very well documented, along with as much explanation as possible of glaze calculation and how the...</pre>
+
+<div class="labels">
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p></p>
+<h4>Blends</h4>
+<p>We need to fully implement blends:</p>
+<ul>
+<li><a href="https://github.com/derekphilipau/ceramicscalc-js/issues/1" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js/issues/1</a></li>
+<li><a href="https://github.com/derekphilipau/ceramicscalc/issues/1" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc/issues/1</a></li>
+</ul>
+<h4>Typescript</h4>
+<p>Once the above issues have been addressed, we will urgently need a pure Typescript implementation of ceramicscalc.  See this issue:  <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/3" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js/issues/3</a></p>
+          <p><a href="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608/1</link>
+        <pubDate>Sat, 10 Nov 2018 13:38:26 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-608-1</guid>
+        <source url="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608.rss">High-level discussion, Long-term goals for Open-Source Ceramics development</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Teapots - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/forms/teapots/77</link>
+    <description>Topics in the &#39;Teapots&#39; category </description>
+    
+      <lastBuildDate>Mon, 19 Nov 2018 11:02:15 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/forms/teapots/77.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>No-drip spout tips</title>
+          <dc:creator><![CDATA[jpib]]></dc:creator>
+          <category>Teapots</category>
+          <description><![CDATA[
+            <p><a href="https://www.facebook.com/betsy.hinze?fref=ufi" rel="nofollow noopener">Betsy Hinze</a> I got a little nerdy about teapots a while ago… here are my notes! So far I’ve made 3 and none drip</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a1009d4ef25f7fe3b83d04cf0a73c9b0e76652ec.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/a1009d4ef25f7fe3b83d04cf0a73c9b0e76652ec" title="image.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/a1009d4ef25f7fe3b83d04cf0a73c9b0e76652ec.jpeg" alt="image" width="690" height="920" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a1009d4ef25f7fe3b83d04cf0a73c9b0e76652ec_2_10x10.png"></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0af2a90d0915c52469a8f267953c584113045c2d.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/0af2a90d0915c52469a8f267953c584113045c2d" title="image.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/0af2a90d0915c52469a8f267953c584113045c2d.jpeg" alt="image" width="690" height="920" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0af2a90d0915c52469a8f267953c584113045c2d_2_10x10.png"></a></div><p></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/no-drip-spout-tips/653">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/no-drip-spout-tips/653</link>
+          <pubDate>Mon, 19 Nov 2018 11:02:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-653</guid>
+          <source url="https://wiki.glazy.org/t/no-drip-spout-tips/653.rss">No-drip spout tips</source>
+        </item>
+        <item>
+          <title>About the Teapots category</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Teapots</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-teapots-category/175">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-teapots-category/175</link>
+          <pubDate>Wed, 26 Apr 2017 04:06:36 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-175</guid>
+          <source url="https://wiki.glazy.org/t/about-the-teapots-category/175.rss">About the Teapots category</source>
+        </item>
+  </channel>
+</rss>

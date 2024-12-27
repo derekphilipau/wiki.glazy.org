@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cups - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/forms/cups/64</link>
+    <description>Topics in the &#39;Cups&#39; category </description>
+    
+      <lastBuildDate>Tue, 25 Apr 2017 02:40:30 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/forms/cups/64.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>About the Cups category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Cups</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-cups-category/107">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-cups-category/107</link>
+          <pubDate>Tue, 25 Apr 2017 02:40:30 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-107</guid>
+          <source url="https://wiki.glazy.org/t/about-the-cups-category/107.rss">About the Cups category</source>
+        </item>
+        <item>
+          <title>Sake Cups (Guinomi)</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Cups</category>
+          <description><![CDATA[
+            <p><a href="https://en.wikipedia.org/wiki/Sake_set">https://en.wikipedia.org/wiki/Sake_set</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/sake-cups-guinomi/85">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/sake-cups-guinomi/85</link>
+          <pubDate>Mon, 24 Apr 2017 00:43:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-85</guid>
+          <source url="https://wiki.glazy.org/t/sake-cups-guinomi/85.rss">Sake Cups (Guinomi)</source>
+        </item>
+        <item>
+          <title>Tea Cups (Yunomi)</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Cups</category>
+          <description><![CDATA[
+            <p>A yunomi (Japanese: 湯のみ) is a form of teacup, typically made from a ceramic material, being taller than wide, with a trimmed or turned foot. Unlike the more formal chawan tea bowl which is used during the Japanese tea ceremony, the yunomi is made for daily (or informal) tea drinking.</p>
+<p>There are special pairs of yunomi called meoto yunomi (meoto means ‘married couple’). Meoto yunomi usually consist of two cups with the same pattern (sometimes in different colours) but different sizes and often slightly different shapes (the larger cup being the ‘husband’ and the smaller being the ‘wife’ cup).</p>
+<p>Many contemporary potters, both in the East and West, make yunomi and as a genre the yunomi has become a much collected item.</p>
+<p><a href="https://en.wikipedia.org/wiki/Yunomi">https://en.wikipedia.org/wiki/Yunomi</a></p>
+<h2>External Links</h2>
+<p><a href="http://ceramicartistsnow.com/2016/05/18/akar-yunomi-invitational/">AKAR’S YUNOMI INVITATIONAL ISN’T ABOUT TEABOWLS… IT’S WAY MORE INTERESTING</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/tea-cups-yunomi/84">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/tea-cups-yunomi/84</link>
+          <pubDate>Mon, 24 Apr 2017 00:38:57 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-84</guid>
+          <source url="https://wiki.glazy.org/t/tea-cups-yunomi/84.rss">Tea Cups (Yunomi)</source>
+        </item>
+  </channel>
+</rss>

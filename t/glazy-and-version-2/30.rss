@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Glazy (and version 2)</title>
+    <link>https://wiki.glazy.org/t/glazy-and-version-2/30</link>
+    <description>Glazy was built using the latest open source tools, including Laravel and Bootstrap.
+
+The Glazy database of ceramic recipes was seeded with data from Linda Arbuckle&#39;s GlazeChem database, John Sankey&#39;s glaze database, and Louis Katz&#39;s Hyperglaze database. John Britt, Alisa Liskin Clausen, Terry Rorison and Tara Hagen have also included their glaze tests with images.
+
+Glazy is in continuous development, guided by technical input from a number of potters around the world. In particular, Pieter Mostert and Matt Katz have provided invaluable insights and suggestions.</description>
+    
+    <lastBuildDate>Fri, 21 Apr 2017 09:53:56 +0000</lastBuildDate>
+    <category>Current Projects</category>
+    <atom:link href="https://wiki.glazy.org/t/glazy-and-version-2/30.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Glazy (and version 2)</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>Glazy was built using the latest open source tools, including Laravel and Bootstrap.</p>
+<p>The Glazy database of ceramic recipes was seeded with data from Linda Arbuckle’s GlazeChem database, John Sankey’s glaze database, and Louis Katz’s Hyperglaze database. John Britt, Alisa Liskin Clausen, Terry Rorison and Tara Hagen have also included their glaze tests with images.</p>
+<p>Glazy is in continuous development, guided by technical input from a number of potters around the world. In particular, Pieter Mostert and Matt Katz have provided invaluable insights and suggestions.</p>
+          <p><a href="https://wiki.glazy.org/t/glazy-and-version-2/30/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glazy-and-version-2/30/1</link>
+        <pubDate>Fri, 21 Apr 2017 09:53:56 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-30-1</guid>
+        <source url="https://wiki.glazy.org/t/glazy-and-version-2/30.rss">Glazy (and version 2)</source>
+      </item>
+  </channel>
+</rss>

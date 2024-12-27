@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Portable glaze calculation software</title>
+    <link>https://wiki.glazy.org/t/portable-glaze-calculation-software/498</link>
+    <description>Is it possible to get or download the glazy glaze calculation software in a disc form?  I will soon be away from a computer for about 80% of the time, and love this calculator.</description>
+    
+    <lastBuildDate>Sat, 17 Mar 2018 02:33:14 +0000</lastBuildDate>
+    <category>Open-Source Ceramics</category>
+    <atom:link href="https://wiki.glazy.org/t/portable-glaze-calculation-software/498.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Portable glaze calculation software</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>This is something others have brought up as well.  Ideally one could make an “app”, i.e. Android or IOS app that stays on the phone.  However it will need to be a) regularly updated and b) doesn’t promote sharing if it does not have data access.  Currently there is no one working on such a project.</p>
+          <p><a href="https://wiki.glazy.org/t/portable-glaze-calculation-software/498/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/portable-glaze-calculation-software/498/2</link>
+        <pubDate>Sat, 17 Mar 2018 02:33:14 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-498-2</guid>
+        <source url="https://wiki.glazy.org/t/portable-glaze-calculation-software/498.rss">Portable glaze calculation software</source>
+      </item>
+      <item>
+        <title>Portable glaze calculation software</title>
+        <dc:creator><![CDATA[SequoiaPottery]]></dc:creator>
+        <description><![CDATA[
+            <p>Is it possible to get or download the glazy glaze calculation software in a disc form?  I will soon be away from a computer for about 80% of the time, and love this calculator.</p>
+          <p><a href="https://wiki.glazy.org/t/portable-glaze-calculation-software/498/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/portable-glaze-calculation-software/498/1</link>
+        <pubDate>Wed, 07 Mar 2018 01:07:58 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-498-1</guid>
+        <source url="https://wiki.glazy.org/t/portable-glaze-calculation-software/498.rss">Portable glaze calculation software</source>
+      </item>
+  </channel>
+</rss>

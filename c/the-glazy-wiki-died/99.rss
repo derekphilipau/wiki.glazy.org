@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>The Glazy Wiki Died :( - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/the-glazy-wiki-died/99</link>
+    <description>Topics in the &#39;The Glazy Wiki Died :(&#39; category This Discourse Wiki was an attempt to provide a home for Glazy’s documentation as well as support and discussion related to glaze chemistry.  Unfortunately it didn’t work out.</description>
+    
+      <lastBuildDate>Tue, 04 May 2021 15:28:34 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/the-glazy-wiki-died/99.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>About the The Glazy Wiki Died :(</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>The Glazy Wiki Died :(</category>
+          <description><![CDATA[
+            <p>This Discourse Wiki was an attempt to provide a home for Glazy’s documentation as well as support and discussion related to glaze chemistry.  Unfortunately it didn’t work out.</p>
+<p>You can now have discussions directly in Glazy, just go to <a href="https://glazy.org/">https://glazy.org/</a> and create a new Post.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-the-glazy-wiki-died/936">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-the-glazy-wiki-died/936</link>
+          <pubDate>Tue, 04 May 2021 15:28:34 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-936</guid>
+          <source url="https://wiki.glazy.org/t/about-the-the-glazy-wiki-died/936.rss">About the The Glazy Wiki Died :(</source>
+        </item>
+  </channel>
+</rss>

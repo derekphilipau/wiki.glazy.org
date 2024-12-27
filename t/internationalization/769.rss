@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Internationalization</title>
+    <link>https://wiki.glazy.org/t/internationalization/769</link>
+    <description>**Special thanks to these amazing ceramicists who crowd-sourced the translations:**
+** Alisa Liskin Clausen, Monique Duclos, Ana Felipe, Clara Giorello, Louis Katz, Art Kha, Čazo Čazim Mehmeti, Huang Nuokan, Jean-Pierre Prieto, Stijn Vanacker, and Trees Wijnands.**
+
+
+The internationalization of Glazy is a very big project that will occur in many small steps.
+
+The steps are:
+1.  Translate Recipes and Materials (names, other names, and descriptions).
+2.  Translate Categories (e.g. Celadon, Copper Red, Porcelain)
+3.  Translate all other metadata categories (atmospheres, transparency, color, etc.)
+4.  Translate User Interface (UI), including the text for all buttons and descriptions.
+
+## Step 1:  Translate Recipes &amp; Materials
+
+Many of the common Materials we use in ceramics (Silica, Kaolin, Whiting, etc.) were already translated in our crowd-sourced [Ceramics Dictionary](https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing)
+
+### Submitting new Translations
+
+Please submit new translations for Glazy Materials in this Topic, or via the Glazy Support Group in Facebook:  https://www.facebook.com/groups/glazysupport/
+
+### Language Picker
+
+When you log into Glazy you will notice a language selector in the top-right corner of the navigation menu.  Clicking this menu will show a list of available languages:
+
+![12%20AM|690x502](upload://tgdi5ZuPVimai4Q0e7Q5IgVsbNs.jpeg) 
+
+After selecting a language (in this case, Español Sudamericano), materials and recipes that have translations in that language should display properly.  In the screenshot below, you can see that the English name for &quot;Red copper oxide&quot;  has been translated to the South American Spanish &quot;Óxido de cobre rojo&quot;.
+
+![41%20AM|690x542](upload://mTGIDSvpErAlIyvnFlnbsUFUDF.jpeg) 
+
+### Material/Recipe Default Language
+
+Each Material and Recipe has a Default Translation.  The Default Translation determines the &quot;Mother Tongue&quot; of the recipe.  The Default Translation is usually the *first, original* translation.
+
+![22%20AM|690x419](upload://cvkumkQh4ShnkTiNAKtMQKgezRC.png) 
+
+### Converting a translation
+
+You can convert the translation of a Material.  For example, many recipes were written in Spanish before Internationalization was added to Glazy.  These recipe translations should be converted from the default English language to Spanish.  Just click &quot;Edit Info&quot; and then select a language from the &quot;Convert to&quot; dropdown box:
+
+![32%20AM|690x383](upload://mqkLBr4kngYsEPo6jeoQIeLxckV.jpeg) 
+
+Once you have saved the changes, you will notice that the translation is now correctly listed as Spanish.  The Default Translation is also listed as Spanish.
+
+![50%20AM|690x413](upload://vg2KP8a6gOr2X7b0xWeqVMi38r.png)</description>
+    
+    <lastBuildDate>Wed, 27 Mar 2019 03:19:07 +0000</lastBuildDate>
+    <category>Glazy Help</category>
+    <atom:link href="https://wiki.glazy.org/t/internationalization/769.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Internationalization</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p><strong>Special thanks to these amazing ceramicists who crowd-sourced the translations:</strong><br>
+** Alisa Liskin Clausen, Monique Duclos, Ana Felipe, Clara Giorello, Louis Katz, Art Kha, Čazo Čazim Mehmeti, Huang Nuokan, Jean-Pierre Prieto, Stijn Vanacker, and Trees Wijnands.**</p>
+<p>The internationalization of Glazy is a very big project that will occur in many small steps.</p>
+<p>The steps are:</p>
+<ol>
+<li>Translate Recipes and Materials (names, other names, and descriptions).</li>
+<li>Translate Categories (e.g. Celadon, Copper Red, Porcelain)</li>
+<li>Translate all other metadata categories (atmospheres, transparency, color, etc.)</li>
+<li>Translate User Interface (UI), including the text for all buttons and descriptions.</li>
+</ol>
+<h2>Step 1:  Translate Recipes &amp; Materials</h2>
+<p>Many of the common Materials we use in ceramics (Silica, Kaolin, Whiting, etc.) were already translated in our crowd-sourced <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" rel="nofollow noopener">Ceramics Dictionary</a></p>
+<h3>Submitting new Translations</h3>
+<p>Please submit new translations for Glazy Materials in this Topic, or via the Glazy Support Group in Facebook:  <a href="https://www.facebook.com/groups/glazysupport/" rel="nofollow noopener">https://www.facebook.com/groups/glazysupport/</a></p>
+<h3>Language Picker</h3>
+<p>When you log into Glazy you will notice a language selector in the top-right corner of the navigation menu.  Clicking this menu will show a list of available languages:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/cd1442fd28557147045fffbb592f7dd5424dd456.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/cd1442fd28557147045fffbb592f7dd5424dd456" title="Screen Shot 2019-03-24 at 12.11.12 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_690x502.jpeg" alt="12%20AM" width="690" height="502" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_690x502.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_1035x753.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_1380x1004.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_10x10.png"></a></div><p></p>
+<p>After selecting a language (in this case, Español Sudamericano), materials and recipes that have translations in that language should display properly.  In the screenshot below, you can see that the English name for “Red copper oxide”  has been translated to the South American Spanish “Óxido de cobre rojo”.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0296a292356c979343c5534d7d7edee162471a73.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/0296a292356c979343c5534d7d7edee162471a73" title="Screen Shot 2019-03-24 at 12.10.41 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_690x542.jpeg" alt="41%20AM" width="690" height="542" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_690x542.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_1035x813.jpeg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/0296a292356c979343c5534d7d7edee162471a73.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_10x10.png"></a></div><p></p>
+<h3>Material/Recipe Default Language</h3>
+<p>Each Material and Recipe has a Default Translation.  The Default Translation determines the “Mother Tongue” of the recipe.  The Default Translation is usually the <em>first, original</em> translation.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558.png" data-download-href="https://wiki.glazy.org/uploads/default/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558" title="Screen Shot 2019-03-24 at 12.12.22 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_690x419.png" alt="22%20AM" width="690" height="419" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_690x419.png, https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_1035x628.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_1380x838.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_10x10.png"></a></div><p></p>
+<h3>Converting a translation</h3>
+<p>You can convert the translation of a Material.  For example, many recipes were written in Spanish before Internationalization was added to Glazy.  These recipe translations should be converted from the default English language to Spanish.  Just click “Edit Info” and then select a language from the “Convert to” dropdown box:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/9d29ea88fbc38b3ffd3ddcb495198360b3990569" title="Screen Shot 2019-03-24 at 12.12.32 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_690x383.jpeg" alt="32%20AM" width="690" height="383" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_690x383.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_1035x574.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_1380x766.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_10x10.png"></a></div><p></p>
+<p>Once you have saved the changes, you will notice that the translation is now correctly listed as Spanish.  The Default Translation is also listed as Spanish.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7.png" data-download-href="https://wiki.glazy.org/uploads/default/0388935f3f2a7d57f93e8b58723f8187d99dc3e7" title="Screen Shot 2019-03-24 at 12.12.50 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_690x413.png" alt="50%20AM" width="690" height="413" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_690x413.png, https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_1035x619.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_1380x826.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_10x10.png"></a></div><p></p>
+          <p><a href="https://wiki.glazy.org/t/internationalization/769/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/internationalization/769/1</link>
+        <pubDate>Sun, 24 Mar 2019 04:45:03 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-769-1</guid>
+        <source url="https://wiki.glazy.org/t/internationalization/769.rss">Internationalization</source>
+      </item>
+  </channel>
+</rss>

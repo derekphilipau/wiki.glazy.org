@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to edit the Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271</link>
+    <description>## Why a Wiki?
+
+There are numerous ceramics-related discussion groups on the web, the most famous being [Clayart](https://lists.clayartworld.com/pipermail/clayart/), an email-based group.  In the past few years, Facebook Groups have been gaining popularity and some ceramics groups like [Ceramics Recipes](https://www.facebook.com/groups/disisdkat/?ref=bookmarks), [Clay Buddies](https://www.facebook.com/groups/503156473036283/), and [Ceramics Solutions](https://www.facebook.com/groups/243907853395/) have over ten thousand members.
+
+One drawback of discussion groups is that often the same questions are asked over and over again, for example the classic &quot;My glaze is crazing, how do I fix it?&quot;  _Ceramics Wiki_ seeks to overcome this issue by creating a Topic for each issue (e.g. Glaze Crazing).  All information and questions related to a single issue are directed to a single Topic.
+
+_Ceramics Wiki_ also aims to _build knowledge_.  Unfortunately, Facebook Groups are very difficult to search, and information is very difficult to find.  By **archiving** knowledge shared in these groups, _Ceramics Wiki_ will gradually become a comprehensive ceramics reference.
+
+## How can I help?
+
+It&#39;s easy to contribute to _Ceramics Wiki_.  If you find any information on the wiki that you think is incorrect, you can hit the **Reply** button at the bottom of the article and let the author know about the error.  If you would like to add new information, either edit an existing Topic or create a new one.  
+
+## Who can edit the Wiki?
+
+New users of _Ceramics Wiki_ can only comment on Topics (by clicking the **Reply** button) and cannot automatically edit Topics.  (This is to prevent spammers from making unwanted changes to the wiki.)  If you would like to become an editor, just click **Reply** on any article and state that you would like to edit.  An administrator will change your permissions so that you can edit the entire Wiki.
+
+[You can also directly ask for editing permissions by sending a message here.](https://wiki.glazy.org/new-message?username=ceramicswiki&amp;title=edit%20wiki%20request&amp;body=allow%20me%20to%20edit%20the%20wiki)
+
+
+
+
+## What kind of content can I add?
+
+Links to ceramics articles, videos, and websites are all useful.  (For example, [here is a list of Residencies, Internships, and Apprenticeships](https://wiki.glazy.org/t/residencies-internships-and-apprenticeships/))  Quoting information and sharing photos from reliable sources is also good.  (Just make sure you have permission to use the material!)  And, of course, original material is welcome.
+
+## Who owns this wiki and my content?  Will the wiki always be free?
+
+We all own this wiki!  All content in the wiki is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike License](https://creativecommons.org/licenses/by-nc-sa/3.0/). Anyone is free to:
+
+* Share — copy and redistribute the material in any medium or format
+* Adapt — remix, transform, and build upon the material
+
+(Note that by submitting content to this wiki, you also agree to the Creative Commons license.)
+
+Futhermore, there are multiple administrators of this wiki who have access to the full backups.  If this website were to be taken down for some reason, the wiki content would still be safe.
+
+Finally, this wiki will remain free and accessible for everyone.
+
+## About Wiki Topics
+
+A _Topic_ is an article about a single subject.  _Topics_ are organized by _Category_ (e.g. Glazes -&gt; Glaze Faults) and _Tags_.  _Categories_ help us keep articles organized, while _tags_ are descriptive keywords that help users search for information.
+
+## Commenting (Replying) on a Topic
+
+Any user of the wiki can make comments (Reply) to a topic.  If you have a question about the content, spot an error, or want to add your own knowledge, just hit the **Reply** button at the bottom of the article.
+
+&lt;img src=&quot;/uploads/default/original/1X/a024e6e213d81002591c80563f72aef66b306657.jpg&quot; width=&quot;690&quot; height=&quot;485&quot;&gt;
+
+## Editing an existing Topic
+
+Almost all _Topics_ on the Ceramics Wiki are _Wiki Topics_.  _Wiki Topics_ are special articles that anyone can edit.  To edit a Topic, just go to the bottom of the article and click the **pencil icon**.  When you are done editing, click the **Save Edit** button.
+
+&lt;img src=&quot;/uploads/default/original/1X/726ad80443d2289bc9416bd8e333e7c4f9f88da2.jpg&quot; width=&quot;690&quot; height=&quot;492&quot;&gt;
+
+## Creating a New Topic
+
+### From the [home page](https://wiki.glazy.org/), click the **New Topic** button
+
+&lt;img src=&quot;/uploads/default/original/1X/1c4046e7aaee6d68d984d35b8298c0d1f9ff1252.jpg&quot; width=&quot;668&quot; height=&quot;426&quot;&gt;
+
+### Select a Category
+
+An edit window will slide up from the bottom of the screen.  Select a _Category_ for this Topic:
+
+&lt;img src=&quot;/uploads/default/original/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb.jpg&quot; width=&quot;690&quot; height=&quot;360&quot;&gt;
+
+### Add a descriptive title to the Topic
+
+&lt;img src=&quot;/uploads/default/original/1X/616c89b4f521e885520f4e879e26a0db13765590.jpg&quot; width=&quot;690&quot; height=&quot;219&quot;&gt;
+
+### Add the article text.  
+
+The Ceramics Wiki uses [Markdown](http://commonmark.org/help/):
+_&quot;Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.&quot;_
+
+&lt;img src=&quot;/uploads/default/original/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea.jpg&quot; width=&quot;690&quot; height=&quot;242&quot;&gt;
+
+### Add Links
+
+Adding links is really easy!  Just copy the link address from your browser window (starting with http:// or https://) and paste it into the edit window.  For links to many websites, a preview will be generated.  For links to Youtube and other video websites, the video will be embedded in the article.
+
+&lt;img src=&quot;/uploads/default/original/1X/e7f3687ef44b90509230e0e5335e626b16f7719c.jpg&quot; width=&quot;690&quot; height=&quot;415&quot;&gt;
+
+### Add Photos
+
+Simply drag and drop photos from your computer into the edit window.
+
+&lt;img src=&quot;/uploads/default/original/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8.jpg&quot; width=&quot;690&quot; height=&quot;492&quot;&gt;
+
+### Add Tags
+
+Tags are optional keywords that help users find your article.  Just enter a relevant word and hit &quot;Enter&quot;.
+
+&lt;img src=&quot;/uploads/default/original/1X/e235200a029304a9308d0c230a19430581901af0.jpg&quot; width=&quot;544&quot; height=&quot;352&quot;&gt;
+
+### Finished!
+
+Now, just hit the **Create Topic** button and you are done!</description>
+    
+    <lastBuildDate>Tue, 27 Jun 2017 22:32:28 +0000</lastBuildDate>
+    <category>Site Feedback</category>
+    <atom:link href="https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to edit the Ceramics Wiki</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271/2</link>
+        <pubDate>Tue, 04 Jul 2017 10:12:27 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-271-2</guid>
+        <source url="https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271.rss">How to edit the Ceramics Wiki</source>
+      </item>
+      <item>
+        <title>How to edit the Ceramics Wiki</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Why a Wiki?</h2>
+<p>There are numerous ceramics-related discussion groups on the web, the most famous being <a href="https://lists.clayartworld.com/pipermail/clayart/" rel="nofollow noopener">Clayart</a>, an email-based group.  In the past few years, Facebook Groups have been gaining popularity and some ceramics groups like <a href="https://www.facebook.com/groups/disisdkat/?ref=bookmarks" rel="nofollow noopener">Ceramics Recipes</a>, <a href="https://www.facebook.com/groups/503156473036283/" rel="nofollow noopener">Clay Buddies</a>, and <a href="https://www.facebook.com/groups/243907853395/" rel="nofollow noopener">Ceramics Solutions</a> have over ten thousand members.</p>
+<p>One drawback of discussion groups is that often the same questions are asked over and over again, for example the classic “My glaze is crazing, how do I fix it?”  <em>Ceramics Wiki</em> seeks to overcome this issue by creating a Topic for each issue (e.g. Glaze Crazing).  All information and questions related to a single issue are directed to a single Topic.</p>
+<p><em>Ceramics Wiki</em> also aims to <em>build knowledge</em>.  Unfortunately, Facebook Groups are very difficult to search, and information is very difficult to find.  By <strong>archiving</strong> knowledge shared in these groups, <em>Ceramics Wiki</em> will gradually become a comprehensive ceramics reference.</p>
+<h2>How can I help?</h2>
+<p>It’s easy to contribute to <em>Ceramics Wiki</em>.  If you find any information on the wiki that you think is incorrect, you can hit the <strong>Reply</strong> button at the bottom of the article and let the author know about the error.  If you would like to add new information, either edit an existing Topic or create a new one.</p>
+<h2>Who can edit the Wiki?</h2>
+<p>New users of <em>Ceramics Wiki</em> can only comment on Topics (by clicking the <strong>Reply</strong> button) and cannot automatically edit Topics.  (This is to prevent spammers from making unwanted changes to the wiki.)  If you would like to become an editor, just click <strong>Reply</strong> on any article and state that you would like to edit.  An administrator will change your permissions so that you can edit the entire Wiki.</p>
+<p><a href="https://wiki.glazy.org/new-message?username=ceramicswiki&amp;title=edit%20wiki%20request&amp;body=allow%20me%20to%20edit%20the%20wiki">You can also directly ask for editing permissions by sending a message here.</a></p>
+<h2>What kind of content can I add?</h2>
+<p>Links to ceramics articles, videos, and websites are all useful.  (For example, <a href="https://wiki.glazy.org/t/residencies-internships-and-apprenticeships/">here is a list of Residencies, Internships, and Apprenticeships</a>)  Quoting information and sharing photos from reliable sources is also good.  (Just make sure you have permission to use the material!)  And, of course, original material is welcome.</p>
+<h2>Who owns this wiki and my content?  Will the wiki always be free?</h2>
+<p>We all own this wiki!  All content in the wiki is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="nofollow noopener">Creative Commons Attribution-NonCommercial-ShareAlike License</a>. Anyone is free to:</p>
+<ul>
+<li>Share — copy and redistribute the material in any medium or format</li>
+<li>Adapt — remix, transform, and build upon the material</li>
+</ul>
+<p>(Note that by submitting content to this wiki, you also agree to the Creative Commons license.)</p>
+<p>Futhermore, there are multiple administrators of this wiki who have access to the full backups.  If this website were to be taken down for some reason, the wiki content would still be safe.</p>
+<p>Finally, this wiki will remain free and accessible for everyone.</p>
+<h2>About Wiki Topics</h2>
+<p>A <em>Topic</em> is an article about a single subject.  <em>Topics</em> are organized by <em>Category</em> (e.g. Glazes -&gt; Glaze Faults) and <em>Tags</em>.  <em>Categories</em> help us keep articles organized, while <em>tags</em> are descriptive keywords that help users search for information.</p>
+<h2>Commenting (Replying) on a Topic</h2>
+<p>Any user of the wiki can make comments (Reply) to a topic.  If you have a question about the content, spot an error, or want to add your own knowledge, just hit the <strong>Reply</strong> button at the bottom of the article.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a024e6e213d81002591c80563f72aef66b306657.jpg" data-download-href="https://wiki.glazy.org/uploads/default/a024e6e213d81002591c80563f72aef66b306657" title="Screen Shot 2017-06-27 at 3.28.00 PM copy.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/a024e6e213d81002591c80563f72aef66b306657.jpg" width="690" height="485" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a024e6e213d81002591c80563f72aef66b306657_2_10x10.png"></a></div><p></p>
+<h2>Editing an existing Topic</h2>
+<p>Almost all <em>Topics</em> on the Ceramics Wiki are <em>Wiki Topics</em>.  <em>Wiki Topics</em> are special articles that anyone can edit.  To edit a Topic, just go to the bottom of the article and click the <strong>pencil icon</strong>.  When you are done editing, click the <strong>Save Edit</strong> button.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/726ad80443d2289bc9416bd8e333e7c4f9f88da2.jpg" data-download-href="https://wiki.glazy.org/uploads/default/726ad80443d2289bc9416bd8e333e7c4f9f88da2" title="editpost.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/726ad80443d2289bc9416bd8e333e7c4f9f88da2.jpg" width="690" height="492" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/726ad80443d2289bc9416bd8e333e7c4f9f88da2_2_10x10.png"></a></div><p></p>
+<h2>Creating a New Topic</h2>
+<h3>From the <a href="https://wiki.glazy.org/">home page</a>, click the <strong>New Topic</strong> button</h3>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/1c4046e7aaee6d68d984d35b8298c0d1f9ff1252.jpg" width="668" height="426"></p>
+<h3>Select a Category</h3>
+<p>An edit window will slide up from the bottom of the screen.  Select a <em>Category</em> for this Topic:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb.jpg" data-download-href="https://wiki.glazy.org/uploads/default/65c66b9f0edbc29fbb87def09e23dda9081a3bcb" title="category.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb_2_690x360.jpg" width="690" height="360" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb_2_690x360.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb_2_1035x540.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb_2_1380x720.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/65c66b9f0edbc29fbb87def09e23dda9081a3bcb_2_10x10.png"></a></div><p></p>
+<h3>Add a descriptive title to the Topic</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/616c89b4f521e885520f4e879e26a0db13765590.jpg" data-download-href="https://wiki.glazy.org/uploads/default/616c89b4f521e885520f4e879e26a0db13765590" title="title.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/616c89b4f521e885520f4e879e26a0db13765590_2_690x219.jpg" width="690" height="219" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/616c89b4f521e885520f4e879e26a0db13765590_2_690x219.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/616c89b4f521e885520f4e879e26a0db13765590_2_1035x328.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/616c89b4f521e885520f4e879e26a0db13765590_2_1380x438.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/616c89b4f521e885520f4e879e26a0db13765590_2_10x10.png"></a></div><p></p>
+<h3>Add the article text.</h3>
+<p>The Ceramics Wiki uses <a href="http://commonmark.org/help/" rel="nofollow noopener">Markdown</a>:<br>
+<em>“Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.”</em></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea.jpg" data-download-href="https://wiki.glazy.org/uploads/default/4abe024d673ba774cfe5e8fe485abc0fb149dcea" title="editing.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea_2_690x242.jpg" width="690" height="242" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea_2_690x242.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea_2_1035x363.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea_2_1380x484.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/4abe024d673ba774cfe5e8fe485abc0fb149dcea_2_10x10.png"></a></div><p></p>
+<h3>Add Links</h3>
+<p>Adding links is really easy!  Just copy the link address from your browser window (starting with http:// or https://) and paste it into the edit window.  For links to many websites, a preview will be generated.  For links to Youtube and other video websites, the video will be embedded in the article.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/e7f3687ef44b90509230e0e5335e626b16f7719c.jpg" data-download-href="https://wiki.glazy.org/uploads/default/e7f3687ef44b90509230e0e5335e626b16f7719c" title="addlink.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/e7f3687ef44b90509230e0e5335e626b16f7719c_2_690x415.jpg" width="690" height="415" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/e7f3687ef44b90509230e0e5335e626b16f7719c_2_690x415.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/e7f3687ef44b90509230e0e5335e626b16f7719c_2_1035x622.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/e7f3687ef44b90509230e0e5335e626b16f7719c_2_1380x830.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/e7f3687ef44b90509230e0e5335e626b16f7719c_2_10x10.png"></a></div><p></p>
+<h3>Add Photos</h3>
+<p>Simply drag and drop photos from your computer into the edit window.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8.jpg" data-download-href="https://wiki.glazy.org/uploads/default/b2c1fc0986117378ca11be9f6f64bae7be6840d8" title="addimage3.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8_2_690x492.jpg" width="690" height="492" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8_2_690x492.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8_2_1035x738.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8_2_1380x984.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/b2c1fc0986117378ca11be9f6f64bae7be6840d8_2_10x10.png"></a></div><p></p>
+<h3>Add Tags</h3>
+<p>Tags are optional keywords that help users find your article.  Just enter a relevant word and hit “Enter”.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/e235200a029304a9308d0c230a19430581901af0.jpg" width="544" height="352"></p>
+<h3>Finished!</h3>
+<p>Now, just hit the <strong>Create Topic</strong> button and you are done!</p>
+          <p><a href="https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271/1</link>
+        <pubDate>Tue, 27 Jun 2017 01:30:20 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-271-1</guid>
+        <source url="https://wiki.glazy.org/t/how-to-edit-the-ceramics-wiki/271.rss">How to edit the Ceramics Wiki</source>
+      </item>
+  </channel>
+</rss>

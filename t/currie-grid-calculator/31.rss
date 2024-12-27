@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Currie Grid Calculator</title>
+    <link>https://wiki.glazy.org/t/currie-grid-calculator/31</link>
+    <description>Tom&#39;s Currie Grid calculator:  http://demeranville.com/pottery/curriecalc.html</description>
+    
+    <lastBuildDate>Wed, 26 Apr 2017 08:59:57 +0000</lastBuildDate>
+    <category>Current Projects</category>
+    <atom:link href="https://wiki.glazy.org/t/currie-grid-calculator/31.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Currie Grid Calculator</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>Added a stub article under the Glaze Testing category with links to various resources:  <a href="https://wiki.glazy.org/t/currie-grids/183">Currie Grids</a></p>
+          <p><a href="https://wiki.glazy.org/t/currie-grid-calculator/31/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/currie-grid-calculator/31/3</link>
+        <pubDate>Wed, 26 Apr 2017 08:59:57 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-31-3</guid>
+        <source url="https://wiki.glazy.org/t/currie-grid-calculator/31.rss">Currie Grid Calculator</source>
+      </item>
+      <item>
+        <title>Currie Grid Calculator</title>
+        <dc:creator><![CDATA[tomdemeranville]]></dc:creator>
+        <description><![CDATA[
+            <p>The current todo list:</p>
+<ul>
+<li>Modify the way Kaolin/Silica works so that you can label them with different additives instead.  E.g. Zinc for crystalline glazes</li>
+<li>Enable additives that stay constant for all recipes - e.g. cobalt</li>
+</ul>
+<p>Long term I’d like to integrate this with the glazy materials database and be able to provide analysis for each grid box on demand.</p>
+<p>Let me know if you’re using the calculator and post your feature requests below <img src="//wiki.glazy.org/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          <p><a href="https://wiki.glazy.org/t/currie-grid-calculator/31/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/currie-grid-calculator/31/2</link>
+        <pubDate>Sat, 22 Apr 2017 08:22:14 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-31-2</guid>
+        <source url="https://wiki.glazy.org/t/currie-grid-calculator/31.rss">Currie Grid Calculator</source>
+      </item>
+      <item>
+        <title>Currie Grid Calculator</title>
+        <dc:creator><![CDATA[tomdemeranville]]></dc:creator>
+        <description><![CDATA[
+            <p>Tom’s Currie Grid calculator:  <a href="http://demeranville.com/pottery/curriecalc.html">http://demeranville.com/pottery/curriecalc.html</a></p>
+          <p><a href="https://wiki.glazy.org/t/currie-grid-calculator/31/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/currie-grid-calculator/31/1</link>
+        <pubDate>Fri, 21 Apr 2017 09:54:52 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-31-1</guid>
+        <source url="https://wiki.glazy.org/t/currie-grid-calculator/31.rss">Currie Grid Calculator</source>
+      </item>
+  </channel>
+</rss>

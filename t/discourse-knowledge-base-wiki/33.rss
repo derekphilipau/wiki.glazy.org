@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Discourse Knowledge Base &amp; Wiki</title>
+    <link>https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33</link>
+    <description>Collaborative knowledge-base.  Stores links to knowledge already shared on mailing lists and forums.  Also allows anyone to easily document ceramics knowledge with text and pictures.  Login via Facebook.</description>
+    
+    <lastBuildDate>Mon, 26 Jun 2017 05:48:27 +0000</lastBuildDate>
+    <category>Current Projects</category>
+    <atom:link href="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Discourse Knowledge Base &amp; Wiki</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>Collaborative knowledge-base.  Stores links to knowledge already shared on mailing lists and forums.  Also allows anyone to easily document ceramics knowledge with text and pictures.  Login via Facebook.</p>
+          <p><a href="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33/1</link>
+        <pubDate>Fri, 21 Apr 2017 09:55:42 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-33-1</guid>
+        <source url="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33.rss">Discourse Knowledge Base &amp; Wiki</source>
+      </item>
+  </channel>
+</rss>

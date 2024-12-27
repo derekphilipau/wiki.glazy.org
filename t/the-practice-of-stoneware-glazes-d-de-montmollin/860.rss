@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>The practice of stoneware glazes - D. De Montmollin</title>
+    <link>https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860</link>
+    <description>Daniel De Montmollin is a Swiss potter (and a monk, « Frère Daniel »), born in 1921. He is well-known in Europe (and particularly in France), for his work on high-fire glazes and ash glazes. At most of the ceramics schools in France, glazes are taught according to his books *Pratique des Emaux de grès*, 1987, and *Pratique des Emaux de Cendres*, 1997. Both books are now edited as a single volume by *La Revue de la Céramique et du Verre*, a French editor, and frequently out-of-print. There is an English version that may be easier to get at times than the French version, depending on stocks.
+
+The following is a summary of the main part of the first book, where he explains the principles and use of so-called *melting diagrams*. Follows 60 diagrams, with only sparse commentary on some diagram sets, more fitted to achieve certain glazes (celadons, oilspots …). Generally the book is clear, with an easy-to-read and down-to-earth approach.
+
+I tried to merely paraphrase the book, without distorting too much the text. Graphics are taken from my version of the book, which happens to be French. I translated “fusion” to melting, which seems more appropriate. Italics show my own text, rather than a translation.
+
+**Introduction to fusion (melting) diagrams**
+
+Melting diagrams are a particular “screening” for the potter of more general (and complex) *phase diagrams*, which are an attempt to describe what happens to a mix of oxides during firing. These diagrams are not easy to find and hard to understand for the layman (aka potter). As an example is reproduced the phase diagram of a CaO-Al2O3-SiO2 system, extracted from the *Phase Equilibrium Diagrams of Oxide Systems, vol. 1*, published by the American Ceramics Society. This same book has been used as the base for establishing the melting diagrams.
+
+![IMG|690x744,50%](upload://qenqqmsc2yi23AQB6utibNisfAW.jpeg) 
+
+If a sailor wants to go to a specific island without having a sea map, he will not succeed. Thus the melting diagrams give the coordinates of 60 “treasure” islands where the potter can land if he chooses to. One diagram will “locate” the melting zone of a glaze, however it will tell nothing about how the glaze will look like because many other parameters are involved.
+
+Melting diagrams show that melting is a relational event, which depends on the relationships between the glazes components, rather than on a single one (which would be called a “flux” - *see more on this below*). For a given set of oxides, there are several possible relationships that may lead to melting, at a given temperature. In particular, when changing the silica and alumina amounts in a glaze, while keeping the base mole unchanged, it is possible to maintain this glaze inside its melting zone. This zone is precisely what the diagrams are showing: for a specific base mole (*Seger&#39;s formula first column*), all the SiO2 and Al2O3 ratios that may lead to the melting of the glaze. SiO2 is measured in 0.5 moles on the Y axis, while Al2O3 is given in 0.05 moles on the X axis (*see Fig.15 below*).
+
+**Temperature contour**
+
+Let’s imagine an alpinist who would like to go around a mountain, staying at an altitude of 1300 m. To do so, he will follow the 1300 m contour on his map, ignoring the other contours. Likely, the diagrams show only the 1300°C temperature contour, typical of glazes high-firing. The diagram below shows the melting behavior of a CaO-Al2O3-SiO2 system. By following the contour, we get the melting at 1300°C, while by getting inside the curve the melting will occur at lower temperatures. Note that the contour is interrupted at 1.5 SiO2. Under this value, melting can still occur, but silicates will not form properly.
+
+![IMG_0001|690x483,50%](upload://ox99OucwMjAbmDfeY9AaTDRqIS8.jpeg) 
+
+Obviously, other contours could be drawn (like on a geographical map), as an example a more complete map of this system is given, with at the core the minimum temperature of 1165°C (eutectic of this system).
+
+![IMG_0002|690x553,50%](upload://pzLsYBF2Wg8Rv3ob3FsgyMiDEsF.jpeg)
+ 
+In fact the graph above looks more like one of a seabed than of a mountain. A side view would look like this:
+
+![IMG_0003|690x240,50%](upload://uI4XJsua5gVV6EJnoCPYCUGZOvj.jpeg)
+ 
+This “seabed” metaphor emphasizes the fact that there is no clear-cut border between fired and unfired, as, on the bank of a lake, there is no clear border between wet and dry (notwithstanding the map accuracy). So it is by wandering from one side of the line to the other side that the potter will find the best melting properties of a specific glaze.
+
+**The diagrams index**
+
+The shape and width of the “lake” will obviously change with the base mole components.
+
+The diagrams in the book are limited to all possible combinations of CaO, MgO and KNaO (i.e. K2O+Na2O), in tenths of moles, to compose the base mole. Which gives the following triangle map:
+
+![IMG_0004|690x557,50%](upload://jt1s0yV7WmQnFGFs5VzN6WjZWka.jpeg) 
+
+Ex: Diagram 20 is the one with 0.5 CaO, 0.3 MgO 0.2 KNaO.
+
+The unnumbered points near MgO are combinations that are not melting at 1300°C.
+
+**How to use the diagrams**
+
+*There are 4 exercises presented to demonstrate the use of the diagrams. Here are the two first ones.*
+
+**The cutting**
+
+As the border between melted and not-melted is not a sheer line, the potter can do some “cuts” at several, well-separated regions of the diagrams to explore melting (here on diagram 27):
+
+![IMG_0005|690x603,50%](upload://7iDfrR5ImZMQbb9LQfgjKYoljhm.jpeg) 
+
+**The sweeping**
+
+One can also explore more thoroughly the whole melting area of the diagram (here on diagram 18):
+
+![IMG_0006|690x581,50%](upload://wJSwObbOslLzN1zuqPSQaOpnnm8.jpeg) 
+
+**The “flux” concept**
+
+The term “flux” is often used by potters. But according to the diagrams, it is not really a proper term. For instance, let’s consider diagram 27, and mark points A and B, far from the melting zone of the glaze. For the glaze to melt, we have to come nearer the contour one way or another. For point A, we could decrease silica, which seems logical, since silica has a high melting point. But we could as well increase Al2O3, and by much, even if alumina is even more refractory than silica.  For point B, it’s the reverse. Decreasing alumina (which seems logical), but also increasing silica, which is not!
+
+It shows that it is not an oxide alone that melts a glaze, but the relationship between oxides.
+
+![IMG_0007|690x577,50%](upload://aLJrEjYESyROeipXnx8lhcSbNP.jpeg) 
+
+**Other topics in the introduction**
+
+*The rest of the introduction chapter provides succinct information about the influence of the firing length on melting, melting and atmosphere, melting and crawling, glaze melting adjustment, glazes overlay, etc* …
+
+**Diagrams**
+
+*60 diagrams are reproduced, as per the triangular map.*
+
+Some diagrams have a vertical line, depending on the value of Al2O3 : this is the separation between glazes that can be made using feldspars, and glazes that can only be made using frits (because the alumina content is too low for a feldspar).
+
+*As an example, here is diagram 25. This is the De Montmollin representation of the Stull map.* For more information on the Stull map, go [here](https://wiki.glazy.org/t/understanding-the-stull-chart/857).
+
+![Emaux%20-%20DDM%2025|690x584,50%](upload://7aLjNsJz3H93S2mHKfrmLD2HhGF.jpeg) 
+
+*This screen capture shows how I used diagram 18 for one of my glazes:*
+
+![PNG|690x308,50%](upload://iWHAr4MjtOu2qnAp6nDIByKO8w1.jpeg) 
+**Rest of the book**
+
+*The part on diagrams starts on page 71 (French print). The first part of the book provides more information about glaze chemistry, how to mix glazes for testing, how to make tiles, and some experiments with common oxides. There is much valuable information about the role of iron oxide in glazes, and most of the experiments involve iron oxide.*
+
+**This text as PDF**
+[Daniel De Montmollin.pdf|attachment](upload://kQNSlNLsMLISPNdZ7tHIhdcBCd1.pdf) (1.3 MB)</description>
+    
+    <lastBuildDate>Mon, 14 Oct 2019 20:26:27 +0000</lastBuildDate>
+    <category>Glaze Chemistry</category>
+    <atom:link href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>The practice of stoneware glazes - D. De Montmollin</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes, he is 98 now. Fixed.</p>
+          <p><a href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/3</link>
+        <pubDate>Mon, 14 Oct 2019 20:26:27 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-860-3</guid>
+        <source url="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860.rss">The practice of stoneware glazes - D. De Montmollin</source>
+      </item>
+      <item>
+        <title>The practice of stoneware glazes - D. De Montmollin</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for the summary. One correction, if Wikipedia is to be believed: Daniel de Montmollin was born in 1921, not 1942.</p>
+          <p><a href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/2</link>
+        <pubDate>Mon, 14 Oct 2019 19:05:57 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-860-2</guid>
+        <source url="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860.rss">The practice of stoneware glazes - D. De Montmollin</source>
+      </item>
+      <item>
+        <title>The practice of stoneware glazes - D. De Montmollin</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Daniel De Montmollin is a Swiss potter (and a monk, « Frère Daniel »), born in 1921. He is well-known in Europe (and particularly in France), for his work on high-fire glazes and ash glazes. At most of the ceramics schools in France, glazes are taught according to his books <em>Pratique des Emaux de grès</em>, 1987, and <em>Pratique des Emaux de Cendres</em>, 1997. Both books are now edited as a single volume by <em>La Revue de la Céramique et du Verre</em>, a French editor, and frequently out-of-print. There is an English version that may be easier to get at times than the French version, depending on stocks.</p>
+<p>The following is a summary of the main part of the first book, where he explains the principles and use of so-called <em>melting diagrams</em>. Follows 60 diagrams, with only sparse commentary on some diagram sets, more fitted to achieve certain glazes (celadons, oilspots …). Generally the book is clear, with an easy-to-read and down-to-earth approach.</p>
+<p>I tried to merely paraphrase the book, without distorting too much the text. Graphics are taken from my version of the book, which happens to be French. I translated “fusion” to melting, which seems more appropriate. Italics show my own text, rather than a translation.</p>
+<p><strong>Introduction to fusion (melting) diagrams</strong></p>
+<p>Melting diagrams are a particular “screening” for the potter of more general (and complex) <em>phase diagrams</em>, which are an attempt to describe what happens to a mix of oxides during firing. These diagrams are not easy to find and hard to understand for the layman (aka potter). As an example is reproduced the phase diagram of a CaO-Al2O3-SiO2 system, extracted from the <em>Phase Equilibrium Diagrams of Oxide Systems, vol. 1</em>, published by the American Ceramics Society. This same book has been used as the base for establishing the melting diagrams.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/b7d897e60b64c5dea56173915d3e3b4b5629970e" title="IMG.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e_2_345x372.jpeg" alt="IMG" data-base62-sha1="qenqqmsc2yi23AQB6utibNisfAW" width="345" height="372" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e_2_345x372.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e_2_517x558.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e_2_690x744.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/b7d897e60b64c5dea56173915d3e3b4b5629970e_2_10x10.png"></a></div><p></p>
+<p>If a sailor wants to go to a specific island without having a sea map, he will not succeed. Thus the melting diagrams give the coordinates of 60 “treasure” islands where the potter can land if he chooses to. One diagram will “locate” the melting zone of a glaze, however it will tell nothing about how the glaze will look like because many other parameters are involved.</p>
+<p>Melting diagrams show that melting is a relational event, which depends on the relationships between the glazes components, rather than on a single one (which would be called a “flux” - <em>see more on this below</em>). For a given set of oxides, there are several possible relationships that may lead to melting, at a given temperature. In particular, when changing the silica and alumina amounts in a glaze, while keeping the base mole unchanged, it is possible to maintain this glaze inside its melting zone. This zone is precisely what the diagrams are showing: for a specific base mole (<em>Seger’s formula first column</em>), all the SiO2 and Al2O3 ratios that may lead to the melting of the glaze. SiO2 is measured in 0.5 moles on the Y axis, while Al2O3 is given in 0.05 moles on the X axis (<em>see Fig.15 below</em>).</p>
+<p><strong>Temperature contour</strong></p>
+<p>Let’s imagine an alpinist who would like to go around a mountain, staying at an altitude of 1300 m. To do so, he will follow the 1300 m contour on his map, ignoring the other contours. Likely, the diagrams show only the 1300°C temperature contour, typical of glazes high-firing. The diagram below shows the melting behavior of a CaO-Al2O3-SiO2 system. By following the contour, we get the melting at 1300°C, while by getting inside the curve the melting will occur at lower temperatures. Note that the contour is interrupted at 1.5 SiO2. Under this value, melting can still occur, but silicates will not form properly.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/abf369d5ef289829146343237fe5ac37b3eb0c2c" title="IMG_0001.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c_2_345x241.jpeg" alt="IMG_0001" data-base62-sha1="ox99OucwMjAbmDfeY9AaTDRqIS8" width="345" height="241" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c_2_345x241.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c_2_517x361.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c_2_690x482.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/abf369d5ef289829146343237fe5ac37b3eb0c2c_2_10x10.png"></a></div><p></p>
+<p>Obviously, other contours could be drawn (like on a geographical map), as an example a more complete map of this system is given, with at the core the minimum temperature of 1165°C (eutectic of this system).</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/b3415837febd89e66c8a7db0b9538950e4911cf9.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/b3415837febd89e66c8a7db0b9538950e4911cf9" title="IMG_0002.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/b3415837febd89e66c8a7db0b9538950e4911cf9_2_345x276.jpeg" alt="IMG_0002" data-base62-sha1="pzLsYBF2Wg8Rv3ob3FsgyMiDEsF" width="345" height="276" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/b3415837febd89e66c8a7db0b9538950e4911cf9_2_345x276.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/b3415837febd89e66c8a7db0b9538950e4911cf9_2_517x414.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/b3415837febd89e66c8a7db0b9538950e4911cf9_2_690x552.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/b3415837febd89e66c8a7db0b9538950e4911cf9_2_10x10.png"></a></div><p></p>
+<p>In fact the graph above looks more like one of a seabed than of a mountain. A side view would look like this:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/d73cd20b6fb8563e03c794bd2cce47a66feec195" title="IMG_0003.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195_2_345x120.jpeg" alt="IMG_0003" data-base62-sha1="uI4XJsua5gVV6EJnoCPYCUGZOvj" width="345" height="120" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195_2_345x120.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195_2_517x180.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195_2_690x240.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d73cd20b6fb8563e03c794bd2cce47a66feec195_2_10x10.png"></a></div><p></p>
+<p>This “seabed” metaphor emphasizes the fact that there is no clear-cut border between fired and unfired, as, on the bank of a lake, there is no clear border between wet and dry (notwithstanding the map accuracy). So it is by wandering from one side of the line to the other side that the potter will find the best melting properties of a specific glaze.</p>
+<p><strong>The diagrams index</strong></p>
+<p>The shape and width of the “lake” will obviously change with the base mole components.</p>
+<p>The diagrams in the book are limited to all possible combinations of CaO, MgO and KNaO (i.e. K2O+Na2O), in tenths of moles, to compose the base mole. Which gives the following triangle map:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/88713183cde3c32af79a99cf889f775d866f18d2.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/88713183cde3c32af79a99cf889f775d866f18d2" title="IMG_0004.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/88713183cde3c32af79a99cf889f775d866f18d2_2_345x278.jpeg" alt="IMG_0004" data-base62-sha1="jt1s0yV7WmQnFGFs5VzN6WjZWka" width="345" height="278" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/88713183cde3c32af79a99cf889f775d866f18d2_2_345x278.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/88713183cde3c32af79a99cf889f775d866f18d2_2_517x417.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/88713183cde3c32af79a99cf889f775d866f18d2_2_690x556.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/88713183cde3c32af79a99cf889f775d866f18d2_2_10x10.png"></a></div><p></p>
+<p>Ex: Diagram 20 is the one with 0.5 CaO, 0.3 MgO 0.2 KNaO.</p>
+<p>The unnumbered points near MgO are combinations that are not melting at 1300°C.</p>
+<p><strong>How to use the diagrams</strong></p>
+<p><em>There are 4 exercises presented to demonstrate the use of the diagrams. Here are the two first ones.</em></p>
+<p><strong>The cutting</strong></p>
+<p>As the border between melted and not-melted is not a sheer line, the potter can do some “cuts” at several, well-separated regions of the diagrams to explore melting (here on diagram 27):</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/332a6d29f90d3b2961a11b9e9daa580dbc8915d8" title="IMG_0005.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8_2_345x301.jpeg" alt="IMG_0005" data-base62-sha1="7iDfrR5ImZMQbb9LQfgjKYoljhm" width="345" height="301" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8_2_345x301.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8_2_517x451.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8_2_690x602.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/332a6d29f90d3b2961a11b9e9daa580dbc8915d8_2_10x10.png"></a></div><p></p>
+<p><strong>The sweeping</strong></p>
+<p>One can also explore more thoroughly the whole melting area of the diagram (here on diagram 18):</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/e5753dc99e8870c1aa868e32581ebbf10ca83ed0" title="IMG_0006.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0_2_345x290.jpeg" alt="IMG_0006" data-base62-sha1="wJSwObbOslLzN1zuqPSQaOpnnm8" width="345" height="290" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0_2_345x290.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0_2_517x435.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0_2_690x580.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/e5753dc99e8870c1aa868e32581ebbf10ca83ed0_2_10x10.png"></a></div><p></p>
+<p><strong>The “flux” concept</strong></p>
+<p>The term “flux” is often used by potters. But according to the diagrams, it is not really a proper term. For instance, let’s consider diagram 27, and mark points A and B, far from the melting zone of the glaze. For the glaze to melt, we have to come nearer the contour one way or another. For point A, we could decrease silica, which seems logical, since silica has a high melting point. But we could as well increase Al2O3, and by much, even if alumina is even more refractory than silica.  For point B, it’s the reverse. Decreasing alumina (which seems logical), but also increasing silica, which is not!</p>
+<p>It shows that it is not an oxide alone that melts a glaze, but the relationship between oxides.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/0137a9804ca6bc690818361d3d23b03576fbcc6d" title="IMG_0007.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d_2_345x288.jpeg" alt="IMG_0007" data-base62-sha1="aLJrEjYESyROeipXnx8lhcSbNP" width="345" height="288" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d_2_345x288.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d_2_517x432.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d_2_690x576.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0137a9804ca6bc690818361d3d23b03576fbcc6d_2_10x10.png"></a></div><p></p>
+<p><strong>Other topics in the introduction</strong></p>
+<p><em>The rest of the introduction chapter provides succinct information about the influence of the firing length on melting, melting and atmosphere, melting and crawling, glaze melting adjustment, glazes overlay, etc</em> …</p>
+<p><strong>Diagrams</strong></p>
+<p><em>60 diagrams are reproduced, as per the triangular map.</em></p>
+<p>Some diagrams have a vertical line, depending on the value of Al2O3 : this is the separation between glazes that can be made using feldspars, and glazes that can only be made using frits (because the alumina content is too low for a feldspar).</p>
+<p><em>As an example, here is diagram 25. This is the De Montmollin representation of the Stull map.</em> For more information on the Stull map, go <a href="https://wiki.glazy.org/t/understanding-the-stull-chart/857">here</a>.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/3246afd2ee1d617f1ba75443a8cd5976d0db6e41" title="Emaux - DDM 25.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41_2_345x292.jpeg" alt="Emaux%20-%20DDM%2025" data-base62-sha1="7aLjNsJz3H93S2mHKfrmLD2HhGF" width="345" height="292" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41_2_345x292.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41_2_517x438.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41_2_690x584.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/3246afd2ee1d617f1ba75443a8cd5976d0db6e41_2_10x10.png"></a></div><p></p>
+<p><em>This screen capture shows how I used diagram 18 for one of my glazes:</em></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/84c9e58b3a4405ded6e4e5640503d70dd3a9b731" title="Oribe.PNG.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731_2_345x154.jpeg" alt="PNG" data-base62-sha1="iWHAr4MjtOu2qnAp6nDIByKO8w1" width="345" height="154" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731_2_345x154.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731_2_517x231.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731_2_690x308.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/84c9e58b3a4405ded6e4e5640503d70dd3a9b731_2_10x10.png"></a></div><br>
+<strong>Rest of the book</strong><p></p>
+<p><em>The part on diagrams starts on page 71 (French print). The first part of the book provides more information about glaze chemistry, how to mix glazes for testing, how to make tiles, and some experiments with common oxides. There is much valuable information about the role of iron oxide in glazes, and most of the experiments involve iron oxide.</em></p>
+<p><strong>This text as PDF</strong><br>
+<a class="attachment" href="https://wiki.glazy.org/uploads/short-url/kQNSlNLsMLISPNdZ7tHIhdcBCd1.pdf">Daniel De Montmollin.pdf</a> (1.3 MB)</p>
+          <p><a href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860/1</link>
+        <pubDate>Mon, 14 Oct 2019 09:32:14 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-860-1</guid>
+        <source url="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860.rss">The practice of stoneware glazes - D. De Montmollin</source>
+      </item>
+  </channel>
+</rss>

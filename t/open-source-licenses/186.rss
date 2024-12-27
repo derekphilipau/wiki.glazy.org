@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Open-Source Licenses</title>
+    <link>https://wiki.glazy.org/t/open-source-licenses/186</link>
+    <description>Pieter Mostert and Derek were discussing open source and agreed that we both want &quot;copyleft&quot; licenses for our software. Copyleft ensures not only that the code is open and free, but also that derivative works also remain open, preventing others from building a proprietary system. Along with software, we could consider using Creative Commons Licenses for other data like ceramics recipes and glaze photos. 
+
+Creative Commons: https://creativecommons.org/choose/ Copyleft: https://www.gnu.org/licenses/copyleft.en.html
+
+Flickr allows users to use Creative Commons (CC) licenses for their photos: https://www.flickr.com/creativecommons/
+
+Louis Katz:
+&gt; Ultimately just knowing the ground rules is always helpful. In the US recipes by themselves are to my knowledge not copyrightable. The descriptions and writing that goes with them is. Where writing stops being part of the recipe and starts being copyrightable is a line that I do not know.
+&gt; https://www.copyright.gov/fls/fl122.html 
+
+&gt; Consequently the only way to keep a recipe from being shared is to keep it secret. 
+
+&gt; I like the copy left provisions</description>
+    
+    <lastBuildDate>Sun, 30 Apr 2017 09:13:31 +0000</lastBuildDate>
+    <category>Open-Source Ceramics</category>
+    <atom:link href="https://wiki.glazy.org/t/open-source-licenses/186.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Open-Source Licenses</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>I’m probably going to release my LIPGLOSS software under <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GPLv3</a>. I can’t think of reasons not to, but let me know if there are other copyleft licences that might be better.</p>
+          <p><a href="https://wiki.glazy.org/t/open-source-licenses/186/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/open-source-licenses/186/2</link>
+        <pubDate>Sun, 30 Apr 2017 09:13:31 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-186-2</guid>
+        <source url="https://wiki.glazy.org/t/open-source-licenses/186.rss">Open-Source Licenses</source>
+      </item>
+      <item>
+        <title>Open-Source Licenses</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>Pieter Mostert and Derek were discussing open source and agreed that we both want “copyleft” licenses for our software. Copyleft ensures not only that the code is open and free, but also that derivative works also remain open, preventing others from building a proprietary system. Along with software, we could consider using Creative Commons Licenses for other data like ceramics recipes and glaze photos.</p>
+<p>Creative Commons: <a href="https://creativecommons.org/choose/">https://creativecommons.org/choose/</a> Copyleft: <a href="https://www.gnu.org/licenses/copyleft.en.html">https://www.gnu.org/licenses/copyleft.en.html</a></p>
+<p>Flickr allows users to use Creative Commons (CC) licenses for their photos: <a href="https://www.flickr.com/creativecommons/">https://www.flickr.com/creativecommons/</a></p>
+<p>Louis Katz:</p>
+<blockquote>
+<p>Ultimately just knowing the ground rules is always helpful. In the US recipes by themselves are to my knowledge not copyrightable. The descriptions and writing that goes with them is. Where writing stops being part of the recipe and starts being copyrightable is a line that I do not know.<br>
+<a href="https://www.copyright.gov/fls/fl122.html">https://www.copyright.gov/fls/fl122.html</a></p>
+</blockquote>
+<blockquote>
+<p>Consequently the only way to keep a recipe from being shared is to keep it secret.</p>
+</blockquote>
+<blockquote>
+<p>I like the copy left provisions</p>
+</blockquote>
+          <p><a href="https://wiki.glazy.org/t/open-source-licenses/186/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/open-source-licenses/186/1</link>
+        <pubDate>Thu, 27 Apr 2017 23:45:36 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-186-1</guid>
+        <source url="https://wiki.glazy.org/t/open-source-licenses/186.rss">Open-Source Licenses</source>
+      </item>
+  </channel>
+</rss>

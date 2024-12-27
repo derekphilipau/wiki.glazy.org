@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Glazy Ceramics Wiki Search</ShortName>
+  <Description>Search for posts on Glazy Ceramics Wiki</Description>
+  <Tags>discourse forum</Tags>
+    <Image type="image/png">https://wiki.glazy.org/uploads/default/optimized/1X/b9980f0d32995d157772e19e6ef3f681836cb6d6_2_32x32.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://wiki.glazy.org/opensearch.xml"/>
+  <Url type="text/html" template="https://wiki.glazy.org/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>

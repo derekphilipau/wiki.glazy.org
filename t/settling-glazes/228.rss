@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Settling Glazes</title>
+    <link>https://wiki.glazy.org/t/settling-glazes/228</link>
+    <description>## Does your glaze settle at the bottom of the bucket, forming a hard layer that is difficult to stir?
+
+Solutions:  add clay, bentonite, etc...</description>
+    
+    <lastBuildDate>Fri, 05 May 2017 01:30:41 +0000</lastBuildDate>
+    <category>Glaze Faults</category>
+    <atom:link href="https://wiki.glazy.org/t/settling-glazes/228.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Settling Glazes</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Does your glaze settle at the bottom of the bucket, forming a hard layer that is difficult to stir?</h2>
+<p>Solutions:  add clay, bentonite, etc…</p>
+          <p><a href="https://wiki.glazy.org/t/settling-glazes/228/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/settling-glazes/228/1</link>
+        <pubDate>Fri, 05 May 2017 01:30:41 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-228-1</guid>
+        <source url="https://wiki.glazy.org/t/settling-glazes/228.rss">Settling Glazes</source>
+      </item>
+  </channel>
+</rss>

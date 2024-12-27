@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Open-Source Kiln Controllers</title>
+    <link>https://wiki.glazy.org/t/open-source-kiln-controllers/668</link>
+    <description>Julien Deantoni&#39;s kiln controller and smartphone app:
+[https://jdeantoni.github.io/KilnRegulator3.0/](https://jdeantoni.github.io/KilnRegulator3.0/)
+Designed to be compatible with Ceradel and Solargil kilns.
+
+Zach Moore&#39;s [SmartKiln](https://github.com/ZachJMoore/smart-kiln-hardware) cloud based kiln controller.
+
+Jason Bruce&#39;s fork of Apollo-NG&#39;s [picoReflow](https://apollo.open-resource.org/mission:resources:picoreflow):
+[https://github.com/jbruce12000/kiln-controller](https://github.com/jbruce12000/kiln-controller)
+
+PiLN - Web-based Raspberry Pi Kiln Control Application. Various versions:
+* [pvarney](https://github.com/pvarney/PiLN)
+* [Blake Lewis](https://github.com/BlakeCLewis/PILN)
+* [Daylene Alford](https://github.com/fayena/PILN)
+
+Arduino-based [kiln controller and data-logger](https://create.arduino.cc/projecthub/MrRoboto19/electric-kiln-controller-f5c633?ref=user&amp;ref_id=477799&amp;offset=0).</description>
+    
+    <lastBuildDate>Fri, 22 Nov 2019 19:32:49 +0000</lastBuildDate>
+    <category>Open-Source Ceramics</category>
+    <atom:link href="https://wiki.glazy.org/t/open-source-kiln-controllers/668.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Open-Source Kiln Controllers</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks Marina, I’ve updated the link.</p>
+          <p><a href="https://wiki.glazy.org/t/open-source-kiln-controllers/668/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/open-source-kiln-controllers/668/3</link>
+        <pubDate>Fri, 22 Nov 2019 19:32:49 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-668-3</guid>
+        <source url="https://wiki.glazy.org/t/open-source-kiln-controllers/668.rss">Open-Source Kiln Controllers</source>
+      </item>
+      <item>
+        <title>Open-Source Kiln Controllers</title>
+        <dc:creator><![CDATA[Marina]]></dc:creator>
+        <description><![CDATA[
+            <p>Zack Moore’s project moved to <a href="https://github.com/ZachJMoore/smart-kiln-hardware" rel="nofollow noopener">https://github.com/ZachJMoore/smart-kiln-hardware</a></p>
+          <p><a href="https://wiki.glazy.org/t/open-source-kiln-controllers/668/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/open-source-kiln-controllers/668/2</link>
+        <pubDate>Fri, 22 Nov 2019 09:30:05 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-668-2</guid>
+        <source url="https://wiki.glazy.org/t/open-source-kiln-controllers/668.rss">Open-Source Kiln Controllers</source>
+      </item>
+      <item>
+        <title>Open-Source Kiln Controllers</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Julien Deantoni’s kiln controller and smartphone app:<br>
+<a href="https://jdeantoni.github.io/KilnRegulator3.0/">https://jdeantoni.github.io/KilnRegulator3.0/</a><br>
+Designed to be compatible with Ceradel and Solargil kilns.</p>
+<p>Zach Moore’s <a href="https://github.com/ZachJMoore/smart-kiln-hardware">SmartKiln</a> cloud based kiln controller.</p>
+<p>Jason Bruce’s fork of Apollo-NG’s <a href="https://apollo.open-resource.org/mission:resources:picoreflow">picoReflow</a>:<br>
+<a href="https://github.com/jbruce12000/kiln-controller">https://github.com/jbruce12000/kiln-controller</a></p>
+<p>PiLN - Web-based Raspberry Pi Kiln Control Application. Various versions:</p>
+<ul>
+<li><a href="https://github.com/pvarney/PiLN">pvarney</a></li>
+<li><a href="https://github.com/BlakeCLewis/PILN">Blake Lewis</a></li>
+<li><a href="https://github.com/fayena/PILN">Daylene Alford</a></li>
+</ul>
+<p>Arduino-based <a href="https://create.arduino.cc/projecthub/MrRoboto19/electric-kiln-controller-f5c633?ref=user&amp;ref_id=477799&amp;offset=0">kiln controller and data-logger</a>.</p>
+          <p><a href="https://wiki.glazy.org/t/open-source-kiln-controllers/668/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/open-source-kiln-controllers/668/1</link>
+        <pubDate>Thu, 29 Nov 2018 07:47:17 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-668-1</guid>
+        <source url="https://wiki.glazy.org/t/open-source-kiln-controllers/668.rss">Open-Source Kiln Controllers</source>
+      </item>
+  </channel>
+</rss>

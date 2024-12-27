@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to Analyze a Material</title>
+    <link>https://wiki.glazy.org/t/how-to-analyze-a-material/789</link>
+    <description>[Čazo Čazim Mehmeti](https://www.facebook.com/cazo.mehmeti) When I communicated with ALS Global I told them that I need chemical analysis expressed in the % oxide form. I sent them example of Neph. Sy. and everything was clear.
+
+But, they make CA with Portable XRF instrument (pXRF). That means results can vary 5 - 20%(!?), and that range is if instrument is used correctly. That is for each element. Like for the copper, and for the oxygen. So, what is the error when they bond Cu and O together?
+
+From portable XFR manual: 
+&quot;Method precision is the amount the value of a data
+point from a single measurement may deviate within a range due
+to uncertainties in the analytical method in use. In pXRF analysis,
+method precision may range from 5 to 20% when the instrument
+is used correctly and a robust QAQC program is in place. This is on
+par with exploration geochemistry and indicative methods, but it is
+much poorer than that of the assay techniques used for financially
+sensitive data (1.5 to 5%, or even less). This difference in precision
+should always be taken into account when comparing pXRF results
+to traditional assay results done on the same material. For example,
+a letter of credit for a banking institution requires a definitive result,
+such as 22.34% copper content, while pXRF results may be stated as
+20% ± 5% copper content.&quot;
+
+
+[Matthew Katz](https://www.facebook.com/matthewelikatz) I send for ICP-ES. “Whole Rock Analysis”</description>
+    
+    <lastBuildDate>Mon, 01 Apr 2019 11:49:20 +0000</lastBuildDate>
+    <category>Glaze Chemistry</category>
+    <atom:link href="https://wiki.glazy.org/t/how-to-analyze-a-material/789.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to Analyze a Material</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://www.facebook.com/cazo.mehmeti" rel="nofollow noopener">Čazo Čazim Mehmeti</a> When I communicated with ALS Global I told them that I need chemical analysis expressed in the % oxide form. I sent them example of Neph. Sy. and everything was clear.</p>
+<p>But, they make CA with Portable XRF instrument (pXRF). That means results can vary 5 - 20%(!?), and that range is if instrument is used correctly. That is for each element. Like for the copper, and for the oxygen. So, what is the error when they bond Cu and O together?</p>
+<p>From portable XFR manual:<br>
+“Method precision is the amount the value of a data<br>
+point from a single measurement may deviate within a range due<br>
+to uncertainties in the analytical method in use. In pXRF analysis,<br>
+method precision may range from 5 to 20% when the instrument<br>
+is used correctly and a robust QAQC program is in place. This is on<br>
+par with exploration geochemistry and indicative methods, but it is<br>
+much poorer than that of the assay techniques used for financially<br>
+sensitive data (1.5 to 5%, or even less). This difference in precision<br>
+should always be taken into account when comparing pXRF results<br>
+to traditional assay results done on the same material. For example,<br>
+a letter of credit for a banking institution requires a definitive result,<br>
+such as 22.34% copper content, while pXRF results may be stated as<br>
+20% ± 5% copper content.”</p>
+<p><a href="https://www.facebook.com/matthewelikatz" rel="nofollow noopener">Matthew Katz</a> I send for ICP-ES. “Whole Rock Analysis”</p>
+          <p><a href="https://wiki.glazy.org/t/how-to-analyze-a-material/789/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/how-to-analyze-a-material/789/1</link>
+        <pubDate>Mon, 01 Apr 2019 11:49:20 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-789-1</guid>
+        <source url="https://wiki.glazy.org/t/how-to-analyze-a-material/789.rss">How to Analyze a Material</source>
+      </item>
+  </channel>
+</rss>

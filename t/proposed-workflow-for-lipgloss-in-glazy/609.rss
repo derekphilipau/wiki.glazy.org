@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Proposed workflow for LIPGLOSS in Glazy</title>
+    <link>https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609</link>
+    <description>Hopefully, the computational core of the LIPGLOSS desktop app will be incorporated into Glazy at some point. This page outlines my proposed workflow for going from an existing recipe or analysis on Glazy, to a new one that uses only the materials in a user&#39;s inventory, but which has the same analysis as the original. Everything proposed here is, of course, open to discussion.
+
+Recipes and analyses will have an additional button, called something like &#39;Recreate&#39; or &#39;Reconstruct&#39;, that opens the following window:
+![Lipgloss_glazy_sketch|611x284](upload://AudDmoh4C6Fwc7bcGRmRzW5Fv8j.jpeg) 
+On the right is the oxide composition of the recipe / analysis, showing the value of each oxide present (the view can be toggled between UMF, percent weight, or percent mol). Each value _v_ has an error bound _e_ (default 0), and the view can be toggled between showing _v_ +- _e_, and the interval [_v_-_e_, _v_+_e_].
+
+On the left is the ingredient selector, that lets users select ingredients from their inventory. If the starting point for the reformulation is a recipe, the materials in the original recipe will be preselected, with the ones that aren&#39;t in the users inventory greyed out. In this way, if a user just wants to reformulate a recipe that only has a few unavailable ingredients, they should hopefully be able to replace them relatively easily with similar ingredients in their inventory.
+
+The selected ingredients also have bounds on their percentages, but the default will be the interval view, from 0 to 100. 
+
+Hitting the calculate button will compute the bounds on ingredients and oxides, as in the desktop version of LIPGLOSS.
+
+It&#39;s possible to do some simple checks before running the linear programming algorithm, to flag selections of ingredients which can&#39;t be used to satisfy the bounds on the oxides. For example, if an analysis has 10% Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;, and all of the ingredients selected have less than 10% Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;, then there&#39;s no way any combination can match the analysis. Oxides which can&#39;t be supplied in large enough percentages by the ingredients selected will be flagged. Hopefully this will help users select the correct ingredients. In the sketch above, there&#39;s no source of K&lt;sub&gt;2&lt;/sub&gt;O, so this has been highlighted in red.
+
+Things that need further thought:
+- At some point there should be the option to combine Na and K as one.
+- How to implement other restrictions (like fixing the SiO&lt;sub&gt;2&lt;/sub&gt; : Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; ratio, or putting an upper bound on the LOI)</description>
+    
+    <lastBuildDate>Sun, 11 Nov 2018 07:50:54 +0000</lastBuildDate>
+    <category>LIPGLOSS</category>
+    <atom:link href="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Proposed workflow for LIPGLOSS in Glazy</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Hopefully, the computational core of the LIPGLOSS desktop app will be incorporated into Glazy at some point. This page outlines my proposed workflow for going from an existing recipe or analysis on Glazy, to a new one that uses only the materials in a user’s inventory, but which has the same analysis as the original. Everything proposed here is, of course, open to discussion.</p>
+<p>Recipes and analyses will have an additional button, called something like ‘Recreate’ or ‘Reconstruct’, that opens the following window:<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/ffb8c68d963286494cf7f9c076754787c83b5887.jpeg" alt="Lipgloss_glazy_sketch" width="611" height="284"><br>
+On the right is the oxide composition of the recipe / analysis, showing the value of each oxide present (the view can be toggled between UMF, percent weight, or percent mol). Each value <em>v</em> has an error bound <em>e</em> (default 0), and the view can be toggled between showing <em>v</em> ± <em>e</em>, and the interval [<em>v</em>-<em>e</em>, <em>v</em>+<em>e</em>].</p>
+<p>On the left is the ingredient selector, that lets users select ingredients from their inventory. If the starting point for the reformulation is a recipe, the materials in the original recipe will be preselected, with the ones that aren’t in the users inventory greyed out. In this way, if a user just wants to reformulate a recipe that only has a few unavailable ingredients, they should hopefully be able to replace them relatively easily with similar ingredients in their inventory.</p>
+<p>The selected ingredients also have bounds on their percentages, but the default will be the interval view, from 0 to 100.</p>
+<p>Hitting the calculate button will compute the bounds on ingredients and oxides, as in the desktop version of LIPGLOSS.</p>
+<p>It’s possible to do some simple checks before running the linear programming algorithm, to flag selections of ingredients which can’t be used to satisfy the bounds on the oxides. For example, if an analysis has 10% Al<sub>2</sub>O<sub>3</sub>, and all of the ingredients selected have less than 10% Al<sub>2</sub>O<sub>3</sub>, then there’s no way any combination can match the analysis. Oxides which can’t be supplied in large enough percentages by the ingredients selected will be flagged. Hopefully this will help users select the correct ingredients. In the sketch above, there’s no source of K<sub>2</sub>O, so this has been highlighted in red.</p>
+<p>Things that need further thought:</p>
+<ul>
+<li>At some point there should be the option to combine Na and K as one.</li>
+<li>How to implement other restrictions (like fixing the SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio, or putting an upper bound on the LOI)</li>
+</ul>
+          <p><a href="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609/1</link>
+        <pubDate>Sat, 10 Nov 2018 15:57:19 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-609-1</guid>
+        <source url="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609.rss">Proposed workflow for LIPGLOSS in Glazy</source>
+      </item>
+  </channel>
+</rss>

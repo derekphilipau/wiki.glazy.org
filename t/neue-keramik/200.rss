@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Neue Keramik</title>
+    <link>https://wiki.glazy.org/t/neue-keramik/200</link>
+    <description>http://neue-keramik.de/wp/</description>
+    
+    <lastBuildDate>Sun, 30 Apr 2017 01:39:28 +0000</lastBuildDate>
+    <category>Magazines</category>
+    <atom:link href="https://wiki.glazy.org/t/neue-keramik/200.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Neue Keramik</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="http://neue-keramik.de/wp/" class="onebox" target="_blank">http://neue-keramik.de/wp/</a></p>
+          <p><a href="https://wiki.glazy.org/t/neue-keramik/200/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/neue-keramik/200/1</link>
+        <pubDate>Sun, 30 Apr 2017 01:39:28 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-200-1</guid>
+        <source url="https://wiki.glazy.org/t/neue-keramik/200.rss">Neue Keramik</source>
+      </item>
+  </channel>
+</rss>

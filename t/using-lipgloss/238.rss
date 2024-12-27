@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Using LIPGLOSS</title>
+    <link>https://wiki.glazy.org/t/using-lipgloss/238</link>
+    <description>Currently, to use LIPGLOSS, you need to install [Python 3](https://www.python.org/downloads/), the linear programming API [PuLP](https://github.com/coin-or/pulp), and the [GLPK](https://www.gnu.org/software/glpk/) library (and possibly the [tkinter](https://wiki.python.org/moin/TkInter) Python package). See the [README.md](https://github.com/PieterMostert/Lipgloss/blob/master/README.md) file on Github for more details.
+
+UPDATE: There is now a version 2, with slightly different installation requirements, described in [this](https://github.com/PieterMostert/LIPGLOSS2/blob/master/README.md) readme file. This is hopefully easier to install.
+
+To open the graphical user interface, run the &lt;span&gt;main.py&lt;/span&gt; script. You&#39;ll be presented with a window that shows a list of ingredients and &#39;other restrictions&#39; in the panel on the left. Some of these will have already been selected by default, but you can add or remove items by clicking on the buttons.
+
+&lt;img src=&quot;/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG&quot; width=&quot;590&quot; height=&quot;700&quot;&gt;
+
+In the panel on the right, the selected ingredients and other restrictions will be shown, as well as any oxides that appear in the selected ingredients. The two columns on the left, which contain values in blue, are for entering the desired lower and upper bounds on the oxide, ingredient, or other restriction. Bounds on oxides can be expressed as UMF, percent weight or percent mole by selecting the appropriate radio button above. 
+
+When you click the `Calculate restrictions` button, the two columns on the right will be filled with lower and upper bounds for each oxide, ingredient, or other restriction, printed in red (assuming there is at least one recipe that satisfies the bounds; otherwise, an error message will appear). These are lower and upper bounds for the corresponding item among all possible recipes using the ingredients selected that satisfy the bounds you&#39;ve imposed. Naturally, the bounds on the right are at least as restrictive as the bounds on the left.
+
+&lt;img src=&quot;/uploads/default/original/1X/e488cc43507424e81074ef1e03d9c1a52aa24ff7.JPG&quot; width=&quot;585&quot; height=&quot;691&quot;&gt;
+
+You can now progressively strengthen the bounds on the left, based on the calculated bounds. This may be as simple as unselecting an ingredient whose calculated lower bound is zero. Given a single oxide, ingredient, or other restriction, you can narrow it&#39;s range to any interval that overlaps the calculated interval, and be guaranteed that the problem still has a solution (but be aware that the endpoints displayed have been rounded to a certain number of decimal places). 
+
+However, it&#39;s important to note that if you restrict the bounds for _two_ or more items simultaneously, a solution is not guaranteed even if the restricted intervals both overlap their respective calculated intervals. For example, if only two ingredients are selected and no restrictions are imposed, the bounds on the percentages of these ingredients will be 0 and 100. If you then impose the bounds 0 to 40 on both these ingredient percentages, there will be no solution, simply because the sum of the ingredient percentages must add up to 100.
+
+If you want to restrict the bounds for two variables simultaneously, you have the option of plotting the set of possible values of those two variables. That is to say, for each point in the region shown, there is at least one recipe where the variables take on the _x_ and _y_ values of the point, and which satisfies all the constraints. The _x_ and _y_ variables to plot can be selected by clicking on the left and right hand labels in the central panel, respectively. An asterisk should appear next to the label when you click on it. 
+
+When the _x_ and _y_ variables have been selected, the program will display a green region representing all possible points (_x_,_y_) that are consistent with the constraints.
+
+ &lt;img src=&quot;/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG&quot; width=&quot;690&quot; height=&quot;451&quot;&gt;
+
+A collection of ingredient and other restrictions with lower and upper bounds will be referred to as a bounded recipe. Bounded recipes can be saved, or saved as new bounded recipes. If you start with the default bounds and narrow them down to a recipe - i.e. all upper and lower bounds are effectively the same - you should save this as a new bounded recipe, otherwise you&#39;ll have to undo all your restrictions when you start working on a new problem. Saved bounded recipes can be opened through the `File` menu.
+
+LIPGLOSS will come pre-installed with common types of ingredients, but most of these should be updated to reflect the analyses of the ingredients in your studio. To do this, click  `Options &gt; Edit Ingredients` to open the ingredient editor.
+
+&lt;img src=&quot;/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG&quot; width=&quot;690&quot; height=&quot;410&quot;&gt;
+
+Oxide percentages that are zero can be left blank.
+
+The order in which ingredients are displayed can be rearranged by right-clicking on an ingredient&#39;s name, then dragging and dropping.
+
+The other restrictions can be edited by clicking  `Options &gt; Edit Other Restrictions` to open the &#39;other restriction&#39; editor. 
+
+![Other%20restriction%20editor|690x205](upload://jswOXnwWwnDQW0LhnkFgY6KWRBA.JPG) 
+
+At the moment, using this to create a new restriction will require some knowledge of the code used, so this isn&#39;t very user friendly. If you&#39;d like to add a new restriction and don&#39;t know how, feel free to ask a question in the comments section below.</description>
+    
+    <lastBuildDate>Tue, 23 May 2017 20:50:55 +0000</lastBuildDate>
+    <category>LIPGLOSS</category>
+    <atom:link href="https://wiki.glazy.org/t/using-lipgloss/238.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Using LIPGLOSS</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>This is a reply to a comment by <a class="mention" href="https://wiki.glazy.org/u/derek">@derek</a> on the Open-source Ceramics Facebook group, about having the ability to enter analyses that don’t add up to 100% as targets.</p>
+<p>It could be done, but I’d first like to see how we can integrate this with Glazy. For the purpose of sharing analyses, it would be better to enter them in Glazy. They could then be rescaled to 100% in the process of importing them to LIPGLOSS. I’d also like to have the option to decide whether I want the UMF, % weight, or % mole analysis as my target oxide composition. (In theory, it shouldn’t matter, but because of rounding errors, the program will most likely find different forms of the same analysis to be inconsistent)</p>
+<p>As an aside, if your analysis <em>does</em> add up to 100%, it’s enough to fill in either all the lower bounds, or all the upper bounds. The same goes for fluxes in the UMF.</p>
+          <p><a href="https://wiki.glazy.org/t/using-lipgloss/238/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/using-lipgloss/238/3</link>
+        <pubDate>Tue, 23 May 2017 20:50:55 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-238-3</guid>
+        <source url="https://wiki.glazy.org/t/using-lipgloss/238.rss">Using LIPGLOSS</source>
+      </item>
+      <item>
+        <title>Using LIPGLOSS</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>If installing the GLPK library is a problem, comment out <code>solver = GLPK(msg=0)</code> and uncomment <code>solver = PULP_CBC_CMD()</code> in model/lipgloss/lp_recipe_problem<span>.py</span>. This will result in the COIN-OR <a href="https://projects.coin-or.org/Cbc">Cbc</a> solver being used, which comes with PuLP. Note, however, that it is released under the <a href="https://en.wikipedia.org/wiki/Eclipse_Public_License">Eclipse Public Licence</a>, which is <a href="https://eclipse.org/legal/eplfaq.php">incompatible with the GPL</a>.</p>
+          <p><a href="https://wiki.glazy.org/t/using-lipgloss/238/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/using-lipgloss/238/2</link>
+        <pubDate>Mon, 22 May 2017 19:23:07 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-238-2</guid>
+        <source url="https://wiki.glazy.org/t/using-lipgloss/238.rss">Using LIPGLOSS</source>
+      </item>
+      <item>
+        <title>Using LIPGLOSS</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Currently, to use LIPGLOSS, you need to install <a href="https://www.python.org/downloads/" rel="nofollow noopener">Python 3</a>, the linear programming API <a href="https://github.com/coin-or/pulp" rel="nofollow noopener">PuLP</a>, and the <a href="https://www.gnu.org/software/glpk/" rel="nofollow noopener">GLPK</a> library (and possibly the <a href="https://wiki.python.org/moin/TkInter" rel="nofollow noopener">tkinter</a> Python package). See the <a href="https://github.com/PieterMostert/Lipgloss/blob/master/README.md" rel="nofollow noopener">README.md</a> file on Github for more details.</p>
+<p>UPDATE: There is now a version 2, with slightly different installation requirements, described in <a href="https://github.com/PieterMostert/LIPGLOSS2/blob/master/README.md" rel="nofollow noopener">this</a> readme file. This is hopefully easier to install.</p>
+<p>To open the graphical user interface, run the <span>main.py</span> script. You’ll be presented with a window that shows a list of ingredients and ‘other restrictions’ in the panel on the left. Some of these will have already been selected by default, but you can add or remove items by clicking on the buttons.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" width="590" height="700"></p>
+<p>In the panel on the right, the selected ingredients and other restrictions will be shown, as well as any oxides that appear in the selected ingredients. The two columns on the left, which contain values in blue, are for entering the desired lower and upper bounds on the oxide, ingredient, or other restriction. Bounds on oxides can be expressed as UMF, percent weight or percent mole by selecting the appropriate radio button above.</p>
+<p>When you click the <code>Calculate restrictions</code> button, the two columns on the right will be filled with lower and upper bounds for each oxide, ingredient, or other restriction, printed in red (assuming there is at least one recipe that satisfies the bounds; otherwise, an error message will appear). These are lower and upper bounds for the corresponding item among all possible recipes using the ingredients selected that satisfy the bounds you’ve imposed. Naturally, the bounds on the right are at least as restrictive as the bounds on the left.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/e488cc43507424e81074ef1e03d9c1a52aa24ff7.JPG" width="585" height="691"></p>
+<p>You can now progressively strengthen the bounds on the left, based on the calculated bounds. This may be as simple as unselecting an ingredient whose calculated lower bound is zero. Given a single oxide, ingredient, or other restriction, you can narrow it’s range to any interval that overlaps the calculated interval, and be guaranteed that the problem still has a solution (but be aware that the endpoints displayed have been rounded to a certain number of decimal places).</p>
+<p>However, it’s important to note that if you restrict the bounds for <em>two</em> or more items simultaneously, a solution is not guaranteed even if the restricted intervals both overlap their respective calculated intervals. For example, if only two ingredients are selected and no restrictions are imposed, the bounds on the percentages of these ingredients will be 0 and 100. If you then impose the bounds 0 to 40 on both these ingredient percentages, there will be no solution, simply because the sum of the ingredient percentages must add up to 100.</p>
+<p>If you want to restrict the bounds for two variables simultaneously, you have the option of plotting the set of possible values of those two variables. That is to say, for each point in the region shown, there is at least one recipe where the variables take on the <em>x</em> and <em>y</em> values of the point, and which satisfies all the constraints. The <em>x</em> and <em>y</em> variables to plot can be selected by clicking on the left and right hand labels in the central panel, respectively. An asterisk should appear next to the label when you click on it.</p>
+<p>When the <em>x</em> and <em>y</em> variables have been selected, the program will display a green region representing all possible points (<em>x</em>,<em>y</em>) that are consistent with the constraints.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG" data-download-href="https://wiki.glazy.org/uploads/default/ad85da2e1fc32fa343bad80be66101a1874bde3c" title="Calc LIPGLOSS 2.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG" width="690" height="451" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG, https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_1035x676.JPG 1.5x, https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_10x10.png"></a></div><p></p>
+<p>A collection of ingredient and other restrictions with lower and upper bounds will be referred to as a bounded recipe. Bounded recipes can be saved, or saved as new bounded recipes. If you start with the default bounds and narrow them down to a recipe - i.e. all upper and lower bounds are effectively the same - you should save this as a new bounded recipe, otherwise you’ll have to undo all your restrictions when you start working on a new problem. Saved bounded recipes can be opened through the <code>File</code> menu.</p>
+<p>LIPGLOSS will come pre-installed with common types of ingredients, but most of these should be updated to reflect the analyses of the ingredients in your studio. To do this, click  <code>Options &gt; Edit Ingredients</code> to open the ingredient editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8a9fda70b0fce25e67babb46e17adf33afdd0fee" title="IngredientEditor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" width="690" height="410" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee_2_10x10.png"></a></div><p></p>
+<p>Oxide percentages that are zero can be left blank.</p>
+<p>The order in which ingredients are displayed can be rearranged by right-clicking on an ingredient’s name, then dragging and dropping.</p>
+<p>The other restrictions can be edited by clicking  <code>Options &gt; Edit Other Restrictions</code> to open the ‘other restriction’ editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8862e5a4031912b8078922cb7a02b08ccd20273e" title="Other restriction editor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" alt="Other%20restriction%20editor" data-base62-sha1="jswOXnwWwnDQW0LhnkFgY6KWRBA" width="690" height="205" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8862e5a4031912b8078922cb7a02b08ccd20273e_2_10x10.png"></a></div><p></p>
+<p>At the moment, using this to create a new restriction will require some knowledge of the code used, so this isn’t very user friendly. If you’d like to add a new restriction and don’t know how, feel free to ask a question in the comments section below.</p>
+          <p><a href="https://wiki.glazy.org/t/using-lipgloss/238/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/using-lipgloss/238/1</link>
+        <pubDate>Mon, 22 May 2017 19:22:14 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-238-1</guid>
+        <source url="https://wiki.glazy.org/t/using-lipgloss/238.rss">Using LIPGLOSS</source>
+      </item>
+  </channel>
+</rss>

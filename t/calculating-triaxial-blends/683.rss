@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Calculating triaxial blends</title>
+    <link>https://wiki.glazy.org/t/calculating-triaxial-blends/683</link>
+    <description>This is about how to calculate the recipes for each of the glazes in a triaxial blend, with a view to implementing this as a function in glaze software.
+
+Suppose we want to use three glazes, _A_, _B_ and _C_, to make a triaxial blend. It&#39;s useful to visualise the blends as being arranged in a triangle, with _A_ at the top, _B_ at bottom left, and _C_ at bottom right. We&#39;ll call the number of glazes along each side of the triangle _d_. Note that _d_ must be at least 2.
+
+![triaxial%20tri%20outline|473x424](upload://4k01o26DqIMFv6k4VhS2FotGoNb.jpeg) 
+
+For indexing purposes, it&#39;s convenient to modify this picture so that A lies directly above B:
+
+![triaxial%20rect%20outline|473x419](upload://2YnGtu9OlMjMQvJfzGOzS8oYKzA.jpeg) 
+
+The relative proportions into which A must be divided are:
+
+![rel%20parts%20A|559x491](upload://8vPXWD3o2ENCbzcBqhZFh8b5wrn.jpeg) 
+
+while the relative proportions into which C must be divided are:
+
+![rel%20parts%20C|550x490](upload://YPvmfZo9zI8pswR7HbU3UVAZKG.jpeg) 
+
+So if the index _i_ counts the rows from the bottom to the top, starting at 0, and the index _j_ counts the columns from left to right, starting at 0, then the glaze in row _i_, column _j_ has _i_ parts _A_, _j_ parts _C_, and a yet-to-be-determined number _k_ parts _B_. The sum of the parts for each glaze must be the same, and since _A_ has _d_ - 1 parts A, plus 0 parts B, plus 0 parts C, each glaze must be made of _d_ - 1 parts. Therefore 
+_i_ + _j_ + _k_ = _d_ - 1, 
+so the glaze in row _i_, column _j_ has 
+_k_ = _d_ - 1 - _i_ - _j_ 
+parts _B_.
+
+To summarize: The glazes in a triaxial blend can be indexed by the coordinates of a triangular array, where the entry at position (_i_, _j_) corresponds to the blend which consists of _i_ parts A, _d_ - 1 - _i_ - _j_ parts B, and _j_ parts C. The glazes A, B and C therefore make up the following proportions of the blend:
+![triaxial%20proportions|295x129](upload://mEuKvVpq0gn8tNtdeBLSxo4gF5A.jpeg)</description>
+    
+    <lastBuildDate>Thu, 31 Jan 2019 20:51:26 +0000</lastBuildDate>
+    <category>Glaze Testing</category>
+    <atom:link href="https://wiki.glazy.org/t/calculating-triaxial-blends/683.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Calculating triaxial blends</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Much better ! I’ll try this in Excel to ensure I understood correctly.</p>
+          <p><a href="https://wiki.glazy.org/t/calculating-triaxial-blends/683/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculating-triaxial-blends/683/4</link>
+        <pubDate>Thu, 31 Jan 2019 20:51:26 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-683-4</guid>
+        <source url="https://wiki.glazy.org/t/calculating-triaxial-blends/683.rss">Calculating triaxial blends</source>
+      </item>
+      <item>
+        <title>Calculating triaxial blends</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for the feedback. You’re right about the last line. I’ve changed it to give the proportions instead of the percentages, and formatted it a bit better, I hope. Let me know what you think.</p>
+          <p><a href="https://wiki.glazy.org/t/calculating-triaxial-blends/683/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculating-triaxial-blends/683/3</link>
+        <pubDate>Thu, 31 Jan 2019 19:46:42 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-683-3</guid>
+        <source url="https://wiki.glazy.org/t/calculating-triaxial-blends/683.rss">Calculating triaxial blends</source>
+      </item>
+      <item>
+        <title>Calculating triaxial blends</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for useful procedure.<br>
+The last line is not very readable, maybe something like :<br>
+[i / (d - 1) * 100%A] + [(d - 1 - i - j) / (d - 1) * 100%B] + [j / (d - 1) * 100%C]</p>
+          <p><a href="https://wiki.glazy.org/t/calculating-triaxial-blends/683/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculating-triaxial-blends/683/2</link>
+        <pubDate>Wed, 30 Jan 2019 18:06:34 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-683-2</guid>
+        <source url="https://wiki.glazy.org/t/calculating-triaxial-blends/683.rss">Calculating triaxial blends</source>
+      </item>
+      <item>
+        <title>Calculating triaxial blends</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>This is about how to calculate the recipes for each of the glazes in a triaxial blend, with a view to implementing this as a function in glaze software.</p>
+<p>Suppose we want to use three glazes, <em>A</em>, <em>B</em> and <em>C</em>, to make a triaxial blend. It’s useful to visualise the blends as being arranged in a triangle, with <em>A</em> at the top, <em>B</em> at bottom left, and <em>C</em> at bottom right. We’ll call the number of glazes along each side of the triangle <em>d</em>. Note that <em>d</em> must be at least 2.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/1e4b78dcc0245cb384ac3fd1e1e803992bdeb909.jpeg" alt="triaxial%20tri%20outline" width="473" height="424"></p>
+<p>For indexing purposes, it’s convenient to modify this picture so that A lies directly above B:</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/14d7b34467d8d4880ab688eba2e7833d06eb5bf6.jpeg" alt="triaxial%20rect%20outline" width="473" height="419"></p>
+<p>The relative proportions into which A must be divided are:</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/3baabbed90a435f660306cfd239193776daf4869.jpeg" alt="rel%20parts%20A" width="559" height="491"></p>
+<p>while the relative proportions into which C must be divided are:</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/06e056692b6fd158131aaf3e9c596c09f4ae1c72.jpeg" alt="rel%20parts%20C" width="550" height="490"></p>
+<p>So if the index <em>i</em> counts the rows from the bottom to the top, starting at 0, and the index <em>j</em> counts the columns from left to right, starting at 0, then the glaze in row <em>i</em>, column <em>j</em> has <em>i</em> parts <em>A</em>, <em>j</em> parts <em>C</em>, and a yet-to-be-determined number <em>k</em> parts <em>B</em>. The sum of the parts for each glaze must be the same, and since <em>A</em> has <em>d</em> - 1 parts A, plus 0 parts B, plus 0 parts C, each glaze must be made of <em>d</em> - 1 parts. Therefore<br>
+<em>i</em> + <em>j</em> + <em>k</em> = <em>d</em> - 1,<br>
+so the glaze in row <em>i</em>, column <em>j</em> has<br>
+<em>k</em> = <em>d</em> - 1 - <em>i</em> - <em>j</em><br>
+parts <em>B</em>.</p>
+<p>To summarize: The glazes in a triaxial blend can be indexed by the coordinates of a triangular array, where the entry at position (<em>i</em>, <em>j</em>) corresponds to the blend which consists of <em>i</em> parts A, <em>d</em> - 1 - <em>i</em> - <em>j</em> parts B, and <em>j</em> parts C. The glazes A, B and C therefore make up the following proportions of the blend:<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/9ec3b6237cfb3353e99f1ceac076d77b03af97fe.jpeg" alt="triaxial%20proportions" width="295" height="129"></p>
+          <p><a href="https://wiki.glazy.org/t/calculating-triaxial-blends/683/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculating-triaxial-blends/683/1</link>
+        <pubDate>Mon, 17 Dec 2018 16:05:19 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-683-1</guid>
+        <source url="https://wiki.glazy.org/t/calculating-triaxial-blends/683.rss">Calculating triaxial blends</source>
+      </item>
+  </channel>
+</rss>

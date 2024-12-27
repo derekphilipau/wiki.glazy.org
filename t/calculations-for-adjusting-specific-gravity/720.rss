@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Calculations for adjusting Specific Gravity</title>
+    <link>https://wiki.glazy.org/t/calculations-for-adjusting-specific-gravity/720</link>
+    <description>This post is about how to calculate the amount of water to add or remove from a glaze to achieve a desired specific gravity. 
+
+Suppose you have a glaze with specific gravity _S_&lt;sub&gt;1&lt;/sub&gt;, but you want to change this to specific gravity _S_&lt;sub&gt;2&lt;/sub&gt;. Let _W_ be the weight of the glaze. Then the weight of the same volume of water is _W_ / _S_&lt;sub&gt;1&lt;/sub&gt;, since
+ _SG_ = weight of glaze / weight of same volume of water. 
+(Note that if you&#39;re measuring the weight in grams, the weight of water is the same as its volume in millilitres)
+
+Suppose we add to the glaze a certain quantity of water, of weight _X_. The glaze now weighs _W_ + _X_, and the weight of the same volume of water is now _W_ / _S_&lt;sub&gt;1&lt;/sub&gt; + _X_. This means the specific gravity is now 
+(_W_ + _X_) / (_W_ / _S_&lt;sub&gt;1&lt;/sub&gt; + _X_). 
+If we set this equal to  _S_&lt;sub&gt;2&lt;/sub&gt;, we can solve for _X_. The result is:
+_X_ = _W_(_S_&lt;sub&gt;1&lt;/sub&gt; - _S_&lt;sub&gt;2&lt;/sub&gt;) / (_S_&lt;sub&gt;1&lt;/sub&gt;(_S_&lt;sub&gt;2&lt;/sub&gt; - 1)).         . . . . . . . . . . . .(Eq 1)
+
+If _S_&lt;sub&gt;2&lt;/sub&gt; is greater than _S_&lt;sub&gt;1&lt;/sub&gt;, i.e. if you want to increase the specific gravity, this will make _X_ negative. In that case, the absolute value of _X_ is the weight of water you need to remove from the glaze. 
+
+This calculation has been implemented in the online calculator [https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html](https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html), where instead of having to work out the initial specific gravity _S_&lt;sub&gt;1&lt;/sub&gt;, you just enter the weight of glaze drawn into a syringe (or poured into a graduated cylinder), and the weight of the same volume of water.
+
+Notice that in (Eq 1), if we know _X_, _S_&lt;sub&gt;1&lt;/sub&gt; and _S_&lt;sub&gt;2&lt;/sub&gt;, we can solve for _W_:
+_W_ =  _X_ _S_&lt;sub&gt;1&lt;/sub&gt;(_S_&lt;sub&gt;2&lt;/sub&gt; - 1) / (_S_&lt;sub&gt;1&lt;/sub&gt; - _S_&lt;sub&gt;2&lt;/sub&gt;). . . . . . . . . . . .(Eq 2)
+This is useful in situations where it&#39;s impractical to weigh the entire bucket of glaze. In this case, you can take two measurements of specific gravity; the initial measurement _S_&lt;sub&gt;1&lt;/sub&gt;, and a measurement  _S_&lt;sub&gt;2&lt;/sub&gt; obtained after adding a known quantity of water, and stirring thoroughly. You can then use (Eq 2) to work out the initial weight of the glaze, and then plug that into (Eq 1) to work out how much water you should have added in order to reach a target specific gravity _S_&lt;sub&gt;3&lt;/sub&gt;. Subtract the weight of water you&#39;ve already added from this, and you&#39;ll know how much water you still need to add (or remove, if you added too much).
+
+It will be convenient to express the weight of water you still need to add, _X_&lt;sub&gt;2&lt;/sub&gt;, in terms of the weight of water already added, _X_&lt;sub&gt;1&lt;/sub&gt;, and the specific gravities _S_&lt;sub&gt;1&lt;/sub&gt;, _S_&lt;sub&gt;2&lt;/sub&gt; and _S_&lt;sub&gt;3&lt;/sub&gt;. It turns out that the easiest way to derive this equation is by starting with the glaze at the intermediate step, after the first quantity of water has been added. If the weight of the glaze at this stage is _W_&lt;sub&gt;1&lt;/sub&gt;, then from (Eq 2),
+_W_&lt;sub&gt;1&lt;/sub&gt; =  _X_&lt;sub&gt;2&lt;/sub&gt; _S_&lt;sub&gt;2&lt;/sub&gt;(_S_&lt;sub&gt;3&lt;/sub&gt; - 1) / (_S_&lt;sub&gt;2&lt;/sub&gt; - _S_&lt;sub&gt;3&lt;/sub&gt;). . . . . . . . . . . .(Eq 3)
+This is because we change the specific gravity from _S_&lt;sub&gt;2&lt;/sub&gt; to _S_&lt;sub&gt;3&lt;/sub&gt; by adding water of weight _X_&lt;sub&gt;2&lt;/sub&gt;. 
+
+Starting from the intermediate step again, we know that if we subtract water of weight _X_&lt;sub&gt;1&lt;/sub&gt;, we&#39;ll change the specific gravity from _S_&lt;sub&gt;2&lt;/sub&gt; back to _S_&lt;sub&gt;1&lt;/sub&gt;. This is the same as adding water of weight -_X_&lt;sub&gt;1&lt;/sub&gt;, so from (Eq 2) again:
+_W_&lt;sub&gt;1&lt;/sub&gt; = - _X_&lt;sub&gt;1&lt;/sub&gt; _S_&lt;sub&gt;2&lt;/sub&gt;(_S_&lt;sub&gt;1&lt;/sub&gt; - 1) / (_S_&lt;sub&gt;2&lt;/sub&gt; - _S_&lt;sub&gt;1&lt;/sub&gt;). . . . . . . . . . . .(Eq 4)
+
+All that&#39;s left to do is equate (Eq 3) and (Eq 4), and solve for _X_&lt;sub&gt;2&lt;/sub&gt;:
+_X_&lt;sub&gt;2&lt;/sub&gt;  =  _X_&lt;sub&gt;1&lt;/sub&gt;(_S_&lt;sub&gt;1&lt;/sub&gt; - 1)(_S_&lt;sub&gt;2&lt;/sub&gt; - _S_&lt;sub&gt;3&lt;/sub&gt;) / [(_S_&lt;sub&gt;1&lt;/sub&gt; - _S_&lt;sub&gt;2&lt;/sub&gt;)(_S_&lt;sub&gt;3&lt;/sub&gt; - 1)]
+
+This calculation has been implemented in the online calculator [https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html](https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html). Be aware that this method is more sensitive to measurement errors; if _S_&lt;sub&gt;2&lt;/sub&gt; is very close to _S_&lt;sub&gt;1&lt;/sub&gt;, the relative error in _S_&lt;sub&gt;1&lt;/sub&gt; - _S_&lt;sub&gt;2&lt;/sub&gt; may be large, in which case the relative error in _X_&lt;sub&gt;2&lt;/sub&gt; will be large.</description>
+    
+    <lastBuildDate>Sat, 09 Feb 2019 08:26:08 +0000</lastBuildDate>
+    <category>Glaze Mixing &amp; Preparation</category>
+    <atom:link href="https://wiki.glazy.org/t/calculations-for-adjusting-specific-gravity/720.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Calculations for adjusting Specific Gravity</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>This post is about how to calculate the amount of water to add or remove from a glaze to achieve a desired specific gravity.</p>
+<p>Suppose you have a glaze with specific gravity <em>S</em><sub>1</sub>, but you want to change this to specific gravity <em>S</em><sub>2</sub>. Let <em>W</em> be the weight of the glaze. Then the weight of the same volume of water is <em>W</em> / <em>S</em><sub>1</sub>, since<br>
+<em>SG</em> = weight of glaze / weight of same volume of water.<br>
+(Note that if you’re measuring the weight in grams, the weight of water is the same as its volume in millilitres)</p>
+<p>Suppose we add to the glaze a certain quantity of water, of weight <em>X</em>. The glaze now weighs <em>W</em> + <em>X</em>, and the weight of the same volume of water is now <em>W</em> / <em>S</em><sub>1</sub> + <em>X</em>. This means the specific gravity is now<br>
+(<em>W</em> + <em>X</em>) / (<em>W</em> / <em>S</em><sub>1</sub> + <em>X</em>).<br>
+If we set this equal to  <em>S</em><sub>2</sub>, we can solve for <em>X</em>. The result is:<br>
+<em>X</em> = <em>W</em>(<em>S</em><sub>1</sub> - <em>S</em><sub>2</sub>) / (<em>S</em><sub>1</sub>(<em>S</em><sub>2</sub> - 1)).         . . . . . . . . . . . .(Eq 1)</p>
+<p>If <em>S</em><sub>2</sub> is greater than <em>S</em><sub>1</sub>, i.e. if you want to increase the specific gravity, this will make <em>X</em> negative. In that case, the absolute value of <em>X</em> is the weight of water you need to remove from the glaze.</p>
+<p>This calculation has been implemented in the online calculator <a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html" rel="nofollow noopener">https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html</a>, where instead of having to work out the initial specific gravity <em>S</em><sub>1</sub>, you just enter the weight of glaze drawn into a syringe (or poured into a graduated cylinder), and the weight of the same volume of water.</p>
+<p>Notice that in (Eq 1), if we know <em>X</em>, <em>S</em><sub>1</sub> and <em>S</em><sub>2</sub>, we can solve for <em>W</em>:<br>
+<em>W</em> =  <em>X</em> <em>S</em><sub>1</sub>(<em>S</em><sub>2</sub> - 1) / (<em>S</em><sub>1</sub> - <em>S</em><sub>2</sub>). . . . . . . . . . . .(Eq 2)<br>
+This is useful in situations where it’s impractical to weigh the entire bucket of glaze. In this case, you can take two measurements of specific gravity; the initial measurement <em>S</em><sub>1</sub>, and a measurement  <em>S</em><sub>2</sub> obtained after adding a known quantity of water, and stirring thoroughly. You can then use (Eq 2) to work out the initial weight of the glaze, and then plug that into (Eq 1) to work out how much water you should have added in order to reach a target specific gravity <em>S</em><sub>3</sub>. Subtract the weight of water you’ve already added from this, and you’ll know how much water you still need to add (or remove, if you added too much).</p>
+<p>It will be convenient to express the weight of water you still need to add, <em>X</em><sub>2</sub>, in terms of the weight of water already added, <em>X</em><sub>1</sub>, and the specific gravities <em>S</em><sub>1</sub>, <em>S</em><sub>2</sub> and <em>S</em><sub>3</sub>. It turns out that the easiest way to derive this equation is by starting with the glaze at the intermediate step, after the first quantity of water has been added. If the weight of the glaze at this stage is <em>W</em><sub>1</sub>, then from (Eq 2),<br>
+<em>W</em><sub>1</sub> =  <em>X</em><sub>2</sub> <em>S</em><sub>2</sub>(<em>S</em><sub>3</sub> - 1) / (<em>S</em><sub>2</sub> - <em>S</em><sub>3</sub>). . . . . . . . . . . .(Eq 3)<br>
+This is because we change the specific gravity from <em>S</em><sub>2</sub> to <em>S</em><sub>3</sub> by adding water of weight <em>X</em><sub>2</sub>.</p>
+<p>Starting from the intermediate step again, we know that if we subtract water of weight <em>X</em><sub>1</sub>, we’ll change the specific gravity from <em>S</em><sub>2</sub> back to <em>S</em><sub>1</sub>. This is the same as adding water of weight -<em>X</em><sub>1</sub>, so from (Eq 2) again:<br>
+<em>W</em><sub>1</sub> = - <em>X</em><sub>1</sub> <em>S</em><sub>2</sub>(<em>S</em><sub>1</sub> - 1) / (<em>S</em><sub>2</sub> - <em>S</em><sub>1</sub>). . . . . . . . . . . .(Eq 4)</p>
+<p>All that’s left to do is equate (Eq 3) and (Eq 4), and solve for <em>X</em><sub>2</sub>:<br>
+<em>X</em><sub>2</sub>  =  <em>X</em><sub>1</sub>(<em>S</em><sub>1</sub> - 1)(<em>S</em><sub>2</sub> - <em>S</em><sub>3</sub>) / [(<em>S</em><sub>1</sub> - <em>S</em><sub>2</sub>)(<em>S</em><sub>3</sub> - 1)]</p>
+<p>This calculation has been implemented in the online calculator <a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html" rel="nofollow noopener">https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html</a>. Be aware that this method is more sensitive to measurement errors; if <em>S</em><sub>2</sub> is very close to <em>S</em><sub>1</sub>, the relative error in <em>S</em><sub>1</sub> - <em>S</em><sub>2</sub> may be large, in which case the relative error in <em>X</em><sub>2</sub> will be large.</p>
+          <p><a href="https://wiki.glazy.org/t/calculations-for-adjusting-specific-gravity/720/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculations-for-adjusting-specific-gravity/720/1</link>
+        <pubDate>Thu, 07 Feb 2019 19:43:25 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-720-1</guid>
+        <source url="https://wiki.glazy.org/t/calculations-for-adjusting-specific-gravity/720.rss">Calculations for adjusting Specific Gravity</source>
+      </item>
+  </channel>
+</rss>

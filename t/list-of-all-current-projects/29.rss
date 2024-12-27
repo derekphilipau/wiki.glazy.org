@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>List of All Current Projects</title>
+    <link>https://wiki.glazy.org/t/list-of-all-current-projects/29</link>
+    <description>ANY MEMBER CAN ADD OTHER MEMBERS! Direct member requests will not be approved, as no one has time to review individual user profiles.
+
+Guidelines: All posts should be related to software, electronics, and hardware related to ceramics. For discussions of glazes, materials, and studio tools please post to other groups.
+
+EVERYTHING YOU POST IN FACEBOOK WILL BE LOST.
+
+If you are interested in preserving knowledge, post on the Glazy Wiki (https://wiki.glazy.org), instead.
+
+Current Projects:
+
+Pieter Mostert&#39;s Lipgloss, a python app for calculating recipes from UMF analyses.
+
+https://github.com/PieterMostert/Lipgloss
+
+Dan Lizotte&#39;s Glaze Formulator, a web application built using R for creating recipes from UMF analyses:
+
+https://glaze.warewolves.ca/
+
+Matthew Katz&#39;s U.M.F calculator for Excel
+
+http://www.ceramicmaterialsworkshop.com/umf-calculator.html
+
+Tom Demeranville&#39;s Currie Grid calculator http://demeranville.com/pottery/curriecalc.html
+
+Jason Bruce&#39;s Specific Gravity calculator
+
+https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html
+
+The Discourse Wiki on our own secure server.
+
+https://wiki.glazy.org
+
+Ceramics Dictionary
+
+https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing
+
+Glazy version 2
+
+https://glazy.org
+
+https://derekphilipau.github.io/vue-d3-stull-charts/
+
+Ceramic Chemistry Visualization
+
+Various types of web visualizations for ceramics. Includes Javascript Stull Charts.
+
+https://derekphilipau.github.io/ceramic-chemistry-visualization/
+
+Related Projects:
+
+GlazeMaster 3 Downloads (now free, including FileMaker source)
+
+http://www.masteringglazes.com/glazemaster/downloads.html</description>
+    
+    <lastBuildDate>Sat, 23 Mar 2019 22:26:26 +0000</lastBuildDate>
+    <category>Current Projects</category>
+    <atom:link href="https://wiki.glazy.org/t/list-of-all-current-projects/29.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>List of All Current Projects</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>ANY MEMBER CAN ADD OTHER MEMBERS! Direct member requests will not be approved, as no one has time to review individual user profiles.</p>
+<p>Guidelines: All posts should be related to software, electronics, and hardware related to ceramics. For discussions of glazes, materials, and studio tools please post to other groups.</p>
+<p>EVERYTHING YOU POST IN FACEBOOK WILL BE LOST.</p>
+<p>If you are interested in preserving knowledge, post on the Glazy Wiki (<a href="https://wiki.glazy.org">https://wiki.glazy.org</a>), instead.</p>
+<p>Current Projects:</p>
+<p>Pieter Mostert’s Lipgloss, a python app for calculating recipes from UMF analyses.</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+      <a href="https://github.com/PieterMostert/Lipgloss" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/0/0135064b27715e095a91972fe6407776cc64b860.png" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/PieterMostert/Lipgloss" target="_blank">PieterMostert/Lipgloss</a></h3>
+
+<p>Python app for creating glaze recipes. Contribute to PieterMostert/Lipgloss development by creating an account on GitHub.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Dan Lizotte’s Glaze Formulator, a web application built using R for creating recipes from UMF analyses:</p>
+<p><a href="https://glaze.warewolves.ca/" class="onebox" target="_blank">https://glaze.warewolves.ca/</a></p>
+<p>Matthew Katz’s U.M.F calculator for Excel</p>
+<p><a href="http://www.ceramicmaterialsworkshop.com/umf-calculator.html" class="onebox" target="_blank">http://www.ceramicmaterialsworkshop.com/umf-calculator.html</a></p>
+<p>Tom Demeranville’s Currie Grid calculator <a href="http://demeranville.com/pottery/curriecalc.html">http://demeranville.com/pottery/curriecalc.html</a></p>
+<p>Jason Bruce’s Specific Gravity calculator</p>
+<p><a href="https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html" class="onebox" target="_blank">https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html</a></p>
+<p>The Discourse Wiki on our own secure server.</p>
+<p><a href="https://wiki.glazy.org">https://wiki.glazy.org</a></p>
+<p>Ceramics Dictionary</p>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank"><span class="googledocs-onebox-logo g-sheets-logo"></span></a>
+
+<h3><a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank">Ceramics Dictionary</a></h3>
+
+<p>README
+
+The Ceramics Dictionary is being locked until Glazy translations are complete.
+
+You can help by translating Glazy Materials Here:
+https://docs.google.com/spreadsheets/d/1jhBzdeqwhltQ7l3SkATl6rZkvUDOS3lpZtnw6zGr0uY/edit?usp=sharing
+
+And join...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Glazy version 2</p>
+<p><a href="https://glazy.org" class="onebox" target="_blank">https://glazy.org</a></p>
+<p><a href="https://derekphilipau.github.io/vue-d3-stull-charts/" class="onebox" target="_blank">https://derekphilipau.github.io/vue-d3-stull-charts/</a></p>
+<p>Ceramic Chemistry Visualization</p>
+<p>Various types of web visualizations for ceramics. Includes Javascript Stull Charts.</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="https://derekphilipau.github.io/ceramic-chemistry-visualization/" target="_blank">derekphilipau.github.io</a>
+  </header>
+  <article class="onebox-body">
+    
+
+<h3><a href="https://derekphilipau.github.io/ceramic-chemistry-visualization/" target="_blank">Ceramic Chemistry Visualization</a></h3>
+
+<p>Various types of web visualizations for ceramics.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Related Projects:</p>
+<p>GlazeMaster 3 Downloads (now free, including FileMaker source)</p>
+<p><a href="http://www.masteringglazes.com/glazemaster/downloads.html" class="onebox" target="_blank">http://www.masteringglazes.com/glazemaster/downloads.html</a></p>
+          <p><a href="https://wiki.glazy.org/t/list-of-all-current-projects/29/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/list-of-all-current-projects/29/1</link>
+        <pubDate>Fri, 21 Apr 2017 09:52:57 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-29-1</guid>
+        <source url="https://wiki.glazy.org/t/list-of-all-current-projects/29.rss">List of All Current Projects</source>
+      </item>
+  </channel>
+</rss>

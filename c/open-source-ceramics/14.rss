@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Open-Source Ceramics - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/open-source-ceramics/14</link>
+    <description>Topics in the &#39;Open-Source Ceramics&#39; category </description>
+    
+      <lastBuildDate>Thu, 29 Nov 2018 07:47:17 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/open-source-ceramics/14.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Open-Source Kiln Controllers</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>Julien Deantoni’s kiln controller and smartphone app:<br>
+<a href="https://jdeantoni.github.io/KilnRegulator3.0/">https://jdeantoni.github.io/KilnRegulator3.0/</a><br>
+Designed to be compatible with Ceradel and Solargil kilns.</p>
+<p>Zach Moore’s <a href="https://github.com/ZachJMoore/smart-kiln-hardware">SmartKiln</a> cloud based kiln controller.</p>
+<p>Jason Bruce’s fork of Apollo-NG’s <a href="https://apollo.open-resource.org/mission:resources:picoreflow">picoReflow</a>:<br>
+<a href="https://github.com/jbruce12000/kiln-controller">https://github.com/jbruce12000/kiln-controller</a></p>
+<p>PiLN - Web-based Raspberry Pi Kiln Control Application. Various versions:</p>
+<ul>
+<li><a href="https://github.com/pvarney/PiLN">pvarney</a></li>
+<li><a href="https://github.com/BlakeCLewis/PILN">Blake Lewis</a></li>
+<li><a href="https://github.com/fayena/PILN">Daylene Alford</a></li>
+</ul>
+<p>Arduino-based <a href="https://create.arduino.cc/projecthub/MrRoboto19/electric-kiln-controller-f5c633?ref=user&amp;ref_id=477799&amp;offset=0">kiln controller and data-logger</a>.</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/open-source-kiln-controllers/668">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/open-source-kiln-controllers/668</link>
+          <pubDate>Thu, 29 Nov 2018 07:47:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-668</guid>
+          <source url="https://wiki.glazy.org/t/open-source-kiln-controllers/668.rss">Open-Source Kiln Controllers</source>
+        </item>
+        <item>
+          <title>Proposed workflow for LIPGLOSS in Glazy</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>LIPGLOSS</category>
+          <description><![CDATA[
+            <p>Hopefully, the computational core of the LIPGLOSS desktop app will be incorporated into Glazy at some point. This page outlines my proposed workflow for going from an existing recipe or analysis on Glazy, to a new one that uses only the materials in a user’s inventory, but which has the same analysis as the original. Everything proposed here is, of course, open to discussion.</p>
+<p>Recipes and analyses will have an additional button, called something like ‘Recreate’ or ‘Reconstruct’, that opens the following window:<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/ffb8c68d963286494cf7f9c076754787c83b5887.jpeg" alt="Lipgloss_glazy_sketch" width="611" height="284"><br>
+On the right is the oxide composition of the recipe / analysis, showing the value of each oxide present (the view can be toggled between UMF, percent weight, or percent mol). Each value <em>v</em> has an error bound <em>e</em> (default 0), and the view can be toggled between showing <em>v</em> ± <em>e</em>, and the interval [<em>v</em>-<em>e</em>, <em>v</em>+<em>e</em>].</p>
+<p>On the left is the ingredient selector, that lets users select ingredients from their inventory. If the starting point for the reformulation is a recipe, the materials in the original recipe will be preselected, with the ones that aren’t in the users inventory greyed out. In this way, if a user just wants to reformulate a recipe that only has a few unavailable ingredients, they should hopefully be able to replace them relatively easily with similar ingredients in their inventory.</p>
+<p>The selected ingredients also have bounds on their percentages, but the default will be the interval view, from 0 to 100.</p>
+<p>Hitting the calculate button will compute the bounds on ingredients and oxides, as in the desktop version of LIPGLOSS.</p>
+<p>It’s possible to do some simple checks before running the linear programming algorithm, to flag selections of ingredients which can’t be used to satisfy the bounds on the oxides. For example, if an analysis has 10% Al<sub>2</sub>O<sub>3</sub>, and all of the ingredients selected have less than 10% Al<sub>2</sub>O<sub>3</sub>, then there’s no way any combination can match the analysis. Oxides which can’t be supplied in large enough percentages by the ingredients selected will be flagged. Hopefully this will help users select the correct ingredients. In the sketch above, there’s no source of K<sub>2</sub>O, so this has been highlighted in red.</p>
+<p>Things that need further thought:</p>
+<ul>
+<li>At some point there should be the option to combine Na and K as one.</li>
+<li>How to implement other restrictions (like fixing the SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio, or putting an upper bound on the LOI)</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609</link>
+          <pubDate>Sat, 10 Nov 2018 15:57:19 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-609</guid>
+          <source url="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609.rss">Proposed workflow for LIPGLOSS in Glazy</source>
+        </item>
+        <item>
+          <title>High-level discussion, Long-term goals for Open-Source Ceramics development</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>I think we need higher-level documentation describing all of the software that we are working on (including all Glazy repositories), and maybe even a long-term vision of what we’d like to accomplish.  To kick-start the discussion (please add to this!):</p>
+<h2>Knowledge Sharing</h2>
+<p>We need a place where we can discuss and <strong>share knowledge</strong>.  <em>Not Facebook groups</em>.  Our data needs to be searchable, archivable, accessible.  I have tried numerous open-source alternatives, including Flarum, but Discourse still seems to be the best.  If we go with Discourse, we need someone to take over moderation, updates to the system, backups, etc. of the server.  And we need people to actually use Discourse, so that when people log in it feels like a living, inhabited system.  <strong>NEEDS: Moderator/Administrator of Discourse.</strong></p>
+<h2>Software unification</h2>
+<p>We’ve had a number of discussions in this group about software standards.  For example, standardizing EXACTLY how analyses are calculated using the same molar masses.  (See <a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234" class="inline-onebox">Glaze Calculation in Software</a>)  Ideally if multiple people are writing different calculation tools, we can all use the same underlying core library.</p>
+<p>I mentioned this in another thread with Pieter: Even though I don’t like Javascript, I feel that Glazy is heading towards a pure Javascript implementation.  But for the time being Glazy has both PHP and Javascript.</p>
+<p>The two core libraries underlying all the calculation are here:</p>
+<ul>
+<li><a href="https://github.com/derekphilipau/ceramicscalc-js" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js</a></li>
+<li><a href="https://github.com/derekphilipau/ceramicscalc" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc</a></li>
+</ul>
+<p>[Added by Pieter] Lipgloss is written in Python, and currently only exists as a desktop app. I’ve tried to separate the computational core from the rest of the app; this can be found here:</p>
+<ul>
+<li><a href="https://github.com/PieterMostert/Lipgloss/tree/master/model/lipgloss" rel="nofollow noopener">https://github.com/PieterMostert/Lipgloss/tree/master/model/lipgloss</a></li>
+</ul>
+<p>I should be able to convert this to Javascript (assuming that’s the route we decide to take), but I think the way I’ve implemented things needs a review first.</p>
+<p>I still intend to develop the desktop version of Lipgloss, since it’s likely that the version implemented on Glazy won’t be as customizable.</p>
+<h3>Immediate needs for Software Development</h3>
+<p>There are immediate needs for help with these libraries.</p>
+<h4>Tests</h4>
+<p>The code should be FULLY tested.  Running the tests should show that the calculations are correct and verifiable.</p>
+<h4>Documentation</h4>
+<p>There should be developer documentation as well as comments throughout the code explaining EXACTLY how glaze calculation works.  Anyone should be able to read this documentation and understand glaze calculation.</p>
+<p></p><aside class="onebox githubissue">
+  <header class="source">
+      <a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">github.com/derekphilipau/ceramicscalc</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://github.com/derekphilipau" rel="nofollow noopener">
+<img src="https://wiki.glazy.org/uploads/default/original/1X/9582b712b1f46c26f23e17618d759ed25f2e9f60.jpeg" class="thumbnail onebox-avatar" width="96" height="96">
+</a>
+
+<h4><a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">Issue: Documentation</a></h4>
+
+<div class="date" style="margin-top:10px;">
+	<div class="user" style="margin-top:10px;">
+	opened by <a href="https://github.com/derekphilipau" target="_blank" rel="nofollow noopener">derekphilipau</a>
+	on <a href="https://github.com/derekphilipau/ceramicscalc/issues/2" target="_blank" rel="nofollow noopener">2018-11-10</a>
+	</div>
+	<div class="user">
+	</div>
+</div>
+
+<pre class="content" style="white-space: pre-wrap;">The entire library should be very well documented, along with as much explanation as possible of glaze calculation and how the...</pre>
+
+<div class="labels">
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<aside class="onebox githubissue">
+  <header class="source">
+      <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">github.com/derekphilipau/ceramicscalc-js</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://github.com/derekphilipau" rel="nofollow noopener">
+<img src="https://wiki.glazy.org/uploads/default/original/1X/9582b712b1f46c26f23e17618d759ed25f2e9f60.jpeg" class="thumbnail onebox-avatar" width="96" height="96">
+</a>
+
+<h4><a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">Issue: Documentation</a></h4>
+
+<div class="date" style="margin-top:10px;">
+	<div class="user" style="margin-top:10px;">
+	opened by <a href="https://github.com/derekphilipau" target="_blank" rel="nofollow noopener">derekphilipau</a>
+	on <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/2" target="_blank" rel="nofollow noopener">2018-11-10</a>
+	</div>
+	<div class="user">
+	</div>
+</div>
+
+<pre class="content" style="white-space: pre-wrap;">The entire library should be very well documented, along with as much explanation as possible of glaze calculation and how the...</pre>
+
+<div class="labels">
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p></p>
+<h4>Blends</h4>
+<p>We need to fully implement blends:</p>
+<ul>
+<li><a href="https://github.com/derekphilipau/ceramicscalc-js/issues/1" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js/issues/1</a></li>
+<li><a href="https://github.com/derekphilipau/ceramicscalc/issues/1" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc/issues/1</a></li>
+</ul>
+<h4>Typescript</h4>
+<p>Once the above issues have been addressed, we will urgently need a pure Typescript implementation of ceramicscalc.  See this issue:  <a href="https://github.com/derekphilipau/ceramicscalc-js/issues/3" rel="nofollow noopener">https://github.com/derekphilipau/ceramicscalc-js/issues/3</a></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608</link>
+          <pubDate>Sat, 10 Nov 2018 13:38:26 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-608</guid>
+          <source url="https://wiki.glazy.org/t/high-level-discussion-long-term-goals-for-open-source-ceramics-development/608.rss">High-level discussion, Long-term goals for Open-Source Ceramics development</source>
+        </item>
+        <item>
+          <title>Portable glaze calculation software</title>
+          <dc:creator><![CDATA[SequoiaPottery]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>Is it possible to get or download the glazy glaze calculation software in a disc form?  I will soon be away from a computer for about 80% of the time, and love this calculator.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/portable-glaze-calculation-software/498">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/portable-glaze-calculation-software/498</link>
+          <pubDate>Wed, 07 Mar 2018 01:07:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-498</guid>
+          <source url="https://wiki.glazy.org/t/portable-glaze-calculation-software/498.rss">Portable glaze calculation software</source>
+        </item>
+        <item>
+          <title>Volunteer Editors Needed!</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>The Ceramics Wiki is looking for volunteer editors.  Editors’ primary responsibility is archiving knowledge from Ceramics Recipes to the wiki.  Anyone with a bit of spare time, a basic knowledge of computers, and a love for organizing is welcome!  Existing wiki members will assist newcomers in learning how to use the system.</p>
+<p>The Ceramics Wiki is non-profit.  All knowledge stored in the wiki is freely available to everyone, even outside of Facebook.</p>
+<p>For an example, recent discussions about crazing in glazes is being added to the article at <a href="https://wiki.glazy.org/t/glaze-crazing/">https://wiki.glazy.org/t/glaze-crazing/</a></p>
+<p>More information here:<br>
+<a href="https://wiki.glazy.org/t/volunteer-editors-needed/">https://wiki.glazy.org/t/volunteer-editors-needed/</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/volunteer-editors-needed/253">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/volunteer-editors-needed/253</link>
+          <pubDate>Sat, 24 Jun 2017 03:51:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-253</guid>
+          <source url="https://wiki.glazy.org/t/volunteer-editors-needed/253.rss">Volunteer Editors Needed!</source>
+        </item>
+        <item>
+          <title>Using LIPGLOSS</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>LIPGLOSS</category>
+          <description><![CDATA[
+            <p>Currently, to use LIPGLOSS, you need to install <a href="https://www.python.org/downloads/" rel="nofollow noopener">Python 3</a>, the linear programming API <a href="https://github.com/coin-or/pulp" rel="nofollow noopener">PuLP</a>, and the <a href="https://www.gnu.org/software/glpk/" rel="nofollow noopener">GLPK</a> library (and possibly the <a href="https://wiki.python.org/moin/TkInter" rel="nofollow noopener">tkinter</a> Python package). See the <a href="https://github.com/PieterMostert/Lipgloss/blob/master/README.md" rel="nofollow noopener">README.md</a> file on Github for more details.</p>
+<p>UPDATE: There is now a version 2, with slightly different installation requirements, described in <a href="https://github.com/PieterMostert/LIPGLOSS2/blob/master/README.md" rel="nofollow noopener">this</a> readme file. This is hopefully easier to install.</p>
+<p>To open the graphical user interface, run the <span>main.py</span> script. You’ll be presented with a window that shows a list of ingredients and ‘other restrictions’ in the panel on the left. Some of these will have already been selected by default, but you can add or remove items by clicking on the buttons.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" width="590" height="700"></p>
+<p>In the panel on the right, the selected ingredients and other restrictions will be shown, as well as any oxides that appear in the selected ingredients. The two columns on the left, which contain values in blue, are for entering the desired lower and upper bounds on the oxide, ingredient, or other restriction. Bounds on oxides can be expressed as UMF, percent weight or percent mole by selecting the appropriate radio button above.</p>
+<p>When you click the <code>Calculate restrictions</code> button, the two columns on the right will be filled with lower and upper bounds for each oxide, ingredient, or other restriction, printed in red (assuming there is at least one recipe that satisfies the bounds; otherwise, an error message will appear). These are lower and upper bounds for the corresponding item among all possible recipes using the ingredients selected that satisfy the bounds you’ve imposed. Naturally, the bounds on the right are at least as restrictive as the bounds on the left.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/e488cc43507424e81074ef1e03d9c1a52aa24ff7.JPG" width="585" height="691"></p>
+<p>You can now progressively strengthen the bounds on the left, based on the calculated bounds. This may be as simple as unselecting an ingredient whose calculated lower bound is zero. Given a single oxide, ingredient, or other restriction, you can narrow it’s range to any interval that overlaps the calculated interval, and be guaranteed that the problem still has a solution (but be aware that the endpoints displayed have been rounded to a certain number of decimal places).</p>
+<p>However, it’s important to note that if you restrict the bounds for <em>two</em> or more items simultaneously, a solution is not guaranteed even if the restricted intervals both overlap their respective calculated intervals. For example, if only two ingredients are selected and no restrictions are imposed, the bounds on the percentages of these ingredients will be 0 and 100. If you then impose the bounds 0 to 40 on both these ingredient percentages, there will be no solution, simply because the sum of the ingredient percentages must add up to 100.</p>
+<p>If you want to restrict the bounds for two variables simultaneously, you have the option of plotting the set of possible values of those two variables. That is to say, for each point in the region shown, there is at least one recipe where the variables take on the <em>x</em> and <em>y</em> values of the point, and which satisfies all the constraints. The <em>x</em> and <em>y</em> variables to plot can be selected by clicking on the left and right hand labels in the central panel, respectively. An asterisk should appear next to the label when you click on it.</p>
+<p>When the <em>x</em> and <em>y</em> variables have been selected, the program will display a green region representing all possible points (<em>x</em>,<em>y</em>) that are consistent with the constraints.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG" data-download-href="https://wiki.glazy.org/uploads/default/ad85da2e1fc32fa343bad80be66101a1874bde3c" title="Calc LIPGLOSS 2.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG" width="690" height="451" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG, https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_1035x676.JPG 1.5x, https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_10x10.png"></a></div><p></p>
+<p>A collection of ingredient and other restrictions with lower and upper bounds will be referred to as a bounded recipe. Bounded recipes can be saved, or saved as new bounded recipes. If you start with the default bounds and narrow them down to a recipe - i.e. all upper and lower bounds are effectively the same - you should save this as a new bounded recipe, otherwise you’ll have to undo all your restrictions when you start working on a new problem. Saved bounded recipes can be opened through the <code>File</code> menu.</p>
+<p>LIPGLOSS will come pre-installed with common types of ingredients, but most of these should be updated to reflect the analyses of the ingredients in your studio. To do this, click  <code>Options &gt; Edit Ingredients</code> to open the ingredient editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8a9fda70b0fce25e67babb46e17adf33afdd0fee" title="IngredientEditor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" width="690" height="410" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee_2_10x10.png"></a></div><p></p>
+<p>Oxide percentages that are zero can be left blank.</p>
+<p>The order in which ingredients are displayed can be rearranged by right-clicking on an ingredient’s name, then dragging and dropping.</p>
+<p>The other restrictions can be edited by clicking  <code>Options &gt; Edit Other Restrictions</code> to open the ‘other restriction’ editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8862e5a4031912b8078922cb7a02b08ccd20273e" title="Other restriction editor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" alt="Other%20restriction%20editor" data-base62-sha1="jswOXnwWwnDQW0LhnkFgY6KWRBA" width="690" height="205" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8862e5a4031912b8078922cb7a02b08ccd20273e_2_10x10.png"></a></div><p></p>
+<p>At the moment, using this to create a new restriction will require some knowledge of the code used, so this isn’t very user friendly. If you’d like to add a new restriction and don’t know how, feel free to ask a question in the comments section below.</p>
+            <p><small>3 posts - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/using-lipgloss/238">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/using-lipgloss/238</link>
+          <pubDate>Mon, 22 May 2017 19:22:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-238</guid>
+          <source url="https://wiki.glazy.org/t/using-lipgloss/238.rss">Using LIPGLOSS</source>
+        </item>
+        <item>
+          <title>Glazy v2 wishlist</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Glazy</category>
+          <description><![CDATA[
+            <p>There are a ton of new features requested over the past few months.  I will need time to find and organize them.  Members of this group are welcome to add their own input.</p>
+<p>Sue McLeod:</p>
+<blockquote>
+<p>Is there a way to set glazes as ‘public’ or ‘collaborative’ so pics can be added to by anyone but recipe can then only be deleted by admin? Or make it so users can’t delete glazes once they become collaborative? Or users can delete from their profile, but they stay on server as public files. It would be a setting that the original poster could agree to or not when posting</p>
+</blockquote>
+<ul>
+<li>Glaze blends:  Blends can represent testing blends (e.g. line, triaxial, biaxial).  Blends can already be represented by the new data model.  However, the ability for users to create recipes that are blends has not yet been implemented.  Also, the blends need to have a top/bottom or layered property in the case of glazes applied over other glazes.</li>
+<li>Advanced search:  Search by UMF</li>
+<li>Bulk upload/import.  Automatic recipe generation.  For blends (biaxial, triaxial, etc.)</li>
+<li>Recipe versioning?  Need “test” status so that large groups of blend tests can be differentiated from actual useful recipes and filtered out of search results.</li>
+<li>Recipe “status”:  test, in use, discontinued</li>
+<li>Internal Messaging</li>
+<li>More detailed Calculator</li>
+<li>Map predictions on Calc.</li>
+<li>Tracking multiple variations from Calculator</li>
+<li>Ability to turn off other people’s dots on stull map. Only show your own. Only show certain flux ratios.</li>
+<li>A “new recipe” button on individual recipe page. To keep going when adding a bunch in a row.</li>
+<li>Ability to add more than 12 ingredients (I had one glaze with 13, it was a combination of 2 recipes, left out the bentonite)</li>
+<li>Ability to bulk select recipes and add to a collection</li>
+<li>Also ability to bulk select and publish</li>
+<li>Quick edit recipe function that opens a pop up window, without leaving the recipes page</li>
+<li>User search function</li>
+<li>Direct linking to wiki</li>
+<li>For materials, glaze types, toxicity</li>
+<li>Reduced number of similar glazes on map (it’s getting a little crazy)</li>
+<li>Image on rollover of similar glazes on map</li>
+<li>Image and complete UMF, or at least include B2O3</li>
+<li>Keep the menu you get when you click on your name “recipes, collections, analyses” stuck to the top of the page when scrolling down</li>
+<li>Select multiple recipes to show together on stull without making a collection</li>
+</ul>
+<p><strong>From old Glazy:</strong></p>
+<ul>
+<li>Re-structuring of materials, material collections. Addition of regional and supplier-specific materials.</li>
+<li>Allow for both a descriptive name and a code name. Descriptive name example: “Butter Satin-gloss with Iron specs”. Code is a shorthand notation for a glaze such as “WWW 237 M1”</li>
+<li>Calculated Expansion. Needs research and consensus.</li>
+<li>PDF download of recipe. Currently, the “Recipe Card” function only supports download of jpg images.</li>
+<li>Drag &amp; drop photo uploader.</li>
+</ul>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/glazy-v2-wishlist/189">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189</link>
+          <pubDate>Fri, 28 Apr 2017 00:11:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-189</guid>
+          <source url="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss">Glazy v2 wishlist</source>
+        </item>
+        <item>
+          <title>Bookstack</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>EDIT:  No longer used in preference for Discourse.</p>
+<p>EDIT: I’ve taken down the site for now out of concerns about the approach. See conversation below!<br>
+I uploaded the “Clay Bodies” section of the Clayart archives into an open-source project called Bookstack (<a href="https://www.bookstackapp.com/">https://www.bookstackapp.com/</a>).<br>
+Bookstack is a VERY simple Wiki/Book/Documentation app. It allows for Facebook/Google login and uses WYSIWYG text editing.<br>
+The test website doesn’t require login, just click “Edit” to edit a page.<br>
+<a href="http://test.denormalized.net/%E2%80%A6/clay-bodies/page/southern-ice">http://test.denormalized.net/…/clay-bodies/page/southern-ice</a><br>
+<a href="http://test.denormalized.net/books">http://test.denormalized.net/books</a><br>
+(The email archives are organized by threads visible in the “Page Navigation”, unfortunately the subjects of threads are often changed, and therefore it’s messy.)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/bookstack/188">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/bookstack/188</link>
+          <pubDate>Fri, 28 Apr 2017 00:09:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-188</guid>
+          <source url="https://wiki.glazy.org/t/bookstack/188.rss">Bookstack</source>
+        </item>
+        <item>
+          <title>Ceramicscalc PHP package</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Glazy</category>
+          <description><![CDATA[
+            <p>Ceramicscalc is a small PHP package to represent ceramics analyses and materials. Materials can be either Primitive (e.g. Whiting, Kaolin, Feldspar) or Composite (i.e. recipes). Composite Materials can be composed of both Primitive and other Composite Materials, allowing for normal recipes, substitutions (e.g. sub “fake” wood ash for real wood ash), and glaze blends (e.g. 50% Leach Clear 50% Pinnell Clear).<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+      <a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/3/32fcbb6f6dafb77cb4f654ad6cfd8cf59014b69a.jpeg" class="thumbnail onebox-avatar" width="400" height="400">
+
+<h3><a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">derekphilipau/ceramicscalc</a></h3>
+
+<p>PHP package for representing ceramics analyses, materials, and recipes. - derekphilipau/ceramicscalc</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+This package is used by the new Glazy. It needs work! I am also only familiar with svn and new to git. Over the next few days I will try to learn more about git, add more phpunit tests, and refactor the code.
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/ceramicscalc-php-package/187">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/ceramicscalc-php-package/187</link>
+          <pubDate>Fri, 28 Apr 2017 00:07:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-187</guid>
+          <source url="https://wiki.glazy.org/t/ceramicscalc-php-package/187.rss">Ceramicscalc PHP package</source>
+        </item>
+        <item>
+          <title>Open-Source Licenses</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>Pieter Mostert and Derek were discussing open source and agreed that we both want “copyleft” licenses for our software. Copyleft ensures not only that the code is open and free, but also that derivative works also remain open, preventing others from building a proprietary system. Along with software, we could consider using Creative Commons Licenses for other data like ceramics recipes and glaze photos.</p>
+<p>Creative Commons: <a href="https://creativecommons.org/choose/">https://creativecommons.org/choose/</a> Copyleft: <a href="https://www.gnu.org/licenses/copyleft.en.html">https://www.gnu.org/licenses/copyleft.en.html</a></p>
+<p>Flickr allows users to use Creative Commons (CC) licenses for their photos: <a href="https://www.flickr.com/creativecommons/">https://www.flickr.com/creativecommons/</a></p>
+<p>Louis Katz:</p>
+<blockquote>
+<p>Ultimately just knowing the ground rules is always helpful. In the US recipes by themselves are to my knowledge not copyrightable. The descriptions and writing that goes with them is. Where writing stops being part of the recipe and starts being copyrightable is a line that I do not know.<br>
+<a href="https://www.copyright.gov/fls/fl122.html">https://www.copyright.gov/fls/fl122.html</a></p>
+</blockquote>
+<blockquote>
+<p>Consequently the only way to keep a recipe from being shared is to keep it secret.</p>
+</blockquote>
+<blockquote>
+<p>I like the copy left provisions</p>
+</blockquote>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/open-source-licenses/186">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/open-source-licenses/186</link>
+          <pubDate>Thu, 27 Apr 2017 23:45:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-186</guid>
+          <source url="https://wiki.glazy.org/t/open-source-licenses/186.rss">Open-Source Licenses</source>
+        </item>
+        <item>
+          <title>Discourse Knowledge Base &amp; Wiki</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Collaborative knowledge-base.  Stores links to knowledge already shared on mailing lists and forums.  Also allows anyone to easily document ceramics knowledge with text and pictures.  Login via Facebook.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33</link>
+          <pubDate>Fri, 21 Apr 2017 09:55:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-33</guid>
+          <source url="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33.rss">Discourse Knowledge Base &amp; Wiki</source>
+        </item>
+        <item>
+          <title>Lipgloss Python App</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Pieter’s Lipgloss, a python app for calculating recipes from UMF analyses. Currently still in development. The source code can be found <a href="https://github.com/PieterMostert/Lipgloss" rel="nofollow noopener">here</a>.</p>
+<p>Version 2, which is faster and (hopefully) easier to install, can be found <a href="https://github.com/PieterMostert/LIPGLOSS2" rel="nofollow noopener">here</a>.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/lipgloss-python-app/32">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/lipgloss-python-app/32</link>
+          <pubDate>Fri, 21 Apr 2017 09:55:20 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-32</guid>
+          <source url="https://wiki.glazy.org/t/lipgloss-python-app/32.rss">Lipgloss Python App</source>
+        </item>
+        <item>
+          <title>Currie Grid Calculator</title>
+          <dc:creator><![CDATA[tomdemeranville]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Tom’s Currie Grid calculator:  <a href="http://demeranville.com/pottery/curriecalc.html">http://demeranville.com/pottery/curriecalc.html</a></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/currie-grid-calculator/31">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/currie-grid-calculator/31</link>
+          <pubDate>Fri, 21 Apr 2017 09:54:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-31</guid>
+          <source url="https://wiki.glazy.org/t/currie-grid-calculator/31.rss">Currie Grid Calculator</source>
+        </item>
+        <item>
+          <title>Glazy (and version 2)</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Glazy was built using the latest open source tools, including Laravel and Bootstrap.</p>
+<p>The Glazy database of ceramic recipes was seeded with data from Linda Arbuckle’s GlazeChem database, John Sankey’s glaze database, and Louis Katz’s Hyperglaze database. John Britt, Alisa Liskin Clausen, Terry Rorison and Tara Hagen have also included their glaze tests with images.</p>
+<p>Glazy is in continuous development, guided by technical input from a number of potters around the world. In particular, Pieter Mostert and Matt Katz have provided invaluable insights and suggestions.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/glazy-and-version-2/30">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/glazy-and-version-2/30</link>
+          <pubDate>Fri, 21 Apr 2017 09:53:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-30</guid>
+          <source url="https://wiki.glazy.org/t/glazy-and-version-2/30.rss">Glazy (and version 2)</source>
+        </item>
+        <item>
+          <title>About the Open-Source Ceramics category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Open-Source Ceramics</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-open-source-ceramics-category/28">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-open-source-ceramics-category/28</link>
+          <pubDate>Fri, 21 Apr 2017 09:51:36 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-28</guid>
+          <source url="https://wiki.glazy.org/t/about-the-open-source-ceramics-category/28.rss">About the Open-Source Ceramics category</source>
+        </item>
+  </channel>
+</rss>

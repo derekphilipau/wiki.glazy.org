@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Unity Molecular Formula (UMF)</title>
+    <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826</link>
+    <description>For more information about UMF:
+
+* How to Calculate the Unity Molecular Formula by Ceramic Materials Workshop https://www.youtube.com/watch?v=HyLjAg1_8_4
+* Linda Arbuckle&#39;s [Introduction to Glaze Calculation](http://lindaarbuckle.com/handouts/glaze-calc-intro.pdf)
+* [How Glazes Melt](http://mattanddavesclays.com/Science/Finkelnburg-NCECA%202012-PDF.pdf) by Dave Finkelnburg
+* Digitalfire&#39;s [Understanding Glaze Calculation](https://digitalfire.com/4sight/education/understanding_glaze_calculation_an_aid_to_potters_126.html)
+* Linda Bloomfield&#39;s [Colour in Glazes](https://www.amazon.com/Colour-Glazes-Linda-Bloomfield/dp/1574983245) has a section on UMF and the Stull Chart.
+
+## UMF in Glazy
+
+Glazy currently has two types of UMF calculation: **original/traditional** as well as **&quot;extended&quot;**.
+
+The &quot;traditional&quot; UMF adheres to the oxide groupings of RO/R2O,  R2O3, and RO2,  where RO/R2O are used for unity.  Any oxides not listed in those groups are simply listed as &quot;OTHER&quot;.
+
+The &quot;extended&quot; UMF attempts to define roles for a broader range of oxides, for example CuO and CoO, that were previously viewed as secondary (e.g. &quot;colorants&quot;) and classified outside the unity as &quot;other&quot;.  This version of the UMF is still a work in progress.  It is based in part on the work of Matt Katz and Rose Katz.  (See Rose Katz&#39;s 2019 NCECA Lecture &quot;COLORFORMS&quot; which discusses the roles of all major colorants.)
+
+https://www.youtube.com/watch?v=RWYCKFVy3qo&amp;fbclid=IwAR0CHDrxv0F6OQHzkyaNmRdNbPO00dBJpHuHPKVSAI1pUZnVt4FKhjrIE70
+
+## Glazy &quot;Traditional&quot; UMF Oxides
+
+**RO_R2O:** Na2O, K2O, Li2O, PbO, SrO, BaO, ZnO, CaO, MgO, MnO
+**R2O3:** Al2O3, B2O3
+**RO2_OXIDES:** SiO2, ZrO2, SnO2, TiO2
+
+## Glazy &quot;Extended&quot; UMF Oxides
+
+**RO_R2O:** Na2O, K2O, Li2O, PbO, SrO, BaO, ZnO, CaO, MgO, MnO, Bi2O3, CuO, SnO2, Fe2O3, MnO2, CoO
+**R2O3:** Al2O3, B2O3, TiO2, NiO
+**RO2:** SiO2, ZrO2
+
+## &quot;Extended&quot; UMF Origins
+
+Glazy&#39;s  &quot;Extended&quot; UMF comes directly from Matthew &amp; Rose Katz&#39;s Experimental UMF Calculator.  [This spreadsheet calculator can be downloaded here.](https://www.ceramicmaterialsworkshop.com/umf-calculator.html) 
+
+Screenshot of Calculator:
+![57%20PM|690x401](upload://zFcOiejpKp7eB4uTs4dbi6TWsSe.jpeg) 
+
+This Experimental Calculator is still a work in progress.  Glazy will be updated as new information comes to light.
+
+## Oxides Used in Historical UMF Calculation
+
+### Daniel Rhodes &quot;Clay and Glazes for the Potter&quot;:
+![IMG_0088%20copy|690x796](upload://c4RnjdXG2NedYrrG7Sh1SovwNsV.jpeg) 
+
+### Val Cushing&#39;s Handbook:
+![IMG_0089|690x447](upload://3ImAkUu0OaPx88fjNL73yBpbR39.jpeg)
+
+### Linda Arbuckle&#39;s Glaze Calc Handout
+[https://lindaarbuckle.com/handouts/glaze-calc-intro.pdf](https://lindaarbuckle.com/handouts/glaze-calc-intro.pdf)
+![09%20AM|690x270](upload://i8QkzjZ2UIJWvyiXDDhsmaOPiyW.png)
+
+### Henrik Norsker, James Danisch: &quot;Glazes for the Self-Reliant Potter&quot;
+http://collections.infocollections.org/ukedu/en/d/Jg17gle/17.2.html
+![51%20AM|690x688](upload://hUrs5iFnl2AsRMOhkjIePVEV169.png)</description>
+    
+    <lastBuildDate>Mon, 15 Jul 2019 23:34:37 +0000</lastBuildDate>
+    <category>Glaze Chemistry</category>
+    <atom:link href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Unity Molecular Formula (UMF)</title>
+        <dc:creator><![CDATA[Chris]]></dc:creator>
+        <description><![CDATA[
+            <p>I think that when I asked Matt directly, I basically answered my own question.<br>
+Even though Cu in its usual compounds most of the time is di-valent, it actually only contains one electron in it’s outermost shell, which makes it physico-chemically closer related to the Alkali Metals than the Alkaline Earths. Which is probably why Matt put it in that group. Immensely grateful for all the work he’s done!</p>
+          <p><a href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826/5</link>
+        <pubDate>Mon, 15 Jul 2019 23:34:37 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-826-5</guid>
+        <source url="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss">Unity Molecular Formula (UMF)</source>
+      </item>
+      <item>
+        <title>Unity Molecular Formula (UMF)</title>
+        <dc:creator><![CDATA[Chris]]></dc:creator>
+        <description><![CDATA[
+            <p>Aaah, interesting, thank you!<br>
+I knew the calculations, what a great tool that we’ve got here. Gotta love Glazy!!<br>
+Never realised though, that in Matt’s original spreadsheet the Copper was listed with the Alkali Metals, until now that I am actually doing some research on colorants as fluxes and stumbled over this issue.<br>
+Might actually ask Matt directly!</p>
+<p>Thanks for replying!<br>
+Cheers<br>
+Chris</p>
+          <p><a href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826/4</link>
+        <pubDate>Mon, 15 Jul 2019 00:38:35 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-826-4</guid>
+        <source url="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss">Unity Molecular Formula (UMF)</source>
+      </item>
+      <item>
+        <title>Unity Molecular Formula (UMF)</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey Chris, I  know it’s controversial.  The Glazy UMF calculation  for  “extended UMF” comes directly from the spreadsheet  I just linked above.  I think even Matt Katz would agree there’s  still a lot of work to be done on it…</p>
+          <p><a href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826/3</link>
+        <pubDate>Sun, 14 Jul 2019 13:33:18 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-826-3</guid>
+        <source url="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss">Unity Molecular Formula (UMF)</source>
+      </item>
+      <item>
+        <title>Unity Molecular Formula (UMF)</title>
+        <dc:creator><![CDATA[Chris]]></dc:creator>
+        <description><![CDATA[
+            <p>Just realised however, that when you have CuO it seems to appear in the wrong group, being calculated as R2O, instead of RO.<br>
+Any explanation for this?</p>
+          <p><a href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826/2</link>
+        <pubDate>Sun, 14 Jul 2019 11:34:34 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-826-2</guid>
+        <source url="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss">Unity Molecular Formula (UMF)</source>
+      </item>
+      <item>
+        <title>Unity Molecular Formula (UMF)</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>For more information about UMF:</p>
+<ul>
+<li>How to Calculate the Unity Molecular Formula by Ceramic Materials Workshop <a href="https://www.youtube.com/watch?v=HyLjAg1_8_4" rel="nofollow noopener">https://www.youtube.com/watch?v=HyLjAg1_8_4</a>
+</li>
+<li>Linda Arbuckle’s <a href="http://lindaarbuckle.com/handouts/glaze-calc-intro.pdf" rel="nofollow noopener">Introduction to Glaze Calculation</a>
+</li>
+<li>
+<a href="http://mattanddavesclays.com/Science/Finkelnburg-NCECA%202012-PDF.pdf" rel="nofollow noopener">How Glazes Melt</a> by Dave Finkelnburg</li>
+<li>Digitalfire’s <a href="https://digitalfire.com/4sight/education/understanding_glaze_calculation_an_aid_to_potters_126.html" rel="nofollow noopener">Understanding Glaze Calculation</a>
+</li>
+<li>Linda Bloomfield’s <a href="https://www.amazon.com/Colour-Glazes-Linda-Bloomfield/dp/1574983245" rel="nofollow noopener">Colour in Glazes</a> has a section on UMF and the Stull Chart.</li>
+</ul>
+<h2>UMF in Glazy</h2>
+<p>Glazy currently has two types of UMF calculation: <strong>original/traditional</strong> as well as <strong>“extended”</strong>.</p>
+<p>The “traditional” UMF adheres to the oxide groupings of RO/R2O,  R2O3, and RO2,  where RO/R2O are used for unity.  Any oxides not listed in those groups are simply listed as “OTHER”.</p>
+<p>The “extended” UMF attempts to define roles for a broader range of oxides, for example CuO and CoO, that were previously viewed as secondary (e.g. “colorants”) and classified outside the unity as “other”.  This version of the UMF is still a work in progress.  It is based in part on the work of Matt Katz and Rose Katz.  (See Rose Katz’s 2019 NCECA Lecture “COLORFORMS” which discusses the roles of all major colorants.)</p>
+<p><a href="https://www.youtube.com/embed/RWYCKFVy3qo?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/RWYCKFVy3qo</a></p>
+<h2>Glazy “Traditional” UMF Oxides</h2>
+<p><strong>RO_R2O:</strong> Na2O, K2O, Li2O, PbO, SrO, BaO, ZnO, CaO, MgO, MnO<br>
+<strong>R2O3:</strong> Al2O3, B2O3<br>
+<strong>RO2_OXIDES:</strong> SiO2, ZrO2, SnO2, TiO2</p>
+<h2>Glazy “Extended” UMF Oxides</h2>
+<p><strong>RO_R2O:</strong> Na2O, K2O, Li2O, PbO, SrO, BaO, ZnO, CaO, MgO, MnO, Bi2O3, CuO, SnO2, Fe2O3, MnO2, CoO<br>
+<strong>R2O3:</strong> Al2O3, B2O3, TiO2, NiO<br>
+<strong>RO2:</strong> SiO2, ZrO2</p>
+<h2>“Extended” UMF Origins</h2>
+<p>Glazy’s  “Extended” UMF comes directly from Matthew &amp; Rose Katz’s Experimental UMF Calculator.  <a href="https://www.ceramicmaterialsworkshop.com/umf-calculator.html" rel="nofollow noopener">This spreadsheet calculator can be downloaded here.</a></p>
+<p>Screenshot of Calculator:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/f9f489d2f44f89d4c925be14afa91f3f45edac72" title="Screen Shot 2019-07-14 at 9.26.57 PM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72_2_690x401.jpeg" alt="57%20PM" data-base62-sha1="zFcOiejpKp7eB4uTs4dbi6TWsSe" width="690" height="401" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72_2_690x401.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72_2_1035x601.jpeg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/f9f489d2f44f89d4c925be14afa91f3f45edac72_2_10x10.png"></a></div><p></p>
+<p>This Experimental Calculator is still a work in progress.  Glazy will be updated as new information comes to light.</p>
+<h2>Oxides Used in Historical UMF Calculation</h2>
+<h3>Daniel Rhodes “Clay and Glazes for the Potter”:</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/54a6c0fb90127fc2daaea2ab84f1018f0515cab5" title="IMG_0088 copy.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5_2_690x796.jpeg" alt="IMG_0088%20copy" data-base62-sha1="c4RnjdXG2NedYrrG7Sh1SovwNsV" width="690" height="796" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5_2_690x796.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5_2_1035x1194.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5_2_1380x1592.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/54a6c0fb90127fc2daaea2ab84f1018f0515cab5_2_10x10.png"></a></div><p></p>
+<h3>Val Cushing’s Handbook:</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/1a0a59404d2d4377b560dd641ddc3810c753b22f" title="IMG_0089.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f_2_690x447.jpeg" alt="IMG_0089" data-base62-sha1="3ImAkUu0OaPx88fjNL73yBpbR39" width="690" height="447" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f_2_690x447.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f_2_1035x670.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f_2_1380x894.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/1a0a59404d2d4377b560dd641ddc3810c753b22f_2_10x10.png"></a></div><p></p>
+<h3>Linda Arbuckle’s Glaze Calc Handout</h3>
+<p><a href="https://lindaarbuckle.com/handouts/glaze-calc-intro.pdf" rel="nofollow noopener">https://lindaarbuckle.com/handouts/glaze-calc-intro.pdf</a><br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/7f27103d3f66c90c4965783680a68947fcfcc686.png" data-download-href="https://wiki.glazy.org/uploads/default/7f27103d3f66c90c4965783680a68947fcfcc686" title="Screen Shot 2019-07-14 at 8.18.09 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/7f27103d3f66c90c4965783680a68947fcfcc686_2_690x270.png" alt="09%20AM" data-base62-sha1="i8QkzjZ2UIJWvyiXDDhsmaOPiyW" width="690" height="270" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/7f27103d3f66c90c4965783680a68947fcfcc686_2_690x270.png, https://wiki.glazy.org/uploads/default/optimized/1X/7f27103d3f66c90c4965783680a68947fcfcc686_2_1035x405.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/7f27103d3f66c90c4965783680a68947fcfcc686_2_1380x540.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/7f27103d3f66c90c4965783680a68947fcfcc686_2_10x10.png"></a></div><p></p>
+<h3>Henrik Norsker, James Danisch: “Glazes for the Self-Reliant Potter”</h3>
+<p><a href="http://collections.infocollections.org/ukedu/en/d/Jg17gle/17.2.html" class="onebox" target="_blank" rel="nofollow noopener">http://collections.infocollections.org/ukedu/en/d/Jg17gle/17.2.html</a><br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9.png" data-download-href="https://wiki.glazy.org/uploads/default/7d8650b6f9276dca0b27b545d88abb0198bd0cd9" title="Screen Shot 2019-07-14 at 8.23.51 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9_2_690x688.png" alt="51%20AM" data-base62-sha1="hUrs5iFnl2AsRMOhkjIePVEV169" width="690" height="688" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9_2_690x688.png, https://wiki.glazy.org/uploads/default/optimized/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9_2_1035x1032.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/7d8650b6f9276dca0b27b545d88abb0198bd0cd9_2_10x10.png"></a></div><p></p>
+          <p><a href="https://wiki.glazy.org/t/unity-molecular-formula-umf/826/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/unity-molecular-formula-umf/826/1</link>
+        <pubDate>Sun, 14 Jul 2019 00:17:19 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-826-1</guid>
+        <source url="https://wiki.glazy.org/t/unity-molecular-formula-umf/826.rss">Unity Molecular Formula (UMF)</source>
+      </item>
+  </channel>
+</rss>

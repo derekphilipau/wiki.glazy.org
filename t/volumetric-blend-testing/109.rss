@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Volumetric Blend Testing</title>
+    <link>https://wiki.glazy.org/t/volumetric-blend-testing/109</link>
+    <description>## Line Blends
+
+Line blends are a useful tool for comparing two different recipes. Often, the two recipes are different glazes. For instance, you can blend two different celadon glazes in different proportions to create a new celadon recipe. Line blends are also commonly used for testing additions of coloring oxides, for instance the effect of incrementally adding iron oxide to a clear glaze.
+
+The range of the line blend is arbitrary- you can start each variable from 0% and go up to 100% or you could choose any range in-between.
+
+To illustrate a line blend, here is a sample using two RGB colors blending by opacity. If you already know the result of the outlying 100% blends, you could remove them from the test. However, each firing is different and it&#39;s usually good to test the 100% blends regardless.
+
+&lt;img src=&quot;/uploads/default/original/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e.png&quot; width=&quot;690&quot; height=&quot;243&quot; title=&quot;A line blend of two colors by opacity.&quot;&gt;
+
+You could mix each test in a line blend individually, but a much less time-consuming method is to only make the left and right-most solutions. Using a syringe, you can easily create each mixed blend.
+
+## Volumetric Blending
+
+Ian Currie popularized volumetric blending. ([See his article here.](http://ian.currie.to/original/line_blend.htm))
+
+First, mix the same weight of each glaze you will be blending. Second, add some water to the glazes and sieve thoroughly. Third, add water to each glaze so that their volumes are equal. Now the two glazes are ready for blending.
+
+&lt;img src=&quot;/uploads/default/original/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725.png&quot; width=&quot;690&quot; title=&quot;Preparing glazes for volumetric blending.&quot;&gt;
+
+## Volumetric Blending in a Syringe
+
+Below is an illustration of the blends in a 20ml syringe. If your test tiles are relatively small (7cm square) and flat, 20ml of solution should be enough for two coats of dipped glaze.
+
+&lt;img src=&quot;/uploads/default/original/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68.png&quot; width=&quot;587&quot; height=&quot;500&quot; title=&quot;Blending glazes in a syringe.&quot;&gt;
+
+As you can see, for 10% increments using a 20ml syringe we need at least 20+18+16+14+12+10+8+6+4+2 = 110ml of each 100% recipe. Preparing 100 grams of glaze material for each glaze should be sufficient.
+
+Each time before you take glaze into the syringe, be sure to re-mix the glaze and confirm it has not settled.
+
+## Line Blend Example
+
+As a real-world example, let&#39;s add red iron oxide the a reduction-fired clear glaze Leach 4321. We will create a line blend from 0% to 10% additional Red Iron Oxide in 1% increments. This is sufficient to see the gradual transition from clear to blue-green celadon (0.5-1%), light green celadon (2%), dark green celadon (3-4%), amber (5-6%), and tenmoku (7-10%).
+
+First, two glaze batches of 100g are prepared. The first is just Leach 4321, while the second is Leach 4321 + 10% Red Iron Oxide.
+
+Second, a syringe is used to mix the two glazes in increments. By using a 30ml syringe there is extra room in the syringe for drawing in air, making it easier to mix the glazes.
+
+&lt;img src=&quot;/uploads/default/original/1X/663d6ca4e85fe347fac8bfb303446636be46d127.jpg&quot; width=&quot;690&quot; height=&quot;402&quot; title=&quot;Mixing a 20ml glaze batch in a syringe.&quot;&gt;
+
+On the back of each test tile is written the glaze information. The test tile is dipped once in the glaze and then dipped again at an angle in order to cover half of the tile. The final line blend tests show a nice progression from 0% to 10% red iron oxide.
+
+&lt;img src=&quot;/uploads/default/original/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5.jpg&quot; width=&quot;666&quot; height=&quot;500&quot; title=&quot;The test tiles after being dipped into blended glazes.&quot;&gt;
+
+Here is the line blend after firing to Orton cone 10 in a reduction atmosphere. The tests reveal a range of interesting glazes.
+&lt;img src=&quot;/uploads/default/original/1X/951f70937028c85a82d414d8ee08f132ed9ddd43.jpg&quot; width=&quot;690&quot; height=&quot;110&quot; title=&quot;The fired result of our line blend.&quot;&gt;
+
+The results of these tests can be viewed in Glazy:
+
+
+[Leach 4321](https://glazy.org/recipes/2878)
+[Leach 4321 + 1% Red Iron Oxide](https://glazy.org/recipes/3262)
+[Leach 4321 + 2% Red Iron Oxide](https://glazy.org/recipes/3263)
+[Leach 4321 + 3% Red Iron Oxide](https://glazy.org/recipes/3264)
+[Leach 4321 + 4% Red Iron Oxide](https://glazy.org/recipes/3265)
+[Leach 4321 + 5% Red Iron Oxide](https://glazy.org/recipes/3266)
+[Leach 4321 + 6% Red Iron Oxide](https://glazy.org/recipes/3267)
+[Leach 4321 + 7% Red Iron Oxide](https://glazy.org/recipes/3268)
+[Leach 4321 + 8% Red Iron Oxide](https://glazy.org/recipes/3269)
+[Leach 4321 + 9% Red Iron Oxide](https://glazy.org/recipes/3270)
+[Leach 4321 + 10% Red Iron Oxide](https://glazy.org/recipes/3271)
+
+Care should be taken when specifying the parameters of a line blend. For example, here is the result of a similar line blend created with Leach 4321 and cobalt oxide added.
+&lt;img src=&quot;/uploads/default/original/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b.jpg&quot; width=&quot;690&quot; height=&quot;222&quot; title=&quot;Leach 4321 with Cobalt Oxide added in 1% increments.&quot;&gt;
+
+As you can see, at 1% cobalt oxide the glaze is already a deep blue. Cobalt is a very strong oxide! It would have been more interesting to add cobalt in just 0.1% increments.
+
+&lt;img src=&quot;/uploads/default/original/1X/221991f41014e8dddeae61aaee999c83416d1376.jpg&quot; width=&quot;690&quot; height=&quot;110&quot; title=&quot;Leach 4321 with Cobalt Oxide added in 0.1% increments.&quot;&gt;
+
+As you can see, at +0.1% cobalt oxide, the glaze color is already greatly affected. This test also highlights the need for sensitive, accurate scales when dealing with small batches of glaze.</description>
+    
+    <lastBuildDate>Sun, 17 Mar 2019 14:21:49 +0000</lastBuildDate>
+    <category>Glaze Testing</category>
+    <atom:link href="https://wiki.glazy.org/t/volumetric-blend-testing/109.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Volumetric Blend Testing</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Line Blends</h2>
+<p>Line blends are a useful tool for comparing two different recipes. Often, the two recipes are different glazes. For instance, you can blend two different celadon glazes in different proportions to create a new celadon recipe. Line blends are also commonly used for testing additions of coloring oxides, for instance the effect of incrementally adding iron oxide to a clear glaze.</p>
+<p>The range of the line blend is arbitrary- you can start each variable from 0% and go up to 100% or you could choose any range in-between.</p>
+<p>To illustrate a line blend, here is a sample using two RGB colors blending by opacity. If you already know the result of the outlying 100% blends, you could remove them from the test. However, each firing is different and it’s usually good to test the 100% blends regardless.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e.png" data-download-href="https://wiki.glazy.org/uploads/default/5ce008dbedbca4142496cb3c7c373f9d5917fe1e" title="A line blend of two colors by opacity."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e_2_690x243.png" width="690" height="243" title="A line blend of two colors by opacity." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e_2_690x243.png, https://wiki.glazy.org/uploads/default/optimized/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e_2_1035x364.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/5ce008dbedbca4142496cb3c7c373f9d5917fe1e_2_10x10.png"></a></div><p></p>
+<p>You could mix each test in a line blend individually, but a much less time-consuming method is to only make the left and right-most solutions. Using a syringe, you can easily create each mixed blend.</p>
+<h2>Volumetric Blending</h2>
+<p>Ian Currie popularized volumetric blending. (<a href="http://ian.currie.to/original/line_blend.htm" rel="nofollow noopener">See his article here.</a>)</p>
+<p>First, mix the same weight of each glaze you will be blending. Second, add some water to the glazes and sieve thoroughly. Third, add water to each glaze so that their volumes are equal. Now the two glazes are ready for blending.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725.png" data-download-href="https://wiki.glazy.org/uploads/default/d0a849d6e50a7884d32e04f2ce37fa30d0480725" title="Preparing glazes for volumetric blending."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725_2_690x1447.png" width="690" title="Preparing glazes for volumetric blending." height="1447" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725_2_690x1447.png, https://wiki.glazy.org/uploads/default/original/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d0a849d6e50a7884d32e04f2ce37fa30d0480725_2_10x10.png"></a></div><p></p>
+<h2>Volumetric Blending in a Syringe</h2>
+<p>Below is an illustration of the blends in a 20ml syringe. If your test tiles are relatively small (7cm square) and flat, 20ml of solution should be enough for two coats of dipped glaze.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68.png" data-download-href="https://wiki.glazy.org/uploads/default/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68" title="Blending glazes in a syringe."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68_2_587x500.png" width="587" height="500" title="Blending glazes in a syringe." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68_2_587x500.png, https://wiki.glazy.org/uploads/default/optimized/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68_2_880x750.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68_2_1174x1000.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ff5ad4ffb8179287617c5cda29dcbff6eecd5b68_2_10x10.png"></a></div><p></p>
+<p>As you can see, for 10% increments using a 20ml syringe we need at least 20+18+16+14+12+10+8+6+4+2 = 110ml of each 100% recipe. Preparing 100 grams of glaze material for each glaze should be sufficient.</p>
+<p>Each time before you take glaze into the syringe, be sure to re-mix the glaze and confirm it has not settled.</p>
+<h2>Line Blend Example</h2>
+<p>As a real-world example, let’s add red iron oxide the a reduction-fired clear glaze Leach 4321. We will create a line blend from 0% to 10% additional Red Iron Oxide in 1% increments. This is sufficient to see the gradual transition from clear to blue-green celadon (0.5-1%), light green celadon (2%), dark green celadon (3-4%), amber (5-6%), and tenmoku (7-10%).</p>
+<p>First, two glaze batches of 100g are prepared. The first is just Leach 4321, while the second is Leach 4321 + 10% Red Iron Oxide.</p>
+<p>Second, a syringe is used to mix the two glazes in increments. By using a 30ml syringe there is extra room in the syringe for drawing in air, making it easier to mix the glazes.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/663d6ca4e85fe347fac8bfb303446636be46d127.jpg" data-download-href="https://wiki.glazy.org/uploads/default/663d6ca4e85fe347fac8bfb303446636be46d127" title="Mixing a 20ml glaze batch in a syringe."><img src="https://wiki.glazy.org/uploads/default/original/1X/663d6ca4e85fe347fac8bfb303446636be46d127.jpg" width="690" height="402" title="Mixing a 20ml glaze batch in a syringe." data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/663d6ca4e85fe347fac8bfb303446636be46d127_2_10x10.png"></a></div><p></p>
+<p>On the back of each test tile is written the glaze information. The test tile is dipped once in the glaze and then dipped again at an angle in order to cover half of the tile. The final line blend tests show a nice progression from 0% to 10% red iron oxide.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5.jpg" data-download-href="https://wiki.glazy.org/uploads/default/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5" title="The test tiles after being dipped into blended glazes."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5_2_666x500.jpg" width="666" height="500" title="The test tiles after being dipped into blended glazes." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d7c8c33bb249eec2d4bf3bd466c7ba4fd1f456a5_2_10x10.png"></a></div><p></p>
+<p>Here is the line blend after firing to Orton cone 10 in a reduction atmosphere. The tests reveal a range of interesting glazes.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/951f70937028c85a82d414d8ee08f132ed9ddd43.jpg" data-download-href="https://wiki.glazy.org/uploads/default/951f70937028c85a82d414d8ee08f132ed9ddd43" title="The fired result of our line blend."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/951f70937028c85a82d414d8ee08f132ed9ddd43_2_690x110.jpg" width="690" height="110" title="The fired result of our line blend." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/951f70937028c85a82d414d8ee08f132ed9ddd43_2_690x110.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/951f70937028c85a82d414d8ee08f132ed9ddd43_2_1035x165.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/951f70937028c85a82d414d8ee08f132ed9ddd43.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/951f70937028c85a82d414d8ee08f132ed9ddd43_2_10x10.png"></a></div><p></p>
+<p>The results of these tests can be viewed in Glazy:</p>
+<p><a href="https://glazy.org/recipes/2878" rel="nofollow noopener">Leach 4321</a><br>
+<a href="https://glazy.org/recipes/3262" rel="nofollow noopener">Leach 4321 + 1% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3263" rel="nofollow noopener">Leach 4321 + 2% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3264" rel="nofollow noopener">Leach 4321 + 3% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3265" rel="nofollow noopener">Leach 4321 + 4% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3266" rel="nofollow noopener">Leach 4321 + 5% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3267" rel="nofollow noopener">Leach 4321 + 6% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3268" rel="nofollow noopener">Leach 4321 + 7% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3269" rel="nofollow noopener">Leach 4321 + 8% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3270" rel="nofollow noopener">Leach 4321 + 9% Red Iron Oxide</a><br>
+<a href="https://glazy.org/recipes/3271" rel="nofollow noopener">Leach 4321 + 10% Red Iron Oxide</a></p>
+<p>Care should be taken when specifying the parameters of a line blend. For example, here is the result of a similar line blend created with Leach 4321 and cobalt oxide added.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b.jpg" data-download-href="https://wiki.glazy.org/uploads/default/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b" title="Leach 4321 with Cobalt Oxide added in 1% increments."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b_2_690x222.jpg" width="690" height="222" title="Leach 4321 with Cobalt Oxide added in 1% increments." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b_2_690x222.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b_2_1035x333.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b_2_1380x444.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a633a619b5fb8d1e1c126efa782c3a1cb7a6834b_2_10x10.png"></a></div><p></p>
+<p>As you can see, at 1% cobalt oxide the glaze is already a deep blue. Cobalt is a very strong oxide! It would have been more interesting to add cobalt in just 0.1% increments.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/221991f41014e8dddeae61aaee999c83416d1376.jpg" data-download-href="https://wiki.glazy.org/uploads/default/221991f41014e8dddeae61aaee999c83416d1376" title="Leach 4321 with Cobalt Oxide added in 0.1% increments."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/221991f41014e8dddeae61aaee999c83416d1376_2_690x110.jpg" width="690" height="110" title="Leach 4321 with Cobalt Oxide added in 0.1% increments." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/221991f41014e8dddeae61aaee999c83416d1376_2_690x110.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/221991f41014e8dddeae61aaee999c83416d1376_2_1035x165.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/221991f41014e8dddeae61aaee999c83416d1376_2_1380x220.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/221991f41014e8dddeae61aaee999c83416d1376_2_10x10.png"></a></div><p></p>
+<p>As you can see, at +0.1% cobalt oxide, the glaze color is already greatly affected. This test also highlights the need for sensitive, accurate scales when dealing with small batches of glaze.</p>
+          <p><a href="https://wiki.glazy.org/t/volumetric-blend-testing/109/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/volumetric-blend-testing/109/1</link>
+        <pubDate>Tue, 25 Apr 2017 05:25:14 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-109-1</guid>
+        <source url="https://wiki.glazy.org/t/volumetric-blend-testing/109.rss">Volumetric Blend Testing</source>
+      </item>
+  </channel>
+</rss>

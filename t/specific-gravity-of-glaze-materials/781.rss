@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Specific gravity of glaze materials</title>
+    <link>https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781</link>
+    <description>The specific gravity of a dry material is its weight divided by the weight of water it displaces. [Brongniart&#39;s formula](https://wiki.glazy.org/t/brongniarts-formula/780) depends on the specific gravity of the dry materials in a glaze recipe, although for most glazes, this is about 2.6.
+
+If there was no air trapped between the particles of a powdered material, the weight of water (in grams) displaced by a given batch of that material would be equal to the volume of the batch (in millilitres). However, because powdered materials do contain air, the weight of water they displace is somewhat less than their volume.
+
+### List of specific gravities
+
+(This needs to be expanded. Ideally the specific gravities should be given together with a source, which can be from a spec sheet or an actual measurement)
+
+* Silica   2.6 - 2.65
+* Kaolin   2.6 - 2.65
+* EPK  2.65
+* Grolleg  2.6
+* Ball Clay  2.5 - 2.6
+* Bentonite  2.2 - 2.8
+* Calcined Alumina  3.7 - 3.9
+* Alumina Hydrate  2.42
+* Whiting  2.8
+* Feldspar  2.55 - 2.75
+* Granite  2.66
+* Wollastonite  2.8 – 3.09
+* Talc  2.58 - 2.83
+* Magnesium Carbonate  3 - 3.1
+* Light Magnesium Carbonate  2.24
+* Dolomite  2.9
+* Zinc Oxide  4.4 - 5.6
+* Barium Carbonate  4.27 - 4.43
+* Strontium Carbonate  3.5 - 3.7
+* Titanium Dioxide  4.2
+* Tin  6.85 - 6.95
+* Red Iron Oxide  4.9 - 5.3
+* Cobalt Carbonate  4.13
+* Cobalt Oxide  6.07 - 6.66
+* Copper Carbonate  3.9 - 4
+* Black Copper Oxide (CuO)  6.4
+* Red Copper Oxide (Cu2O)  6
+
+The following frit densities have not been measured directly, but have been calculated using either the MS Word spreadsheet available [here](https://glassproperties.com/density/room-temperature/GlassDensityRTCalc_1.xls), when possible, or else [here](http://smart2000.pagesperso-orange.fr/calculateur_densite_verres_frittes.htm):
+
+* Ferro Frit 3110:  2.49
+* Ferro Frit 3124:  2.53
+* Ferro Frit 3134:  2.70
+* Ferro Frit 3195:  2.53
+* Ferro Frit 3249:  2.57
+
+### Measuring specific gravity
+
+Fill half a graduated cylinder with water, and note the volume. Add 100g of the material you&#39;re interested in to the graduated cylinder, and stir until there are no more bubbles (Wear a respirator and use good ventilation when working with powdered glaze materials). Note the volume of the mixture in the graduated cylinder. The specific gravity of the material is 100 divided by the difference in volume, measured in millilitres.
+
+### Calculating the specific gravity of a recipe
+
+If a recipe contains materials with parts by weight _w_&lt;sub&gt;1&lt;/sub&gt;, _w_&lt;sub&gt;2&lt;/sub&gt;, ...,_w_&lt;sub&gt;n&lt;/sub&gt;, and specific gravities _s_&lt;sub&gt;1&lt;/sub&gt;, _s_&lt;sub&gt;2&lt;/sub&gt;, ...,_s_&lt;sub&gt;n&lt;/sub&gt;, respectively, then its specific gravity is
+![recipe_sg|277x61](upload://aabRaOpLDsCfXHdMK04XfcKdrq2.jpeg)</description>
+    
+    <lastBuildDate>Wed, 01 May 2019 19:09:31 +0000</lastBuildDate>
+    <category>Glaze Mixing &amp; Preparation</category>
+    <atom:link href="https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Specific gravity of glaze materials</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>The specific gravity of a dry material is its weight divided by the weight of water it displaces. <a href="https://wiki.glazy.org/t/brongniarts-formula/780">Brongniart’s formula</a> depends on the specific gravity of the dry materials in a glaze recipe, although for most glazes, this is about 2.6.</p>
+<p>If there was no air trapped between the particles of a powdered material, the weight of water (in grams) displaced by a given batch of that material would be equal to the volume of the batch (in millilitres). However, because powdered materials do contain air, the weight of water they displace is somewhat less than their volume.</p>
+<h3>List of specific gravities</h3>
+<p>(This needs to be expanded. Ideally the specific gravities should be given together with a source, which can be from a spec sheet or an actual measurement)</p>
+<ul>
+<li>Silica   2.6 - 2.65</li>
+<li>Kaolin   2.6 - 2.65</li>
+<li>EPK  2.65</li>
+<li>Grolleg  2.6</li>
+<li>Ball Clay  2.5 - 2.6</li>
+<li>Bentonite  2.2 - 2.8</li>
+<li>Calcined Alumina  3.7 - 3.9</li>
+<li>Alumina Hydrate  2.42</li>
+<li>Whiting  2.8</li>
+<li>Feldspar  2.55 - 2.75</li>
+<li>Granite  2.66</li>
+<li>Wollastonite  2.8 – 3.09</li>
+<li>Talc  2.58 - 2.83</li>
+<li>Magnesium Carbonate  3 - 3.1</li>
+<li>Light Magnesium Carbonate  2.24</li>
+<li>Dolomite  2.9</li>
+<li>Zinc Oxide  4.4 - 5.6</li>
+<li>Barium Carbonate  4.27 - 4.43</li>
+<li>Strontium Carbonate  3.5 - 3.7</li>
+<li>Titanium Dioxide  4.2</li>
+<li>Tin  6.85 - 6.95</li>
+<li>Red Iron Oxide  4.9 - 5.3</li>
+<li>Cobalt Carbonate  4.13</li>
+<li>Cobalt Oxide  6.07 - 6.66</li>
+<li>Copper Carbonate  3.9 - 4</li>
+<li>Black Copper Oxide (CuO)  6.4</li>
+<li>Red Copper Oxide (Cu2O)  6</li>
+</ul>
+<p>The following frit densities have not been measured directly, but have been calculated using either the MS Word spreadsheet available <a href="https://glassproperties.com/density/room-temperature/GlassDensityRTCalc_1.xls" rel="nofollow noopener">here</a>, when possible, or else <a href="http://smart2000.pagesperso-orange.fr/calculateur_densite_verres_frittes.htm" rel="nofollow noopener">here</a>:</p>
+<ul>
+<li>Ferro Frit 3110:  2.49</li>
+<li>Ferro Frit 3124:  2.53</li>
+<li>Ferro Frit 3134:  2.70</li>
+<li>Ferro Frit 3195:  2.53</li>
+<li>Ferro Frit 3249:  2.57</li>
+</ul>
+<h3>Measuring specific gravity</h3>
+<p>Fill half a graduated cylinder with water, and note the volume. Add 100g of the material you’re interested in to the graduated cylinder, and stir until there are no more bubbles (Wear a respirator and use good ventilation when working with powdered glaze materials). Note the volume of the mixture in the graduated cylinder. The specific gravity of the material is 100 divided by the difference in volume, measured in millilitres.</p>
+<h3>Calculating the specific gravity of a recipe</h3>
+<p>If a recipe contains materials with parts by weight <em>w</em><sub>1</sub>, <em>w</em><sub>2</sub>, …,<em>w</em><sub>n</sub>, and specific gravities <em>s</em><sub>1</sub>, <em>s</em><sub>2</sub>, …,<em>s</em><sub>n</sub>, respectively, then its specific gravity is<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/473ca83815f5e775a4cdc936e60c1ac80ef135f2.jpeg" alt="recipe_sg" width="277" height="61"></p>
+          <p><a href="https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781/1</link>
+        <pubDate>Sat, 30 Mar 2019 12:26:07 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-781-1</guid>
+        <source url="https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781.rss">Specific gravity of glaze materials</source>
+      </item>
+  </channel>
+</rss>

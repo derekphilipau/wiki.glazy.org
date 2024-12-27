@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Smartphone Microscopy</title>
+    <link>https://wiki.glazy.org/t/smartphone-microscopy/248</link>
+    <description>There are a few tutorials online for [creating your own phone microscope using the lens of a laser pointer](http://www.instructables.com/id/10-Smartphone-to-digital-microscope-conversion/).  (I tried this and it worked pretty well, but I never found a way to conveniently attach the lens to the camera.)  Wired’s article [Turn Your Cellphone Into a High-Powered Scientific Microscope](http://www.wired.com/2011/03/diy-cellphone-microscope/) has a good tutorial as well as background on the scientists who are using cellphones as biomedical devices.
+
+Fortunately there are now multiple products for sale that make it easier to attach a lens to the phone.
+
+## Supereyes Smartphone Microscope (Not recommended)
+
+I purchased the [Supereyes Smartphone Microscope](http://www.supereyes.cc/product/show/query/63.html) for about $7USD.  The images below were taken with this lens.  Unfortunately the top of the plastic lens is not protected and I scratched it after playing with it for less than an hour.
+
+The images from the iPhone with attached lens look much better than my USB microscope.  The photos below were taken in natural light.
+
+&lt;img src=&quot;/uploads/default/original/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231.jpg&quot; width=&quot;690&quot; height=&quot;517&quot;&gt;</description>
+    
+    <lastBuildDate>Fri, 09 Jun 2017 03:28:11 +0000</lastBuildDate>
+    <category>Glaze Testing</category>
+    <atom:link href="https://wiki.glazy.org/t/smartphone-microscopy/248.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Smartphone Microscopy</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>There are a few tutorials online for <a href="http://www.instructables.com/id/10-Smartphone-to-digital-microscope-conversion/" rel="nofollow noopener">creating your own phone microscope using the lens of a laser pointer</a>.  (I tried this and it worked pretty well, but I never found a way to conveniently attach the lens to the camera.)  Wired’s article <a href="http://www.wired.com/2011/03/diy-cellphone-microscope/" rel="nofollow noopener">Turn Your Cellphone Into a High-Powered Scientific Microscope</a> has a good tutorial as well as background on the scientists who are using cellphones as biomedical devices.</p>
+<p>Fortunately there are now multiple products for sale that make it easier to attach a lens to the phone.</p>
+<h2>Supereyes Smartphone Microscope (Not recommended)</h2>
+<p>I purchased the <a href="http://www.supereyes.cc/product/show/query/63.html" rel="nofollow noopener">Supereyes Smartphone Microscope</a> for about $7USD.  The images below were taken with this lens.  Unfortunately the top of the plastic lens is not protected and I scratched it after playing with it for less than an hour.</p>
+<p>The images from the iPhone with attached lens look much better than my USB microscope.  The photos below were taken in natural light.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231.jpg" data-download-href="https://wiki.glazy.org/uploads/default/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231" title="IMG_2304-1280x960.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231_2_690x517.jpg" width="690" height="517" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231_2_690x517.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231_2_1035x775.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d4d43c4e13c3d0d6c9821a4ee6c65cfa684b1231_2_10x10.png"></a></div><p></p>
+          <p><a href="https://wiki.glazy.org/t/smartphone-microscopy/248/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/smartphone-microscopy/248/1</link>
+        <pubDate>Fri, 09 Jun 2017 03:28:11 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-248-1</guid>
+        <source url="https://wiki.glazy.org/t/smartphone-microscopy/248.rss">Smartphone Microscopy</source>
+      </item>
+  </channel>
+</rss>

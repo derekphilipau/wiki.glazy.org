@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>LIPGLOSS - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/open-source-ceramics/lipgloss/52</link>
+    <description>Topics in the &#39;LIPGLOSS&#39; category Topics relating to the development and use of the glaze recipe building software Lipgloss (currently still in development)</description>
+    
+      <lastBuildDate>Sat, 10 Nov 2018 15:57:19 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/open-source-ceramics/lipgloss/52.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Proposed workflow for LIPGLOSS in Glazy</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>LIPGLOSS</category>
+          <description><![CDATA[
+            <p>Hopefully, the computational core of the LIPGLOSS desktop app will be incorporated into Glazy at some point. This page outlines my proposed workflow for going from an existing recipe or analysis on Glazy, to a new one that uses only the materials in a user’s inventory, but which has the same analysis as the original. Everything proposed here is, of course, open to discussion.</p>
+<p>Recipes and analyses will have an additional button, called something like ‘Recreate’ or ‘Reconstruct’, that opens the following window:<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/ffb8c68d963286494cf7f9c076754787c83b5887.jpeg" alt="Lipgloss_glazy_sketch" width="611" height="284"><br>
+On the right is the oxide composition of the recipe / analysis, showing the value of each oxide present (the view can be toggled between UMF, percent weight, or percent mol). Each value <em>v</em> has an error bound <em>e</em> (default 0), and the view can be toggled between showing <em>v</em> ± <em>e</em>, and the interval [<em>v</em>-<em>e</em>, <em>v</em>+<em>e</em>].</p>
+<p>On the left is the ingredient selector, that lets users select ingredients from their inventory. If the starting point for the reformulation is a recipe, the materials in the original recipe will be preselected, with the ones that aren’t in the users inventory greyed out. In this way, if a user just wants to reformulate a recipe that only has a few unavailable ingredients, they should hopefully be able to replace them relatively easily with similar ingredients in their inventory.</p>
+<p>The selected ingredients also have bounds on their percentages, but the default will be the interval view, from 0 to 100.</p>
+<p>Hitting the calculate button will compute the bounds on ingredients and oxides, as in the desktop version of LIPGLOSS.</p>
+<p>It’s possible to do some simple checks before running the linear programming algorithm, to flag selections of ingredients which can’t be used to satisfy the bounds on the oxides. For example, if an analysis has 10% Al<sub>2</sub>O<sub>3</sub>, and all of the ingredients selected have less than 10% Al<sub>2</sub>O<sub>3</sub>, then there’s no way any combination can match the analysis. Oxides which can’t be supplied in large enough percentages by the ingredients selected will be flagged. Hopefully this will help users select the correct ingredients. In the sketch above, there’s no source of K<sub>2</sub>O, so this has been highlighted in red.</p>
+<p>Things that need further thought:</p>
+<ul>
+<li>At some point there should be the option to combine Na and K as one.</li>
+<li>How to implement other restrictions (like fixing the SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio, or putting an upper bound on the LOI)</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609</link>
+          <pubDate>Sat, 10 Nov 2018 15:57:19 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-609</guid>
+          <source url="https://wiki.glazy.org/t/proposed-workflow-for-lipgloss-in-glazy/609.rss">Proposed workflow for LIPGLOSS in Glazy</source>
+        </item>
+        <item>
+          <title>Using LIPGLOSS</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>LIPGLOSS</category>
+          <description><![CDATA[
+            <p>Currently, to use LIPGLOSS, you need to install <a href="https://www.python.org/downloads/" rel="nofollow noopener">Python 3</a>, the linear programming API <a href="https://github.com/coin-or/pulp" rel="nofollow noopener">PuLP</a>, and the <a href="https://www.gnu.org/software/glpk/" rel="nofollow noopener">GLPK</a> library (and possibly the <a href="https://wiki.python.org/moin/TkInter" rel="nofollow noopener">tkinter</a> Python package). See the <a href="https://github.com/PieterMostert/Lipgloss/blob/master/README.md" rel="nofollow noopener">README.md</a> file on Github for more details.</p>
+<p>UPDATE: There is now a version 2, with slightly different installation requirements, described in <a href="https://github.com/PieterMostert/LIPGLOSS2/blob/master/README.md" rel="nofollow noopener">this</a> readme file. This is hopefully easier to install.</p>
+<p>To open the graphical user interface, run the <span>main.py</span> script. You’ll be presented with a window that shows a list of ingredients and ‘other restrictions’ in the panel on the left. Some of these will have already been selected by default, but you can add or remove items by clicking on the buttons.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/fed8195e729f1bc0d08830ee39bcd14c5950a0d5.JPG" width="590" height="700"></p>
+<p>In the panel on the right, the selected ingredients and other restrictions will be shown, as well as any oxides that appear in the selected ingredients. The two columns on the left, which contain values in blue, are for entering the desired lower and upper bounds on the oxide, ingredient, or other restriction. Bounds on oxides can be expressed as UMF, percent weight or percent mole by selecting the appropriate radio button above.</p>
+<p>When you click the <code>Calculate restrictions</code> button, the two columns on the right will be filled with lower and upper bounds for each oxide, ingredient, or other restriction, printed in red (assuming there is at least one recipe that satisfies the bounds; otherwise, an error message will appear). These are lower and upper bounds for the corresponding item among all possible recipes using the ingredients selected that satisfy the bounds you’ve imposed. Naturally, the bounds on the right are at least as restrictive as the bounds on the left.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/e488cc43507424e81074ef1e03d9c1a52aa24ff7.JPG" width="585" height="691"></p>
+<p>You can now progressively strengthen the bounds on the left, based on the calculated bounds. This may be as simple as unselecting an ingredient whose calculated lower bound is zero. Given a single oxide, ingredient, or other restriction, you can narrow it’s range to any interval that overlaps the calculated interval, and be guaranteed that the problem still has a solution (but be aware that the endpoints displayed have been rounded to a certain number of decimal places).</p>
+<p>However, it’s important to note that if you restrict the bounds for <em>two</em> or more items simultaneously, a solution is not guaranteed even if the restricted intervals both overlap their respective calculated intervals. For example, if only two ingredients are selected and no restrictions are imposed, the bounds on the percentages of these ingredients will be 0 and 100. If you then impose the bounds 0 to 40 on both these ingredient percentages, there will be no solution, simply because the sum of the ingredient percentages must add up to 100.</p>
+<p>If you want to restrict the bounds for two variables simultaneously, you have the option of plotting the set of possible values of those two variables. That is to say, for each point in the region shown, there is at least one recipe where the variables take on the <em>x</em> and <em>y</em> values of the point, and which satisfies all the constraints. The <em>x</em> and <em>y</em> variables to plot can be selected by clicking on the left and right hand labels in the central panel, respectively. An asterisk should appear next to the label when you click on it.</p>
+<p>When the <em>x</em> and <em>y</em> variables have been selected, the program will display a green region representing all possible points (<em>x</em>,<em>y</em>) that are consistent with the constraints.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG" data-download-href="https://wiki.glazy.org/uploads/default/ad85da2e1fc32fa343bad80be66101a1874bde3c" title="Calc LIPGLOSS 2.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG" width="690" height="451" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_690x451.JPG, https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_1035x676.JPG 1.5x, https://wiki.glazy.org/uploads/default/original/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ad85da2e1fc32fa343bad80be66101a1874bde3c_2_10x10.png"></a></div><p></p>
+<p>A collection of ingredient and other restrictions with lower and upper bounds will be referred to as a bounded recipe. Bounded recipes can be saved, or saved as new bounded recipes. If you start with the default bounds and narrow them down to a recipe - i.e. all upper and lower bounds are effectively the same - you should save this as a new bounded recipe, otherwise you’ll have to undo all your restrictions when you start working on a new problem. Saved bounded recipes can be opened through the <code>File</code> menu.</p>
+<p>LIPGLOSS will come pre-installed with common types of ingredients, but most of these should be updated to reflect the analyses of the ingredients in your studio. To do this, click  <code>Options &gt; Edit Ingredients</code> to open the ingredient editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8a9fda70b0fce25e67babb46e17adf33afdd0fee" title="IngredientEditor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee.JPG" width="690" height="410" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8a9fda70b0fce25e67babb46e17adf33afdd0fee_2_10x10.png"></a></div><p></p>
+<p>Oxide percentages that are zero can be left blank.</p>
+<p>The order in which ingredients are displayed can be rearranged by right-clicking on an ingredient’s name, then dragging and dropping.</p>
+<p>The other restrictions can be edited by clicking  <code>Options &gt; Edit Other Restrictions</code> to open the ‘other restriction’ editor.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" data-download-href="https://wiki.glazy.org/uploads/default/8862e5a4031912b8078922cb7a02b08ccd20273e" title="Other restriction editor.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/8862e5a4031912b8078922cb7a02b08ccd20273e.JPG" alt="Other%20restriction%20editor" data-base62-sha1="jswOXnwWwnDQW0LhnkFgY6KWRBA" width="690" height="205" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8862e5a4031912b8078922cb7a02b08ccd20273e_2_10x10.png"></a></div><p></p>
+<p>At the moment, using this to create a new restriction will require some knowledge of the code used, so this isn’t very user friendly. If you’d like to add a new restriction and don’t know how, feel free to ask a question in the comments section below.</p>
+            <p><small>3 posts - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/using-lipgloss/238">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/using-lipgloss/238</link>
+          <pubDate>Mon, 22 May 2017 19:22:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-238</guid>
+          <source url="https://wiki.glazy.org/t/using-lipgloss/238.rss">Using LIPGLOSS</source>
+        </item>
+        <item>
+          <title>About the LIPGLOSS category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>LIPGLOSS</category>
+          <description><![CDATA[
+            <p>Topics relating to the development and use of the glaze recipe building software Lipgloss (currently still in development)</p>
+<p>The source code can be found on <a href="https://github.com/PieterMostert/Lipgloss">Github</a>.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-lipgloss-category/87">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-lipgloss-category/87</link>
+          <pubDate>Mon, 24 Apr 2017 01:22:50 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-87</guid>
+          <source url="https://wiki.glazy.org/t/about-the-lipgloss-category/87.rss">About the LIPGLOSS category</source>
+        </item>
+  </channel>
+</rss>

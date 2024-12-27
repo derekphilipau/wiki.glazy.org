@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Firing Schedule General Theory and Documentation</title>
+    <link>https://wiki.glazy.org/t/firing-schedule-general-theory-and-documentation/363</link>
+    <description>## Sample Kiln Firing Schedule from CAW Studio
+
+From: https://cawstudiopotters.wordpress.com/exp/kilns-firing/
+
+&lt;img src=&quot;/uploads/default/original/1X/f1c22a538242f758ad95d3386dff9b59d89ac93e.jpg&quot; width=&quot;690&quot; height=&quot;386&quot;&gt;
+
+## Dick White: Difference between programmed schedule and actual kiln performance
+
+&lt;img src=&quot;/uploads/default/original/1X/95e361feb48b948b46add028dc46a51e3737290d.jpg&quot; width=&quot;690&quot; height=&quot;517&quot;&gt;
+
+In my experience firing digitally controlled electric kilns, the programmed firing profile is purely theoretical fluff sometimes with very little relationship to the reality of actual kiln performance. Leaving aside the notion that it only can be stated with any assurance that it was cone-whatever if you had a set of actual witness cones in there, what you thought you were telling the kiln to do through the programming instructions was probably not what the kiln actually did, because it wasn&#39;t capable of doing what you told it.
+
+When I am trying to document a particular kiln&#39;s actual performance, I have handheld logging pyrometer connected to a computer which records the actual temperature every minute in a spreadsheet for later analysis. Attached is an example of a firing in a kiln that was performing badly. The yellow and red lines are what the kiln was programmed to do; the purple line is what actually happened.</description>
+    
+    <lastBuildDate>Mon, 31 Jul 2017 09:52:01 +0000</lastBuildDate>
+    <category>Firing Schedules</category>
+    <atom:link href="https://wiki.glazy.org/t/firing-schedule-general-theory-and-documentation/363.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Firing Schedule General Theory and Documentation</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Sample Kiln Firing Schedule from CAW Studio</h2>
+<p>From: <a href="https://cawstudiopotters.wordpress.com/exp/kilns-firing/" rel="nofollow noopener">https://cawstudiopotters.wordpress.com/exp/kilns-firing/</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/f1c22a538242f758ad95d3386dff9b59d89ac93e.jpg" data-download-href="https://wiki.glazy.org/uploads/default/f1c22a538242f758ad95d3386dff9b59d89ac93e" title="c (1).jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/f1c22a538242f758ad95d3386dff9b59d89ac93e.jpg" width="690" height="386" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/f1c22a538242f758ad95d3386dff9b59d89ac93e_2_10x10.png"></a></div><p></p>
+<h2>Dick White: Difference between programmed schedule and actual kiln performance</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/95e361feb48b948b46add028dc46a51e3737290d.jpg" data-download-href="https://wiki.glazy.org/uploads/default/95e361feb48b948b46add028dc46a51e3737290d" title="20526119_1639776189368456_8597119728277595444_n.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/95e361feb48b948b46add028dc46a51e3737290d.jpg" width="690" height="517" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/95e361feb48b948b46add028dc46a51e3737290d_2_10x10.png"></a></div><p></p>
+<p>In my experience firing digitally controlled electric kilns, the programmed firing profile is purely theoretical fluff sometimes with very little relationship to the reality of actual kiln performance. Leaving aside the notion that it only can be stated with any assurance that it was cone-whatever if you had a set of actual witness cones in there, what you thought you were telling the kiln to do through the programming instructions was probably not what the kiln actually did, because it wasn’t capable of doing what you told it.</p>
+<p>When I am trying to document a particular kiln’s actual performance, I have handheld logging pyrometer connected to a computer which records the actual temperature every minute in a spreadsheet for later analysis. Attached is an example of a firing in a kiln that was performing badly. The yellow and red lines are what the kiln was programmed to do; the purple line is what actually happened.</p>
+          <p><a href="https://wiki.glazy.org/t/firing-schedule-general-theory-and-documentation/363/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/firing-schedule-general-theory-and-documentation/363/1</link>
+        <pubDate>Mon, 31 Jul 2017 09:21:18 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-363-1</guid>
+        <source url="https://wiki.glazy.org/t/firing-schedule-general-theory-and-documentation/363.rss">Firing Schedule General Theory and Documentation</source>
+      </item>
+  </channel>
+</rss>

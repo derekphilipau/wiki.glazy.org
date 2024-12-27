@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Mixing Glaze Tests</title>
+    <link>https://wiki.glazy.org/t/mixing-glaze-tests/49</link>
+    <description>## Mixing Recipes
+
+Glazes “don’t travel well”, in other words materials, application, and firings vary from studio to studio. Even for well-known glazes, it’s important to first make a few small tests. For these tests, use 50g or 100g of material and apply the test glaze to a number of different clay bodies. If a test comes out well, mix a larger batch of 1-2Kg. 1Kg is enough material to glaze small cups, 2Kg is a good amount for small bowls. These larger tests should reveal any problems with glaze suspension, application (cracking, peeling, etc.), and fired glaze defects. Once you have some nice results with 1Kg, you can finally move on to a big bucket of 5-10Kg.
+&lt;img src=&quot;/uploads/default/original/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d.png&quot; width=&quot;690&quot; height=&quot;431&quot; title=&quot;Sizes for glaze batches.&quot;&gt;
+
+## Batch Calculator
+
+The batch calculator simply multiplies each ingredient amount. It is unit-independent. In the example shown, it does not matter if we are making 2000 grams, kilograms, pounds or even tonnes of glaze.
+
+Note that additive materials such as coloring oxides are calculated in addition to the batch amount.
+
+In the example below, the  *base recipe*  is calculated to 1000 units (grams, pounds, whatever), while the *additional materials*  (Tin Oxide and Yellow Iron Oxide) are added on top of 1000.
+
+![batch|690x690](upload://hmfberWOnOTofGAC7UKq6QRKft3.png) 
+
+## Sieves
+
+For “natural” glazes containing large-grained materials or ashes, or in cases where homogeneity is not a concern, it’s fine to use a larger screen of 60-80 mesh. But in all other cases it&#39;s good to use 120 mesh or smaller. Small mesh size is very important for glazes that contain small amounts of very important materials such as coloring oxides (e.g. cobalt and iron). But it’s also important to ensure that materials are adequately broken up and mixed (such as clays).
+
+Below you can see two tests of the same batch of glaze fired in the same kiln. The first test was applied after passing the materials three times through an 80 mesh screen. The second test is the result of passing that same glaze once more through a 120 mesh screen.
+
+&lt;img src=&quot;/uploads/default/original/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3.jpg&quot; width=&quot;690&quot; height=&quot;345&quot;  title=&quot;Left:  80 mesh sieve, Right: 120 mesh sieve&quot;&gt;
+
+## Scales
+
+Weight measuring scales come in a wide range of types and prices. Purchasing a scale is a trade-off between cost, resolution and capacity. In general, scales that can weigh larger amounts of materials have lower resolution (e.g. 1 gram), while scales that have higher resolution (e.g. 0.01 grams) can only weigh small amounts.
+
+For weighing small amounts of glaze materials (for example, 50 and 100 gram test batches), it is very important to use a scale that has a readability to at least 0.1 grams. (Some glaze materials such as cobalt are very strong, and a difference of even 0.1 grams in a 100 gram batch will have a noticeable impact.) Ideally, your test scale will have a capacity of over 100 grams and readability of 0.01 grams.
+
+Note: Just because a scale has a high resolution (e.g. 0.01 grams) does not mean it has high accuracy. Price is usually a good indication of accuracy, so it&#39;s best to get the most expensive scale that you can reasonably afford.
+
+&lt;img src=&quot;/uploads/default/original/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5.jpg&quot; width=&quot;666&quot; height=&quot;500&quot; title=&quot;Simple balance scales.&quot;&gt;
+
+The Ohaus Scout Pro SP4001 and SP202 digital scales during calibration. It is important to periodically calibrate your scales using accurate calibration weights.
+&lt;img src=&quot;/uploads/default/original/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847.jpg&quot; width=&quot;666&quot; height=&quot;500&quot; title=&quot;Two digital scales&quot;&gt;
+
+## Using a Beam Scale
+
+For those on a budget, perhaps the most affordable solution for precise weighing of glaze materials is a  *triple beam scale* .
+
+1. Select a container to hold glaze materials and weigh it on the scale. In the example below, the container weighs 63 grams:
+![tare_1|690x459](upload://uj5pQ8BXRrJAHv6XY1Eur1BdogK.jpeg) 
+
+2. On the Glazy recipe page, enter the **Tare Weight**:
+![tare_2|690x408](upload://eYiVC7FcmVGgVEEbjdu5NFyXSxy.jpeg) 
+
+3. Enter the **Batch Size**.  The batch size is _unit independent_.
+In the below example, we could be measuring 400 grams, 400 pounds, 
+or even 400 tons of recipe material.  But in this case, we are using grams.
+Notice that the final subtotal equals **463**, which is the _Tare Weight_ 
+(weight of the container) plus the _Batch Size_.
+![tare_3|690x442](upload://iwjJvUTKeKYSlcKlFoHgBOLQFIl.jpeg) 
+
+4.  After measuring out the first ingredient, **EPK**, our scale should
+show **251** (63 grams container weight plus 188 grams of EPK):
+![tare_4|690x459](upload://7JFGI7X1DoVEwT70BuyS3xeyVi7.jpeg) 
+
+5.  After measuring out all of the ingredients for this batch, 
+the scale should read **463** (63 gram container plus 400 gram batch):
+
+## Mixing Test Glazes
+
+It’s important to wear a well-fitting, NIOSH certified mask whenever mixing ceramic materials. All materials should be handled in well-ventilated area to avoid the risk of inhalation. For more information about the hazards of mixing ceramic materials, see the article [Studio Dust by Mark Goldberg](http://markgoldbergpottery.com/goldberg_studiodust-final.pdf).
+
+For test glazes, try to find re-useable containers that fit your seives like these plastic restaurant soup bowls with lids. Glaze name &amp; recipe can be written on the container with permanent marker.
+&lt;img src=&quot;/uploads/default/original/1X/0668cbfa1f46430a6f7e85517da0143376c50742.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Carefully measure out each ingredient into the bowl, placing into separate piles so that any extra material can be easily removed. The measurement displayed on the scale should match the &quot;Subtotal&quot; column in the Glazy Batch Calculator.
+&lt;img src=&quot;/uploads/default/original/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Dry mix the ingredients with a spoon until well dispersed.
+&lt;img src=&quot;/uploads/default/original/1X/a52161f824b9ffe871594f8ae791968709abf74f.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+For 100 grams of material, add about 50-60ml of water (less if your glaze has little or no clay).
+&lt;img src=&quot;/uploads/default/original/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Wait a few minutes until the water has thoroughly soaked the materials, then stir. Glaze should be fairly thick, do not add too much water as you will be adding more as you go along.
+&lt;img src=&quot;/uploads/default/original/1X/9808319774a269facd800548bf96922f3c23049e.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Use a fairly stiff rib to scrape the glaze through the sieve.
+&lt;img src=&quot;/uploads/default/original/1X/a35a544ff137eda473ae0381ee58bfb11db4269a.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+The first pass takes the most work as the clays are broken apart.
+&lt;img src=&quot;/uploads/default/original/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Try not to lose any material, especially if preparing for volumetric blending. Use a water sprayer to clean the container, spoon, and sieve after each pass. But don&#39;t add too much water.
+&lt;img src=&quot;/uploads/default/original/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Pass the glaze through the sieve two or three times. After the final pass, the glaze should be creamy without any large grains or lumps.
+&lt;img src=&quot;/uploads/default/original/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Now you can slowly mix in water and dip your test tiles. Flat test tiles require the least amount of glaze.
+&lt;img src=&quot;/uploads/default/original/1X/fa3469cd7fff3817f8858991334d9770dd000422.jpg&quot; width=&quot;666&quot; height=&quot;500&quot;&gt;
+
+Test tiles can be dipped multiple times in order to see the result of glaze thickness. It is best to double-dip the side of a test tile rather than the top so that the two different glaze thicknesses do not run into one another.
+&lt;img src=&quot;/uploads/default/original/1X/2180b4f74946e63ef27adc37db6349e539c799eb.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;
+
+Record as much information as you can on each test tile. On this tile, the type of clay has been stamped, while glaze information was written with an underglaze pencil. After firing, a permanent marker was used to record the firing date and actual cone reached.
+&lt;img src=&quot;/uploads/default/original/1X/a153868b7b498b940c716e4d76fef3364d600a93.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</description>
+    
+    <lastBuildDate>Sun, 17 Mar 2019 14:17:24 +0000</lastBuildDate>
+    <category>Glaze Testing</category>
+    <atom:link href="https://wiki.glazy.org/t/mixing-glaze-tests/49.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Mixing Glaze Tests</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Mixing Recipes</h2>
+<p>Glazes “don’t travel well”, in other words materials, application, and firings vary from studio to studio. Even for well-known glazes, it’s important to first make a few small tests. For these tests, use 50g or 100g of material and apply the test glaze to a number of different clay bodies. If a test comes out well, mix a larger batch of 1-2Kg. 1Kg is enough material to glaze small cups, 2Kg is a good amount for small bowls. These larger tests should reveal any problems with glaze suspension, application (cracking, peeling, etc.), and fired glaze defects. Once you have some nice results with 1Kg, you can finally move on to a big bucket of 5-10Kg.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d.png" data-download-href="https://wiki.glazy.org/uploads/default/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d" title="Sizes for glaze batches."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d_2_690x431.png" width="690" height="431" title="Sizes for glaze batches." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d_2_690x431.png, https://wiki.glazy.org/uploads/default/optimized/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d_2_1035x646.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/bed4b10d0a1aeacf39ab59c7925478151f8b8e8d_2_10x10.png"></a></div><p></p>
+<h2>Batch Calculator</h2>
+<p>The batch calculator simply multiplies each ingredient amount. It is unit-independent. In the example shown, it does not matter if we are making 2000 grams, kilograms, pounds or even tonnes of glaze.</p>
+<p>Note that additive materials such as coloring oxides are calculated in addition to the batch amount.</p>
+<p>In the example below, the  <em>base recipe</em>  is calculated to 1000 units (grams, pounds, whatever), while the <em>additional materials</em>  (Tin Oxide and Yellow Iron Oxide) are added on top of 1000.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/79a8af84305749b979a94985a3b2bba0983fb425.png" data-download-href="https://wiki.glazy.org/uploads/default/79a8af84305749b979a94985a3b2bba0983fb425" title="batch.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/79a8af84305749b979a94985a3b2bba0983fb425_2_690x690.png" alt="batch" width="690" height="690" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/79a8af84305749b979a94985a3b2bba0983fb425_2_690x690.png, https://wiki.glazy.org/uploads/default/original/1X/79a8af84305749b979a94985a3b2bba0983fb425.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/79a8af84305749b979a94985a3b2bba0983fb425.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/79a8af84305749b979a94985a3b2bba0983fb425_2_10x10.png"></a></div><p></p>
+<h2>Sieves</h2>
+<p>For “natural” glazes containing large-grained materials or ashes, or in cases where homogeneity is not a concern, it’s fine to use a larger screen of 60-80 mesh. But in all other cases it’s good to use 120 mesh or smaller. Small mesh size is very important for glazes that contain small amounts of very important materials such as coloring oxides (e.g. cobalt and iron). But it’s also important to ensure that materials are adequately broken up and mixed (such as clays).</p>
+<p>Below you can see two tests of the same batch of glaze fired in the same kiln. The first test was applied after passing the materials three times through an 80 mesh screen. The second test is the result of passing that same glaze once more through a 120 mesh screen.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3.jpg" data-download-href="https://wiki.glazy.org/uploads/default/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3" title="Left:  80 mesh sieve, Right: 120 mesh sieve"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3_2_690x345.jpg" width="690" height="345" title="Left:  80 mesh sieve, Right: 120 mesh sieve" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3_2_690x345.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3_2_1035x517.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3_2_1380x690.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/2f0783dccd287f4f4c8eb0e8d5ac04b576893bc3_2_10x10.png"></a></div><p></p>
+<h2>Scales</h2>
+<p>Weight measuring scales come in a wide range of types and prices. Purchasing a scale is a trade-off between cost, resolution and capacity. In general, scales that can weigh larger amounts of materials have lower resolution (e.g. 1 gram), while scales that have higher resolution (e.g. 0.01 grams) can only weigh small amounts.</p>
+<p>For weighing small amounts of glaze materials (for example, 50 and 100 gram test batches), it is very important to use a scale that has a readability to at least 0.1 grams. (Some glaze materials such as cobalt are very strong, and a difference of even 0.1 grams in a 100 gram batch will have a noticeable impact.) Ideally, your test scale will have a capacity of over 100 grams and readability of 0.01 grams.</p>
+<p>Note: Just because a scale has a high resolution (e.g. 0.01 grams) does not mean it has high accuracy. Price is usually a good indication of accuracy, so it’s best to get the most expensive scale that you can reasonably afford.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5.jpg" data-download-href="https://wiki.glazy.org/uploads/default/d8494cacfd060c20d1c28d57bd575e70b50191d5" title="Simple balance scales."><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5_2_666x500.jpg" width="666" height="500" title="Simple balance scales." srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d8494cacfd060c20d1c28d57bd575e70b50191d5_2_10x10.png"></a></div><p></p>
+<p>The Ohaus Scout Pro SP4001 and SP202 digital scales during calibration. It is important to periodically calibrate your scales using accurate calibration weights.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847.jpg" data-download-href="https://wiki.glazy.org/uploads/default/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847" title="Two digital scales"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847_2_666x500.jpg" width="666" height="500" title="Two digital scales" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/4a9aa77a3b95d6eb4c6b87aaf4c1bb61c241e847_2_10x10.png"></a></div><p></p>
+<h2>Using a Beam Scale</h2>
+<p>For those on a budget, perhaps the most affordable solution for precise weighing of glaze materials is a  <em>triple beam scale</em> .</p>
+<ol>
+<li>
+<p>Select a container to hold glaze materials and weigh it on the scale. In the example below, the container weighs 63 grams:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d4699328ccda4920099b7df163c99cbe3bede6f6.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/d4699328ccda4920099b7df163c99cbe3bede6f6" title="tare_1.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/d4699328ccda4920099b7df163c99cbe3bede6f6.jpeg" alt="tare_1" width="690" height="459" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d4699328ccda4920099b7df163c99cbe3bede6f6_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>On the Glazy recipe page, enter the <strong>Tare Weight</strong>:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/68ef9170cc9cc9ddc36236035af074f12f64e4e0.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/68ef9170cc9cc9ddc36236035af074f12f64e4e0" title="tare_2.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/68ef9170cc9cc9ddc36236035af074f12f64e4e0.jpeg" alt="tare_2" width="690" height="408" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/68ef9170cc9cc9ddc36236035af074f12f64e4e0_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>Enter the <strong>Batch Size</strong>.  The batch size is <em>unit independent</em>.<br>
+In the below example, we could be measuring 400 grams, 400 pounds,<br>
+or even 400 tons of recipe material.  But in this case, we are using grams.<br>
+Notice that the final subtotal equals <strong>463</strong>, which is the <em>Tare Weight</em><br>
+(weight of the container) plus the <em>Batch Size</em>.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/81ce5e174c933acd828b73bc73e5efb3c6b221b1.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/81ce5e174c933acd828b73bc73e5efb3c6b221b1" title="tare_3.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/81ce5e174c933acd828b73bc73e5efb3c6b221b1.jpeg" alt="tare_3" width="690" height="442" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/81ce5e174c933acd828b73bc73e5efb3c6b221b1_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>After measuring out the first ingredient, <strong>EPK</strong>, our scale should<br>
+show <strong>251</strong> (63 grams container weight plus 188 grams of EPK):<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/3638e623528cb40e4490832acc504e65bcb0a1b7.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/3638e623528cb40e4490832acc504e65bcb0a1b7" title="tare_4.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/3638e623528cb40e4490832acc504e65bcb0a1b7.jpeg" alt="tare_4" width="690" height="459" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/3638e623528cb40e4490832acc504e65bcb0a1b7_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>After measuring out all of the ingredients for this batch,<br>
+the scale should read <strong>463</strong> (63 gram container plus 400 gram batch):</p>
+</li>
+</ol>
+<h2>Mixing Test Glazes</h2>
+<p>It’s important to wear a well-fitting, NIOSH certified mask whenever mixing ceramic materials. All materials should be handled in well-ventilated area to avoid the risk of inhalation. For more information about the hazards of mixing ceramic materials, see the article <a href="http://markgoldbergpottery.com/goldberg_studiodust-final.pdf" rel="nofollow noopener">Studio Dust by Mark Goldberg</a>.</p>
+<p>For test glazes, try to find re-useable containers that fit your seives like these plastic restaurant soup bowls with lids. Glaze name &amp; recipe can be written on the container with permanent marker.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0668cbfa1f46430a6f7e85517da0143376c50742.jpg" data-download-href="https://wiki.glazy.org/uploads/default/0668cbfa1f46430a6f7e85517da0143376c50742" title="1.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0668cbfa1f46430a6f7e85517da0143376c50742_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0668cbfa1f46430a6f7e85517da0143376c50742_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/0668cbfa1f46430a6f7e85517da0143376c50742_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/0668cbfa1f46430a6f7e85517da0143376c50742.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0668cbfa1f46430a6f7e85517da0143376c50742_2_10x10.png"></a></div><p></p>
+<p>Carefully measure out each ingredient into the bowl, placing into separate piles so that any extra material can be easily removed. The measurement displayed on the scale should match the “Subtotal” column in the Glazy Batch Calculator.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc.jpg" data-download-href="https://wiki.glazy.org/uploads/default/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc" title="2.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/3d9a8490a87db986cfa25758e8fd7dc4b6b685fc_2_10x10.png"></a></div><p></p>
+<p>Dry mix the ingredients with a spoon until well dispersed.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a52161f824b9ffe871594f8ae791968709abf74f.jpg" data-download-href="https://wiki.glazy.org/uploads/default/a52161f824b9ffe871594f8ae791968709abf74f" title="3.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/a52161f824b9ffe871594f8ae791968709abf74f_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/a52161f824b9ffe871594f8ae791968709abf74f_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/a52161f824b9ffe871594f8ae791968709abf74f_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/a52161f824b9ffe871594f8ae791968709abf74f.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a52161f824b9ffe871594f8ae791968709abf74f_2_10x10.png"></a></div><p></p>
+<p>For 100 grams of material, add about 50-60ml of water (less if your glaze has little or no clay).<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8.jpg" data-download-href="https://wiki.glazy.org/uploads/default/8e37e6f897df22bdf73450b4a1a0e0df097942e8" title="4.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/8e37e6f897df22bdf73450b4a1a0e0df097942e8_2_10x10.png"></a></div><p></p>
+<p>Wait a few minutes until the water has thoroughly soaked the materials, then stir. Glaze should be fairly thick, do not add too much water as you will be adding more as you go along.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/9808319774a269facd800548bf96922f3c23049e.jpg" data-download-href="https://wiki.glazy.org/uploads/default/9808319774a269facd800548bf96922f3c23049e" title="5.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/9808319774a269facd800548bf96922f3c23049e_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/9808319774a269facd800548bf96922f3c23049e_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/9808319774a269facd800548bf96922f3c23049e_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/9808319774a269facd800548bf96922f3c23049e.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/9808319774a269facd800548bf96922f3c23049e_2_10x10.png"></a></div><p></p>
+<p>Use a fairly stiff rib to scrape the glaze through the sieve.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a35a544ff137eda473ae0381ee58bfb11db4269a.jpg" data-download-href="https://wiki.glazy.org/uploads/default/a35a544ff137eda473ae0381ee58bfb11db4269a" title="6.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/a35a544ff137eda473ae0381ee58bfb11db4269a_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/a35a544ff137eda473ae0381ee58bfb11db4269a_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/a35a544ff137eda473ae0381ee58bfb11db4269a_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/a35a544ff137eda473ae0381ee58bfb11db4269a.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a35a544ff137eda473ae0381ee58bfb11db4269a_2_10x10.png"></a></div><p></p>
+<p>The first pass takes the most work as the clays are broken apart.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f.jpg" data-download-href="https://wiki.glazy.org/uploads/default/367fde147674e6af7ac7d752d2b8de6bfce7f48f" title="7.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/367fde147674e6af7ac7d752d2b8de6bfce7f48f_2_10x10.png"></a></div><p></p>
+<p>Try not to lose any material, especially if preparing for volumetric blending. Use a water sprayer to clean the container, spoon, and sieve after each pass. But don’t add too much water.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a.jpg" data-download-href="https://wiki.glazy.org/uploads/default/cd363aa04e66dd5a7803831695bc0efc97b3114a" title="8.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/cd363aa04e66dd5a7803831695bc0efc97b3114a_2_10x10.png"></a></div><p></p>
+<p>Pass the glaze through the sieve two or three times. After the final pass, the glaze should be creamy without any large grains or lumps.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4.jpg" data-download-href="https://wiki.glazy.org/uploads/default/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4" title="9.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/4939c0e854b3fdeb97a99bfdfa9ddfc652f391b4_2_10x10.png"></a></div><p></p>
+<p>Now you can slowly mix in water and dip your test tiles. Flat test tiles require the least amount of glaze.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/fa3469cd7fff3817f8858991334d9770dd000422.jpg" data-download-href="https://wiki.glazy.org/uploads/default/fa3469cd7fff3817f8858991334d9770dd000422" title="10.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/fa3469cd7fff3817f8858991334d9770dd000422_2_666x500.jpg" width="666" height="500" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/fa3469cd7fff3817f8858991334d9770dd000422_2_666x500.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/fa3469cd7fff3817f8858991334d9770dd000422_2_999x750.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/fa3469cd7fff3817f8858991334d9770dd000422_2_1332x1000.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/fa3469cd7fff3817f8858991334d9770dd000422_2_10x10.png"></a></div><p></p>
+<p>Test tiles can be dipped multiple times in order to see the result of glaze thickness. It is best to double-dip the side of a test tile rather than the top so that the two different glaze thicknesses do not run into one another.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/2180b4f74946e63ef27adc37db6349e539c799eb.jpg" data-download-href="https://wiki.glazy.org/uploads/default/2180b4f74946e63ef27adc37db6349e539c799eb" title="testtiledip.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/2180b4f74946e63ef27adc37db6349e539c799eb.jpg" width="500" height="500" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/2180b4f74946e63ef27adc37db6349e539c799eb_2_10x10.png"></a></div><p></p>
+<p>Record as much information as you can on each test tile. On this tile, the type of clay has been stamped, while glaze information was written with an underglaze pencil. After firing, a permanent marker was used to record the firing date and actual cone reached.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/a153868b7b498b940c716e4d76fef3364d600a93.jpg" data-download-href="https://wiki.glazy.org/uploads/default/a153868b7b498b940c716e4d76fef3364d600a93" title="testtileback.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/a153868b7b498b940c716e4d76fef3364d600a93.jpg" width="500" height="500" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/a153868b7b498b940c716e4d76fef3364d600a93_2_10x10.png"></a></div><p></p>
+          <p><a href="https://wiki.glazy.org/t/mixing-glaze-tests/49/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/mixing-glaze-tests/49/1</link>
+        <pubDate>Sun, 23 Apr 2017 03:56:50 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-49-1</guid>
+        <source url="https://wiki.glazy.org/t/mixing-glaze-tests/49.rss">Mixing Glaze Tests</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Glazy Help - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/glazy-help/91</link>
+    <description>Topics in the &#39;Glazy Help&#39; category Please directly email derek [at] &lt;a href=&quot;http://glazy.org&quot;&gt;glazy.org&lt;/a&gt; and I will get back to you as soon as possible!</description>
+    
+      <lastBuildDate>Wed, 09 Oct 2019 23:42:42 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/glazy-help/91.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Understanding the Stull chart</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>Glazy Help</category>
+          <description><![CDATA[
+            <h2>Introduction</h2>
+<p>Glaze recipes are best understood by looking at the amounts of the various oxides they contain, instead of their ingredients. The relative proportions of the oxides in a glaze determine - to a large degree - the behaviour of the glaze.</p>
+<p>A useful way to understand the effect of a particular oxide is to create a series of glazes where all the other oxides remain in fixed proportion, and only the oxide of interest changes as you move along the series. For example, in the image below, Phosphorus oxide increases from left to right, while the other oxides remain the same.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d71621db10e1edf71820fbffc07f83eac78045c2.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/d71621db10e1edf71820fbffc07f83eac78045c2" title="HG7%20Blue%20Red%20with%20additions%20of%20P2O5"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_690x173.jpeg" alt="HG7%20Blue%20Red%20with%20additions%20of%20P2O5" data-base62-sha1="uGK4BuU4HgFVFjW0ovq6Ch1wahc" width="690" height="173" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_690x173.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_1035x259.jpeg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d71621db10e1edf71820fbffc07f83eac78045c2.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_10x10.png"></a></div><p></p>
+<p>To understand the effect of <em>two</em> particular oxides, we can fix the proportions of all oxides except those two, and create a rectangular array of glazes where one oxide changes horizontally, and the other vertically. If these glazes are applied to test tiles, the fired tiles can be arranged in a grid which shows how the glaze changes as the two oxides vary. The example below shows a glaze where red iron oxide increases from left to right, and titanium dioxide increases from bottom to top:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/78d4e50114b9ba550db8e0fa77a776d12f822a6d" title="PinnellClear_RIO_TiO"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_690x504.jpeg" alt="PinnellClear_RIO_TiO" data-base62-sha1="heVq60JGzfO1lJkko6rRRq5XViR" width="690" height="504" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_690x504.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_1035x756.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_1380x1008.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_10x10.png"></a></div><p></p>
+<p>These glazes can be plotted as points on a grid, which can be used to estimate the regions where some property of the glazes holds. In this case, the regions where the glazes are more bluish and more greenish are shown:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638" title="RIO_TiDi"><img src="https://wiki.glazy.org/uploads/default/original/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638.jpeg" alt="RIO_TiDi" data-base62-sha1="h33Fn45IJaWuK8J3WnoOH1GQ4TS" width="690" height="312" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638_2_10x10.png"></a></div><p></p>
+<p>The division of glazes into these two groups is a simplification; in reality, the colour changes continuously from blueish to greenish. In the same way, the different regions in the charts shown below are simplifications of reality.</p>
+<h2>The Stull chart</h2>
+<p>The ‘Stull chart’, drawn by R. T. Stull in 1912, is a particular example of this type of grid, where the oxides silica (SiO<sub>2</sub>) and alumina (Al<sub>2</sub>O<sub>3</sub>) vary. The diagram below depicts the properties of the glazes where silica increases from left to right, and alumina increases from bottom to top. The hatched region shows glazes that craze.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/729a56976a4a278d0653eafadd97d11bc2d1bd4c" title="465de18a"><img src="https://wiki.glazy.org/uploads/default/original/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c.jpeg" alt="465de18a" data-base62-sha1="glP6bDGBrRF4dcRetQP3tU36nOk" width="517" height="517" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c_2_10x10.png"></a></div><p></p>
+<p>Some observations:</p>
+<ul>
+<li>In the top left corner, where SiO<sub>2</sub> is low and Al<sub>2</sub>O<sub>3</sub> is high, and in the bottom right corner, where SiO<sub>2</sub> is high and Al<sub>2</sub>O<sub>3</sub> is low, the glaze isn’t fully melted (the <em>UNFUSED</em> and <em>DEVITRIFIED</em> regions both denote immature glazes). Although the chart doesn’t extend far enough to show this, glazes which have both excessively high SiO<sub>2</sub> and Al<sub>2</sub>O<sub>3</sub> also won’t melt. A rough approximation of the enlarged chart is shown below.</li>
+</ul>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/fc61c85b8fd2988af1a34f7e63be05126ab9f73e.jpeg" alt="Stull%20mature%20glazes" data-base62-sha1="A0FOTzsI1X2RAnHEaCqOOc5euJ0" width="419" height="418"></p>
+<ul>
+<li>The region where the glazes are mature is divided into three sub-regions, <em>MATTES</em>, <em>SEMI-MATTES</em>, and <em>BRIGHT</em>, which here means glossy. Glazes on the boundary between the matte and semi-matte regions all have roughly 4 molecules of SiO<sub>2</sub> for every molecule of Al<sub>2</sub>O<sub>3</sub>, while glazes on the boundary between the semi-matte and glossy regions all have roughly 5 molecules of SiO<sub>2</sub> for every molecule of Al<sub>2</sub>O<sub>3</sub>. In other words, glazes with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio of less than about 4 are matte, glazes with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio greater than about 5 are glossy, and the ones in between are semi-matte. Glazes that are underfired will generally be matte / semi-matte.</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/bca41537e2da09571da3be19e62ab6b01c72b645.png" data-download-href="https://wiki.glazy.org/uploads/default/bca41537e2da09571da3be19e62ab6b01c72b645" title="image"><img src="https://wiki.glazy.org/uploads/default/original/1X/bca41537e2da09571da3be19e62ab6b01c72b645.png" alt="image" data-base62-sha1="qUNjfbvzunz2XdjQM8yj4c0UQKh" width="690" height="463" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/bca41537e2da09571da3be19e62ab6b01c72b645_2_10x10.png"></a></div><p></p>
+<ul>
+<li>Glazes with low SiO<sub>2</sub> or low Al<sub>2</sub>O<sub>3</sub> craze, as do underfired glazes with high SiO<sub>2</sub>.</li>
+</ul>
+<p>This chart was constructed by fixing the proportions of all oxides other than silica and alumina, and firing to cone 11 (the actual proportions used can be found in the original <a href="https://wiki.glazy.org/t/influences-of-variable-silica-and-alumina-on-porcelain-glazes/766">paper</a>). If the oxides other than silica and alumina were fixed in different proportions, or the glazes were fired to a different <a href="https://wiki.glazy.org/t/measuring-heatwork-temperature-with-orton-cones/509">cone</a>, the resulting chart might look somewhat different, but the three observations above would still hold in most cases, more or less.</p>
+<h2>Using the Stull chart</h2>
+<p>Although Glazy shows a version of the Stull chart as a background image when plotting SiO<sub>2</sub> vs Al<sub>2</sub>O<sub>3</sub>, this can’t always be relied on to predict whether a glaze will be matte or glossy, mature or not, or crazed or not. Rather think of it as a metaphor that describes the big picture.</p>
+<p>Some of the many factors that affect a glaze are the proportions of the oxides other than silica and alumina, the cone to which the glaze is fired, the cooling rate of the kiln, and the claybody on which the glaze is fired. All of these have the potential to modify the chart. However, the overview of the glaze landscape that the chart provides can still be useful. To make an analogy, imagine being lost in a dense forest, with only a compass and a map. If the map shows that the forest gradually transitions to open country towards the north-east, you’ll be able to head out of the forest, despite not knowing your exact location on the map.</p>
+<p>For example, if you’d like to change a glossy glaze to a matte, you can modify the glaze by decreasing the silica-alumina ratio. If the glaze contains enough silica as an ingredient, the simplest way to do this is by removing some of the silica. The example below shows a glaze where progressively more silica has been removed, moving from right to left.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/49b984a55dbb6738c5119d3a11b0d15abe79b908" title="BOB%20silica%20line%20blend"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_690x148.jpeg" alt="BOB%20silica%20line%20blend" data-base62-sha1="awckdGRfh1Vv2BcWHR9MAiS4F1C" width="690" height="148" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_690x148.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_1035x222.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_1380x296.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_10x10.png"></a></div><p></p>
+<p>Knowing the general behaviour of the map can be useful in identifying potentially problematic glazes. If you have a glaze with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio well above 5 that fires matte, this may be a sign that it isn’t fully mature. There may be other reasons, as explained <a href="https://digitalfire.com/4sight/glossary/glossary_matte_glaze.html">here</a>.</p>
+<p>The extent of the crazed region can vary a great deal, since it depends strongly on the claybody on which the glaze is applied. However, the chart shows that a general rule of thumb to decrease crazing is to increase both silica and alumina. Other options are given <a href="https://digitalfire.com/4sight/troubleshooting/ceramic_troubleshooting_glaze_crazing.html">here</a>.</p>
+<h2>Other resources</h2>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=-oRFAxpmaqE&amp;feature=youtu.be">Lecture</a> by Matt Katz.</p>
+</li>
+<li>
+<p>John Britt <a href="https://www.youtube.com/watch?v=vL4dGrZdPEs">video</a>.</p>
+</li>
+<li>
+<p>There are sections on the Stull chart in Cullen Parmalee’s <a href="https://www.worldcat.org/title/ceramic-glazes-by-cullen-w-parmelee/oclc/639798959?referer=di&amp;ht=edition"><em>Ceramic Glazes</em></a>, and the second edition of Linda Bloomfield’s <a href="https://blackwells.co.uk/bookshop/product/Colour-in-Glazes-by-Linda-Bloomfield-Henry-Bloomfield-photographer-expression/9781912217823"><em>Colour in Glazes</em></a>.</p>
+</li>
+</ul>
+
+
+<ul>
+<li>
+<p><a href="https://wiki.glazy.org/t/ian-curries-stoneware-glazes/367"><em>Stoneware Glazes - A Systematic Approach</em></a>, by Ian Currie. An excellent book, with detailed information on SiO<sub>2</sub> - Al<sub>2</sub>O<sub>3</sub> charts produced by the Currie grid method.  If this seems too daunting as an introductory glaze calculation book, you may want to read his <a href="https://leanpub.com/Revealing-Glazes-by-Ian-Currie/read"><em>Revealing Glazes - Using the Grid Method</em></a> first.</p>
+</li>
+<li>
+<p><a href="https://www.worldcat.org/title/practice-of-stoneware-glazes-minerals-rocks-ashes/oclc/62310816"><em>The Practice of Stoneware Glazes : Minerals, Rocks and Ashes</em></a> by Brother Daniel de Montmollin (original in <a href="https://livre.fnac.com/a1645624/Daniel-de-Montmollin-Pratique-des-emaux">French</a>) contains a series of 60 SiO<sub>2</sub> - Al<sub>2</sub>O<sub>3</sub> charts corresponding to different combinations of fluxes (these only show the regions where glazes melt at cone 13). Digitized versions of these charts can be found <a href="https://derekphilipau.github.io/vue-d3-stull-charts/#/">here</a>, under ‘Montmollin Fuse Diagrams’. It will help if you uncheck ‘Show Recipes’. A summary of the book can be found <a href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860">here</a>.</p>
+</li>
+</ul>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/understanding-the-stull-chart/857">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/understanding-the-stull-chart/857</link>
+          <pubDate>Wed, 09 Oct 2019 23:42:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-857</guid>
+          <source url="https://wiki.glazy.org/t/understanding-the-stull-chart/857.rss">Understanding the Stull chart</source>
+        </item>
+        <item>
+          <title>Internationalization</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Glazy Help</category>
+          <description><![CDATA[
+            <p><strong>Special thanks to these amazing ceramicists who crowd-sourced the translations:</strong><br>
+** Alisa Liskin Clausen, Monique Duclos, Ana Felipe, Clara Giorello, Louis Katz, Art Kha, Čazo Čazim Mehmeti, Huang Nuokan, Jean-Pierre Prieto, Stijn Vanacker, and Trees Wijnands.**</p>
+<p>The internationalization of Glazy is a very big project that will occur in many small steps.</p>
+<p>The steps are:</p>
+<ol>
+<li>Translate Recipes and Materials (names, other names, and descriptions).</li>
+<li>Translate Categories (e.g. Celadon, Copper Red, Porcelain)</li>
+<li>Translate all other metadata categories (atmospheres, transparency, color, etc.)</li>
+<li>Translate User Interface (UI), including the text for all buttons and descriptions.</li>
+</ol>
+<h2>Step 1:  Translate Recipes &amp; Materials</h2>
+<p>Many of the common Materials we use in ceramics (Silica, Kaolin, Whiting, etc.) were already translated in our crowd-sourced <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" rel="nofollow noopener">Ceramics Dictionary</a></p>
+<h3>Submitting new Translations</h3>
+<p>Please submit new translations for Glazy Materials in this Topic, or via the Glazy Support Group in Facebook:  <a href="https://www.facebook.com/groups/glazysupport/" rel="nofollow noopener">https://www.facebook.com/groups/glazysupport/</a></p>
+<h3>Language Picker</h3>
+<p>When you log into Glazy you will notice a language selector in the top-right corner of the navigation menu.  Clicking this menu will show a list of available languages:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/cd1442fd28557147045fffbb592f7dd5424dd456.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/cd1442fd28557147045fffbb592f7dd5424dd456" title="Screen Shot 2019-03-24 at 12.11.12 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_690x502.jpeg" alt="12%20AM" width="690" height="502" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_690x502.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_1035x753.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_1380x1004.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/cd1442fd28557147045fffbb592f7dd5424dd456_2_10x10.png"></a></div><p></p>
+<p>After selecting a language (in this case, Español Sudamericano), materials and recipes that have translations in that language should display properly.  In the screenshot below, you can see that the English name for “Red copper oxide”  has been translated to the South American Spanish “Óxido de cobre rojo”.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0296a292356c979343c5534d7d7edee162471a73.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/0296a292356c979343c5534d7d7edee162471a73" title="Screen Shot 2019-03-24 at 12.10.41 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_690x542.jpeg" alt="41%20AM" width="690" height="542" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_690x542.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_1035x813.jpeg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/0296a292356c979343c5534d7d7edee162471a73.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0296a292356c979343c5534d7d7edee162471a73_2_10x10.png"></a></div><p></p>
+<h3>Material/Recipe Default Language</h3>
+<p>Each Material and Recipe has a Default Translation.  The Default Translation determines the “Mother Tongue” of the recipe.  The Default Translation is usually the <em>first, original</em> translation.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558.png" data-download-href="https://wiki.glazy.org/uploads/default/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558" title="Screen Shot 2019-03-24 at 12.12.22 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_690x419.png" alt="22%20AM" width="690" height="419" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_690x419.png, https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_1035x628.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_1380x838.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/57a4bcf427b9a0c35e4d1a939aff1b6b858e5558_2_10x10.png"></a></div><p></p>
+<h3>Converting a translation</h3>
+<p>You can convert the translation of a Material.  For example, many recipes were written in Spanish before Internationalization was added to Glazy.  These recipe translations should be converted from the default English language to Spanish.  Just click “Edit Info” and then select a language from the “Convert to” dropdown box:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/9d29ea88fbc38b3ffd3ddcb495198360b3990569" title="Screen Shot 2019-03-24 at 12.12.32 AM.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_690x383.jpeg" alt="32%20AM" width="690" height="383" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_690x383.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_1035x574.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_1380x766.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/9d29ea88fbc38b3ffd3ddcb495198360b3990569_2_10x10.png"></a></div><p></p>
+<p>Once you have saved the changes, you will notice that the translation is now correctly listed as Spanish.  The Default Translation is also listed as Spanish.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7.png" data-download-href="https://wiki.glazy.org/uploads/default/0388935f3f2a7d57f93e8b58723f8187d99dc3e7" title="Screen Shot 2019-03-24 at 12.12.50 AM.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_690x413.png" alt="50%20AM" width="690" height="413" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_690x413.png, https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_1035x619.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_1380x826.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/0388935f3f2a7d57f93e8b58723f8187d99dc3e7_2_10x10.png"></a></div><p></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/internationalization/769">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/internationalization/769</link>
+          <pubDate>Sun, 24 Mar 2019 04:45:03 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-769</guid>
+          <source url="https://wiki.glazy.org/t/internationalization/769.rss">Internationalization</source>
+        </item>
+        <item>
+          <title>Glazy Help Index</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Glazy Help</category>
+          <description><![CDATA[
+            <h2>Cannot register or log in</h2>
+<p>Please directly email derek [at] <a href="http://glazy.org">glazy.org</a> and I will get back to you as soon as possible!</p>
+<h2>Bug, Feature Request or other question</h2>
+<p>Please log into Glazy.  On the home page click the “Help” button.  Then describe your question or issue in the post.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5.png" data-download-href="https://wiki.glazy.org/uploads/default/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5" title="Screen Shot 2020-02-21 at 5.19.12 PM"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5_2_690x335.png" alt="Screen Shot 2020-02-21 at 5.19.12 PM" data-base62-sha1="mwEybIccRrOIMAchMdGKmWhrzrD" width="690" height="335" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5_2_690x335.png, https://wiki.glazy.org/uploads/default/optimized/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5_2_1035x502.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5_2_1380x670.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/9de0c7a3364a988887b4d3cb8b0730ef00fe74b5_2_10x10.png"></a></div><p></p>
+<h2>Glazy Help in One Minute Videos</h2>
+<p><strong>Create a Free Glazy Account</strong></p>
+<p><a href="https://www.youtube.com/embed/ubMgitnBhOo?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/ubMgitnBhOo</a></p>
+<p><strong>User Settings &amp; Navigation</strong></p>
+<p><a href="https://www.youtube.com/embed/ETvsshkeaVI?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/ETvsshkeaVI</a></p>
+<p><strong>Your Material Inventory</strong></p>
+<p><a href="https://www.youtube.com/embed/CDRIB2PJQFA?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/CDRIB2PJQFA</a></p>
+<p><strong>Create a Material</strong></p>
+<p><a href="https://www.youtube.com/embed/Dj8391mN6VA?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/Dj8391mN6VA</a></p>
+<p><strong>Create a Recipe</strong></p>
+<p><a href="https://www.youtube.com/embed/bcN8rqt0z74?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/bcN8rqt0z74</a></p>
+<p><strong>Automatically Import Recipes</strong></p>
+<p><a href="https://www.youtube.com/embed/jMLBuBtfw4s?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/jMLBuBtfw4s</a></p>
+<p><strong>Recipe Basics</strong></p>
+<p><a href="https://www.youtube.com/embed/q8-thIhLdBk?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/q8-thIhLdBk</a></p>
+<p><strong>Search for Recipes</strong></p>
+<p><a href="https://www.youtube.com/embed/HAH-7QU-TM8?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/HAH-7QU-TM8</a></p>
+<p><strong>Bookmarking Recipes</strong></p>
+<p><a href="https://www.youtube.com/embed/lHObxACJ_N8?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/lHObxACJ_N8</a></p>
+<p><strong>Glaze Material Substitution</strong></p>
+<p><a href="https://www.youtube.com/embed/8Yj32Yjp4m0?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/8Yj32Yjp4m0</a></p>
+<p><strong>Substituting Local Materials</strong></p>
+<p><a href="https://www.youtube.com/embed/FJQZSgZqK_g?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/FJQZSgZqK_g</a></p>
+<p><strong>The Stull Chart</strong></p>
+<p><a href="https://www.youtube.com/embed/_cxbwkdYPYs?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/_cxbwkdYPYs</a></p>
+<p><strong>Similar Recipes &amp; Analyses</strong></p>
+<p><a href="https://www.youtube.com/embed/0iWGkC7qomE?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/0iWGkC7qomE</a></p>
+<p><strong>Posts</strong></p>
+<p><a href="https://www.youtube.com/embed/H4u6yfGKcS0?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/H4u6yfGKcS0</a></p>
+<h2>Index of topics for Glazy Help:</h2>
+<h3><a href="https://wiki.glazy.org/t/support-glazy/">Support Glazy!</a></h3>
+<h3><a href="https://wiki.glazy.org/t/about-glazy/">About Glazy</a></h3>
+<h3><a href="https://wiki.glazy.org/t/getting-started-with-glazy/">Getting Started</a></h3>
+<h3><a href="https://wiki.glazy.org/t/materials-in-glazy/">Materials</a></h3>
+<h3><a href="https://wiki.glazy.org/t/recipes-in-glazy/">Recipes</a></h3>
+<h3><a href="https://wiki.glazy.org/t/searching-glazy-for-recipes/">Searching Recipes</a></h3>
+<h3><a href="https://wiki.glazy.org/t/umf-charts-stull-charts/820">UMF (Stull) Charts</a></h3>
+<h3><a href="https://wiki.glazy.org/t/the-glazy-calculator/">Calculator</a></h3>
+<h3><a href="https://wiki.glazy.org/t/glazy-inventory/">Inventory</a></h3>
+<h2>Other Software Tools</h2>
+<h3><a href="https://plaster.glazy.org">Plaster Calculator</a></h3>
+<h3><a href="https://github.com/PieterMostert/SG_calc">Specific Gravity Calculator</a></h3>
+<ul>
+<li><a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html">This form calculates how much water to add to a glaze to obtain a desired specific gravity.</a></li>
+<li>
+<a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html">If your bucket of glaze is too heavy to weigh, use this instead.</a>  (<a href="https://github.com/jbruce12000/glaze-specific-gravity-calculator">Based on calculator by Jason Bruce</a>)</li>
+<li><a href="https://pietermostert.github.io/SG_calc/html/brongniart.html">Brongniart’s Formula</a></li>
+</ul>
+<h2>More Help Videos</h2>
+<h3>Create &amp; Adjust Recipes on Glazy</h3>
+<p>          <p><a href="https://vimeo.com/317512925">https://vimeo.com/317512925</a></p>
+</p>
+<h3>Creating Analyses &amp; Deriving Recipes on Glazy</h3>
+<p>          <p><a href="https://vimeo.com/319112294">https://vimeo.com/319112294</a></p>
+</p>
+            <p><small>3 posts - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/glazy-help-index/438">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/glazy-help-index/438</link>
+          <pubDate>Fri, 26 Jan 2018 02:52:56 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>Yes</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-438</guid>
+          <source url="https://wiki.glazy.org/t/glazy-help-index/438.rss">Glazy Help Index</source>
+        </item>
+  </channel>
+</rss>

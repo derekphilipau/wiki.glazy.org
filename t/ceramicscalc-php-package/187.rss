@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ceramicscalc PHP package</title>
+    <link>https://wiki.glazy.org/t/ceramicscalc-php-package/187</link>
+    <description>Ceramicscalc is a small PHP package to represent ceramics analyses and materials. Materials can be either Primitive (e.g. Whiting, Kaolin, Feldspar) or Composite (i.e. recipes). Composite Materials can be composed of both Primitive and other Composite Materials, allowing for normal recipes, substitutions (e.g. sub &quot;fake&quot; wood ash for real wood ash), and glaze blends (e.g. 50% Leach Clear 50% Pinnell Clear).
+https://github.com/derekphilipau/ceramicscalc
+This package is used by the new Glazy. It needs work! I am also only familiar with svn and new to git. Over the next few days I will try to learn more about git, add more phpunit tests, and refactor the code.</description>
+    
+    <lastBuildDate>Fri, 28 Apr 2017 00:07:17 +0000</lastBuildDate>
+    <category>Glazy</category>
+    <atom:link href="https://wiki.glazy.org/t/ceramicscalc-php-package/187.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Ceramicscalc PHP package</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>Ceramicscalc is a small PHP package to represent ceramics analyses and materials. Materials can be either Primitive (e.g. Whiting, Kaolin, Feldspar) or Composite (i.e. recipes). Composite Materials can be composed of both Primitive and other Composite Materials, allowing for normal recipes, substitutions (e.g. sub “fake” wood ash for real wood ash), and glaze blends (e.g. 50% Leach Clear 50% Pinnell Clear).<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+      <a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/3/32fcbb6f6dafb77cb4f654ad6cfd8cf59014b69a.jpeg" class="thumbnail onebox-avatar" width="400" height="400">
+
+<h3><a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">derekphilipau/ceramicscalc</a></h3>
+
+<p>PHP package for representing ceramics analyses, materials, and recipes. - derekphilipau/ceramicscalc</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+This package is used by the new Glazy. It needs work! I am also only familiar with svn and new to git. Over the next few days I will try to learn more about git, add more phpunit tests, and refactor the code.
+          <p><a href="https://wiki.glazy.org/t/ceramicscalc-php-package/187/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/ceramicscalc-php-package/187/1</link>
+        <pubDate>Fri, 28 Apr 2017 00:07:17 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-187-1</guid>
+        <source url="https://wiki.glazy.org/t/ceramicscalc-php-package/187.rss">Ceramicscalc PHP package</source>
+      </item>
+  </channel>
+</rss>

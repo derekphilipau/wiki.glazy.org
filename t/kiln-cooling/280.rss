@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Kiln Cooling</title>
+    <link>https://wiki.glazy.org/t/kiln-cooling/280</link>
+    <description>## Controlled/Slow Cooling
+
+Needs work.
+
+http://www.paragonweb.com/files/manuals/Downfiring-Kilns-Mel-Jacobson.pdf
+
+## When can I open the kiln?
+
+It&#39;s not unusual to feel impatient while waiting for a kiln to cool!  But ideally you should wait until the kiln reaches near room temperature.  Otherwise you can try the burning paper test listed below.  Your kiln should definitely be below 400F/200C before opening.
+
+_Arnold Howard, Paragon Industries, via Clayart:_
+&gt; I feel that you should leave the kiln closed until it reaches room temperature. Ill add, though, that opening the kiln while its still hot wont hurt the kiln. (But it may damage the ware.)
+
+_Ivor Lewis via Clayart:_
+&gt; Rapid cooling can damage of some forms of refractory lining shortening the life of your kiln. My suggestion, dont open a kiln until you are sure you can hold the pots in your bare hands, not glove, just with your skin.
+
+_Linda Arbuckle via Ceramic Recipes:_
+&gt; Read Frank and Janet Hamer&#39;s book &quot;The Potters Dictionary&quot; on cristobalite. It&#39;s sort of a cousin to quartz alpha-to-beta phase at 1000 degrees. Cristobalite forms from free silica in the body around cone 03, gets 2% bigger, then inverts upon cooling at around the temperature paper burns (Fahrenheit 451 - if anyone remembers the Ray Bradbury story). Actually just a bit lower. The change in size is more abrupt than quartz inversion, and a lot of cristobalite, inverting suddenly and unevenly, can cause dunting. Just a bit is good - puts the glaze under compression and counters crazing. But, the bottom line.... if you put paper in the peep and it browns or bursts into flame, you shouldn&#39;t be exposing your work to heat shock yet because you&#39;re above cristobalite inversion. You can also crack work re-firing if you pass through this threshold unevenly. More of a problem for people working at mid-range and highfire than lowfire wares.
+&lt;img src=&quot;/uploads/default/original/1X/7d833079d8752b13b1515a53b2807d68599e600a.jpg&quot; width=&quot;690&quot; height=&quot;562&quot;&gt;
+
+## Estimating Cooling Time
+
+_Andy Rawson via Ceramic Recipes_ 
+&gt; If you would like a rough estimate of when you can open the kiln you can use this exponential decay calculator. 
+&gt; http://www.miniwebtool.com/exponential-decay-calculator/?n1=532&amp;n2=.18&amp;n3=&amp;n4=200
+&gt; Put the current temperature of the kiln in the &quot;initial amount&quot; 
+&gt; A decay rate of &quot;.18&quot; works well for most standard electric kilns.
+&gt; Leave the time empty then put the target opening temperature in the &quot;final amount&quot; field then hit calculate.
+&gt; Down below it will solve for time in hours to reach the final temperature. Works well for me to tell the wife when we can open the kiln so she stops asking every ten minutes
+
+&lt;img src=&quot;/uploads/default/original/1X/c686f2a0605fe4566622d6ef3685660cdf914d77.png&quot; width=&quot;690&quot; height=&quot;517&quot;&gt;
+
+https://en.wikipedia.org/wiki/Exponential_decay</description>
+    
+    <lastBuildDate>Sun, 02 Jul 2017 01:06:15 +0000</lastBuildDate>
+    <category>Kilns &amp; Firing</category>
+    <atom:link href="https://wiki.glazy.org/t/kiln-cooling/280.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Kiln Cooling</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Controlled/Slow Cooling</h2>
+<p>Needs work.</p>
+<aside class="onebox pdf">
+  <header class="source">
+      <a href="https://www.paragonweb.com/files/manuals/Downfiring-Kilns-Mel-Jacobson.pdf" target="_blank" rel="nofollow noopener">paragonweb.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://www.paragonweb.com/files/manuals/Downfiring-Kilns-Mel-Jacobson.pdf" target="_blank" rel="nofollow noopener"><span class="pdf-onebox-logo"></span></a>
+<h3><a href="https://www.paragonweb.com/files/manuals/Downfiring-Kilns-Mel-Jacobson.pdf" target="_blank" rel="nofollow noopener">Downfiring-Kilns-Mel-Jacobson.pdf</a></h3>
+
+<p class="filesize">1018.11 KB</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<h2>When can I open the kiln?</h2>
+<p>It’s not unusual to feel impatient while waiting for a kiln to cool!  But ideally you should wait until the kiln reaches near room temperature.  Otherwise you can try the burning paper test listed below.  Your kiln should definitely be below 400F/200C before opening.</p>
+<p><em>Arnold Howard, Paragon Industries, via Clayart:</em></p>
+<blockquote>
+<p>I feel that you should leave the kiln closed until it reaches room temperature. Ill add, though, that opening the kiln while its still hot wont hurt the kiln. (But it may damage the ware.)</p>
+</blockquote>
+<p><em>Ivor Lewis via Clayart:</em></p>
+<blockquote>
+<p>Rapid cooling can damage of some forms of refractory lining shortening the life of your kiln. My suggestion, dont open a kiln until you are sure you can hold the pots in your bare hands, not glove, just with your skin.</p>
+</blockquote>
+<p><em>Linda Arbuckle via Ceramic Recipes:</em></p>
+<blockquote>
+<p>Read Frank and Janet Hamer’s book “The Potters Dictionary” on cristobalite. It’s sort of a cousin to quartz alpha-to-beta phase at 1000 degrees. Cristobalite forms from free silica in the body around cone 03, gets 2% bigger, then inverts upon cooling at around the temperature paper burns (Fahrenheit 451 - if anyone remembers the Ray Bradbury story). Actually just a bit lower. The change in size is more abrupt than quartz inversion, and a lot of cristobalite, inverting suddenly and unevenly, can cause dunting. Just a bit is good - puts the glaze under compression and counters crazing. But, the bottom line… if you put paper in the peep and it browns or bursts into flame, you shouldn’t be exposing your work to heat shock yet because you’re above cristobalite inversion. You can also crack work re-firing if you pass through this threshold unevenly. More of a problem for people working at mid-range and highfire than lowfire wares.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/7d833079d8752b13b1515a53b2807d68599e600a.jpg" data-download-href="https://wiki.glazy.org/uploads/default/7d833079d8752b13b1515a53b2807d68599e600a" title="18519493_1552253561454378_5171520484435873115_n.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/7d833079d8752b13b1515a53b2807d68599e600a.jpg" width="690" height="562" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/7d833079d8752b13b1515a53b2807d68599e600a_2_10x10.png"></a></div><p></p>
+</blockquote>
+<h2>Estimating Cooling Time</h2>
+<p><em>Andy Rawson via Ceramic Recipes</em></p>
+<blockquote>
+<p>If you would like a rough estimate of when you can open the kiln you can use this exponential decay calculator.<br>
+<a href="http://www.miniwebtool.com/exponential-decay-calculator/?n1=532&amp;n2=.18&amp;n3=&amp;n4=200" rel="nofollow noopener">http://www.miniwebtool.com/exponential-decay-calculator/?n1=532&amp;n2=.18&amp;n3=&amp;n4=200</a><br>
+Put the current temperature of the kiln in the “initial amount”<br>
+A decay rate of “.18” works well for most standard electric kilns.<br>
+Leave the time empty then put the target opening temperature in the “final amount” field then hit calculate.<br>
+Down below it will solve for time in hours to reach the final temperature. Works well for me to tell the wife when we can open the kiln so she stops asking every ten minutes</p>
+</blockquote>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/c686f2a0605fe4566622d6ef3685660cdf914d77.png" data-download-href="https://wiki.glazy.org/uploads/default/c686f2a0605fe4566622d6ef3685660cdf914d77" title="800px-Plot-exponential-decay.svg.png"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/c686f2a0605fe4566622d6ef3685660cdf914d77_2_690x517.png" width="690" height="517" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/c686f2a0605fe4566622d6ef3685660cdf914d77_2_690x517.png, https://wiki.glazy.org/uploads/default/original/1X/c686f2a0605fe4566622d6ef3685660cdf914d77.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/c686f2a0605fe4566622d6ef3685660cdf914d77.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/c686f2a0605fe4566622d6ef3685660cdf914d77_2_10x10.png"></a></div><p></p>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/Exponential_decay" target="_blank" rel="nofollow noopener">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:220/165;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Plot-exponential-decay.svg/220px-Plot-exponential-decay.svg.png" class="thumbnail"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/Exponential_decay" target="_blank" rel="nofollow noopener">Exponential decay</a></h3>
+
+<p>A quantity is subject to exponential decay if it decreases at a rate proportional to its current value.  Symbolically, this process can be expressed by the following differential equation, where N is the quantity and λ (lambda) is a positive rate called the exponential decay constant:
+ The solution to this equation (see derivation below) is:
+ where N(t) is the quantity at time t, and N0 = N(0) is the initial quantity, i.e. the quantity at time t = 0.
+ If the decaying quantity, N(t), is the number...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://wiki.glazy.org/t/kiln-cooling/280/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/kiln-cooling/280/1</link>
+        <pubDate>Sat, 01 Jul 2017 23:14:46 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-280-1</guid>
+        <source url="https://wiki.glazy.org/t/kiln-cooling/280.rss">Kiln Cooling</source>
+      </item>
+  </channel>
+</rss>

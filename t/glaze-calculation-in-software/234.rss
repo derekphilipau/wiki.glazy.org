@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Glaze Calculation in Software</title>
+    <link>https://wiki.glazy.org/t/glaze-calculation-in-software/234</link>
+    <description>## Introduction
+
+The purpose of this Topic is to list standardized constants, algorithms, and approaches to performing glaze calculation in software.  
+
+For more information about glaze calculation, please see https://wiki.glazy.org/t/introduction-to-glaze-calculation/
+
+
+## Molecular mass of common formulas
+
+While in the studio there is no practical difference between the following measurements, ideally all software dealing with ceramics calculation should standardize on a specific set of molecular masses for common formulas in order to rule out inconsistencies.
+
+References:
+* PubChem:  https://pubchem.ncbi.nlm.nih.gov
+* CRC Handbook of Chemistry and Physics, 84th Edition, 2003-2004
+
+**Comparison of values in various publications**
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;th&gt;Oxide&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;PubChem&lt;/th&gt;&lt;th&gt;CRC Handbook&lt;/th&gt;&lt;th&gt;Digitalfire&lt;/th&gt;&lt;th&gt;Glazy v1&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Al2O3&lt;/td&gt;&lt;td&gt;Aluminum Oxide&lt;/td&gt;&lt;td&gt;101.96&lt;/td&gt;&lt;td&gt;101.961&lt;/td&gt;&lt;td&gt;102.000&lt;/td&gt;&lt;td&gt;101.96137&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;B2O3&lt;/td&gt;&lt;td&gt;Boron oxide &lt;/td&gt;&lt;td&gt;69.617&lt;/td&gt;&lt;td&gt;69.620&lt;/td&gt;&lt;td&gt;69.600&lt;/td&gt;&lt;td&gt;69.6217&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BaO&lt;/td&gt;&lt;td&gt;Barium Oxide&lt;/td&gt;&lt;td&gt;153.326&lt;/td&gt;&lt;td&gt;153.326&lt;/td&gt;&lt;td&gt;153.300&lt;/td&gt;&lt;td&gt;153.3271&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;BeO&lt;/td&gt;&lt;td&gt;Berylium oxide&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;25.011&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;25.01158&lt;/td&gt;&lt;/tr&gt;
+
+
+&lt;tr&gt;&lt;td&gt;CaO&lt;/td&gt;&lt;td&gt;Calcium Oxide&lt;/td&gt;&lt;td&gt;56.077&lt;/td&gt;&lt;td&gt;56.077&lt;/td&gt;&lt;td&gt;56.100&lt;/td&gt;&lt;td&gt;56.0778&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;CdO&lt;/td&gt;&lt;td&gt;Cadmium oxide&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;128.410&lt;/td&gt;&lt;td&gt;128.410&lt;/td&gt;&lt;td&gt;128.4104&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;CoO&lt;/td&gt;&lt;td&gt;Cobalt(II) Oxide&lt;/td&gt;&lt;td&gt;74.932&lt;/td&gt;&lt;td&gt;74.932&lt;/td&gt;&lt;td&gt;74.920&lt;/td&gt;&lt;td&gt;74.93263&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cr2O3&lt;/td&gt;&lt;td&gt;Chromium(III) Oxide&lt;/td&gt;&lt;td&gt;151.989&lt;/td&gt;&lt;td&gt;151.990&lt;/td&gt;&lt;td&gt;152.000&lt;/td&gt;&lt;td&gt;151.99061&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cu2O&lt;/td&gt;&lt;td&gt;Copper(I) Oxide&lt;/td&gt;&lt;td&gt;143.091&lt;/td&gt;&lt;td&gt;143.091&lt;/td&gt;&lt;td&gt;143.000&lt;/td&gt;&lt;td&gt;143.0914&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CuO&lt;/td&gt;&lt;td&gt;Copper(II) Oxide&lt;/td&gt;&lt;td&gt;79.545&lt;/td&gt;&lt;td&gt;79.545&lt;/td&gt;&lt;td&gt;79.540&lt;/td&gt;&lt;td&gt;79.5454&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe2O3&lt;/td&gt;&lt;td&gt;Iron(III) Oxide&lt;/td&gt;&lt;td&gt;159.687&lt;/td&gt;&lt;td&gt;159.688&lt;/td&gt;&lt;td&gt;160.000&lt;/td&gt;&lt;td&gt;159.6887&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FeO&lt;/td&gt;&lt;td&gt;Iron(II) Oxide&lt;/td&gt;&lt;td&gt;71.844&lt;/td&gt;&lt;td&gt;71.844&lt;/td&gt;&lt;td&gt;81.800&lt;/td&gt;&lt;td&gt;71.8446&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;K2O&lt;/td&gt;&lt;td&gt;Potassium oxide&lt;/td&gt;&lt;td&gt;n/a&lt;/td&gt;&lt;td&gt;94.196&lt;/td&gt;&lt;td&gt;94.200&lt;/td&gt;&lt;td&gt;94.19605&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Li2O&lt;/td&gt;&lt;td&gt;Lithium Oxide&lt;/td&gt;&lt;td&gt;29.879&lt;/td&gt;&lt;td&gt;29.881&lt;/td&gt;&lt;td&gt;29.800&lt;/td&gt;&lt;td&gt;29.8818&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MgO&lt;/td&gt;&lt;td&gt;Magnesium Oxide&lt;/td&gt;&lt;td&gt;40.304&lt;/td&gt;&lt;td&gt;40.304&lt;/td&gt;&lt;td&gt;40.300&lt;/td&gt;&lt;td&gt;40.30449&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MnO&lt;/td&gt;&lt;td&gt;Manganese(II) oxide&lt;/td&gt;&lt;td&gt;70.937&lt;/td&gt;&lt;td&gt;70.937&lt;/td&gt;&lt;td&gt;70.900&lt;/td&gt;&lt;td&gt;70.93748&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MnO2&lt;/td&gt;&lt;td&gt;Manganese(IV) oxide&lt;/td&gt;&lt;td&gt;86.936&lt;/td&gt;&lt;td&gt;86.937&lt;/td&gt;&lt;td&gt;86.900&lt;/td&gt;&lt;td&gt;86.93691&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Na2O&lt;/td&gt;&lt;td&gt;Sodium oxide&lt;/td&gt;&lt;td&gt;61.979&lt;/td&gt;&lt;td&gt;61.979&lt;/td&gt;&lt;td&gt;62.000&lt;/td&gt;&lt;td&gt;61.97897&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;NiO&lt;/td&gt;&lt;td&gt;Nickel(II) oxide&lt;/td&gt;&lt;td&gt;74.692&lt;/td&gt;&lt;td&gt;74.692&lt;/td&gt;&lt;td&gt;74.700&lt;/td&gt;&lt;td&gt;74.69287&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P2O5&lt;/td&gt;&lt;td&gt;Phosphorus(V) oxide&lt;/td&gt;&lt;td&gt;141.943&lt;/td&gt;&lt;td&gt;141.945&lt;/td&gt;&lt;td&gt;141.900&lt;/td&gt;&lt;td&gt;141.94467&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;PbO&lt;/td&gt;&lt;td&gt;Lead(II) oxide&lt;/td&gt;&lt;td&gt;223.199&lt;/td&gt;&lt;td&gt;223.2&lt;/td&gt;&lt;td&gt;223.200&lt;/td&gt;&lt;td&gt;223.2094&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SiO2&lt;/td&gt;&lt;td&gt;Silicon dioxide&lt;/td&gt;&lt;td&gt;60.083&lt;/td&gt;&lt;td&gt;60.085&lt;/td&gt;&lt;td&gt;60.100&lt;/td&gt;&lt;td&gt;60.08439&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SnO2&lt;/td&gt;&lt;td&gt;Tin(IV) oxide&lt;/td&gt;&lt;td&gt;150.708&lt;/td&gt;&lt;td&gt;150.709&lt;/td&gt;&lt;td&gt;150.710&lt;/td&gt;&lt;td&gt;150.7096&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SrO&lt;/td&gt;&lt;td&gt;Strontium oxide&lt;/td&gt;&lt;td&gt;103.619&lt;/td&gt;&lt;td&gt;103.62&lt;/td&gt;&lt;td&gt;103.600&lt;/td&gt;&lt;td&gt;103.6204&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TiO2&lt;/td&gt;&lt;td&gt;Titanium(IV) oxide&lt;/td&gt;&lt;td&gt;79.865&lt;/td&gt;&lt;td&gt;79.866&lt;/td&gt;&lt;td&gt;79.900&lt;/td&gt;&lt;td&gt;79.8660&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;V2O5&lt;/td&gt;&lt;td&gt;Vanadium(V) oxide&lt;/td&gt;&lt;td&gt;181.878&lt;/td&gt;&lt;td&gt;181.880&lt;/td&gt;&lt;td&gt;181.900&lt;/td&gt;&lt;td&gt;181.8800&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZnO&lt;/td&gt;&lt;td&gt;Zinc Oxide&lt;/td&gt;&lt;td&gt;81.379&lt;/td&gt;&lt;td&gt;81.39&lt;/td&gt;&lt;td&gt;81.400&lt;/td&gt;&lt;td&gt;81.3814&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZrO&lt;/td&gt;&lt;td&gt;Zirconium Oxide&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;107.200&lt;/td&gt;&lt;td&gt;107.2234&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZrO2&lt;/td&gt;&lt;td&gt;Zirconium(IV) oxide&lt;/td&gt;&lt;td&gt;123.222&lt;/td&gt;&lt;td&gt;123.223&lt;/td&gt;&lt;td&gt;123.220&lt;/td&gt;&lt;td&gt;123.2231&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+**Standard CRC Values**
+
+All software should standardize on the values in the CRC handbook:
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;th&gt;Oxide&lt;/th&gt;&lt;th&gt;CRC Handbook&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Al2O3&lt;/td&gt;&lt;td&gt;101.961&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;B2O3&lt;/td&gt;&lt;td&gt;69.620&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BaO&lt;/td&gt;&lt;td&gt;153.326&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;BeO&lt;/td&gt;&lt;td&gt;25.011&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CaO&lt;/td&gt;&lt;td&gt;56.077&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CdO&lt;/td&gt;&lt;td&gt;128.410&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CoO&lt;/td&gt;&lt;td&gt;74.932&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cr2O3&lt;/td&gt;&lt;td&gt;151.990&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cu2O&lt;/td&gt;&lt;td&gt;143.091&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;CuO&lt;/td&gt;&lt;td&gt;79.545&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Fe2O3&lt;/td&gt;&lt;td&gt;159.688&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;FeO&lt;/td&gt;&lt;td&gt;71.844&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;K2O&lt;/td&gt;&lt;td&gt;94.196&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Li2O&lt;/td&gt;&lt;td&gt;29.881&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MgO&lt;/td&gt;&lt;td&gt;40.304&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MnO&lt;/td&gt;&lt;td&gt;70.937&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;MnO2&lt;/td&gt;&lt;td&gt;86.937&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Na2O&lt;/td&gt;&lt;td&gt;61.979&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;NiO&lt;/td&gt;&lt;td&gt;74.692&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;P2O5&lt;/td&gt;&lt;td&gt;141.945&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;PbO&lt;/td&gt;&lt;td&gt;223.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SiO2&lt;/td&gt;&lt;td&gt;60.085&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SnO2&lt;/td&gt;&lt;td&gt;150.709&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;SrO&lt;/td&gt;&lt;td&gt;103.62&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TiO2&lt;/td&gt;&lt;td&gt;79.866&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;V2O5&lt;/td&gt;&lt;td&gt;181.880&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZnO&lt;/td&gt;&lt;td&gt;81.39&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZrO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;ZrO2&lt;/td&gt;&lt;td&gt;123.223&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+## Standard List Ordering of Oxides
+
+	SiO2 // Glass
+
+	Al2O3 // Intermediate
+	B2O3 // Glass
+
+	// Alkaline Earths
+	MgO // Flux
+	CaO // Flux
+	SrO // Flux
+	BaO // Flux
+
+	// Metallic oxide fluxes
+	ZnO // Flux
+	PbO // Flux
+
+	// Alkali Metals
+	Li2O // Flux
+	Na2O // Flux
+	K2O // Flux
+
+	BeO // Other
+
+	P2O5 // Glass
+	TiO2 // Glass
+
+	SnO2 // Opacifier
+	ZrO // Opacifier
+	ZrO2 // Opacifier
+
+	// Colorants
+	V2O5
+	Cr2O3
+	MnO
+	MnO2
+	FeO
+	Fe2O3
+	CoO
+	NiO
+	CuO
+	Cu2O
+	CdO
+
+	// Other
+	F
+
+
+## Representing Oxides in Software
+
+## Representing Ceramic Materials in Software
+
+## Representing Ceramic Recipes in Software
+
+## Using the Composite Pattern to represent Recipes
+
+https://en.wikipedia.org/wiki/Composite_pattern
+
+## Calculating % Analysis
+
+## Calculating Mole % Analysis
+
+## Calculating UMF
+
+## Calculating Proximity in 2D (e.g. Si/Al)
+
+## Proximity of analyses using more than two oxides
+
+## Visualizing Elements &amp; Oxides
+
+https://lindabloomfield.co.uk/news/chemistry-for-potters/
+![periodic-table-2-1024x630|690x424](upload://kCYNjsewdsQnDUeyybKSh59dc03.png)
+
+https://en.wikipedia.org/wiki/CPK_coloring
+
+https://en.wikipedia.org/wiki/File:CPK-coloring-periodic-table.svg
+
+http://periodictable.com/Properties/A/Color.an.html
+
+https://www.thoughtco.com/color-on-the-periodic-table-608827
+
+https://books.google.com/books?id=TApnGTVLwxAC&amp;pg=PA414&amp;lpg=PA414&amp;source=bl&amp;ots=inO6PVO80R&amp;sig=13CIoVPGa6iEMPlRuXBgsL6NfNI&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwi3wYCquKfXAhUE1CYKHUfLBckQ6AEIQTAH#v=onepage&amp;q=katz%20potters%20periodic%20table%20elements&amp;f=false</description>
+    
+    <lastBuildDate>Sat, 20 May 2017 10:02:21 +0000</lastBuildDate>
+    <category>Glaze Chemistry</category>
+    <atom:link href="https://wiki.glazy.org/t/glaze-calculation-in-software/234.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Glaze Calculation in Software</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>I agree. It sounds like Matt doesn’t have data for Cu and Co yet, so maybe we should wait till their role has been clarified.</p>
+          <p><a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glaze-calculation-in-software/234/4</link>
+        <pubDate>Sat, 20 May 2017 10:02:21 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-234-4</guid>
+        <source url="https://wiki.glazy.org/t/glaze-calculation-in-software/234.rss">Glaze Calculation in Software</source>
+      </item>
+      <item>
+        <title>Glaze Calculation in Software</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>This is going beyond my limited understanding.  I guess it depends upon whether or not we start <em>actually</em> including these oxides as fluxes in the calculations.  I’m going to have to defer to the glaze gurus.</p>
+          <p><a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glaze-calculation-in-software/234/3</link>
+        <pubDate>Sat, 20 May 2017 08:36:30 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-234-3</guid>
+        <source url="https://wiki.glazy.org/t/glaze-calculation-in-software/234.rss">Glaze Calculation in Software</source>
+      </item>
+      <item>
+        <title>Glaze Calculation in Software</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Regarding the standard list of oxides, what do you think about moving the colourants that act as fluxes higher up? For example, should we group manganese and iron oxides with the alkaline earths?</p>
+          <p><a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glaze-calculation-in-software/234/2</link>
+        <pubDate>Sat, 20 May 2017 08:14:27 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-234-2</guid>
+        <source url="https://wiki.glazy.org/t/glaze-calculation-in-software/234.rss">Glaze Calculation in Software</source>
+      </item>
+      <item>
+        <title>Glaze Calculation in Software</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <h2>Introduction</h2>
+<p>The purpose of this Topic is to list standardized constants, algorithms, and approaches to performing glaze calculation in software.</p>
+<p>For more information about glaze calculation, please see <a href="https://wiki.glazy.org/t/introduction-to-glaze-calculation/">https://wiki.glazy.org/t/introduction-to-glaze-calculation/</a></p>
+<h2>Molecular mass of common formulas</h2>
+<p>While in the studio there is no practical difference between the following measurements, ideally all software dealing with ceramics calculation should standardize on a specific set of molecular masses for common formulas in order to rule out inconsistencies.</p>
+<p>References:</p>
+<ul>
+<li>PubChem:  <a href="https://pubchem.ncbi.nlm.nih.gov">https://pubchem.ncbi.nlm.nih.gov</a>
+</li>
+<li>CRC Handbook of Chemistry and Physics, 84th Edition, 2003-2004</li>
+</ul>
+<p><strong>Comparison of values in various publications</strong></p>
+<table>
+<thead>
+<tr>
+<th>Oxide</th>
+<th>Name</th>
+<th>PubChem</th>
+<th>CRC Handbook</th>
+<th>Digitalfire</th>
+<th>Glazy v1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Al2O3</td>
+<td>Aluminum Oxide</td>
+<td>101.96</td>
+<td>101.961</td>
+<td>102.000</td>
+<td>101.96137</td>
+</tr>
+<tr>
+<td>B2O3</td>
+<td>Boron oxide </td>
+<td>69.617</td>
+<td>69.620</td>
+<td>69.600</td>
+<td>69.6217</td>
+</tr>
+<tr>
+<td>BaO</td>
+<td>Barium Oxide</td>
+<td>153.326</td>
+<td>153.326</td>
+<td>153.300</td>
+<td>153.3271</td>
+</tr>
+<tr>
+<td>BeO</td>
+<td>Berylium oxide</td>
+<td></td>
+<td>25.011</td>
+<td></td>
+<td>25.01158</td>
+</tr>
+<tr>
+<td>CaO</td>
+<td>Calcium Oxide</td>
+<td>56.077</td>
+<td>56.077</td>
+<td>56.100</td>
+<td>56.0778</td>
+</tr>
+<tr>
+<td>CdO</td>
+<td>Cadmium oxide</td>
+<td></td>
+<td>128.410</td>
+<td>128.410</td>
+<td>128.4104</td>
+</tr>
+<tr>
+<td>CoO</td>
+<td>Cobalt(II) Oxide</td>
+<td>74.932</td>
+<td>74.932</td>
+<td>74.920</td>
+<td>74.93263</td>
+</tr>
+<tr>
+<td>Cr2O3</td>
+<td>Chromium(III) Oxide</td>
+<td>151.989</td>
+<td>151.990</td>
+<td>152.000</td>
+<td>151.99061</td>
+</tr>
+<tr>
+<td>Cu2O</td>
+<td>Copper(I) Oxide</td>
+<td>143.091</td>
+<td>143.091</td>
+<td>143.000</td>
+<td>143.0914</td>
+</tr>
+<tr>
+<td>CuO</td>
+<td>Copper(II) Oxide</td>
+<td>79.545</td>
+<td>79.545</td>
+<td>79.540</td>
+<td>79.5454</td>
+</tr>
+<tr>
+<td>Fe2O3</td>
+<td>Iron(III) Oxide</td>
+<td>159.687</td>
+<td>159.688</td>
+<td>160.000</td>
+<td>159.6887</td>
+</tr>
+<tr>
+<td>FeO</td>
+<td>Iron(II) Oxide</td>
+<td>71.844</td>
+<td>71.844</td>
+<td>81.800</td>
+<td>71.8446</td>
+</tr>
+<tr>
+<td>K2O</td>
+<td>Potassium oxide</td>
+<td>n/a</td>
+<td>94.196</td>
+<td>94.200</td>
+<td>94.19605</td>
+</tr>
+<tr>
+<td>Li2O</td>
+<td>Lithium Oxide</td>
+<td>29.879</td>
+<td>29.881</td>
+<td>29.800</td>
+<td>29.8818</td>
+</tr>
+<tr>
+<td>MgO</td>
+<td>Magnesium Oxide</td>
+<td>40.304</td>
+<td>40.304</td>
+<td>40.300</td>
+<td>40.30449</td>
+</tr>
+<tr>
+<td>MnO</td>
+<td>Manganese(II) oxide</td>
+<td>70.937</td>
+<td>70.937</td>
+<td>70.900</td>
+<td>70.93748</td>
+</tr>
+<tr>
+<td>MnO2</td>
+<td>Manganese(IV) oxide</td>
+<td>86.936</td>
+<td>86.937</td>
+<td>86.900</td>
+<td>86.93691</td>
+</tr>
+<tr>
+<td>Na2O</td>
+<td>Sodium oxide</td>
+<td>61.979</td>
+<td>61.979</td>
+<td>62.000</td>
+<td>61.97897</td>
+</tr>
+<tr>
+<td>NiO</td>
+<td>Nickel(II) oxide</td>
+<td>74.692</td>
+<td>74.692</td>
+<td>74.700</td>
+<td>74.69287</td>
+</tr>
+<tr>
+<td>P2O5</td>
+<td>Phosphorus(V) oxide</td>
+<td>141.943</td>
+<td>141.945</td>
+<td>141.900</td>
+<td>141.94467</td>
+</tr>
+<tr>
+<td>PbO</td>
+<td>Lead(II) oxide</td>
+<td>223.199</td>
+<td>223.2</td>
+<td>223.200</td>
+<td>223.2094</td>
+</tr>
+<tr>
+<td>SiO2</td>
+<td>Silicon dioxide</td>
+<td>60.083</td>
+<td>60.085</td>
+<td>60.100</td>
+<td>60.08439</td>
+</tr>
+<tr>
+<td>SnO2</td>
+<td>Tin(IV) oxide</td>
+<td>150.708</td>
+<td>150.709</td>
+<td>150.710</td>
+<td>150.7096</td>
+</tr>
+<tr>
+<td>SrO</td>
+<td>Strontium oxide</td>
+<td>103.619</td>
+<td>103.62</td>
+<td>103.600</td>
+<td>103.6204</td>
+</tr>
+<tr>
+<td>TiO2</td>
+<td>Titanium(IV) oxide</td>
+<td>79.865</td>
+<td>79.866</td>
+<td>79.900</td>
+<td>79.8660</td>
+</tr>
+<tr>
+<td>V2O5</td>
+<td>Vanadium(V) oxide</td>
+<td>181.878</td>
+<td>181.880</td>
+<td>181.900</td>
+<td>181.8800</td>
+</tr>
+<tr>
+<td>ZnO</td>
+<td>Zinc Oxide</td>
+<td>81.379</td>
+<td>81.39</td>
+<td>81.400</td>
+<td>81.3814</td>
+</tr>
+<tr>
+<td>ZrO</td>
+<td>Zirconium Oxide</td>
+<td></td>
+<td></td>
+<td>107.200</td>
+<td>107.2234</td>
+</tr>
+<tr>
+<td>ZrO2</td>
+<td>Zirconium(IV) oxide</td>
+<td>123.222</td>
+<td>123.223</td>
+<td>123.220</td>
+<td>123.2231</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Standard CRC Values</strong></p>
+<p>All software should standardize on the values in the CRC handbook:</p>
+<table>
+<thead>
+<tr>
+<th>Oxide</th>
+<th>CRC Handbook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Al2O3</td>
+<td>101.961</td>
+</tr>
+<tr>
+<td>B2O3</td>
+<td>69.620</td>
+</tr>
+<tr>
+<td>BaO</td>
+<td>153.326</td>
+</tr>
+<tr>
+<td>BeO</td>
+<td>25.011</td>
+</tr>
+<tr>
+<td>CaO</td>
+<td>56.077</td>
+</tr>
+<tr>
+<td>CdO</td>
+<td>128.410</td>
+</tr>
+<tr>
+<td>CoO</td>
+<td>74.932</td>
+</tr>
+<tr>
+<td>Cr2O3</td>
+<td>151.990</td>
+</tr>
+<tr>
+<td>Cu2O</td>
+<td>143.091</td>
+</tr>
+<tr>
+<td>CuO</td>
+<td>79.545</td>
+</tr>
+<tr>
+<td>Fe2O3</td>
+<td>159.688</td>
+</tr>
+<tr>
+<td>FeO</td>
+<td>71.844</td>
+</tr>
+<tr>
+<td>K2O</td>
+<td>94.196</td>
+</tr>
+<tr>
+<td>Li2O</td>
+<td>29.881</td>
+</tr>
+<tr>
+<td>MgO</td>
+<td>40.304</td>
+</tr>
+<tr>
+<td>MnO</td>
+<td>70.937</td>
+</tr>
+<tr>
+<td>MnO2</td>
+<td>86.937</td>
+</tr>
+<tr>
+<td>Na2O</td>
+<td>61.979</td>
+</tr>
+<tr>
+<td>NiO</td>
+<td>74.692</td>
+</tr>
+<tr>
+<td>P2O5</td>
+<td>141.945</td>
+</tr>
+<tr>
+<td>PbO</td>
+<td>223.2</td>
+</tr>
+<tr>
+<td>SiO2</td>
+<td>60.085</td>
+</tr>
+<tr>
+<td>SnO2</td>
+<td>150.709</td>
+</tr>
+<tr>
+<td>SrO</td>
+<td>103.62</td>
+</tr>
+<tr>
+<td>TiO2</td>
+<td>79.866</td>
+</tr>
+<tr>
+<td>V2O5</td>
+<td>181.880</td>
+</tr>
+<tr>
+<td>ZnO</td>
+<td>81.39</td>
+</tr>
+<tr>
+<td>ZrO</td>
+<td></td>
+</tr>
+<tr>
+<td>ZrO2</td>
+<td>123.223</td>
+</tr>
+</tbody>
+</table>
+<h2>Standard List Ordering of Oxides</h2>
+<pre><code>SiO2 // Glass
+
+Al2O3 // Intermediate
+B2O3 // Glass
+
+// Alkaline Earths
+MgO // Flux
+CaO // Flux
+SrO // Flux
+BaO // Flux
+
+// Metallic oxide fluxes
+ZnO // Flux
+PbO // Flux
+
+// Alkali Metals
+Li2O // Flux
+Na2O // Flux
+K2O // Flux
+
+BeO // Other
+
+P2O5 // Glass
+TiO2 // Glass
+
+SnO2 // Opacifier
+ZrO // Opacifier
+ZrO2 // Opacifier
+
+// Colorants
+V2O5
+Cr2O3
+MnO
+MnO2
+FeO
+Fe2O3
+CoO
+NiO
+CuO
+Cu2O
+CdO
+
+// Other
+F
+</code></pre>
+<h2>Representing Oxides in Software</h2>
+<h2>Representing Ceramic Materials in Software</h2>
+<h2>Representing Ceramic Recipes in Software</h2>
+<h2>Using the Composite Pattern to represent Recipes</h2>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/Composite_pattern" target="_blank">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:600/240;"><img src="https://wiki.glazy.org/uploads/default/original/2X/7/7dd71b64c83af5db035c96d5e9c5d10f836ded46.jpeg" class="thumbnail" width="600" height="240"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/Composite_pattern" target="_blank">Composite pattern</a></h3>
+
+<p>In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
+ The Composite
+
+design pattern is one of the twenty-three well-known 
+GoF design ...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<h2>Calculating % Analysis</h2>
+<h2>Calculating Mole % Analysis</h2>
+<h2>Calculating UMF</h2>
+<h2>Calculating Proximity in 2D (e.g. Si/Al)</h2>
+<h2>Proximity of analyses using more than two oxides</h2>
+<h2>Visualizing Elements &amp; Oxides</h2>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://wiki.glazy.org/uploads/default/original/2X/c/cf32107b9a05359233d5ebe3737dcc7add832885.jpeg" class="site-icon" width="32" height="32">
+      <a href="https://lindabloomfield.co.uk/news/chemistry-for-potters/" target="_blank" title="07:55AM - 09 June 2016">Linda Bloomfield – 9 Jun 16</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/424;"><img src="https://wiki.glazy.org/uploads/default/optimized/2X/8/8cb85d19177830d10cf73303b4d33ab892ad97a6_2_690x424.png" class="thumbnail" width="690" height="424" srcset="https://wiki.glazy.org/uploads/default/optimized/2X/8/8cb85d19177830d10cf73303b4d33ab892ad97a6_2_690x424.png, https://wiki.glazy.org/uploads/default/optimized/2X/8/8cb85d19177830d10cf73303b4d33ab892ad97a6_2_1035x636.png 1.5x, https://wiki.glazy.org/uploads/default/optimized/2X/8/8cb85d19177830d10cf73303b4d33ab892ad97a6_2_1380x848.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/2X/8/8cb85d19177830d10cf73303b4d33ab892ad97a6_2_10x10.png"></div>
+
+<h3><a href="https://lindabloomfield.co.uk/news/chemistry-for-potters/" target="_blank">Chemistry for potters - Linda Bloomfield</a></h3>
+
+<p>I often receive emails asking about&nbsp;glaze problems. It seems that students on ceramics degree courses are not taught very much about science or understanding the materials, but concentrate more on learning about art and design ideas and...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb.png" data-download-href="https://wiki.glazy.org/uploads/default/909382ab8dc8caa59aabf79669f7f926450a5ffb" title="periodic-table-2-1024x630"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb_2_690x424.png" alt="periodic-table-2-1024x630" data-base62-sha1="kCYNjsewdsQnDUeyybKSh59dc03" width="690" height="424" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb_2_690x424.png, https://wiki.glazy.org/uploads/default/original/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb.png 1.5x, https://wiki.glazy.org/uploads/default/original/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb.png 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/909382ab8dc8caa59aabf79669f7f926450a5ffb_2_10x10.png"></a></div>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/CPK_coloring" target="_blank">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:220/156;"><img src="https://wiki.glazy.org/uploads/default/original/2X/0/01b275ba613bfd1af0b3bfacc2c4dede872c09d5.jpeg" class="thumbnail" width="220" height="156"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/CPK_coloring" target="_blank">CPK coloring</a></h3>
+
+<p>In chemistry, the CPK coloring is a popular color convention for distinguishing atoms of different chemical elements in molecular models.  The scheme is named after the CPK molecular models designed by chemists Robert Corey and Linus Pauling, and improved by Walter Koltun.
+ In 1952, Corey and Pauling published a description of space-filling models of proteins and other biomolecules that they had been building at Caltech. Their models represented atoms by faceted hardwood balls, painted in differe...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/File:CPK-coloring-periodic-table.svg" target="_blank">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:470/249;"><img src="https://wiki.glazy.org/uploads/default/original/2X/4/48bbd796cad7a0143887b98de1c60532fea7494f.png" class="thumbnail" width="470" height="249"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/File:CPK-coloring-periodic-table.svg" target="_blank">File:CPK-coloring-periodic-table.svg</a></h3>
+
+<p>Original file ‎(SVG file, nominally 680 × 369 pixels, file size: 26 KB)
+ In some countries this may not be legally possible; if so:
+a2569875 grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.
+ Click on a date/time to view the file as it appeared at that time.
+ You cannot overwrite this file.</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p><a href="http://periodictable.com/Properties/A/Color.an.html" class="onebox" target="_blank">http://periodictable.com/Properties/A/Color.an.html</a></p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://www.thoughtco.com/static/3.21.0/icons/favicons/favicon.ico" class="site-icon" width="48" height="48">
+      <a href="https://www.thoughtco.com/color-on-the-periodic-table-608827" target="_blank">ThoughtCo</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/1/10ec2cea9cf347171e22c208e4cc32454ab1c007.png" class="thumbnail onebox-avatar" width="690" height="690" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/2X/1/10ec2cea9cf347171e22c208e4cc32454ab1c007_2_10x10.png">
+
+<h3><a href="https://www.thoughtco.com/color-on-the-periodic-table-608827" target="_blank">What Is the Importance of Color on the Periodic Table?</a></h3>
+
+<p>Most periodic tables are color-coded to provide added information about elements and element groups.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p><a href="https://books.google.com/books?id=TApnGTVLwxAC&amp;pg=PA414&amp;lpg=PA414&amp;source=bl&amp;ots=inO6PVO80R&amp;sig=13CIoVPGa6iEMPlRuXBgsL6NfNI&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwi3wYCquKfXAhUE1CYKHUfLBckQ6AEIQTAH#v=onepage&amp;q=katz%20potters%20periodic%20table%20elements&amp;f=false" class="onebox" target="_blank">https://books.google.com/books?id=TApnGTVLwxAC&amp;pg=PA414&amp;lpg=PA414&amp;source=bl&amp;ots=inO6PVO80R&amp;sig=13CIoVPGa6iEMPlRuXBgsL6NfNI&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwi3wYCquKfXAhUE1CYKHUfLBckQ6AEIQTAH#v=onepage&amp;q=katz%20potters%20periodic%20table%20elements&amp;f=false</a></p>
+          <p><a href="https://wiki.glazy.org/t/glaze-calculation-in-software/234/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glaze-calculation-in-software/234/1</link>
+        <pubDate>Fri, 19 May 2017 01:10:57 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-234-1</guid>
+        <source url="https://wiki.glazy.org/t/glaze-calculation-in-software/234.rss">Glaze Calculation in Software</source>
+      </item>
+  </channel>
+</rss>

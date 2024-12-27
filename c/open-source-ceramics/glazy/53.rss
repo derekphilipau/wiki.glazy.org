@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Glazy - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/open-source-ceramics/glazy/53</link>
+    <description>Topics in the &#39;Glazy&#39; category </description>
+    
+      <lastBuildDate>Fri, 28 Apr 2017 00:11:09 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/open-source-ceramics/glazy/53.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Glazy v2 wishlist</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Glazy</category>
+          <description><![CDATA[
+            <p>There are a ton of new features requested over the past few months.  I will need time to find and organize them.  Members of this group are welcome to add their own input.</p>
+<p>Sue McLeod:</p>
+<blockquote>
+<p>Is there a way to set glazes as ‘public’ or ‘collaborative’ so pics can be added to by anyone but recipe can then only be deleted by admin? Or make it so users can’t delete glazes once they become collaborative? Or users can delete from their profile, but they stay on server as public files. It would be a setting that the original poster could agree to or not when posting</p>
+</blockquote>
+<ul>
+<li>Glaze blends:  Blends can represent testing blends (e.g. line, triaxial, biaxial).  Blends can already be represented by the new data model.  However, the ability for users to create recipes that are blends has not yet been implemented.  Also, the blends need to have a top/bottom or layered property in the case of glazes applied over other glazes.</li>
+<li>Advanced search:  Search by UMF</li>
+<li>Bulk upload/import.  Automatic recipe generation.  For blends (biaxial, triaxial, etc.)</li>
+<li>Recipe versioning?  Need “test” status so that large groups of blend tests can be differentiated from actual useful recipes and filtered out of search results.</li>
+<li>Recipe “status”:  test, in use, discontinued</li>
+<li>Internal Messaging</li>
+<li>More detailed Calculator</li>
+<li>Map predictions on Calc.</li>
+<li>Tracking multiple variations from Calculator</li>
+<li>Ability to turn off other people’s dots on stull map. Only show your own. Only show certain flux ratios.</li>
+<li>A “new recipe” button on individual recipe page. To keep going when adding a bunch in a row.</li>
+<li>Ability to add more than 12 ingredients (I had one glaze with 13, it was a combination of 2 recipes, left out the bentonite)</li>
+<li>Ability to bulk select recipes and add to a collection</li>
+<li>Also ability to bulk select and publish</li>
+<li>Quick edit recipe function that opens a pop up window, without leaving the recipes page</li>
+<li>User search function</li>
+<li>Direct linking to wiki</li>
+<li>For materials, glaze types, toxicity</li>
+<li>Reduced number of similar glazes on map (it’s getting a little crazy)</li>
+<li>Image on rollover of similar glazes on map</li>
+<li>Image and complete UMF, or at least include B2O3</li>
+<li>Keep the menu you get when you click on your name “recipes, collections, analyses” stuck to the top of the page when scrolling down</li>
+<li>Select multiple recipes to show together on stull without making a collection</li>
+</ul>
+<p><strong>From old Glazy:</strong></p>
+<ul>
+<li>Re-structuring of materials, material collections. Addition of regional and supplier-specific materials.</li>
+<li>Allow for both a descriptive name and a code name. Descriptive name example: “Butter Satin-gloss with Iron specs”. Code is a shorthand notation for a glaze such as “WWW 237 M1”</li>
+<li>Calculated Expansion. Needs research and consensus.</li>
+<li>PDF download of recipe. Currently, the “Recipe Card” function only supports download of jpg images.</li>
+<li>Drag &amp; drop photo uploader.</li>
+</ul>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/glazy-v2-wishlist/189">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189</link>
+          <pubDate>Fri, 28 Apr 2017 00:11:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-189</guid>
+          <source url="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss">Glazy v2 wishlist</source>
+        </item>
+        <item>
+          <title>Ceramicscalc PHP package</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Glazy</category>
+          <description><![CDATA[
+            <p>Ceramicscalc is a small PHP package to represent ceramics analyses and materials. Materials can be either Primitive (e.g. Whiting, Kaolin, Feldspar) or Composite (i.e. recipes). Composite Materials can be composed of both Primitive and other Composite Materials, allowing for normal recipes, substitutions (e.g. sub “fake” wood ash for real wood ash), and glaze blends (e.g. 50% Leach Clear 50% Pinnell Clear).<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+      <a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/3/32fcbb6f6dafb77cb4f654ad6cfd8cf59014b69a.jpeg" class="thumbnail onebox-avatar" width="400" height="400">
+
+<h3><a href="https://github.com/derekphilipau/ceramicscalc" target="_blank">derekphilipau/ceramicscalc</a></h3>
+
+<p>PHP package for representing ceramics analyses, materials, and recipes. - derekphilipau/ceramicscalc</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+This package is used by the new Glazy. It needs work! I am also only familiar with svn and new to git. Over the next few days I will try to learn more about git, add more phpunit tests, and refactor the code.
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/ceramicscalc-php-package/187">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/ceramicscalc-php-package/187</link>
+          <pubDate>Fri, 28 Apr 2017 00:07:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-187</guid>
+          <source url="https://wiki.glazy.org/t/ceramicscalc-php-package/187.rss">Ceramicscalc PHP package</source>
+        </item>
+        <item>
+          <title>About the Glazy category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Glazy</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-glazy-category/88">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-glazy-category/88</link>
+          <pubDate>Mon, 24 Apr 2017 01:23:11 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-88</guid>
+          <source url="https://wiki.glazy.org/t/about-the-glazy-category/88.rss">About the Glazy category</source>
+        </item>
+  </channel>
+</rss>

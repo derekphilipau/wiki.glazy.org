@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ultra-high Temperature Ceramics</title>
+    <link>https://wiki.glazy.org/t/ultra-high-temperature-ceramics/872</link>
+    <description>Ultra-high Temperature Ceramics
+N. Shipley
+
+**Introduction**
+The highest cone that exists on the pyrometric chart is ∆42. This temperature only exists in the creation of certain industrial ceramics, and for all intents and purposes is something the ordinary ceramicist will never encounter. However, certain types of ceramics can function well above ∆42! These types of ceramics are referred to as *ultra-high temperature ceramics*, or UHTCs for short. UHTCs are surprisingly hard to define, so three different definitions will be provided:
+
+1.	UHTCs are ceramic materials that melt above 3000˚C.
+2.	UHTCs are ceramic materials that are available for use in air above 1600-2000˚C.
+3.	UHTCs are any compound that contains a transition metal (Zr, Hf, Ta, W, or Nb) along with B, C, or N (Fahrenholtz).
+
+Each of these definitions has its own limitations. To start, only W, Ta, or Re meet the first criterion, that the material must melt above 3000˚C. The second definition is helpful from an engineering standpoint, but depends greatly on the length of time the material is exposed to air. The third definition is the most widely used, but falls short when it is applied to composite UHTCs, such as ZrB2 – SiC (Fahrenholtz). 
+
+UHTCs have been known by different names, including “refractory borides,” or “refractory carbides,” “oxidation-resistant diborides,” “ceramals,” “cermets,” and “hard metals”. The term “ultra-high temperature ceramics” has only become popular in the past 20-30 years as interest in and research on the materials has increased (Fahrenholtz).
+
+**History**
+The story of UHTCs is fascinating and checkered, and cannot be told without delving into the Cold War, the space race, or the U.S. military. The precursor of some of the most widely-used UHTCs, ZrB2, was discovered in 1902 by Samuel A. Tucker and Herbert R. Moody. Although a few initial studies on the material’s bonding and electrical properties were conducted in the following years, by and large the scientific community paid the discovery little attention (Royal Society).
+
+Interest in UHTCs perked up again in the 1950s, as tensions increased between the U.S. and the Soviet Union. The escalating Cold War and concomitant interest in spaceflight pushed scientists to investigate boride and carbide ceramics for their potential use in rocket nozzles. Although no reusable aerospace vehicles at the time reached ultra-high temperatures, NASA scientists realized that future vehicles would likely necessitate advances in materials science (Fahrenholtz).
+
+1960s research by the U.S. Air Force into reusable atmospheric reentry vehicles identified boride ceramics as candidates for leading edge materials, as sharp leading edges of such vehicles can reach temperatures of over 2000˚C. HfB2 and ZrB2 eventually became prime candidates for research and applications in atmospheric reentry (Fahrenholtz). Research by the U.S. military in the 1970s into hypersonic flight likewise advanced the field of UHTCs (Justin and Jankowiak).
+
+**Physical Properties**
+UHTCs can be classified as borides, carbides, or nitrides. They are characterized by their high melting points, high hardness, low reactivity, and (in some cases) resistance to oxidation (Justin and Jankowiak). Each of these categories posses their own strengths and shortcomings.
+
+The borides, such as ZrB2 and HfB2 have hexagonal crystal structures. Their intrinsic thermal conductivities (intrinsic referring to properties that have nothing to do with processing) are quite high. This means that borides are good in applications where there is a large, rapid increase in temperature, such as in rocket nozzles (Wuchina et al). Borides do have some trouble with oxidation, and as such there has been much research into their oxidation resistance. In particular, SiO2-forming species are promising additives, because as the ceramic oxidizes the additives melt and form a protective layer of glass (Wuchina et al).
+
+The carbides have very high melting points—much higher than those of the borides (Table 1). TaC and HfC in particular have been the subject of much research because of their high melting temperature, hardness, and strength. Unfortunately, when in oxidation the carbides are subject to pesting, which is when oxide grains break off instead of densifying. However, this becomes less of a problem when temperatures rapidly increase from a baseline to above 2000˚C, as then the oxides are able to properly densify. As such, carbides are not as useful in leading edges, which are subject to large amounts of oxidation as well as slower increases in temperature, but are useful in low-oxygen environments, as they then perform as well as or better than their boride counterparts (Wuchina et al).
+
+Nitrides are less well-understood than borides or carbides. They have very high melting temperatures: HfN melts at around 3300˚C, and under some conditions can even reach 3800˚C without melting. Nitrides also operate over a range of chemical ratios (stoichiometries). At high temperatures over long periods, nitrides will lose their nitrogen, which can lead to structural failure and disintegration (Wuchina et al).
+
+**Preparation, Densification, and Machining**
+The fabrication of UHTCs begins by creating the precursors, which exist as powders prior to their densification. The powders are typically synthesized through reduction or direct reaction (Wuchina et al). Powder blends are ball-milled to increase particle uniformity and decrease size, and are then sieved (Justin and Jankowiak). The blends are then typically densified by hot-pressing (~1800˚C and ~27MPa) the powder mixtures in graphite molds (Wuchina et al). Currently, there is some research into pressureless spark plasma sintering, which would enable complex shapes and could also be done at lower temperatures. This technique is also promising because it leads to comparatively smaller grain size, which increases the strength of the material (Justin and Jankowiak).
+
+UHTCs are typically either hot-pressed into their desired shapes or machined. Machining is often an expensive, difficult, and unreliable process due to UHTCs’ brittle nature, and is accomplished by grinding with diamond tools. Advances in machining such as electrical discharge machining offers a cheap and precise alternative to typical machining techniques (Justin and Jankowiak).
+
+**Health and Safety**
+The average ceramic artist is unlikely to come into contact with UHTCs, whether it be in the studio or elsewhere. Furthermore, unless one works in the manufacture of UHTCs or in a lab, it is highly unlikely one will come in contact with the materials in their powdered form. That being said, the health effects of powdered UHTCs are either negligible or unknown. Of the two most common UHTC precursors, HfB2 and ZrB2, HfB2 causes skin, eye, and respiratory irritation, while ZrB2 causes only minor irritation. HfB2 is not known to be a carcinogen, and it is unknown whether ZrB2 has carcinogenic properties. ZrB2 is somewhat flammable in its powder form (LTS Laboratory).
+
+**Applications**
+UHTCs are valuable in a wide range of fields, including manufacture, electronics, aerospace, and nuclear energy. In manufacture they are commonly found in furnace elements or refractory crucibles (Justin and Jankowiak). Certain nitride UHTCs are essential in the microelectronics industry, and are used as diffusion barriers—barriers that prevent diffusion between between metal components (Wuchina et al). 
+
+Without UHTCs, advances in hypersonic flight and aerospace in general would not have been possible. The sharp aerosurfaces of hypersonic flight vehicles can reach temperatures between 2000˚C and 2400˚C, but must also be able to operate in air and be reusable. These high temperatures occur because thin leading edges increase lift-to-drag ratios, but also increase temperatures. UHTCs are essential in this context because they possess a high thermal conductivity, which reduces thermal stress by decreasing the magnitude of the thermal gradient and allows energy to be conducted away from the edge and be radiated out by materials with lower heat fluxes. In other words, heat travels quickly in UHTCs, which reduces internal stresses and allows the heat to quickly disperse (Justin and Jankowiak).
+  
+There is potential for use of UHTCs in nuclear pellets, which currently suffer from poor thermal and structural properties. UHTCs are also potentially fissile and offer superior thermal conductivity and phase stability. Furthermore, advances in nuclear technology, such as the development of Tokamak fusion reactors, will necessitate UHTCs. Tokamaks, which contain plasma within a magnetic field, often reach extreme temperatures on their interiors due to stray neutrons let off by the plasma (Fahrenholtz). Applications such as these are on the cutting edge of materials science, and will likely require huge leaps in scientific knowledge, manufacturing techniques, and materials engineering.
+
+**Conclusion**
+Although the average ceramic artist is unlikely to encounter ultra-high temperature ceramics during their career, it is still worth keeping track of and paying attention to these materials. Their use in industry, warfare, energy, and more irrevocably ties them to the lives of ordinary people, whether they know it or not. It is worth critically examining the histories and uses of these materials in order to uncover their role in global power systems (as for instance in their use in warfare), perpetuation of environmental issues (nuclear reactors), or opportunities for cleaner energy (fusion reactors). Furthermore, their unusual physical properties, fabrication techniques, and histories offer opportunities for artistic inspiration and creation.
+ 
+.
+.
+.
+.
+
+ 
+References
+Fahrenholtz, William G. Ultra-High Temperature Ceramics: Materials for Extreme Environment Applications. Hoboken, NJ: Wiley, ACers, 2014.
+
+Royal Society. International Catalogue of Scientific Literature: Chemistry. Vol. 2. International Council, 1904.
+
+Justin, J.F., and A. Jankowiak. “Ultra High Temperature Ceramics: Densification, Properties and Thermal Stability.” The Onera Journal, no. 3 (November 2011).
+
+LTS Research Laboratories, Inc., “Hafnium Diboride.” n.d.
+
+LTS Research Laboratories, Inc., “Zirconium Diboride.” n.d.
+
+Wuchina, E., E. Opila, M. Opeka, W. Fahrenholtz, and I. Talmy. “UHTCs: Ultra-High Temperature Ceramic Materials for Extreme Environment Applications.” The Electrochemical Society, Interface, 2007.</description>
+    
+    <lastBuildDate>Thu, 05 Dec 2019 23:17:04 +0000</lastBuildDate>
+    <category>Clay Bodies</category>
+    <atom:link href="https://wiki.glazy.org/t/ultra-high-temperature-ceramics/872.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Ultra-high Temperature Ceramics</title>
+        <dc:creator><![CDATA[noships]]></dc:creator>
+        <description><![CDATA[
+            <p>Ultra-high Temperature Ceramics<br>
+N. Shipley</p>
+<p><strong>Introduction</strong><br>
+The highest cone that exists on the pyrometric chart is ∆42. This temperature only exists in the creation of certain industrial ceramics, and for all intents and purposes is something the ordinary ceramicist will never encounter. However, certain types of ceramics can function well above ∆42! These types of ceramics are referred to as <em>ultra-high temperature ceramics</em>, or UHTCs for short. UHTCs are surprisingly hard to define, so three different definitions will be provided:</p>
+<ol>
+<li>UHTCs are ceramic materials that melt above 3000˚C.</li>
+<li>UHTCs are ceramic materials that are available for use in air above 1600-2000˚C.</li>
+<li>UHTCs are any compound that contains a transition metal (Zr, Hf, Ta, W, or Nb) along with B, C, or N (Fahrenholtz).</li>
+</ol>
+<p>Each of these definitions has its own limitations. To start, only W, Ta, or Re meet the first criterion, that the material must melt above 3000˚C. The second definition is helpful from an engineering standpoint, but depends greatly on the length of time the material is exposed to air. The third definition is the most widely used, but falls short when it is applied to composite UHTCs, such as ZrB2 – SiC (Fahrenholtz).</p>
+<p>UHTCs have been known by different names, including “refractory borides,” or “refractory carbides,” “oxidation-resistant diborides,” “ceramals,” “cermets,” and “hard metals”. The term “ultra-high temperature ceramics” has only become popular in the past 20-30 years as interest in and research on the materials has increased (Fahrenholtz).</p>
+<p><strong>History</strong><br>
+The story of UHTCs is fascinating and checkered, and cannot be told without delving into the Cold War, the space race, or the U.S. military. The precursor of some of the most widely-used UHTCs, ZrB2, was discovered in 1902 by Samuel A. Tucker and Herbert R. Moody. Although a few initial studies on the material’s bonding and electrical properties were conducted in the following years, by and large the scientific community paid the discovery little attention (Royal Society).</p>
+<p>Interest in UHTCs perked up again in the 1950s, as tensions increased between the U.S. and the Soviet Union. The escalating Cold War and concomitant interest in spaceflight pushed scientists to investigate boride and carbide ceramics for their potential use in rocket nozzles. Although no reusable aerospace vehicles at the time reached ultra-high temperatures, NASA scientists realized that future vehicles would likely necessitate advances in materials science (Fahrenholtz).</p>
+<p>1960s research by the U.S. Air Force into reusable atmospheric reentry vehicles identified boride ceramics as candidates for leading edge materials, as sharp leading edges of such vehicles can reach temperatures of over 2000˚C. HfB2 and ZrB2 eventually became prime candidates for research and applications in atmospheric reentry (Fahrenholtz). Research by the U.S. military in the 1970s into hypersonic flight likewise advanced the field of UHTCs (Justin and Jankowiak).</p>
+<p><strong>Physical Properties</strong><br>
+UHTCs can be classified as borides, carbides, or nitrides. They are characterized by their high melting points, high hardness, low reactivity, and (in some cases) resistance to oxidation (Justin and Jankowiak). Each of these categories posses their own strengths and shortcomings.</p>
+<p>The borides, such as ZrB2 and HfB2 have hexagonal crystal structures. Their intrinsic thermal conductivities (intrinsic referring to properties that have nothing to do with processing) are quite high. This means that borides are good in applications where there is a large, rapid increase in temperature, such as in rocket nozzles (Wuchina et al). Borides do have some trouble with oxidation, and as such there has been much research into their oxidation resistance. In particular, SiO2-forming species are promising additives, because as the ceramic oxidizes the additives melt and form a protective layer of glass (Wuchina et al).</p>
+<p>The carbides have very high melting points—much higher than those of the borides (Table 1). TaC and HfC in particular have been the subject of much research because of their high melting temperature, hardness, and strength. Unfortunately, when in oxidation the carbides are subject to pesting, which is when oxide grains break off instead of densifying. However, this becomes less of a problem when temperatures rapidly increase from a baseline to above 2000˚C, as then the oxides are able to properly densify. As such, carbides are not as useful in leading edges, which are subject to large amounts of oxidation as well as slower increases in temperature, but are useful in low-oxygen environments, as they then perform as well as or better than their boride counterparts (Wuchina et al).</p>
+<p>Nitrides are less well-understood than borides or carbides. They have very high melting temperatures: HfN melts at around 3300˚C, and under some conditions can even reach 3800˚C without melting. Nitrides also operate over a range of chemical ratios (stoichiometries). At high temperatures over long periods, nitrides will lose their nitrogen, which can lead to structural failure and disintegration (Wuchina et al).</p>
+<p><strong>Preparation, Densification, and Machining</strong><br>
+The fabrication of UHTCs begins by creating the precursors, which exist as powders prior to their densification. The powders are typically synthesized through reduction or direct reaction (Wuchina et al). Powder blends are ball-milled to increase particle uniformity and decrease size, and are then sieved (Justin and Jankowiak). The blends are then typically densified by hot-pressing (~1800˚C and ~27MPa) the powder mixtures in graphite molds (Wuchina et al). Currently, there is some research into pressureless spark plasma sintering, which would enable complex shapes and could also be done at lower temperatures. This technique is also promising because it leads to comparatively smaller grain size, which increases the strength of the material (Justin and Jankowiak).</p>
+<p>UHTCs are typically either hot-pressed into their desired shapes or machined. Machining is often an expensive, difficult, and unreliable process due to UHTCs’ brittle nature, and is accomplished by grinding with diamond tools. Advances in machining such as electrical discharge machining offers a cheap and precise alternative to typical machining techniques (Justin and Jankowiak).</p>
+<p><strong>Health and Safety</strong><br>
+The average ceramic artist is unlikely to come into contact with UHTCs, whether it be in the studio or elsewhere. Furthermore, unless one works in the manufacture of UHTCs or in a lab, it is highly unlikely one will come in contact with the materials in their powdered form. That being said, the health effects of powdered UHTCs are either negligible or unknown. Of the two most common UHTC precursors, HfB2 and ZrB2, HfB2 causes skin, eye, and respiratory irritation, while ZrB2 causes only minor irritation. HfB2 is not known to be a carcinogen, and it is unknown whether ZrB2 has carcinogenic properties. ZrB2 is somewhat flammable in its powder form (LTS Laboratory).</p>
+<p><strong>Applications</strong><br>
+UHTCs are valuable in a wide range of fields, including manufacture, electronics, aerospace, and nuclear energy. In manufacture they are commonly found in furnace elements or refractory crucibles (Justin and Jankowiak). Certain nitride UHTCs are essential in the microelectronics industry, and are used as diffusion barriers—barriers that prevent diffusion between between metal components (Wuchina et al).</p>
+<p>Without UHTCs, advances in hypersonic flight and aerospace in general would not have been possible. The sharp aerosurfaces of hypersonic flight vehicles can reach temperatures between 2000˚C and 2400˚C, but must also be able to operate in air and be reusable. These high temperatures occur because thin leading edges increase lift-to-drag ratios, but also increase temperatures. UHTCs are essential in this context because they possess a high thermal conductivity, which reduces thermal stress by decreasing the magnitude of the thermal gradient and allows energy to be conducted away from the edge and be radiated out by materials with lower heat fluxes. In other words, heat travels quickly in UHTCs, which reduces internal stresses and allows the heat to quickly disperse (Justin and Jankowiak).</p>
+<p>There is potential for use of UHTCs in nuclear pellets, which currently suffer from poor thermal and structural properties. UHTCs are also potentially fissile and offer superior thermal conductivity and phase stability. Furthermore, advances in nuclear technology, such as the development of Tokamak fusion reactors, will necessitate UHTCs. Tokamaks, which contain plasma within a magnetic field, often reach extreme temperatures on their interiors due to stray neutrons let off by the plasma (Fahrenholtz). Applications such as these are on the cutting edge of materials science, and will likely require huge leaps in scientific knowledge, manufacturing techniques, and materials engineering.</p>
+<p><strong>Conclusion</strong><br>
+Although the average ceramic artist is unlikely to encounter ultra-high temperature ceramics during their career, it is still worth keeping track of and paying attention to these materials. Their use in industry, warfare, energy, and more irrevocably ties them to the lives of ordinary people, whether they know it or not. It is worth critically examining the histories and uses of these materials in order to uncover their role in global power systems (as for instance in their use in warfare), perpetuation of environmental issues (nuclear reactors), or opportunities for cleaner energy (fusion reactors). Furthermore, their unusual physical properties, fabrication techniques, and histories offer opportunities for artistic inspiration and creation.</p>
+<p>.<br>
+.<br>
+.<br>
+.</p>
+<p>References<br>
+Fahrenholtz, William G. Ultra-High Temperature Ceramics: Materials for Extreme Environment Applications. Hoboken, NJ: Wiley, ACers, 2014.</p>
+<p>Royal Society. International Catalogue of Scientific Literature: Chemistry. Vol. 2. International Council, 1904.</p>
+<p>Justin, J.F., and A. Jankowiak. “Ultra High Temperature Ceramics: Densification, Properties and Thermal Stability.” The Onera Journal, no. 3 (November 2011).</p>
+<p>LTS Research Laboratories, Inc., “Hafnium Diboride.” n.d.</p>
+<p>LTS Research Laboratories, Inc., “Zirconium Diboride.” n.d.</p>
+<p>Wuchina, E., E. Opila, M. Opeka, W. Fahrenholtz, and I. Talmy. “UHTCs: Ultra-High Temperature Ceramic Materials for Extreme Environment Applications.” The Electrochemical Society, Interface, 2007.</p>
+          <p><a href="https://wiki.glazy.org/t/ultra-high-temperature-ceramics/872/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/ultra-high-temperature-ceramics/872/1</link>
+        <pubDate>Thu, 05 Dec 2019 23:17:04 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-872-1</guid>
+        <source url="https://wiki.glazy.org/t/ultra-high-temperature-ceramics/872.rss">Ultra-high Temperature Ceramics</source>
+      </item>
+  </channel>
+</rss>

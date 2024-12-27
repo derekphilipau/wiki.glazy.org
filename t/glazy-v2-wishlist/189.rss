@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Glazy v2 wishlist</title>
+    <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189</link>
+    <description>There are a ton of new features requested over the past few months.  I will need time to find and organize them.  Members of this group are welcome to add their own input.
+
+Sue McLeod:
+&gt; Is there a way to set glazes as &#39;public&#39; or &#39;collaborative&#39; so pics can be added to by anyone but recipe can then only be deleted by admin? Or make it so users can&#39;t delete glazes once they become collaborative? Or users can delete from their profile, but they stay on server as public files. It would be a setting that the original poster could agree to or not when posting
+
+* Glaze blends:  Blends can represent testing blends (e.g. line, triaxial, biaxial).  Blends can already be represented by the new data model.  However, the ability for users to create recipes that are blends has not yet been implemented.  Also, the blends need to have a top/bottom or layered property in the case of glazes applied over other glazes.
+* Advanced search:  Search by UMF
+* Bulk upload/import.  Automatic recipe generation.  For blends (biaxial, triaxial, etc.)
+* Recipe versioning?  Need “test” status so that large groups of blend tests can be differentiated from actual useful recipes and filtered out of search results.
+* Recipe &quot;status&quot;:  test, in use, discontinued
+* Internal Messaging
+* More detailed Calculator
+* Map predictions on Calc.
+* Tracking multiple variations from Calculator
+* Ability to turn off other people&#39;s dots on stull map. Only show your own. Only show certain flux ratios.
+* A &quot;new recipe&quot; button on individual recipe page. To keep going when adding a bunch in a row.
+* Ability to add more than 12 ingredients (I had one glaze with 13, it was a combination of 2 recipes, left out the bentonite)
+* Ability to bulk select recipes and add to a collection
+* Also ability to bulk select and publish
+* Quick edit recipe function that opens a pop up window, without leaving the recipes page
+* User search function
+* Direct linking to wiki
+* For materials, glaze types, toxicity
+* Reduced number of similar glazes on map (it&#39;s getting a little crazy)
+* Image on rollover of similar glazes on map
+* Image and complete UMF, or at least include B2O3
+* Keep the menu you get when you click on your name &quot;recipes, collections, analyses&quot; stuck to the top of the page when scrolling down
+* Select multiple recipes to show together on stull without making a collection
+
+
+
+**From old Glazy:**
+* Re-structuring of materials, material collections. Addition of regional and supplier-specific materials.
+* Allow for both a descriptive name and a code name. Descriptive name example: &quot;Butter Satin-gloss with Iron specs&quot;. Code is a shorthand notation for a glaze such as &quot;WWW 237 M1&quot;
+* Calculated Expansion. Needs research and consensus.
+* PDF download of recipe. Currently, the &quot;Recipe Card&quot; function only supports download of jpg images.
+* Drag &amp; drop photo uploader.</description>
+    
+    <lastBuildDate>Tue, 20 Mar 2018 18:35:08 +0000</lastBuildDate>
+    <category>Glazy</category>
+    <atom:link href="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Glazy v2 wishlist</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p>From Ginger Lukas:</p>
+<blockquote>
+<p><a href="https://glazy.org/u/764/images">https://glazy.org/u/764/images</a> doesn’t seem to go anywhere, and i’ve<br>
+noticed that i’ve stopped uploading individual pictures to recipes that<br>
+aren’t mine just because i know i won’t be able to go back and look<br>
+through them as a set. odd but true.</p>
+</blockquote>
+<blockquote>
+<p>i also wish there was a commenting function other than the review you<br>
+can write?</p>
+</blockquote>
+          <p><a href="https://wiki.glazy.org/t/glazy-v2-wishlist/189/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189/3</link>
+        <pubDate>Tue, 20 Mar 2018 18:35:08 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-189-3</guid>
+        <source url="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss">Glazy v2 wishlist</source>
+      </item>
+      <item>
+        <title>Glazy v2 wishlist</title>
+        <dc:creator><![CDATA[Sue_McLeod]]></dc:creator>
+        <description><![CDATA[
+            <p>Add specific gravity to recipes</p>
+          <p><a href="https://wiki.glazy.org/t/glazy-v2-wishlist/189/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189/2</link>
+        <pubDate>Tue, 20 Mar 2018 16:01:20 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-189-2</guid>
+        <source url="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss">Glazy v2 wishlist</source>
+      </item>
+      <item>
+        <title>Glazy v2 wishlist</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>There are a ton of new features requested over the past few months.  I will need time to find and organize them.  Members of this group are welcome to add their own input.</p>
+<p>Sue McLeod:</p>
+<blockquote>
+<p>Is there a way to set glazes as ‘public’ or ‘collaborative’ so pics can be added to by anyone but recipe can then only be deleted by admin? Or make it so users can’t delete glazes once they become collaborative? Or users can delete from their profile, but they stay on server as public files. It would be a setting that the original poster could agree to or not when posting</p>
+</blockquote>
+<ul>
+<li>Glaze blends:  Blends can represent testing blends (e.g. line, triaxial, biaxial).  Blends can already be represented by the new data model.  However, the ability for users to create recipes that are blends has not yet been implemented.  Also, the blends need to have a top/bottom or layered property in the case of glazes applied over other glazes.</li>
+<li>Advanced search:  Search by UMF</li>
+<li>Bulk upload/import.  Automatic recipe generation.  For blends (biaxial, triaxial, etc.)</li>
+<li>Recipe versioning?  Need “test” status so that large groups of blend tests can be differentiated from actual useful recipes and filtered out of search results.</li>
+<li>Recipe “status”:  test, in use, discontinued</li>
+<li>Internal Messaging</li>
+<li>More detailed Calculator</li>
+<li>Map predictions on Calc.</li>
+<li>Tracking multiple variations from Calculator</li>
+<li>Ability to turn off other people’s dots on stull map. Only show your own. Only show certain flux ratios.</li>
+<li>A “new recipe” button on individual recipe page. To keep going when adding a bunch in a row.</li>
+<li>Ability to add more than 12 ingredients (I had one glaze with 13, it was a combination of 2 recipes, left out the bentonite)</li>
+<li>Ability to bulk select recipes and add to a collection</li>
+<li>Also ability to bulk select and publish</li>
+<li>Quick edit recipe function that opens a pop up window, without leaving the recipes page</li>
+<li>User search function</li>
+<li>Direct linking to wiki</li>
+<li>For materials, glaze types, toxicity</li>
+<li>Reduced number of similar glazes on map (it’s getting a little crazy)</li>
+<li>Image on rollover of similar glazes on map</li>
+<li>Image and complete UMF, or at least include B2O3</li>
+<li>Keep the menu you get when you click on your name “recipes, collections, analyses” stuck to the top of the page when scrolling down</li>
+<li>Select multiple recipes to show together on stull without making a collection</li>
+</ul>
+<p><strong>From old Glazy:</strong></p>
+<ul>
+<li>Re-structuring of materials, material collections. Addition of regional and supplier-specific materials.</li>
+<li>Allow for both a descriptive name and a code name. Descriptive name example: “Butter Satin-gloss with Iron specs”. Code is a shorthand notation for a glaze such as “WWW 237 M1”</li>
+<li>Calculated Expansion. Needs research and consensus.</li>
+<li>PDF download of recipe. Currently, the “Recipe Card” function only supports download of jpg images.</li>
+<li>Drag &amp; drop photo uploader.</li>
+</ul>
+          <p><a href="https://wiki.glazy.org/t/glazy-v2-wishlist/189/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/glazy-v2-wishlist/189/1</link>
+        <pubDate>Fri, 28 Apr 2017 00:11:09 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-189-1</guid>
+        <source url="https://wiki.glazy.org/t/glazy-v2-wishlist/189.rss">Glazy v2 wishlist</source>
+      </item>
+  </channel>
+</rss>

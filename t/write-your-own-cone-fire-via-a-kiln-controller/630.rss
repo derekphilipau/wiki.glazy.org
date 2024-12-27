@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Write Your Own Cone Fire via a Kiln Controller</title>
+    <link>https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630</link>
+    <description>[Note: This article is from Jesse Wiseman Hull’s website, now archived here.](https://web.archive.org/web/20110203065842/http://jessehull.com)
+
+Tuesday, February 19th, 2008
+
+Disclaimer/Warning:
+Automated kilns weren’t meant to be left completely unattended. I fire to a witness cone viewed through a spy hole, so I am there every time it hits peak. Others rely completely on the controller. If this is the case, you can try to  *Write your own Cone Fire*  program in order to smooth out some of the variables.
+
+_________________________________
+
+Many are finding inconsistencies in their glaze results from one firing to the next. The variables are vast, but I’m going to focus on three reasons attributing to inconsistencies. The first is that the kiln elements decline with use. The second is that kiln loads vary in weight and how that weight is distributed from one firing to the next. The third is due to heavily insulated kilns that hold too much heatwork following the top end of the firing.
+
+The first thing to understand, is that a cone measures heatwork, not just a given temperature. Heatwork is a measure of heat + time. Time refers to how long it takes to get to peak temperature, as well as any hold maintained once that peak is achieved.
+If the kiln is in good working order, it should have no problem achieving the desired rate of rise and peak temperature. But, if your elements aren’t new, or if the kiln is packed heavy, it could take longer than you programmed to get to the intended temperature. If your kiln achieves the programmed temperature over a longer period of time, over-firing will most likely result.
+
+Example: ^10 (true 90 degree bend) equals 2342°F, only if the kiln can maintain a 108/hr rise during the last 150-200° prior to peak. If it takes longer, then the temperature you need to reach will be less. Again, both heat and time must be factored in.
+
+To continue, I’ll need to use my [L&amp;amp;L](https://web.archive.org/web/20110222053743/http://www.hotkilns.com/) Dynatrol ([Bartlett V6-CF](https://web.archive.org/web/20110222053743/http://www.bartinst.com/KILN/v6cf.html)) controller as reference.
+If you wish to write your own cone fire, program a  *Vary Fire*  schedule the same way as usual, except that when it asks for the peak temperature, push the  *Other*  button. Keep pushing  *Other*  until you see  *Cone* displayed. Type in the cone number you want to achieve (e.g., “10″). The controller will calculate the temperature to hit based upon your programmed rate of rise. Then, if your kiln lags during the firing, the controller will recalculate the temperature based upon the actual rate of rise.
+
+For heavily insulated kilns yielding an over-fired cone, I’ve found that inputing a  *cone offset*  helps. Doing this can aid in compensating for the residual heatwork responsible for bending the cone beyond the point you want. Before you do this, you’ll need to monitor a firing to see how much to offset. Also, keep in mind that if your kiln is heavily packed, the ware will hold heat, accounting for inconsistencies as well.
+
+**Inputing a Cone Offset** : Before you begin inputing a program, hit the  *Other*  key until you see  *CnoS* displayed, then hit  *Enter* . Typing “90″ before the desired offset temperature will yield a lower actual temperature, decreasing the amount of heat work achieved. Again, the idea here is that the residual heatwork will bend the cone further (hopefully closer to perfection).
+
+You can only offset the cone measurement by 50°F, but if you need to do more than this, contact the manufacturer, as it eludes to a larger problem. Offsetting in this way will only affect the cone you select. It will not affect your thermocouple readings during other  *Vary Fire*  or  *Cone Fire*  programs. Speaking of thermocouples, none of what I’ve said here will help, unless your thermocouples are reading accurately. See the post on [Studio Kiln Thermocouple Calibrations](https://web.archive.org/web/20110222053743/http://jessehull.com/2007/12/23/cone-readings-kiln-control-calibrations/) for more on this.
+After reading this, you may begin to understand why I always fire by a visual cone in achieving the correct level of final heatwork. Computers haven’t completely replaced humans yet for a reason! I also prefer a [kiln](https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/) that allows for a fast descent, largely eliminating the effects of residual heatwork.</description>
+    
+    <lastBuildDate>Thu, 15 Nov 2018 13:44:03 +0000</lastBuildDate>
+    <category>Electric Kilns</category>
+    <atom:link href="https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Write Your Own Cone Fire via a Kiln Controller</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Tuesday, February 19th, 2008</p>
+<p>Disclaimer/Warning:<br>
+Automated kilns weren’t meant to be left completely unattended. I fire to a witness cone viewed through a spy hole, so I am there every time it hits peak. Others rely completely on the controller. If this is the case, you can try to  <em>Write your own Cone Fire</em>  program in order to smooth out some of the variables.</p>
+<hr>
+<p>Many are finding inconsistencies in their glaze results from one firing to the next. The variables are vast, but I’m going to focus on three reasons attributing to inconsistencies. The first is that the kiln elements decline with use. The second is that kiln loads vary in weight and how that weight is distributed from one firing to the next. The third is due to heavily insulated kilns that hold too much heatwork following the top end of the firing.</p>
+<p>The first thing to understand, is that a cone measures heatwork, not just a given temperature. Heatwork is a measure of heat + time. Time refers to how long it takes to get to peak temperature, as well as any hold maintained once that peak is achieved.<br>
+If the kiln is in good working order, it should have no problem achieving the desired rate of rise and peak temperature. But, if your elements aren’t new, or if the kiln is packed heavy, it could take longer than you programmed to get to the intended temperature. If your kiln achieves the programmed temperature over a longer period of time, over-firing will most likely result.</p>
+<p>Example: ^10 (true 90 degree bend) equals 2342°F, only if the kiln can maintain a 108/hr rise during the last 150-200° prior to peak. If it takes longer, then the temperature you need to reach will be less. Again, both heat and time must be factored in.</p>
+<p>To continue, I’ll need to use my <a href="https://web.archive.org/web/20110222053743/http://www.hotkilns.com/">L&amp;L</a> Dynatrol (<a href="https://web.archive.org/web/20110222053743/http://www.bartinst.com/KILN/v6cf.html">Bartlett V6-CF</a>) controller as reference.<br>
+If you wish to write your own cone fire, program a  <em>Vary Fire</em>  schedule the same way as usual, except that when it asks for the peak temperature, push the  <em>Other</em>  button. Keep pushing  <em>Other</em>  until you see  <em>Cone</em> displayed. Type in the cone number you want to achieve (e.g., “10″). The controller will calculate the temperature to hit based upon your programmed rate of rise. Then, if your kiln lags during the firing, the controller will recalculate the temperature based upon the actual rate of rise.</p>
+<p>For heavily insulated kilns yielding an over-fired cone, I’ve found that inputing a  <em>cone offset</em>  helps. Doing this can aid in compensating for the residual heatwork responsible for bending the cone beyond the point you want. Before you do this, you’ll need to monitor a firing to see how much to offset. Also, keep in mind that if your kiln is heavily packed, the ware will hold heat, accounting for inconsistencies as well.</p>
+<p><strong>Inputing a Cone Offset</strong> : Before you begin inputing a program, hit the  <em>Other</em>  key until you see  <em>CnoS</em> displayed, then hit  <em>Enter</em> . Typing “90″ before the desired offset temperature will yield a lower actual temperature, decreasing the amount of heat work achieved. Again, the idea here is that the residual heatwork will bend the cone further (hopefully closer to perfection).</p>
+<p>You can only offset the cone measurement by 50°F, but if you need to do more than this, contact the manufacturer, as it eludes to a larger problem. Offsetting in this way will only affect the cone you select. It will not affect your thermocouple readings during other  <em>Vary Fire</em>  or  <em>Cone Fire</em>  programs. Speaking of thermocouples, none of what I’ve said here will help, unless your thermocouples are reading accurately. See the post on <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/2007/12/23/cone-readings-kiln-control-calibrations/">Studio Kiln Thermocouple Calibrations</a> for more on this.<br>
+After reading this, you may begin to understand why I always fire by a visual cone in achieving the correct level of final heatwork. Computers haven’t completely replaced humans yet for a reason! I also prefer a <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">kiln</a> that allows for a fast descent, largely eliminating the effects of residual heatwork.</p>
+          <p><a href="https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630/1</link>
+        <pubDate>Thu, 15 Nov 2018 13:44:03 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-630-1</guid>
+        <source url="https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630.rss">Write Your Own Cone Fire via a Kiln Controller</source>
+      </item>
+  </channel>
+</rss>

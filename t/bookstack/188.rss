@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Bookstack</title>
+    <link>https://wiki.glazy.org/t/bookstack/188</link>
+    <description>EDIT:  No longer used in preference for Discourse.
+
+EDIT: I&#39;ve taken down the site for now out of concerns about the approach. See conversation below!
+I uploaded the &quot;Clay Bodies&quot; section of the Clayart archives into an open-source project called Bookstack (https://www.bookstackapp.com/).
+Bookstack is a VERY simple Wiki/Book/Documentation app. It allows for Facebook/Google login and uses WYSIWYG text editing.
+The test website doesn&#39;t require login, just click &quot;Edit&quot; to edit a page.
+http://test.denormalized.net/…/clay-bodies/page/southern-ice
+http://test.denormalized.net/books
+(The email archives are organized by threads visible in the &quot;Page Navigation&quot;, unfortunately the subjects of threads are often changed, and therefore it&#39;s messy.)</description>
+    
+    <lastBuildDate>Fri, 28 Apr 2017 00:09:09 +0000</lastBuildDate>
+    <category>Open-Source Ceramics</category>
+    <atom:link href="https://wiki.glazy.org/t/bookstack/188.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Bookstack</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>EDIT:  No longer used in preference for Discourse.</p>
+<p>EDIT: I’ve taken down the site for now out of concerns about the approach. See conversation below!<br>
+I uploaded the “Clay Bodies” section of the Clayart archives into an open-source project called Bookstack (<a href="https://www.bookstackapp.com/">https://www.bookstackapp.com/</a>).<br>
+Bookstack is a VERY simple Wiki/Book/Documentation app. It allows for Facebook/Google login and uses WYSIWYG text editing.<br>
+The test website doesn’t require login, just click “Edit” to edit a page.<br>
+<a href="http://test.denormalized.net/%E2%80%A6/clay-bodies/page/southern-ice">http://test.denormalized.net/…/clay-bodies/page/southern-ice</a><br>
+<a href="http://test.denormalized.net/books">http://test.denormalized.net/books</a><br>
+(The email archives are organized by threads visible in the “Page Navigation”, unfortunately the subjects of threads are often changed, and therefore it’s messy.)</p>
+          <p><a href="https://wiki.glazy.org/t/bookstack/188/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/bookstack/188/1</link>
+        <pubDate>Fri, 28 Apr 2017 00:09:09 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-188-1</guid>
+        <source url="https://wiki.glazy.org/t/bookstack/188.rss">Bookstack</source>
+      </item>
+  </channel>
+</rss>

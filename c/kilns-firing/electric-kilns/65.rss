@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Electric Kilns - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/kilns-firing/electric-kilns/65</link>
+    <description>Topics in the &#39;Electric Kilns&#39; category </description>
+    
+      <lastBuildDate>Thu, 15 Nov 2018 13:44:03 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/kilns-firing/electric-kilns/65.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Write Your Own Cone Fire via a Kiln Controller</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Electric Kilns</category>
+          <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Tuesday, February 19th, 2008</p>
+<p>Disclaimer/Warning:<br>
+Automated kilns weren’t meant to be left completely unattended. I fire to a witness cone viewed through a spy hole, so I am there every time it hits peak. Others rely completely on the controller. If this is the case, you can try to  <em>Write your own Cone Fire</em>  program in order to smooth out some of the variables.</p>
+<hr>
+<p>Many are finding inconsistencies in their glaze results from one firing to the next. The variables are vast, but I’m going to focus on three reasons attributing to inconsistencies. The first is that the kiln elements decline with use. The second is that kiln loads vary in weight and how that weight is distributed from one firing to the next. The third is due to heavily insulated kilns that hold too much heatwork following the top end of the firing.</p>
+<p>The first thing to understand, is that a cone measures heatwork, not just a given temperature. Heatwork is a measure of heat + time. Time refers to how long it takes to get to peak temperature, as well as any hold maintained once that peak is achieved.<br>
+If the kiln is in good working order, it should have no problem achieving the desired rate of rise and peak temperature. But, if your elements aren’t new, or if the kiln is packed heavy, it could take longer than you programmed to get to the intended temperature. If your kiln achieves the programmed temperature over a longer period of time, over-firing will most likely result.</p>
+<p>Example: ^10 (true 90 degree bend) equals 2342°F, only if the kiln can maintain a 108/hr rise during the last 150-200° prior to peak. If it takes longer, then the temperature you need to reach will be less. Again, both heat and time must be factored in.</p>
+<p>To continue, I’ll need to use my <a href="https://web.archive.org/web/20110222053743/http://www.hotkilns.com/">L&amp;L</a> Dynatrol (<a href="https://web.archive.org/web/20110222053743/http://www.bartinst.com/KILN/v6cf.html">Bartlett V6-CF</a>) controller as reference.<br>
+If you wish to write your own cone fire, program a  <em>Vary Fire</em>  schedule the same way as usual, except that when it asks for the peak temperature, push the  <em>Other</em>  button. Keep pushing  <em>Other</em>  until you see  <em>Cone</em> displayed. Type in the cone number you want to achieve (e.g., “10″). The controller will calculate the temperature to hit based upon your programmed rate of rise. Then, if your kiln lags during the firing, the controller will recalculate the temperature based upon the actual rate of rise.</p>
+<p>For heavily insulated kilns yielding an over-fired cone, I’ve found that inputing a  <em>cone offset</em>  helps. Doing this can aid in compensating for the residual heatwork responsible for bending the cone beyond the point you want. Before you do this, you’ll need to monitor a firing to see how much to offset. Also, keep in mind that if your kiln is heavily packed, the ware will hold heat, accounting for inconsistencies as well.</p>
+<p><strong>Inputing a Cone Offset</strong> : Before you begin inputing a program, hit the  <em>Other</em>  key until you see  <em>CnoS</em> displayed, then hit  <em>Enter</em> . Typing “90″ before the desired offset temperature will yield a lower actual temperature, decreasing the amount of heat work achieved. Again, the idea here is that the residual heatwork will bend the cone further (hopefully closer to perfection).</p>
+<p>You can only offset the cone measurement by 50°F, but if you need to do more than this, contact the manufacturer, as it eludes to a larger problem. Offsetting in this way will only affect the cone you select. It will not affect your thermocouple readings during other  <em>Vary Fire</em>  or  <em>Cone Fire</em>  programs. Speaking of thermocouples, none of what I’ve said here will help, unless your thermocouples are reading accurately. See the post on <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/2007/12/23/cone-readings-kiln-control-calibrations/">Studio Kiln Thermocouple Calibrations</a> for more on this.<br>
+After reading this, you may begin to understand why I always fire by a visual cone in achieving the correct level of final heatwork. Computers haven’t completely replaced humans yet for a reason! I also prefer a <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">kiln</a> that allows for a fast descent, largely eliminating the effects of residual heatwork.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630</link>
+          <pubDate>Thu, 15 Nov 2018 13:44:03 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-630</guid>
+          <source url="https://wiki.glazy.org/t/write-your-own-cone-fire-via-a-kiln-controller/630.rss">Write Your Own Cone Fire via a Kiln Controller</source>
+        </item>
+        <item>
+          <title>Designing, Building, or Selecting an Electric High-Fire Kiln</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Electric Kilns</category>
+          <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Wednesday, February 6th, 2008</p>
+<p>There are many good kilns available, but choosing one to suit your needs can be difficult. Take note that simply because a kiln boasts a “Rated to Cone 10″, “Energy Efficient” or “Heavy Insulation” label, it does not necessarily mean it is the best choice.  As a matter of fact, that last one can even cause you a good deal of grief.</p>
+<p>I believe a good analogy to use toward an electric kiln, is that of a boat.  This may seem like an odd comparison at first; however, consider that both require power to operate against resistance, and since neither has brakes, it is up to the user to compensate for the dissipating momentum. This “momentum”, in the case of a kiln, translates to  <em>residual heatwork</em> .Firing a heavily insulated kiln then, is comparable to piloting a heavier and less agile boat –for even after a pyrometric cone achieves the desired bend, it can easily drop well past that perfect arch if your kiln releases heat too slowly.It is also important to realize that automated controllers don’t make this any easier to deal with. A controller can stop supplying power to the elements, but it cannot make a kiln cool any faster than it’s ability to release heat. The user still has to figure out how to compensate, and then program the controller accordingly.I believe the best way to get the kiln that is perfect for your firings is to either build it from scratch, or start with a commercially manufactured shell of the size needed. Whichever choice you go with, the options to consider adding should focus on the need for accuracy and account for the components that will wear out the fastest.The variables below are those that led to designing <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">the kiln I fire</a>.</p>
+<p><strong>Variable 1</strong>  - The ability to heat:The kiln should  <strong>at least</strong>  have the ability to climb all the way to it’s top-rated temperature at 270°F/hr –without lagging. To accomplish this, the kiln needs enough power. I would suggest erring on the side of an “overpowered” design, for if your kiln lacks the ability to ramp fast when new, it will surely be difficult to reproduce results after the elements and other components age even slightly.The correct match between that power and the heating elements must also be calculated. Whether you go with standard or heavier gauge wire, it will have to be factored into a good watt density. As each kiln is going to be different, this subject gets much more involved than this post allows for, so I suggest speaking to a qualified individual (contacts I’ve had good experience with include: <a href="https://web.archive.org/web/20110222053743/http://www.hotkilns.com/">L&amp;L</a>, <a href="https://web.archive.org/web/20110222053743/http://www.kilns.com/">Geil</a>, <a href="https://web.archive.org/web/20110222053743/http://www.skutt.com/index_dir.html">Skutt</a>, <a href="https://web.archive.org/web/20110222053743/http://www.euclids.com/">Euclid</a>, <a href="https://web.archive.org/web/20110222053743/http://www.kanthal.com/">Kanthal</a>).APM’s are often said to be the best choice for high temperature work. The long holds (”heat soaks”) used to grow the crystals in a glaze cause “grain growth” in standard element wire, thus weakening the metal. The thought is that since APM’s possess a different structure developed through a sintering process, they aren’t as susceptible to the damage produced by long holds at high temps.Having said this, <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">my kiln</a> currently runs with longer lengths of 12 gauge Kanthal A1 elements. This wire has proven more resistant than thinner gauges to the effects of higher temperatures, as well as the chemical attack occurring from clay and glaze during the firing. These elements currently have over 60 ^11-12 crystalline firings on them, show no visible signs of degradation, and perform with the same efficiency as they did when they were new.-Also, A-1 wire is about 1/3 the price of APM. Beyond power and a good watt-density, the kiln will need  <em>adequate</em>  insulating properties to retain the heat. Notice that I chose the word “adequate”…</p>
+<p><strong>Variable 2</strong>  - The ability to cool:Heavily insulated kilns heat well, because they  <em>hold</em>  heat well. This fact is often used to qualify them as “efficient”. But such a kiln’s Achilles’ heel resides in the inability to release heat at higher temperatures. I do understand that this goes against the current industrial tendency to add more and more insulation, but I hold that the value in a kiln that allows for a rapid diminishing of heatwork after achieving the desired cone value is  <em>extremely</em>  underrated.In 2006, <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/links/">Diane Creber</a> passed on to me a wonderful collection of literature on crystalline glazes, including some of David Snair’s notes &amp; letters. This information, along with my own correspondence with Derek Clarkson and others, showed a common preference in using small, high-powered kilns capable of completing the first and second phase of the firing (the climb to peak  <strong>&amp; descent to the first hold</strong> ) in a short time frame. This, in my mind is a truer example of “efficiency”. I have fired several types of clay and glaze in kilns of various sizes, and there’s nothing like relying on a kiln capable of completing the entire firing program as it is actually set by the user.Many of the more spectacular glazes I’ve worked with require a very accurate firing. With crystallines in particular, my goal is to heat the glaze well past its melting point, possibly maintain a hold to dissolve silica, zinc, and excessive nuclei, then quickly halt run-off by descending into the next ramp. As all of this must occur within a very small window of time, excessive residual heatwork is the last thing you want. <strong>Variable 3</strong>  - Structural Integrity at High Temperatures:It seems obvious to choose kiln parts that are designed for the temperature and type of firings intended. But this is something that is overlooked often enough.At it’s core, a kiln is simply a strategic stack of insulating firebrick. These bricks, cut to fit and usually wrapped in a metal skin, make up “the kiln shell”.K23 brick is the current standard for most hobby/studio kilns. If you are only going to ^6-^8, then it’s a suitable choice; however, both ^9 &amp; ^10 (as high as 2381°F, depending on your rate of rise), occur at or beyond the recommended range of k23. The  <em>hotface</em> , or the side of the brick exposed to the interior of the kiln, can shrink and crack if exposed to temperatures beyond the rating (e.g., k23≈2300°F). Keep in mind that this will occur even if you are only firing that hot occasionally, or if you are firing to a slightly lower temperature and holding there to achieve the equivalent level of heatwork.In designing <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">my own kiln</a>, I selected k25 brick, because I like the option of firing hot… often bending ^11-12.My firings show four important benefits with regard to K25:</p>
+<ul>
+<li>
+<p>The k25 brick is less fragile than k23.</p>
+</li>
+<li>
+<p>The k25 brick performs extremely well from 2000°F to peak without deforming…</p>
+</li>
+<li>
+<p>…it then allows for fast cooling from the top temperature down to 2250°F.</p>
+</li>
+<li>
+<p>It still, however, releases heat slower through the middle to lower phases (1500-500°F), when dunting and crazing typically occur.</p>
+</li>
+</ul>
+<p><strong>Variable 4</strong>  - Accuracy:Along the same line of using brick rated to your needs, consider the ill-advised use of Type-K thermocouples (rated only to ≈2200°F), which still come as standard equipment in many high-fire kiln models. The option of using protective sheaths on Type-K’s can create a lag in temperature readings. My suggestion is to always go with a thinly sheathed Type-S thermocouple for any firings above^6.Refer to the post on <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/2007/12/23/cone-readings-kiln-control-calibrations/">Studio Kiln Thermoucouple Calibrations</a>.If you’re replacing a kiln of roughly the same size, go with your notes on how that kiln fired –both up and down. Did one section typically lag behind during the ascent and/or descent? Now would be the time to add insulation to that particular section, or to the floor or lid. Remember to start with the least amount you need however, and add more only where it’s necessary… otherwise, you’ll be right back in the same (big) boat, so to speak. <strong>Variable 5</strong> -Efficiency &amp; Energy Consumption:An argument against building a kiln as described here, is that the result  <em>seems</em>  under-insulated, and to require more power.  It may therefore appearing inefficient by modern standards.What I am focusing on here, is a small to medium sized kiln meant for studio use, when reproducing accurate levels of heatwork is important. If your goal is to run several large kilns on a daily or weekly basis, and you are firing glazes with a wider heatwork tolerance, then the few dollars you save per firing is certainly a significant consideration.On that note, and to qualify my view toward energy efficiency, I refer you to the relevant post on <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/2008/02/03/electric-kiln-actual-energy-consumption/"> <strong>the actual power consumption of an electric kiln</strong> </a>. <strong>Related Links:</strong>  <a href="https://web.archive.org/web/20110222053743/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">New L&amp;L JD18-JH</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/designing-building-or-selecting-an-electric-high-fire-kiln/629">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/designing-building-or-selecting-an-electric-high-fire-kiln/629</link>
+          <pubDate>Thu, 15 Nov 2018 13:42:41 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-629</guid>
+          <source url="https://wiki.glazy.org/t/designing-building-or-selecting-an-electric-high-fire-kiln/629.rss">Designing, Building, or Selecting an Electric High-Fire Kiln</source>
+        </item>
+        <item>
+          <title>Studio Kiln Thermocouple Calibrations</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Electric Kilns</category>
+          <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Sunday, December 23rd, 2007</p>
+<p>Whether you’re trying to achieve an accurate firing via a peak temperature hold or a calculated ramp, it’s a good idea to calibrate your thermocouples (TC’s) before relying on the factory setting in your controller.</p>
+<p>Hopefully you have Type S TC’s … if so, you’re not going to need to calibrate them again for some time. It’s pretty ridiculous that Type K’s are used past 2100°F these days. If you have them and plan to go beyond that temperature, you’ll need to check and adjust for “drift” about every 5-10 firings.<br>
+No matter which TC’s are being used however, I always suggest using witness cones to judge accuracy on each firing.</p>
+<hr>
+<p>There are two ways to calibrate your thermocouples. One way is to fire your kiln, inspect the cones afterwards, and then make a guess as to how to offset your TC’s. This can take anywhere from a few to several firings.   I hear of many who do it this way, and honestly- I’ve never understood why.</p>
+<p>A more effective approach is to record what your kiln controller reads during a firing, when you see the cone achieving that perfect bend, then establish the offset from there.</p>
+<p><strong>Here’s how:</strong></p>
+<p><strong>1-</strong>  Check with your manufacturer to see what the factory TC offset for your kiln/controller should be set at, then verify that each TC is offset to the number they give you.</p>
+<p><em>Example</em> : L&amp;L Kiln’s factory offset is usually 18 (not zero),<br>
+when using the Bartlett V6-CF control board &amp; Type S TC’s.</p>
+<p><strong>2-</strong>  Stack your kiln with stilts and shelves so that an <a href="https://web.archive.org/web/20100612225725/http://www.ortonceramic.com/pyrometrics/arts/cones.shtml">Orton self-supporting witness cone</a> can be viewed through each spy, and place another in the center of each shelf. I also put in glaze tests in addition to cones to get as much information as possible. I prefer not to fire a “light” kiln, as the loss in thermal mass could prevent an accurate result, so I use softbrick and/or extra stilts to take up the empty space.</p>
+<p><strong>3-</strong>  Program the controller for a rise of 108°F/hr during the last 150F prior to peak.</p>
+<p><em>Example</em> : ^10 = 2345°F at 108°F/hr.<br>
+So program a rise of 108°F/hr from 2145°F to 2345°F.</p>
+<p><strong>4-</strong>  Set a delay if needed so that you can be there around the time the kiln reaches peak. …Obviously, you’ll want to err on being early.</p>
+<p><strong>5-</strong>  Record the temperature of each TC at the time the corresponding cone bends perfectly. Understand that the readings may be different for each zone/TC, and that they can be offset independently.<br>
+<strong>The perfect arch (90°</strong>  <strong>bend) for a self-supporting Orton cone is when the tip is level with the top of the triangular base.</strong></p>
+<p><strong>6-</strong>  From here you can figure out if your kiln is under or over firing, and by how much.</p>
+<p><strong>7-</strong>  Your controller can be programmed to offset the TC readings by as much as 50° in either direction. To adjust the TC offset on a Bartlett V6-CF, you will need to calculate the number to offset (also refer to <a href="https://web.archive.org/web/20100612225725/http://www.bartinst.com/KILN/V6CF%20700/v6cfoverview700.html">Bartlett’s online manual</a>):</p>
+<p><strong>To  <em>lower</em>  the temperature/heat work</strong>  in the kiln, start with the factory set point and add the number of degrees to compensate  <em>for each thermocouple</em> . This will raise the temperature displayed.</p>
+<p><strong>To raise the temperature/heat work</strong>  in the kiln, start with the factory set point and subtract the number of degrees to compensate  <em>for each thermocouple</em> . This will lower the temperature displayed.<br>
+To program a number below zero: type in “90″, immediately followed by the number of degrees to compensate… think of the 90 as a (-).<br>
+Consider that since 18 is the factory set point for an L&amp;L with Type S TC’s, you should not need to go below zero. If you find that you do, I would suggest contacting the manufacturer of your kiln or controller.</p>
+<hr>
+<p>After going through this process with my <a href="https://web.archive.org/web/20100612225725/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">new kiln</a>, I found that my top TC needed an offset of 19 and my bottom at 25. Leaving it at the factory setting of 18 would have resulted not only in over firing, but also in uneven heatwork between the zones (sections) of the kiln. Go <a href="https://web.archive.org/web/20100612225725/http://jessehull.com/2007/12/20/170/">here</a> for more on this.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628</link>
+          <pubDate>Thu, 15 Nov 2018 13:39:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-628</guid>
+          <source url="https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628.rss">Studio Kiln Thermocouple Calibrations</source>
+        </item>
+        <item>
+          <title>About the Electric Kilns category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Electric Kilns</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-electric-kilns-category/163">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-electric-kilns-category/163</link>
+          <pubDate>Wed, 26 Apr 2017 03:52:00 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-163</guid>
+          <source url="https://wiki.glazy.org/t/about-the-electric-kilns-category/163.rss">About the Electric Kilns category</source>
+        </item>
+  </channel>
+</rss>

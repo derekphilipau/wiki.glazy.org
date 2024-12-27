@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Specific Gravity</title>
+    <link>https://wiki.glazy.org/t/specific-gravity/177</link>
+    <description>In order to maintain consistency between applications of glaze, potters often use two measurements: **Specific Gravity** and **Viscosity**.
+
+For more information about measuring viscosity, see:
+https://wiki.glazy.org/t/viscosity/353
+
+## Measuring Specific Gravity
+
+There are two ways that potters determine the specific gravity (s.g.) (relative density) of their glazes and slips, by **weight** and **hydrometer readings**.
+
+## Measuring Specific Gravity by Weight (Recommended)
+
+Vince Pitelka on Clayart:
+&gt; My preference is to measure density by weight as compared to water, because that’s what specific gravity is – a measure of the density of a liquid in comparison to water.  For this you need a sturdy cup of twelve to sixteen ounces capacity with an absolutely level rim and no dips, high spots, or pour spouts in the rim, and with a diameter less than its height.  An aluminum or stainless steel tumbler works well and will last forever, but any sturdy metal or plastic container that meets these requirements will work, or even a glass or ceramic container as long as it has a sharp inside edge at the rim.  The size doesn’t really matter as long as it is at least twelve ounces. A smaller cup and/or a large diameter rim proportionally increase the likelihood of error.  
+
+&gt; Place the cup on the gram scale and zero the weight with the tare beam, or if your scale does not have a tare function, weigh the cup and record the weight on the outside of the cup with a permanent marker and also in your notebook.  Leave the cup on the scale platform and carefully fill it with water from a pitcher or measuring cup until the top of the meniscus is right at the rim.  The meniscus is the curve in the surface of a fluid right where it meets the wall of its container, and it is important to make sure that the meniscus comes right up to the exact rim.  That’s why having a dedicated weighing container with a fairly sharp edge at the rim is critical.  Weigh the container full of water and record the weight on the outside of the container with permanent marker (and in your notebook), or if you do not have the tare function subtract the weight of the container and then record the weight of the water.
+
+&gt; To determine the specific gravity of a glaze, place the clean, dry container on the gram scale and zero the tare beam and then carefully fill the container with glaze using a measuring cup or pitcher, and make sure the meniscus comes right to the rim of the container just as you did with the water.  It is essential that you are absolutely consistent in this with every glaze.  Weigh the container and record the weight in your notebook (subtracting the weight of the container if you do not have the tare function).  To get the specific gravity, divide the weight of the glaze by the weight of the water.     
+
+&gt; It’s instructive to know the specific gravity of each of your glazes, but the measurement used to reproduce the same glaze fired in subsequent batches is the ideal weight of the liquid glaze in the weighing cup.  It often takes many repeated test firings to get the visual results you seek, or you may get lucky with the first firing.  When you are happy with the fired results, use the weighing cup and accurately weigh the glaze and record the weight and specific gravity digitally or the old fashioned way in your recipe file.  This process must be repeated with every glaze, because there’s no assurance that the ideal specific gravity of one glaze will work for another.   
+
+&gt; When mixing a new batch, thin the mixed, blended glaze with water until it is a little thicker than desired, and then start checking with the weighing cup, pouring the glaze back into the bucket, thinning with a little water and blending, checking with the weighing cup again, repeating this until you get it right on.  Make sure that the cup is dry and free of glaze on the outside each time you place it on the weighing platform and refill it.  Once you’re experienced at this, it goes very fast.  Keep in mind that any freshly mixed glaze will thicken up a bit overnight as the particles continue to absorb water, and the weight should be checked and adjusted the next day.  
+
+Greg Lamont on Clayart:
+&gt; You could always find the specific gravity the old fashioned way:
+&gt; 1) Zero out your gram scale and use the poise tare bar to balance out a clear container.
+&gt; 2) Fill this containter with 100 grams of water
+&gt; 3) Carefully mark the level of the water on the container with an indelible fine-point marker. ( Accuracy is  important here).
+&gt; 4) Empty out the water and fill container to the mark with terra sig, glaze or slip.  (Accuracy is important here,  too).
+&gt; 5) Balance out scale to the new weight.  If the scale reads 120 grams the ratio is 1.2, etc.
+
+&gt; This method is  the one Pete Pinnell taught me to use as it is always very accurate and foolproof!  Some hydrometers are meant to measure solutions and not suspensions--which is what glazes, slips, etc. are.
+
+## Measuring Specific Gravity with a Beaker
+
+Adjust the specific gravity of the glaze. Here, a 250ml beaker is zeroed-out.
+&lt;img src=&quot;/uploads/default/original/1X/387e449f47c11146e5b766531dfab8a0124d4df5.jpg&quot; width=&quot;690&quot; height=&quot;690&quot;&gt;
+
+The weight of 250ml glaze is 386.7. Dividing by the weight of water, 386.7/250 = 1.55. For this glaze, 1.5-1.6 is a good pouring thickness.  (Using a 100ml sample it&#39;s even easier to calculate the specific gravity, in this example the weight would be 155g with specific gravity of 1.55.)
+&lt;img src=&quot;/uploads/default/original/1X/ef2a96c1a8ea95fcadee75af7dc12cb1b44a3590.jpg&quot; width=&quot;690&quot; height=&quot;690&quot;&gt;
+
+## Measuring Specific Gravity with a Syringe
+
+Zero-out the empty syringe on the scale.  Ideally, use a 100ml syringe.
+&lt;img src=&quot;/uploads/default/original/1X/6bfbfcb4c91300e69720690f05f6196600395035.JPG&quot; width=&quot;690&quot; height=&quot;517&quot;&gt;
+
+Divide the weight of the glaze by the volume of the syringe:  76.93 / 50 = 1.54
+&lt;img src=&quot;/uploads/default/original/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce.JPG&quot; width=&quot;690&quot; height=&quot;517&quot;&gt;
+
+## Easiest Way
+
+Easiest way to accurately measure specific gravity according to Derek Au:
+
+1. Zero-out a 100ml syringe on a digital scale:
+![SON04799_edit|690x690](upload://57gAyIyUDNhyFw68NaB4y5wi7xf.jpg)
+
+2. After mixing the glaze or slip suspension, draw in liquid to the 100ml mark:
+![SON04800_edit|690x690](upload://fjxhF3CoHF6FXfZMROYf0OqkYMI.jpg)
+
+## Hydrometers
+
+https://en.wikipedia.org/wiki/Hydrometer
+
+Dick White on Clayart on buying the correct hydrometer, and the difference between SG and Baume:
+&gt; In common usage, specific gravity as measured with the proper hydrometer (there are two types, one for liquids lighter than water, such as alcohol (beer and wine) and one for liquids heavier than water, such as glaze; the alcohol ones are quite common in the marketplace for beer and wine home brewers, the one for heavier liquids is not as common, and unsuspecting potters might buy the wrong one) is different from specific gravity as measured by weight on a scale....  But more to the point 
+&gt; now, the numbers don&#39;t correlate. The only one that is the same in both scales is 45 degrees Baume on a heavy hydrometer is 1.45 SG. As the degrees Baume go up from there, the specific gravity increases faster, e.g., 50 degrees Baume is 1.53 SG. And going the other way, the relationship reverses below 45, e.g., 40 degrees Baume is 1.38 SG. So, depending on whether the glaze maker is using a hydrometer and you are using a scale, or vice versa, you may be mixing to the same number but getting different results.
+
+Vince Pitelka on Clayart:
+&gt; I am disturbed by the conclusion that floating hydrometers are not accurate, and the possible misinterpretation of that conclusion by many who could greatly benefit from using a glaze hydrometer. It is certainly true that a particular specific gravity of one glaze, measured with a standard glaze hydrometer, cannot be expected to work with another glaze, for the reasons mentioned. But for 16 years or so I have used a hydrometer to standardize glaze mixing - once I have a specific gravity reading from a glaze that performs well, I can use that reading to attain the same performance from subsequent batches of the same glaze. It has been a tremendous help. Also, I now use a great deal of terra sigillatas with my students, and I cannot imagine making them without my hydrometer. I have achieved super-refined terra sigs which give a high-luster in one coating and a single polishing, and the only way I am able to do this with consistency is by very carefully measuring specific gravity with a floating hydrometer in the initial mix before settling, and in the final mix to be applied to the wares.
+ I guess what all this means is that the hydrometer reading is relative rather than absolute, but when used to obtain similar results in a given batch-recipe, once the ideal specific gravity for that recipe is known, it can be extremely helpful.
+
+## Problems using Hydrometers
+Bill Aycock on Clayart:
+&gt; High viscosity and gelled slurries will effect the measurements taken with a hydrometer if care is not taken to make sure the instrument is free to move up and down. This may involve stirring the mix (if it is Thixotropic) or waiting a while for the gadget to move.
+
+John Hesselberth on Clayart:
+&gt; If you are using it for clay or glaze slips/slurries, hydrometers are notoriously imprecise for suspensions. They work OK for single phase materials. Rather get yourself a 100 ml graduated cylinder and weigh 100 ml of your glaze/slip. It will be much more precise, just as accurate and just about as simple.
+
+Bill Campbell on Clayart:
+&gt; Hygrometers are good in fluids that arent viscous, however they arent too good in slip, and glaze. They tend to give a different result each time that they are used in the same batch.
+
+Dick White on CAD:
+&gt; First, about hydrometers generally - they measure the density of a liquid based on buoyancy, i.e., by how deep in the liquid it floats. In a less dense liquid it will sink deeper, and in in a more dense liquid it will float higher. The scale marked on the side of the glass tube is there for reference (and repeatability). Unfortunately, there are several different scales for different purposes. One of the scales is intended for liquids that are less dense than water, such as alcohol. Hydrometers with this scale are typically used by beer and wine makers. Another scale is intended for liquids more dense than water, such as water containing dissolved or suspended things. These scales are do not give you the same number result for the same liquid. Thus if someone with a light beer hydrometer measures a glaze slurry and tells you the number, and you have a heavy hydrometer and use that number to adjust your glaze, it&#39;s going to be wrong. From your description, your hydrometer has multiple scales marked on it, but you still need to know which scale was the one used by the other person before your glaze will be the same.
+&gt;  
+&gt; Furthermore, the scale does not equate to specific gravity. A hydrometer measures in degrees Baume. (Google it for a more complete explanation.) Yes, you can do some math to convert degrees Baume to physical specific gravity, but now you&#39;ve added a layer of complication. Particularly if someone who has no idea of the differences tells you the &quot;specific gravity&quot; of a glaze is xyz, as measured with their handy dandy hydrometer. Not quite as absurd as reporting humidity as measured with a barometer, but you get the idea.
+&gt;  
+&gt; Finally, a hydrometer, even if you understand all the nuances of the scaling, is notoriously inaccurate for measuring the density/specific gravity of glaze slurries because of the thixotropic characteristics of glaze slurries. The &quot;friction&quot; the glaze slurry exerts on the sides of the hydrometer will cause the hydrometer to come to rest somewhere other than where it&#39;s proper buoyancy should leave it. Particularly thixotropic glaze slurries, such as those high in Gerstley Borate or Neph Sye, change their apparent hydrometer levels depending on how recently the slurry has been vigorously stirred. For some glazes, that can be near instantaneous; by the time the stirred slurry stops swirling in the bucket enough that you can drop the hydrometer in without it being smashed on the side of the bucket or being pulled under, it is already thickening up and the hydrometer will sit too high.
+&gt;  
+&gt; So, where does one go now? As suggested, true specific gravity is the ratio of the weight of the glaze to the weight of an equal amount of pure water. Some have suggested a 100ml beaker. Another possibility is a veterinary syringe of 10 or 100ml. You might find something appropriate in the drugstore. The point is find something that holds an exact 10 or 100ml of liquid. 10ml of water weighs exactly 10 grams, and 100ml = 100g. This simply makes the math easy. A container measuring some other amount requires calculator math to derive the ratio. Now, put your  empty10/100ml container on the digital scale and tare/zero it to take the weight of the container out of play. Fill the container with exactly 10 or 100 ml of glaze and weigh it again. The weight of the glaze will convert to specific gravity just by shifting the decimal point. 15.2 grams of 10 ml of glaze is a S.G. of 152. If you are using a 100ml container, the weight of the glaze in grams is the S.G. without shifting the decimal.
+
+## When to Measure Specific Gravity
+
+_Vince Pitelka via Clayart:_
+&gt; When you initially mix ceramic materials with water, you are only wetting the outside of the particles.  Those particles are absorbent to some degree, and over a week or so they always absorb more water and the mix thickens up. That&#39;s why a claybody mixed to the perfect consistency will be too stiff a few weeks later.  So it is normal to have to add water and check the SG again.  
+
+## Determining Best Specific Gravity for each Glaze
+
+Ben Shelton on Clayart:
+&gt; Now comes the big question. What specific gravity will be BEST for each glaze? For me, this is always a trial and error exercise. Because all potters methods vary, and all pots vary, this can be a hard number to nail down. Mix up a 300g test batch, to measure the glazes specific gravity, make a test tile, add water, repeat. Mark the tiles so youll know which specific gravity worked best! Fire the tests and see what looks best. Then use that data to adjust your studio glazes specific gravity.
+
+Michael McDowell on Clayart:
+&gt; There is no one correct Specific gravity for a glaze. It is strictly a matter of trial and error &amp; error &amp; trial to determine for each glaze &amp; method of application what the target reading should be. Keep notes. Once I have found my desired S. G. for a new glaze, I put a tag on the bucket with the target reading so its right there in view whenever I am mixing &amp; applying the glaze.
+
+## Relationship of Specific Gravity to the Baume Scale
+
+Pieter Mostert:
+&gt; As I understand it, the (heavy) Baume scale defines x degrees Baume to be the density of a mixture of water and table salt (NaCl), where the salt makes up x% of the mass of the mixture.
+
+&gt; To relate this to the specific gravity, consider adding y kg of salt to 1 kg of water. The salt then makes up y/(1+y) times 100% of the mass of the mixture, so x = 100y/(1+y) is the density in degrees Baume.
+
+&gt; On the other hand, we can work out the specific gravity by taking the weight in kg (i.e. 1+y) divided by the volume in litres, which is of the form 1+Ay, where A is some constant*. Therefore s.g. = (1+y)/(1+Ay).
+
+&gt; If you use the equation x = 100y/(1+y) to solve for y in terms of x, and substitute this into the equation 
+&gt; s.g. = (1+y)/(1+Ay), you&#39;ll find s.g. = 100/(100 + (A-1)x). Experimentally, the constant A is about 0.31, so 
+&gt; s.g = 100/(100 - 0.69 x) = 145/(145 - x).
+
+&gt; *Initially I thought this constant would be the inverse of the density of salt, but because of some counterintuitive stuff that happens when salt dissolves in water, this isn&#39;t the case. Some caveats: A depends on the temperature, and might change when the solution becomes oversaturated. I think these changes are relatively small though. (Apologies to any chemists reading this for misrepresenting your field)
+
+https://en.wikipedia.org/wiki/Baum%C3%A9_scale
+
+## External Resources
+
+[Digitalfire:  Specific Gravity](https://digitalfire.com/4sight/glossary/glossary_specific_gravity.html)
+
+**John Britt on how to measure Specific Gravity**
+
+https://www.youtube.com/watch?v=PYt9L_L6Xwo
+
+**Amaco Glazes How to Calculate Specific Gravity**
+
+https://www.youtube.com/watch?v=8lMGouug3tk
+
+**Calculators for Adjusting Specific Gravity**
+
+To calculate how much water to add or remove to adjust from an initial specific gravity to a target specific gravity, provided you know the weight of the bucket:
+https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html
+
+Similar to calculator above, but doesn&#39;t require you to calculate the initial specific gravity:
+https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html
+
+Used when it&#39;s impractical to measure the weight of the glaze:
+https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html</description>
+    
+    <lastBuildDate>Sat, 01 Jul 2017 21:03:43 +0000</lastBuildDate>
+    <category>Glaze Mixing &amp; Preparation</category>
+    <atom:link href="https://wiki.glazy.org/t/specific-gravity/177.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Specific Gravity</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>As I understand it, the (heavy) Baume scale defines x degrees Baume to be the density of a mixture of water and table salt (NaCl), where the salt makes up x% of the mass of the mixture.</p>
+<p>To relate this to the specific gravity, consider adding y kg of salt to 1 kg of water. The salt then makes up y/(1+y) times 100% of the mass of the mixture, so x = 100y/(1+y) is the density in degrees Baume.</p>
+<p>On the other hand, we can work out the specific gravity by taking the weight in kg (i.e. 1+y) divided by the volume in litres, which is of the form 1+Ay, where A is some constant*. Therefore s.g. = (1+y)/(1+Ay).</p>
+<p>If you use the equation x = 100y/(1+y) to solve for y in terms of x, and substitute this into the equation<br>
+s.g. = (1+y)/(1+Ay), you’ll find s.g. = 100/(100 + (A-1)x). Experimentally, the constant A is about 0.31, so<br>
+s.g = 100/(100 - 0.69 x) = 145/(145 - x).</p>
+<p>*Initially I thought this constant would be the inverse of the density of salt, but because of some counterintuitive stuff that happens when salt dissolves in water, this isn’t the case.  Some caveats: A depends on the temperature, and might change when the solution becomes oversaturated. I think these changes are relatively small though. (Apologies to any chemists reading this for misrepresenting your field)</p>
+          <p><a href="https://wiki.glazy.org/t/specific-gravity/177/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/specific-gravity/177/3</link>
+        <pubDate>Sat, 01 Jul 2017 20:19:39 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-177-3</guid>
+        <source url="https://wiki.glazy.org/t/specific-gravity/177.rss">Specific Gravity</source>
+      </item>
+      <item>
+        <title>Specific Gravity</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <h2>Help me understand!</h2>
+<p>I don’t really understand the relationship between Baume and Specific Gravity?  <strong><em>Please explain!</em></strong></p>
+          <p><a href="https://wiki.glazy.org/t/specific-gravity/177/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/specific-gravity/177/2</link>
+        <pubDate>Sat, 01 Jul 2017 04:10:12 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-177-2</guid>
+        <source url="https://wiki.glazy.org/t/specific-gravity/177.rss">Specific Gravity</source>
+      </item>
+      <item>
+        <title>Specific Gravity</title>
+        <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+        <description><![CDATA[
+            <p>In order to maintain consistency between applications of glaze, potters often use two measurements: <strong>Specific Gravity</strong> and <strong>Viscosity</strong>.</p>
+<p>For more information about measuring viscosity, see:<br>
+</p><aside class="quote" data-post="1" data-topic="353">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/user_avatar/wiki.glazy.org/ceramicswiki/40/90_2.png" class="avatar">
+    <a href="https://wiki.glazy.org/t/viscosity/353">Viscosity</a> <a class="badge-wrapper  bullet" href="https://wiki.glazy.org/c/glazes/glaze-mixing"><span class="badge-category-parent-bg" style="background-color: #25AAE2;"></span><span class="badge-category-bg" style="background-color: #25AAE2;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Properly preparing glazes is an important part of the glazing process.">Glaze Mixing &amp; Preparation</span></a>
+  </div>
+  <blockquote>
+    Need to write article about Viscosity, Zahn cups, etc.
+  </blockquote>
+</aside>
+<p></p>
+<h2>Measuring Specific Gravity</h2>
+<p>There are two ways that potters determine the specific gravity (s.g.) (relative density) of their glazes and slips, by <strong>weight</strong> and <strong>hydrometer readings</strong>.</p>
+<h2>Measuring Specific Gravity by Weight (Recommended)</h2>
+<p>Vince Pitelka on Clayart:</p>
+<blockquote>
+<p>My preference is to measure density by weight as compared to water, because that’s what specific gravity is – a measure of the density of a liquid in comparison to water.  For this you need a sturdy cup of twelve to sixteen ounces capacity with an absolutely level rim and no dips, high spots, or pour spouts in the rim, and with a diameter less than its height.  An aluminum or stainless steel tumbler works well and will last forever, but any sturdy metal or plastic container that meets these requirements will work, or even a glass or ceramic container as long as it has a sharp inside edge at the rim.  The size doesn’t really matter as long as it is at least twelve ounces. A smaller cup and/or a large diameter rim proportionally increase the likelihood of error.</p>
+</blockquote>
+<blockquote>
+<p>Place the cup on the gram scale and zero the weight with the tare beam, or if your scale does not have a tare function, weigh the cup and record the weight on the outside of the cup with a permanent marker and also in your notebook.  Leave the cup on the scale platform and carefully fill it with water from a pitcher or measuring cup until the top of the meniscus is right at the rim.  The meniscus is the curve in the surface of a fluid right where it meets the wall of its container, and it is important to make sure that the meniscus comes right up to the exact rim.  That’s why having a dedicated weighing container with a fairly sharp edge at the rim is critical.  Weigh the container full of water and record the weight on the outside of the container with permanent marker (and in your notebook), or if you do not have the tare function subtract the weight of the container and then record the weight of the water.</p>
+</blockquote>
+<blockquote>
+<p>To determine the specific gravity of a glaze, place the clean, dry container on the gram scale and zero the tare beam and then carefully fill the container with glaze using a measuring cup or pitcher, and make sure the meniscus comes right to the rim of the container just as you did with the water.  It is essential that you are absolutely consistent in this with every glaze.  Weigh the container and record the weight in your notebook (subtracting the weight of the container if you do not have the tare function).  To get the specific gravity, divide the weight of the glaze by the weight of the water.</p>
+</blockquote>
+<blockquote>
+<p>It’s instructive to know the specific gravity of each of your glazes, but the measurement used to reproduce the same glaze fired in subsequent batches is the ideal weight of the liquid glaze in the weighing cup.  It often takes many repeated test firings to get the visual results you seek, or you may get lucky with the first firing.  When you are happy with the fired results, use the weighing cup and accurately weigh the glaze and record the weight and specific gravity digitally or the old fashioned way in your recipe file.  This process must be repeated with every glaze, because there’s no assurance that the ideal specific gravity of one glaze will work for another.</p>
+</blockquote>
+<blockquote>
+<p>When mixing a new batch, thin the mixed, blended glaze with water until it is a little thicker than desired, and then start checking with the weighing cup, pouring the glaze back into the bucket, thinning with a little water and blending, checking with the weighing cup again, repeating this until you get it right on.  Make sure that the cup is dry and free of glaze on the outside each time you place it on the weighing platform and refill it.  Once you’re experienced at this, it goes very fast.  Keep in mind that any freshly mixed glaze will thicken up a bit overnight as the particles continue to absorb water, and the weight should be checked and adjusted the next day.</p>
+</blockquote>
+<p>Greg Lamont on Clayart:</p>
+<blockquote>
+<p>You could always find the specific gravity the old fashioned way:</p>
+<ol>
+<li>Zero out your gram scale and use the poise tare bar to balance out a clear container.</li>
+<li>Fill this containter with 100 grams of water</li>
+<li>Carefully mark the level of the water on the container with an indelible fine-point marker. ( Accuracy is  important here).</li>
+<li>Empty out the water and fill container to the mark with terra sig, glaze or slip.  (Accuracy is important here,  too).</li>
+<li>Balance out scale to the new weight.  If the scale reads 120 grams the ratio is 1.2, etc.</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>This method is  the one Pete Pinnell taught me to use as it is always very accurate and foolproof!  Some hydrometers are meant to measure solutions and not suspensions–which is what glazes, slips, etc. are.</p>
+</blockquote>
+<h2>Measuring Specific Gravity with a Beaker</h2>
+<p>Adjust the specific gravity of the glaze. Here, a 250ml beaker is zeroed-out.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/387e449f47c11146e5b766531dfab8a0124d4df5.jpg" data-download-href="https://wiki.glazy.org/uploads/default/387e449f47c11146e5b766531dfab8a0124d4df5" title="IMG_4712edit-1200x1200.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/387e449f47c11146e5b766531dfab8a0124d4df5.jpg" width="690" height="690" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/387e449f47c11146e5b766531dfab8a0124d4df5_2_10x10.png"></a></div><p></p>
+<p>The weight of 250ml glaze is 386.7. Dividing by the weight of water, 386.7/250 = 1.55. For this glaze, 1.5-1.6 is a good pouring thickness.  (Using a 100ml sample it’s even easier to calculate the specific gravity, in this example the weight would be 155g with specific gravity of 1.55.)<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/ef2a96c1a8ea95fcadee75af7dc12cb1b44a3590.jpg" data-download-href="https://wiki.glazy.org/uploads/default/ef2a96c1a8ea95fcadee75af7dc12cb1b44a3590" title="IMG_4713edit-1200x1200.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/ef2a96c1a8ea95fcadee75af7dc12cb1b44a3590.jpg" width="690" height="690" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/ef2a96c1a8ea95fcadee75af7dc12cb1b44a3590_2_10x10.png"></a></div><p></p>
+<h2>Measuring Specific Gravity with a Syringe</h2>
+<p>Zero-out the empty syringe on the scale.  Ideally, use a 100ml syringe.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/6bfbfcb4c91300e69720690f05f6196600395035.JPG" data-download-href="https://wiki.glazy.org/uploads/default/6bfbfcb4c91300e69720690f05f6196600395035" title="IMG_5407.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/6bfbfcb4c91300e69720690f05f6196600395035_2_690x517.JPG" width="690" height="517" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/6bfbfcb4c91300e69720690f05f6196600395035_2_690x517.JPG, https://wiki.glazy.org/uploads/default/optimized/1X/6bfbfcb4c91300e69720690f05f6196600395035_2_1035x775.JPG 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/6bfbfcb4c91300e69720690f05f6196600395035_2_1380x1034.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/6bfbfcb4c91300e69720690f05f6196600395035_2_10x10.png"></a></div><p></p>
+<p>Divide the weight of the glaze by the volume of the syringe:  76.93 / 50 = 1.54<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce.JPG" data-download-href="https://wiki.glazy.org/uploads/default/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce" title="IMG_5414.JPG"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce_2_690x517.JPG" width="690" height="517" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce_2_690x517.JPG, https://wiki.glazy.org/uploads/default/optimized/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce_2_1035x775.JPG 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce_2_1380x1034.JPG 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/2d2f4d9a62bc3da7a5e56cfb263f418e124b16ce_2_10x10.png"></a></div><p></p>
+<h2>Easiest Way</h2>
+<p>Easiest way to accurately measure specific gravity according to Derek Au:</p>
+<ol>
+<li>
+<p>Zero-out a 100ml syringe on a digital scale:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779.jpg" data-download-href="https://wiki.glazy.org/uploads/default/23dd2e59357bc378d59174d5842e8ea70c9f6779" title="SON04799_edit.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779_2_690x690.jpg" alt="SON04799_edit" width="690" height="690" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779_2_690x690.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779_2_1035x1035.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779_2_1380x1380.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/23dd2e59357bc378d59174d5842e8ea70c9f6779_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>After mixing the glaze or slip suspension, draw in liquid to the 100ml mark:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc.jpg" data-download-href="https://wiki.glazy.org/uploads/default/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc" title="SON04800_edit.jpg"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc_2_690x690.jpg" alt="SON04800_edit" width="690" height="690" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc_2_690x690.jpg, https://wiki.glazy.org/uploads/default/optimized/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc_2_1035x1035.jpg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc_2_1380x1380.jpg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/6b55f8ff1635485ca60fc9ba0e492d4fd4a7c3fc_2_10x10.png"></a></div><p></p>
+</li>
+</ol>
+<h2>Hydrometers</h2>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/Hydrometer" target="_blank" rel="nofollow noopener">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:140/407;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Areometer.svg/140px-Areometer.svg.png" class="thumbnail"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/Hydrometer" target="_blank" rel="nofollow noopener">Hydrometer</a></h3>
+
+<p>A hydrometer is an instrument used for measuring the relative density of liquids based on the concept of buoyancy. They are typically calibrated and graduated with one or more scales such as specific gravity.
+ A hydrometer usually consists of a sealed hollow glass tube with a wider bottom portion for buoyancy, a ballast such as lead or mercury for stability, and a narrow stem with graduations for measuring. The liquid to test is poured into a tall container, often a graduated cylinder, and the hy...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Dick White on Clayart on buying the correct hydrometer, and the difference between SG and Baume:</p>
+<blockquote>
+<p>In common usage, specific gravity as measured with the proper hydrometer (there are two types, one for liquids lighter than water, such as alcohol (beer and wine) and one for liquids heavier than water, such as glaze; the alcohol ones are quite common in the marketplace for beer and wine home brewers, the one for heavier liquids is not as common, and unsuspecting potters might buy the wrong one) is different from specific gravity as measured by weight on a scale…  But more to the point<br>
+now, the numbers don’t correlate. The only one that is the same in both scales is 45 degrees Baume on a heavy hydrometer is 1.45 SG. As the degrees Baume go up from there, the specific gravity increases faster, e.g., 50 degrees Baume is 1.53 SG. And going the other way, the relationship reverses below 45, e.g., 40 degrees Baume is 1.38 SG. So, depending on whether the glaze maker is using a hydrometer and you are using a scale, or vice versa, you may be mixing to the same number but getting different results.</p>
+</blockquote>
+<p>Vince Pitelka on Clayart:</p>
+<blockquote>
+<p>I am disturbed by the conclusion that floating hydrometers are not accurate, and the possible misinterpretation of that conclusion by many who could greatly benefit from using a glaze hydrometer. It is certainly true that a particular specific gravity of one glaze, measured with a standard glaze hydrometer, cannot be expected to work with another glaze, for the reasons mentioned. But for 16 years or so I have used a hydrometer to standardize glaze mixing - once I have a specific gravity reading from a glaze that performs well, I can use that reading to attain the same performance from subsequent batches of the same glaze. It has been a tremendous help. Also, I now use a great deal of terra sigillatas with my students, and I cannot imagine making them without my hydrometer. I have achieved super-refined terra sigs which give a high-luster in one coating and a single polishing, and the only way I am able to do this with consistency is by very carefully measuring specific gravity with a floating hydrometer in the initial mix before settling, and in the final mix to be applied to the wares.<br>
+I guess what all this means is that the hydrometer reading is relative rather than absolute, but when used to obtain similar results in a given batch-recipe, once the ideal specific gravity for that recipe is known, it can be extremely helpful.</p>
+</blockquote>
+<h2>Problems using Hydrometers</h2>
+<p>Bill Aycock on Clayart:</p>
+<blockquote>
+<p>High viscosity and gelled slurries will effect the measurements taken with a hydrometer if care is not taken to make sure the instrument is free to move up and down. This may involve stirring the mix (if it is Thixotropic) or waiting a while for the gadget to move.</p>
+</blockquote>
+<p>John Hesselberth on Clayart:</p>
+<blockquote>
+<p>If you are using it for clay or glaze slips/slurries, hydrometers are notoriously imprecise for suspensions. They work OK for single phase materials. Rather get yourself a 100 ml graduated cylinder and weigh 100 ml of your glaze/slip. It will be much more precise, just as accurate and just about as simple.</p>
+</blockquote>
+<p>Bill Campbell on Clayart:</p>
+<blockquote>
+<p>Hygrometers are good in fluids that arent viscous, however they arent too good in slip, and glaze. They tend to give a different result each time that they are used in the same batch.</p>
+</blockquote>
+<p>Dick White on CAD:</p>
+<blockquote>
+<p>First, about hydrometers generally - they measure the density of a liquid based on buoyancy, i.e., by how deep in the liquid it floats. In a less dense liquid it will sink deeper, and in in a more dense liquid it will float higher. The scale marked on the side of the glass tube is there for reference (and repeatability). Unfortunately, there are several different scales for different purposes. One of the scales is intended for liquids that are less dense than water, such as alcohol. Hydrometers with this scale are typically used by beer and wine makers. Another scale is intended for liquids more dense than water, such as water containing dissolved or suspended things. These scales are do not give you the same number result for the same liquid. Thus if someone with a light beer hydrometer measures a glaze slurry and tells you the number, and you have a heavy hydrometer and use that number to adjust your glaze, it’s going to be wrong. From your description, your hydrometer has multiple scales marked on it, but you still need to know which scale was the one used by the other person before your glaze will be the same.</p>
+<p>Furthermore, the scale does not equate to specific gravity. A hydrometer measures in degrees Baume. (Google it for a more complete explanation.) Yes, you can do some math to convert degrees Baume to physical specific gravity, but now you’ve added a layer of complication. Particularly if someone who has no idea of the differences tells you the “specific gravity” of a glaze is xyz, as measured with their handy dandy hydrometer. Not quite as absurd as reporting humidity as measured with a barometer, but you get the idea.</p>
+<p>Finally, a hydrometer, even if you understand all the nuances of the scaling, is notoriously inaccurate for measuring the density/specific gravity of glaze slurries because of the thixotropic characteristics of glaze slurries. The “friction” the glaze slurry exerts on the sides of the hydrometer will cause the hydrometer to come to rest somewhere other than where it’s proper buoyancy should leave it. Particularly thixotropic glaze slurries, such as those high in Gerstley Borate or Neph Sye, change their apparent hydrometer levels depending on how recently the slurry has been vigorously stirred. For some glazes, that can be near instantaneous; by the time the stirred slurry stops swirling in the bucket enough that you can drop the hydrometer in without it being smashed on the side of the bucket or being pulled under, it is already thickening up and the hydrometer will sit too high.</p>
+<p>So, where does one go now? As suggested, true specific gravity is the ratio of the weight of the glaze to the weight of an equal amount of pure water. Some have suggested a 100ml beaker. Another possibility is a veterinary syringe of 10 or 100ml. You might find something appropriate in the drugstore. The point is find something that holds an exact 10 or 100ml of liquid. 10ml of water weighs exactly 10 grams, and 100ml = 100g. This simply makes the math easy. A container measuring some other amount requires calculator math to derive the ratio. Now, put your  empty10/100ml container on the digital scale and tare/zero it to take the weight of the container out of play. Fill the container with exactly 10 or 100 ml of glaze and weigh it again. The weight of the glaze will convert to specific gravity just by shifting the decimal point. 15.2 grams of 10 ml of glaze is a S.G. of 152. If you are using a 100ml container, the weight of the glaze in grams is the S.G. without shifting the decimal.</p>
+</blockquote>
+<h2>When to Measure Specific Gravity</h2>
+<p><em>Vince Pitelka via Clayart:</em></p>
+<blockquote>
+<p>When you initially mix ceramic materials with water, you are only wetting the outside of the particles.  Those particles are absorbent to some degree, and over a week or so they always absorb more water and the mix thickens up. That’s why a claybody mixed to the perfect consistency will be too stiff a few weeks later.  So it is normal to have to add water and check the SG again.</p>
+</blockquote>
+<h2>Determining Best Specific Gravity for each Glaze</h2>
+<p>Ben Shelton on Clayart:</p>
+<blockquote>
+<p>Now comes the big question. What specific gravity will be BEST for each glaze? For me, this is always a trial and error exercise. Because all potters methods vary, and all pots vary, this can be a hard number to nail down. Mix up a 300g test batch, to measure the glazes specific gravity, make a test tile, add water, repeat. Mark the tiles so youll know which specific gravity worked best! Fire the tests and see what looks best. Then use that data to adjust your studio glazes specific gravity.</p>
+</blockquote>
+<p>Michael McDowell on Clayart:</p>
+<blockquote>
+<p>There is no one correct Specific gravity for a glaze. It is strictly a matter of trial and error &amp; error &amp; trial to determine for each glaze &amp; method of application what the target reading should be. Keep notes. Once I have found my desired S. G. for a new glaze, I put a tag on the bucket with the target reading so its right there in view whenever I am mixing &amp; applying the glaze.</p>
+</blockquote>
+<h2>Relationship of Specific Gravity to the Baume Scale</h2>
+<p>Pieter Mostert:</p>
+<blockquote>
+<p>As I understand it, the (heavy) Baume scale defines x degrees Baume to be the density of a mixture of water and table salt (NaCl), where the salt makes up x% of the mass of the mixture.</p>
+</blockquote>
+<blockquote>
+<p>To relate this to the specific gravity, consider adding y kg of salt to 1 kg of water. The salt then makes up y/(1+y) times 100% of the mass of the mixture, so x = 100y/(1+y) is the density in degrees Baume.</p>
+</blockquote>
+<blockquote>
+<p>On the other hand, we can work out the specific gravity by taking the weight in kg (i.e. 1+y) divided by the volume in litres, which is of the form 1+Ay, where A is some constant*. Therefore s.g. = (1+y)/(1+Ay).</p>
+</blockquote>
+<blockquote>
+<p>If you use the equation x = 100y/(1+y) to solve for y in terms of x, and substitute this into the equation<br>
+s.g. = (1+y)/(1+Ay), you’ll find s.g. = 100/(100 + (A-1)x). Experimentally, the constant A is about 0.31, so<br>
+s.g = 100/(100 - 0.69 x) = 145/(145 - x).</p>
+</blockquote>
+<blockquote>
+<p>*Initially I thought this constant would be the inverse of the density of salt, but because of some counterintuitive stuff that happens when salt dissolves in water, this isn’t the case. Some caveats: A depends on the temperature, and might change when the solution becomes oversaturated. I think these changes are relatively small though. (Apologies to any chemists reading this for misrepresenting your field)</p>
+</blockquote>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/Baum%C3%A9_scale" target="_blank" rel="nofollow noopener">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    
+
+<h3><a href="https://en.wikipedia.org/wiki/Baum%C3%A9_scale" target="_blank" rel="nofollow noopener">Baumé scale</a></h3>
+
+<p>The Baumé scale is a pair of hydrometer scales developed by French pharmacist Antoine Baumé in 1768 to measure density of various liquids. The unit of the Baumé scale has been notated variously as degrees Baumé, B°, Bé° and simply Baumé (the accent is not always present). One scale measures the density of liquids heavier than water and the other, liquids lighter than water. The Baumé of distilled water is 0. The API gravity scale is based on errors in early implementations of the Baumé scale.
+ Th...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<h2>External Resources</h2>
+<p><a href="https://digitalfire.com/4sight/glossary/glossary_specific_gravity.html" rel="nofollow noopener">Digitalfire:  Specific Gravity</a></p>
+<p><strong>John Britt on how to measure Specific Gravity</strong></p>
+<p><a href="https://www.youtube.com/embed/PYt9L_L6Xwo?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/PYt9L_L6Xwo</a></p>
+<p><strong>Amaco Glazes How to Calculate Specific Gravity</strong></p>
+<p><a href="https://www.youtube.com/embed/8lMGouug3tk?autoplay=1&amp;feature=oembed&amp;wmode=opaque">https://www.youtube.com/embed/8lMGouug3tk</a></p>
+<p><strong>Calculators for Adjusting Specific Gravity</strong></p>
+<p>To calculate how much water to add or remove to adjust from an initial specific gravity to a target specific gravity, provided you know the weight of the bucket:<br>
+<a href="https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html" class="onebox" target="_blank" rel="nofollow noopener">https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html</a></p>
+<p>Similar to calculator above, but doesn’t require you to calculate the initial specific gravity:<br>
+<a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html" class="onebox" target="_blank" rel="nofollow noopener">https://pietermostert.github.io/SG_calc/html/specific-gravity-1.html</a></p>
+<p>Used when it’s impractical to measure the weight of the glaze:<br>
+<a href="https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html" class="onebox" target="_blank" rel="nofollow noopener">https://pietermostert.github.io/SG_calc/html/specific-gravity-2.html</a></p>
+          <p><a href="https://wiki.glazy.org/t/specific-gravity/177/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/specific-gravity/177/1</link>
+        <pubDate>Wed, 26 Apr 2017 04:09:05 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-177-1</guid>
+        <source url="https://wiki.glazy.org/t/specific-gravity/177.rss">Specific Gravity</source>
+      </item>
+  </channel>
+</rss>

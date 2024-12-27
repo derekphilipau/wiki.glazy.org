@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Calculating line blends</title>
+    <link>https://wiki.glazy.org/t/calculating-line-blends/658</link>
+    <description>This is about how to calculate the recipes for each of the glazes in a line blend. See [here](https://wiki.glazy.org/t/blends-line-triaxial-and-quadraxial-glaze-blends/109) for the practicalities of making a line blend.
+
+Suppose we have two glazes, _A_ and _B_, and we want to make a line blend between them consisting of a certain number of glazes, which we&#39;ll call _n_. How do we calculate the percentage of a material in a given glaze in the line blend? 
+
+To keep things simple, we&#39;ll first assume that the batches of _A_ and _B_ have the same weight. We&#39;ll label the glazes in the line blend using the index _i_, where _i_ = 0 corresponds to _A_, and _i_ = _n_ - 1 corresponds to _B_. The table below shows the relative proportions into which _A_ and _B_ are divided. 
+
+![line%20blend|627x87](upload://ArodUI8MxTfJ3xt1I5S3F3sZA3E.jpeg) 
+
+So the _i_-th glaze consists of _n_ - 1 - _i_ parts _A_ and _i_ parts _B_. To convert this to a percentage, we need to divide by _n_ - 1 - _i_ + _i_ = _n_ - 1 and multiply by 100%. Therefore the _i_-th glaze consists of (_n_ - 1 - _i_) / (_n_ - 1) 100% _A_ and _i_ / (_n_ - 1) 100% _B_, so if _P_&lt;sub&gt;_A_&lt;/sub&gt; is the percent of a material in recipe _A_, and _P_&lt;sub&gt;_B_&lt;/sub&gt; is the percent of the same material in recipe _B_, the percent of that material in the _i_-th glaze is 
+(_n_ - 1 - _i_) / (_n_ - 1) _P_&lt;sub&gt;_A_&lt;/sub&gt; + _i_ / (_n_ - 1) _P_&lt;sub&gt;_B_&lt;/sub&gt; = [(_n_ - 1 - _i_) _P_&lt;sub&gt;_A_&lt;/sub&gt; + _i_  _P_&lt;sub&gt;_B_&lt;/sub&gt;] / (_n_ - 1)
+
+Now suppose that the weights of two batches are not necessarily equal, and have relative weights  _W_&lt;sub&gt;_A_&lt;/sub&gt; and  _W_&lt;sub&gt;_B_&lt;/sub&gt;. The table of relative proportions now looks as follows:
+
+![Weighted%20line%20blend|690x75](upload://plQ6DO8gtdjdfoerGwlw54FxXkf.jpeg) 
+
+Therefore the _i_-th glaze consists of (_n_ - 1 - _i_)_W_&lt;sub&gt;_A_&lt;/sub&gt; parts _A_ and _i_ _W_&lt;sub&gt;_B_&lt;/sub&gt; parts _B_, and to convert this to a percentage, we need to divide by (_n_ - 1 - _i_)_W_&lt;sub&gt;_A_&lt;/sub&gt; + _i_ _W_&lt;sub&gt;_B_&lt;/sub&gt; and multiply by 100%</description>
+    
+    <lastBuildDate>Wed, 21 Nov 2018 07:16:57 +0000</lastBuildDate>
+    <category>Glaze Testing</category>
+    <atom:link href="https://wiki.glazy.org/t/calculating-line-blends/658.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Calculating line blends</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>This is about how to calculate the recipes for each of the glazes in a line blend. See <a href="https://wiki.glazy.org/t/blends-line-triaxial-and-quadraxial-glaze-blends/109">here</a> for the practicalities of making a line blend.</p>
+<p>Suppose we have two glazes, <em>A</em> and <em>B</em>, and we want to make a line blend between them consisting of a certain number of glazes, which we’ll call <em>n</em>. How do we calculate the percentage of a material in a given glaze in the line blend?</p>
+<p>To keep things simple, we’ll first assume that the batches of <em>A</em> and <em>B</em> have the same weight. We’ll label the glazes in the line blend using the index <em>i</em>, where <em>i</em> = 0 corresponds to <em>A</em>, and <em>i</em> = <em>n</em> - 1 corresponds to <em>B</em>. The table below shows the relative proportions into which <em>A</em> and <em>B</em> are divided.</p>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/ff66e743a6426cef4f5a61aae56b6bc97e0afcaa.jpeg" alt="line%20blend" width="627" height="87"></p>
+<p>So the <em>i</em>-th glaze consists of <em>n</em> - 1 - <em>i</em> parts <em>A</em> and <em>i</em> parts <em>B</em>. To convert this to a percentage, we need to divide by <em>n</em> - 1 - <em>i</em> + <em>i</em> = <em>n</em> - 1 and multiply by 100%. Therefore the <em>i</em>-th glaze consists of (<em>n</em> - 1 - <em>i</em>) / (<em>n</em> - 1) 100% <em>A</em> and <em>i</em> / (<em>n</em> - 1) 100% <em>B</em>, so if <em>P</em><sub><em>A</em></sub> is the percent of a material in recipe <em>A</em>, and <em>P</em><sub><em>B</em></sub> is the percent of the same material in recipe <em>B</em>, the percent of that material in the <em>i</em>-th glaze is<br>
+(<em>n</em> - 1 - <em>i</em>) / (<em>n</em> - 1) <em>P</em><sub><em>A</em></sub> + <em>i</em> / (<em>n</em> - 1) <em>P</em><sub><em>B</em></sub> = [(<em>n</em> - 1 - <em>i</em>) <em>P</em><sub><em>A</em></sub> + <em>i</em>  <em>P</em><sub><em>B</em></sub>] / (<em>n</em> - 1)</p>
+<p>Now suppose that the weights of two batches are not necessarily equal, and have relative weights  <em>W</em><sub><em>A</em></sub> and  <em>W</em><sub><em>B</em></sub>. The table of relative proportions now looks as follows:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/b1ae5fc74be0272f63511d78b518b792aa2dcd1b.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/b1ae5fc74be0272f63511d78b518b792aa2dcd1b" title="Weighted line blend.JPG"><img src="https://wiki.glazy.org/uploads/default/original/1X/b1ae5fc74be0272f63511d78b518b792aa2dcd1b.jpeg" alt="Weighted%20line%20blend" width="690" height="75" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/b1ae5fc74be0272f63511d78b518b792aa2dcd1b_2_10x10.png"></a></div><p></p>
+<p>Therefore the <em>i</em>-th glaze consists of (<em>n</em> - 1 - <em>i</em>)<em>W</em><sub><em>A</em></sub> parts <em>A</em> and <em>i</em> <em>W</em><sub><em>B</em></sub> parts <em>B</em>, and to convert this to a percentage, we need to divide by (<em>n</em> - 1 - <em>i</em>)<em>W</em><sub><em>A</em></sub> + <em>i</em> <em>W</em><sub><em>B</em></sub> and multiply by 100%</p>
+          <p><a href="https://wiki.glazy.org/t/calculating-line-blends/658/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/calculating-line-blends/658/1</link>
+        <pubDate>Tue, 20 Nov 2018 20:04:29 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-658-1</guid>
+        <source url="https://wiki.glazy.org/t/calculating-line-blends/658.rss">Calculating line blends</source>
+      </item>
+  </channel>
+</rss>

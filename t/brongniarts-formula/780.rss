@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Brongniart&#39;s formula</title>
+    <link>https://wiki.glazy.org/t/brongniarts-formula/780</link>
+    <description>This is a formula for determining the quantity of dry materials in a given quantity of glaze slurry. It is named after the former director of the Sèvres Porcelain Factory, [Alexandre Brongniart](https://en.wikipedia.org/wiki/Alexandre_Brongniart).
+
+There are a number of equivalent ways of expressing Brongniart&#39;s formula. If _S_&lt;sub&gt;wet&lt;/sub&gt;, _M_&lt;sub&gt;wet&lt;/sub&gt;, and _V_&lt;sub&gt;wet&lt;/sub&gt; are the specific gravity, mass, and volume of the slurry, and  _S_&lt;sub&gt;dry&lt;/sub&gt;, _M_&lt;sub&gt;dry&lt;/sub&gt;, and _V_&lt;sub&gt;dry&lt;/sub&gt; are the specific gravity, mass, and volume[^1] of the dry glaze materials, then
+![Brong_vol|220x68,100%](upload://wbIwbestYplFU2J4DY2xhxOg7cK.jpeg). . . . . .  . . . . . . . . . . . (1)
+![Brong_mas|254x63](upload://8rcyu7x1U36ifF7uqraNGHVFe0p.jpeg). . . . . .  . . . . . . . .(2)
+_S_&lt;sub&gt;wet&lt;/sub&gt;, _M_&lt;sub&gt;wet&lt;/sub&gt;, and _V_&lt;sub&gt;wet&lt;/sub&gt; can be measured, and for most glazes, _S_&lt;sub&gt;dry&lt;/sub&gt; is around 2.6 (exceptions are glazes which contain substantial amounts of tin or lead.). See the entry on the [specific gravity of dry materials](https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781) for a list of values.
+
+If one substitutes _S_&lt;sub&gt;dry&lt;/sub&gt; = 2.6 into (2), the equation can be rewritten as
+![Brong_2pt6|294x64](upload://lVk1IhcPhXZkofEfjtC8GXCSX9P.jpeg)
+For example, 2kg of a glaze slurry with specific gravity 1.5 contains
+![Brong_eg|250x60](upload://xM6HbE4P5ttqwDuQcyya1TbTsS3.jpeg) 
+of dry materials.
+
+### Online calculator
+
+https://pietermostert.github.io/SG_calc/html/brongniart.html
+
+This requires the weight of the glaze slurry in the bucket, the weight of a syringeful of glaze slurry, and the weight of a syringeful of water (the ratio of the last two measurements gives the specific gravity of the glaze slurry). In theory, the weight of a syringeful of water in grams should equal volume of the syringe in millilitres, but syringes may be inaccurate. The default for the specific gravity of the dry materials is 2.6, but this can be changed.
+
+[^1]: Note that this is the volume of the water displaced by the dry materials. The volume of the dry materials will be larger since there are voids between the particles.</description>
+    
+    <lastBuildDate>Tue, 16 Apr 2019 20:18:11 +0000</lastBuildDate>
+    <category>Glaze Mixing &amp; Preparation</category>
+    <atom:link href="https://wiki.glazy.org/t/brongniarts-formula/780.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Brongniart&#39;s formula</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Very helpful, thanks Pieter !</p>
+          <p><a href="https://wiki.glazy.org/t/brongniarts-formula/780/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/brongniarts-formula/780/2</link>
+        <pubDate>Tue, 16 Apr 2019 20:18:11 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-780-2</guid>
+        <source url="https://wiki.glazy.org/t/brongniarts-formula/780.rss">Brongniart&#39;s formula</source>
+      </item>
+      <item>
+        <title>Brongniart&#39;s formula</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>This is a formula for determining the quantity of dry materials in a given quantity of glaze slurry. It is named after the former director of the Sèvres Porcelain Factory, <a href="https://en.wikipedia.org/wiki/Alexandre_Brongniart" rel="nofollow noopener">Alexandre Brongniart</a>.</p>
+<p>There are a number of equivalent ways of expressing Brongniart’s formula. If <em>S</em><sub>wet</sub>, <em>M</em><sub>wet</sub>, and <em>V</em><sub>wet</sub> are the specific gravity, mass, and volume of the slurry, and  <em>S</em><sub>dry</sub>, <em>M</em><sub>dry</sub>, and <em>V</em><sub>dry</sub> are the specific gravity, mass, and volume<sup class="footnote-ref"><a href="https://wiki.glazy.org#footnote-1169-1" id="footnote-ref-1169-1">[1]</a></sup> of the dry glaze materials, then<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/e198aad4bd5c2b78778f7e688a148e08d826e872.jpeg" alt="Brong_vol" width="220" height="68">. . . . . .  . . . . . . . . . . . (1)<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/3b24960dfa95d9434f619be6d0b294ec60a39c39.jpeg" alt="Brong_mas" width="254" height="63">. . . . . .  . . . . . . . .(2)<br>
+<em>S</em><sub>wet</sub>, <em>M</em><sub>wet</sub>, and <em>V</em><sub>wet</sub> can be measured, and for most glazes, <em>S</em><sub>dry</sub> is around 2.6 (exceptions are glazes which contain substantial amounts of tin or lead.). See the entry on the <a href="https://wiki.glazy.org/t/specific-gravity-of-glaze-materials/781">specific gravity of dry materials</a> for a list of values.</p>
+<p>If one substitutes <em>S</em><sub>dry</sub> = 2.6 into (2), the equation can be rewritten as<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/99a87bd3f624e46f80e913961fa4f05119ab861d.jpeg" alt="Brong_2pt6" width="294" height="64"><br>
+For example, 2kg of a glaze slurry with specific gravity 1.5 contains<br>
+<img src="https://wiki.glazy.org/uploads/default/original/1X/ecb7e78ca45a5b862fc206ef5b7e46a083d63bdf.jpeg" alt="Brong_eg" width="250" height="60"><br>
+of dry materials.</p>
+<h3>Online calculator</h3>
+<p><a href="https://pietermostert.github.io/SG_calc/html/brongniart.html" class="onebox" target="_blank" rel="nofollow noopener">https://pietermostert.github.io/SG_calc/html/brongniart.html</a></p>
+<p>This requires the weight of the glaze slurry in the bucket, the weight of a syringeful of glaze slurry, and the weight of a syringeful of water (the ratio of the last two measurements gives the specific gravity of the glaze slurry). In theory, the weight of a syringeful of water in grams should equal volume of the syringe in millilitres, but syringes may be inaccurate. The default for the specific gravity of the dry materials is 2.6, but this can be changed.</p>
+<hr class="footnotes-sep">
+
+<ol class="footnotes-list">
+<li id="footnote-1169-1" class="footnote-item">
+<p>Note that this is the volume of the water displaced by the dry materials. The volume of the dry materials will be larger since there are voids between the particles. <a href="https://wiki.glazy.org#footnote-ref-1169-1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+          <p><a href="https://wiki.glazy.org/t/brongniarts-formula/780/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/brongniarts-formula/780/1</link>
+        <pubDate>Sat, 30 Mar 2019 11:30:55 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-780-1</guid>
+        <source url="https://wiki.glazy.org/t/brongniarts-formula/780.rss">Brongniart&#39;s formula</source>
+      </item>
+  </channel>
+</rss>

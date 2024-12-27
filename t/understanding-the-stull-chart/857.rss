@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Understanding the Stull chart</title>
+    <link>https://wiki.glazy.org/t/understanding-the-stull-chart/857</link>
+    <description>## Introduction
+
+Glaze recipes are best understood by looking at the amounts of the various oxides they contain, instead of their ingredients. The relative proportions of the oxides in a glaze determine - to a large degree - the behaviour of the glaze.
+
+A useful way to understand the effect of a particular oxide is to create a series of glazes where all the other oxides remain in fixed proportion, and only the oxide of interest changes as you move along the series. For example, in the image below, Phosphorus oxide increases from left to right, while the other oxides remain the same.
+
+![HG7%20Blue%20Red%20with%20additions%20of%20P2O5|690x173](upload://uGK4BuU4HgFVFjW0ovq6Ch1wahc.jpeg) 
+
+To understand the effect of *two* particular oxides, we can fix the proportions of all oxides except those two, and create a rectangular array of glazes where one oxide changes horizontally, and the other vertically. If these glazes are applied to test tiles, the fired tiles can be arranged in a grid which shows how the glaze changes as the two oxides vary. The example below shows a glaze where red iron oxide increases from left to right, and titanium dioxide increases from bottom to top:
+
+![PinnellClear_RIO_TiO|690x504](upload://heVq60JGzfO1lJkko6rRRq5XViR.jpeg) 
+
+These glazes can be plotted as points on a grid, which can be used to estimate the regions where some property of the glazes holds. In this case, the regions where the glazes are more bluish and more greenish are shown:
+
+![RIO_TiDi|690x312](upload://h33Fn45IJaWuK8J3WnoOH1GQ4TS.jpeg) 
+
+The division of glazes into these two groups is a simplification; in reality, the colour changes continuously from blueish to greenish. In the same way, the different regions in the charts shown below are simplifications of reality.
+
+## The Stull chart
+
+The &#39;Stull chart&#39;, drawn by R. T. Stull in 1912, is a particular example of this type of grid, where the oxides silica (SiO&lt;sub&gt;2&lt;/sub&gt;) and alumina (Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;) vary. The diagram below depicts the properties of the glazes where silica increases from left to right, and alumina increases from bottom to top. The hatched region shows glazes that craze.
+
+![465de18a|690x690,75%](upload://glP6bDGBrRF4dcRetQP3tU36nOk.jpeg) 
+
+Some observations:
+* In the top left corner, where SiO&lt;sub&gt;2&lt;/sub&gt; is low and Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; is high, and in the bottom right corner, where SiO&lt;sub&gt;2&lt;/sub&gt; is high and Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; is low, the glaze isn&#39;t fully melted (the *UNFUSED* and *DEVITRIFIED* regions both denote immature glazes). Although the chart doesn&#39;t extend far enough to show this, glazes which have both excessively high SiO&lt;sub&gt;2&lt;/sub&gt; and Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; also won&#39;t melt. A rough approximation of the enlarged chart is shown below.
+
+![Stull%20mature%20glazes|559x558,75%](upload://A0FOTzsI1X2RAnHEaCqOOc5euJ0.jpeg) 
+
+* The region where the glazes are mature is divided into three sub-regions, *MATTES*, *SEMI-MATTES*, and *BRIGHT*, which here means glossy. Glazes on the boundary between the matte and semi-matte regions all have roughly 4 molecules of SiO&lt;sub&gt;2&lt;/sub&gt; for every molecule of Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;, while glazes on the boundary between the semi-matte and glossy regions all have roughly 5 molecules of SiO&lt;sub&gt;2&lt;/sub&gt; for every molecule of Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;. In other words, glazes with a SiO&lt;sub&gt;2&lt;/sub&gt; : Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; ratio of less than about 4 are matte, glazes with a SiO&lt;sub&gt;2&lt;/sub&gt; : Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; ratio greater than about 5 are glossy, and the ones in between are semi-matte. Glazes that are underfired will generally be matte / semi-matte.
+
+![image|690x463,100%](upload://qUNjfbvzunz2XdjQM8yj4c0UQKh.png) 
+
+* Glazes with low SiO&lt;sub&gt;2&lt;/sub&gt; or low Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; craze, as do underfired glazes with high SiO&lt;sub&gt;2&lt;/sub&gt;.
+
+This chart was constructed by fixing the proportions of all oxides other than silica and alumina, and firing to cone 11 (the actual proportions used can be found in the original [paper](https://wiki.glazy.org/t/influences-of-variable-silica-and-alumina-on-porcelain-glazes/766)). If the oxides other than silica and alumina were fixed in different proportions, or the glazes were fired to a different [cone](https://wiki.glazy.org/t/measuring-heatwork-temperature-with-orton-cones/509), the resulting chart might look somewhat different, but the three observations above would still hold in most cases, more or less.
+
+## Using the Stull chart
+
+Although Glazy shows a version of the Stull chart as a background image when plotting SiO&lt;sub&gt;2&lt;/sub&gt; vs Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;, this can&#39;t always be relied on to predict whether a glaze will be matte or glossy, mature or not, or crazed or not. Rather think of it as a metaphor that describes the big picture. 
+
+Some of the many factors that affect a glaze are the proportions of the oxides other than silica and alumina, the cone to which the glaze is fired, the cooling rate of the kiln, and the claybody on which the glaze is fired. All of these have the potential to modify the chart. However, the overview of the glaze landscape that the chart provides can still be useful. To make an analogy, imagine being lost in a dense forest, with only a compass and a map. If the map shows that the forest gradually transitions to open country towards the north-east, you&#39;ll be able to head out of the forest, despite not knowing your exact location on the map.
+
+For example, if you&#39;d like to change a glossy glaze to a matte, you can modify the glaze by decreasing the silica-alumina ratio. If the glaze contains enough silica as an ingredient, the simplest way to do this is by removing some of the silica. The example below shows a glaze where progressively more silica has been removed, moving from right to left.
+
+![BOB%20silica%20line%20blend|690x148](upload://awckdGRfh1Vv2BcWHR9MAiS4F1C.jpeg) 
+
+Knowing the general behaviour of the map can be useful in identifying potentially problematic glazes. If you have a glaze with a SiO&lt;sub&gt;2&lt;/sub&gt; : Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; ratio well above 5 that fires matte, this may be a sign that it isn&#39;t fully mature. There may be other reasons, as explained [here](https://digitalfire.com/4sight/glossary/glossary_matte_glaze.html). 
+
+The extent of the crazed region can vary a great deal, since it depends strongly on the claybody on which the glaze is applied. However, the chart shows that a general rule of thumb to decrease crazing is to increase both silica and alumina. Other options are given [here](https://digitalfire.com/4sight/troubleshooting/ceramic_troubleshooting_glaze_crazing.html).
+
+## Other resources
+
+* [Lecture](https://www.youtube.com/watch?v=-oRFAxpmaqE&amp;feature=youtu.be) by Matt Katz.
+* John Britt [video](https://www.youtube.com/watch?v=vL4dGrZdPEs).
+
+* There are sections on the Stull chart in Cullen Parmalee&#39;s [*Ceramic Glazes*](https://www.worldcat.org/title/ceramic-glazes-by-cullen-w-parmelee/oclc/639798959?referer=di&amp;ht=edition), and the second edition of Linda Bloomfield&#39;s [*Colour in Glazes*](https://blackwells.co.uk/bookshop/product/Colour-in-Glazes-by-Linda-Bloomfield-Henry-Bloomfield-photographer-expression/9781912217823).
+
+&lt;!-- John Post&#39;s website, once it&#39;s up again --&gt;
+
+&lt;!-- * This [wiki page]() gives examples of tests and charts using oxides in proportions other than those used by Stull. --&gt;
+
+* [*Stoneware Glazes - A Systematic Approach*](https://wiki.glazy.org/t/ian-curries-stoneware-glazes/367), by Ian Currie. An excellent book, with detailed information on SiO&lt;sub&gt;2&lt;/sub&gt; - Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; charts produced by the Currie grid method. &lt;Many examples in the wiki-page linked to above are taken from tests described in this book.&gt; If this seems too daunting as an introductory glaze calculation book, you may want to read his [*Revealing Glazes - Using the Grid Method*](https://leanpub.com/Revealing-Glazes-by-Ian-Currie/read) first.
+
+* [*The Practice of Stoneware Glazes : Minerals, Rocks and Ashes*](https://www.worldcat.org/title/practice-of-stoneware-glazes-minerals-rocks-ashes/oclc/62310816) by Brother Daniel de Montmollin (original in [French](https://livre.fnac.com/a1645624/Daniel-de-Montmollin-Pratique-des-emaux)) contains a series of 60 SiO&lt;sub&gt;2&lt;/sub&gt; - Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; charts corresponding to different combinations of fluxes (these only show the regions where glazes melt at cone 13). Digitized versions of these charts can be found [here](https://derekphilipau.github.io/vue-d3-stull-charts/#/), under &#39;Montmollin Fuse Diagrams&#39;. It will help if you uncheck &#39;Show Recipes&#39;. A summary of the book can be found [here](https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860).</description>
+    
+    <lastBuildDate>Mon, 14 Oct 2019 18:59:09 +0000</lastBuildDate>
+    <category>Glazy Help</category>
+    <atom:link href="https://wiki.glazy.org/t/understanding-the-stull-chart/857.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Understanding the Stull chart</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks Jean-Pierre. I’ve added a link to your summary.</p>
+          <p><a href="https://wiki.glazy.org/t/understanding-the-stull-chart/857/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/understanding-the-stull-chart/857/3</link>
+        <pubDate>Mon, 14 Oct 2019 18:59:09 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-857-3</guid>
+        <source url="https://wiki.glazy.org/t/understanding-the-stull-chart/857.rss">Understanding the Stull chart</source>
+      </item>
+      <item>
+        <title>Understanding the Stull chart</title>
+        <dc:creator><![CDATA[jpib]]></dc:creator>
+        <description><![CDATA[
+            <p>Amazing explanations. I really like the “forest” metaphor. This goes well with my summary of the De Montmollin book I just posted. Thanks Pieter !</p>
+          <p><a href="https://wiki.glazy.org/t/understanding-the-stull-chart/857/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/understanding-the-stull-chart/857/2</link>
+        <pubDate>Mon, 14 Oct 2019 10:05:35 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-857-2</guid>
+        <source url="https://wiki.glazy.org/t/understanding-the-stull-chart/857.rss">Understanding the Stull chart</source>
+      </item>
+      <item>
+        <title>Understanding the Stull chart</title>
+        <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+        <description><![CDATA[
+            <h2>Introduction</h2>
+<p>Glaze recipes are best understood by looking at the amounts of the various oxides they contain, instead of their ingredients. The relative proportions of the oxides in a glaze determine - to a large degree - the behaviour of the glaze.</p>
+<p>A useful way to understand the effect of a particular oxide is to create a series of glazes where all the other oxides remain in fixed proportion, and only the oxide of interest changes as you move along the series. For example, in the image below, Phosphorus oxide increases from left to right, while the other oxides remain the same.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/d71621db10e1edf71820fbffc07f83eac78045c2.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/d71621db10e1edf71820fbffc07f83eac78045c2" title="HG7%20Blue%20Red%20with%20additions%20of%20P2O5"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_690x173.jpeg" alt="HG7%20Blue%20Red%20with%20additions%20of%20P2O5" data-base62-sha1="uGK4BuU4HgFVFjW0ovq6Ch1wahc" width="690" height="173" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_690x173.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_1035x259.jpeg 1.5x, https://wiki.glazy.org/uploads/default/original/1X/d71621db10e1edf71820fbffc07f83eac78045c2.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/d71621db10e1edf71820fbffc07f83eac78045c2_2_10x10.png"></a></div><p></p>
+<p>To understand the effect of <em>two</em> particular oxides, we can fix the proportions of all oxides except those two, and create a rectangular array of glazes where one oxide changes horizontally, and the other vertically. If these glazes are applied to test tiles, the fired tiles can be arranged in a grid which shows how the glaze changes as the two oxides vary. The example below shows a glaze where red iron oxide increases from left to right, and titanium dioxide increases from bottom to top:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/78d4e50114b9ba550db8e0fa77a776d12f822a6d" title="PinnellClear_RIO_TiO"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_690x504.jpeg" alt="PinnellClear_RIO_TiO" data-base62-sha1="heVq60JGzfO1lJkko6rRRq5XViR" width="690" height="504" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_690x504.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_1035x756.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_1380x1008.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/78d4e50114b9ba550db8e0fa77a776d12f822a6d_2_10x10.png"></a></div><p></p>
+<p>These glazes can be plotted as points on a grid, which can be used to estimate the regions where some property of the glazes holds. In this case, the regions where the glazes are more bluish and more greenish are shown:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638" title="RIO_TiDi"><img src="https://wiki.glazy.org/uploads/default/original/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638.jpeg" alt="RIO_TiDi" data-base62-sha1="h33Fn45IJaWuK8J3WnoOH1GQ4TS" width="690" height="312" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/777d7be9ca06ad1b05d1db3826fc5cb5abe0b638_2_10x10.png"></a></div><p></p>
+<p>The division of glazes into these two groups is a simplification; in reality, the colour changes continuously from blueish to greenish. In the same way, the different regions in the charts shown below are simplifications of reality.</p>
+<h2>The Stull chart</h2>
+<p>The ‘Stull chart’, drawn by R. T. Stull in 1912, is a particular example of this type of grid, where the oxides silica (SiO<sub>2</sub>) and alumina (Al<sub>2</sub>O<sub>3</sub>) vary. The diagram below depicts the properties of the glazes where silica increases from left to right, and alumina increases from bottom to top. The hatched region shows glazes that craze.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/729a56976a4a278d0653eafadd97d11bc2d1bd4c" title="465de18a"><img src="https://wiki.glazy.org/uploads/default/original/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c.jpeg" alt="465de18a" data-base62-sha1="glP6bDGBrRF4dcRetQP3tU36nOk" width="517" height="517" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/729a56976a4a278d0653eafadd97d11bc2d1bd4c_2_10x10.png"></a></div><p></p>
+<p>Some observations:</p>
+<ul>
+<li>In the top left corner, where SiO<sub>2</sub> is low and Al<sub>2</sub>O<sub>3</sub> is high, and in the bottom right corner, where SiO<sub>2</sub> is high and Al<sub>2</sub>O<sub>3</sub> is low, the glaze isn’t fully melted (the <em>UNFUSED</em> and <em>DEVITRIFIED</em> regions both denote immature glazes). Although the chart doesn’t extend far enough to show this, glazes which have both excessively high SiO<sub>2</sub> and Al<sub>2</sub>O<sub>3</sub> also won’t melt. A rough approximation of the enlarged chart is shown below.</li>
+</ul>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/fc61c85b8fd2988af1a34f7e63be05126ab9f73e.jpeg" alt="Stull%20mature%20glazes" data-base62-sha1="A0FOTzsI1X2RAnHEaCqOOc5euJ0" width="419" height="418"></p>
+<ul>
+<li>The region where the glazes are mature is divided into three sub-regions, <em>MATTES</em>, <em>SEMI-MATTES</em>, and <em>BRIGHT</em>, which here means glossy. Glazes on the boundary between the matte and semi-matte regions all have roughly 4 molecules of SiO<sub>2</sub> for every molecule of Al<sub>2</sub>O<sub>3</sub>, while glazes on the boundary between the semi-matte and glossy regions all have roughly 5 molecules of SiO<sub>2</sub> for every molecule of Al<sub>2</sub>O<sub>3</sub>. In other words, glazes with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio of less than about 4 are matte, glazes with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio greater than about 5 are glossy, and the ones in between are semi-matte. Glazes that are underfired will generally be matte / semi-matte.</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/bca41537e2da09571da3be19e62ab6b01c72b645.png" data-download-href="https://wiki.glazy.org/uploads/default/bca41537e2da09571da3be19e62ab6b01c72b645" title="image"><img src="https://wiki.glazy.org/uploads/default/original/1X/bca41537e2da09571da3be19e62ab6b01c72b645.png" alt="image" data-base62-sha1="qUNjfbvzunz2XdjQM8yj4c0UQKh" width="690" height="463" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/bca41537e2da09571da3be19e62ab6b01c72b645_2_10x10.png"></a></div><p></p>
+<ul>
+<li>Glazes with low SiO<sub>2</sub> or low Al<sub>2</sub>O<sub>3</sub> craze, as do underfired glazes with high SiO<sub>2</sub>.</li>
+</ul>
+<p>This chart was constructed by fixing the proportions of all oxides other than silica and alumina, and firing to cone 11 (the actual proportions used can be found in the original <a href="https://wiki.glazy.org/t/influences-of-variable-silica-and-alumina-on-porcelain-glazes/766">paper</a>). If the oxides other than silica and alumina were fixed in different proportions, or the glazes were fired to a different <a href="https://wiki.glazy.org/t/measuring-heatwork-temperature-with-orton-cones/509">cone</a>, the resulting chart might look somewhat different, but the three observations above would still hold in most cases, more or less.</p>
+<h2>Using the Stull chart</h2>
+<p>Although Glazy shows a version of the Stull chart as a background image when plotting SiO<sub>2</sub> vs Al<sub>2</sub>O<sub>3</sub>, this can’t always be relied on to predict whether a glaze will be matte or glossy, mature or not, or crazed or not. Rather think of it as a metaphor that describes the big picture.</p>
+<p>Some of the many factors that affect a glaze are the proportions of the oxides other than silica and alumina, the cone to which the glaze is fired, the cooling rate of the kiln, and the claybody on which the glaze is fired. All of these have the potential to modify the chart. However, the overview of the glaze landscape that the chart provides can still be useful. To make an analogy, imagine being lost in a dense forest, with only a compass and a map. If the map shows that the forest gradually transitions to open country towards the north-east, you’ll be able to head out of the forest, despite not knowing your exact location on the map.</p>
+<p>For example, if you’d like to change a glossy glaze to a matte, you can modify the glaze by decreasing the silica-alumina ratio. If the glaze contains enough silica as an ingredient, the simplest way to do this is by removing some of the silica. The example below shows a glaze where progressively more silica has been removed, moving from right to left.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/49b984a55dbb6738c5119d3a11b0d15abe79b908" title="BOB%20silica%20line%20blend"><img src="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_690x148.jpeg" alt="BOB%20silica%20line%20blend" data-base62-sha1="awckdGRfh1Vv2BcWHR9MAiS4F1C" width="690" height="148" srcset="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_690x148.jpeg, https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_1035x222.jpeg 1.5x, https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_1380x296.jpeg 2x" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/49b984a55dbb6738c5119d3a11b0d15abe79b908_2_10x10.png"></a></div><p></p>
+<p>Knowing the general behaviour of the map can be useful in identifying potentially problematic glazes. If you have a glaze with a SiO<sub>2</sub> : Al<sub>2</sub>O<sub>3</sub> ratio well above 5 that fires matte, this may be a sign that it isn’t fully mature. There may be other reasons, as explained <a href="https://digitalfire.com/4sight/glossary/glossary_matte_glaze.html">here</a>.</p>
+<p>The extent of the crazed region can vary a great deal, since it depends strongly on the claybody on which the glaze is applied. However, the chart shows that a general rule of thumb to decrease crazing is to increase both silica and alumina. Other options are given <a href="https://digitalfire.com/4sight/troubleshooting/ceramic_troubleshooting_glaze_crazing.html">here</a>.</p>
+<h2>Other resources</h2>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=-oRFAxpmaqE&amp;feature=youtu.be">Lecture</a> by Matt Katz.</p>
+</li>
+<li>
+<p>John Britt <a href="https://www.youtube.com/watch?v=vL4dGrZdPEs">video</a>.</p>
+</li>
+<li>
+<p>There are sections on the Stull chart in Cullen Parmalee’s <a href="https://www.worldcat.org/title/ceramic-glazes-by-cullen-w-parmelee/oclc/639798959?referer=di&amp;ht=edition"><em>Ceramic Glazes</em></a>, and the second edition of Linda Bloomfield’s <a href="https://blackwells.co.uk/bookshop/product/Colour-in-Glazes-by-Linda-Bloomfield-Henry-Bloomfield-photographer-expression/9781912217823"><em>Colour in Glazes</em></a>.</p>
+</li>
+</ul>
+
+
+<ul>
+<li>
+<p><a href="https://wiki.glazy.org/t/ian-curries-stoneware-glazes/367"><em>Stoneware Glazes - A Systematic Approach</em></a>, by Ian Currie. An excellent book, with detailed information on SiO<sub>2</sub> - Al<sub>2</sub>O<sub>3</sub> charts produced by the Currie grid method.  If this seems too daunting as an introductory glaze calculation book, you may want to read his <a href="https://leanpub.com/Revealing-Glazes-by-Ian-Currie/read"><em>Revealing Glazes - Using the Grid Method</em></a> first.</p>
+</li>
+<li>
+<p><a href="https://www.worldcat.org/title/practice-of-stoneware-glazes-minerals-rocks-ashes/oclc/62310816"><em>The Practice of Stoneware Glazes : Minerals, Rocks and Ashes</em></a> by Brother Daniel de Montmollin (original in <a href="https://livre.fnac.com/a1645624/Daniel-de-Montmollin-Pratique-des-emaux">French</a>) contains a series of 60 SiO<sub>2</sub> - Al<sub>2</sub>O<sub>3</sub> charts corresponding to different combinations of fluxes (these only show the regions where glazes melt at cone 13). Digitized versions of these charts can be found <a href="https://derekphilipau.github.io/vue-d3-stull-charts/#/">here</a>, under ‘Montmollin Fuse Diagrams’. It will help if you uncheck ‘Show Recipes’. A summary of the book can be found <a href="https://wiki.glazy.org/t/the-practice-of-stoneware-glazes-d-de-montmollin/860">here</a>.</p>
+</li>
+</ul>
+          <p><a href="https://wiki.glazy.org/t/understanding-the-stull-chart/857/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/understanding-the-stull-chart/857/1</link>
+        <pubDate>Wed, 09 Oct 2019 23:42:42 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-857-1</guid>
+        <source url="https://wiki.glazy.org/t/understanding-the-stull-chart/857.rss">Understanding the Stull chart</source>
+      </item>
+  </channel>
+</rss>

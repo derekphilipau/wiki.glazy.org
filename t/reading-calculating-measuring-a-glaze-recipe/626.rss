@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Reading, Calculating, &amp; Measuring a Glaze Recipe</title>
+    <link>https://wiki.glazy.org/t/reading-calculating-measuring-a-glaze-recipe/626</link>
+    <description>[Note: This article is from Jesse Wiseman Hull’s website, now archived here.](https://web.archive.org/web/20110203065842/http://jessehull.com)
+
+Monday, January 28th, 2008
+
+A glaze recipe is almost always listed as a “percentage or batch formula”, adding up to 100.  Every once in a while you’ll run across something that is slightly off (I was shown one adding up to 98.63% recently) -but that’s uncommon.
+
+As stated in my post “[Getting Started with Crystalline Glazes](https://web.archive.org/web/20110224151058/http://jessehull.com/2008/01/31/getting-started-with-crystalline-glazes/)“, when people ask me for a crystalline glaze recipe (^9-10), I offer them this to start with:
+
+Frit 3110:  **50** %
+Zinc Oxide:  **25** %
+Silica:  **25** %
+
+**50** + **25** + **25** = **100** %
+
+The above would technically be referred to as a  *percentage formula* . If you wanted to make a small test, you’d probably just want to mix up 100 grams.
+This would then be called a 100 gram  *batch formula* :
+
+Frit 3110:  **50**  grams +
+Zinc Oxide:  **25**  grams +
+Silica:  **25**  grams
+=  **100**  grams
+
+Ok, so say you find that the glaze works, and you want to mix up 600 grams to test further…
+
+Look at the above formula again, like this:
+
+Frit 3110: 50 (x 1) =  **50**
+Zinc Oxide: 25 (x 1) =  **25**
+Silica: 25 (x 1) =  **25**
+= **100** , right?
+
+So for  **600**  grams:
+
+Frit 3110: 50 (x 6) =  **300**  +
+Zinc Oxide: 25 (x 6) =  **150**  +
+Silica: 25 (x 6) =  **150**
+=  **600**  grams
+
+For  **800**  grams, multiply each part by  **8** ,
+for  **950**  grams, multiply each part by  **9.5** ,
+and for  **1000**  grams, multiply by  **10** .
+
+In [John Britt](https://web.archive.org/web/20110224151058/http://www.johnbrittpottery.com/)’s book “Complete Guide to High Fire Glazes”, I list an  *Alkaline Base*  Recipe:
+
+Frit 3110:  **51**
+Calcined Zinc Oxide:  **23**
+Silica:  **22**
+Grolleg Kaolin:  **2.5**
+Alumina Hydrate:  **1.5**
+=  **100** %
+
+The above formula is called a  *base glaze* . Base glazes typically come out clear or white. To this you can add colorants, modifiers, binders, etc. These are  *not*  usually listed as part of the formula, but you’d still multiply each one by the same number, to get an equal proportion in the glaze.
+For  **750**  grams…
+Frit 3110: 51 (x 7.5) =  **382.5**  grams
+Calcined Zinc Oxide: 23 (x 7.5) =  **172.5**  grams
+Silica: 22 (x 7.5) =  **165**  grams
+Grolleg Kaolin: 2.5 (x 7.5) =  **18.75**  grams
+Alumina Hydrate: 1.5 (x 7.5) =  **11.25**  grams
+
+To get the dark blue glaze pictured on pg. 137 of Britt’s book, add:
+Cobalt Oxide: 3 (x 7.5) =  **22.5**  grams
+Manganese Dioxide: 3 (x 7.5) =  **22.5**  grams
+Red Iron Oxide: 3 (x 7.5) =  **22.5**  grams
+Bentonite (or CMC as a binder): 1 (x 7.5) =  **7.5**  grams
+
+So you have  **750**  grams of the base +  **75**  grams of colorant and binder =  **825**  grams.
+Now you can use that result to calculate [how much water to add](https://web.archive.org/web/20110224151058/http://jessehull.com/2008/01/28/adding-water-suspendersbinders-to-a-glaze/).</description>
+    
+    <lastBuildDate>Thu, 15 Nov 2018 13:23:41 +0000</lastBuildDate>
+    <category>Glaze Mixing &amp; Preparation</category>
+    <atom:link href="https://wiki.glazy.org/t/reading-calculating-measuring-a-glaze-recipe/626.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Reading, Calculating, &amp; Measuring a Glaze Recipe</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Monday, January 28th, 2008</p>
+<p>A glaze recipe is almost always listed as a “percentage or batch formula”, adding up to 100.  Every once in a while you’ll run across something that is slightly off (I was shown one adding up to 98.63% recently) -but that’s uncommon.</p>
+<p>As stated in my post “<a href="https://web.archive.org/web/20110224151058/http://jessehull.com/2008/01/31/getting-started-with-crystalline-glazes/">Getting Started with Crystalline Glazes</a>“, when people ask me for a crystalline glaze recipe (^9-10), I offer them this to start with:</p>
+<p>Frit 3110:  <strong>50</strong> %<br>
+Zinc Oxide:  <strong>25</strong> %<br>
+Silica:  <strong>25</strong> %</p>
+<p><strong>50</strong> + <strong>25</strong> + <strong>25</strong> = <strong>100</strong> %</p>
+<p>The above would technically be referred to as a  <em>percentage formula</em> . If you wanted to make a small test, you’d probably just want to mix up 100 grams.<br>
+This would then be called a 100 gram  <em>batch formula</em> :</p>
+<p>Frit 3110:  <strong>50</strong>  grams +<br>
+Zinc Oxide:  <strong>25</strong>  grams +<br>
+Silica:  <strong>25</strong>  grams<br>
+=  <strong>100</strong>  grams</p>
+<p>Ok, so say you find that the glaze works, and you want to mix up 600 grams to test further…</p>
+<p>Look at the above formula again, like this:</p>
+<p>Frit 3110: 50 (x 1) =  <strong>50</strong><br>
+Zinc Oxide: 25 (x 1) =  <strong>25</strong><br>
+Silica: 25 (x 1) =  <strong>25</strong><br>
+= <strong>100</strong> , right?</p>
+<p>So for  <strong>600</strong>  grams:</p>
+<p>Frit 3110: 50 (x 6) =  <strong>300</strong>  +<br>
+Zinc Oxide: 25 (x 6) =  <strong>150</strong>  +<br>
+Silica: 25 (x 6) =  <strong>150</strong><br>
+=  <strong>600</strong>  grams</p>
+<p>For  <strong>800</strong>  grams, multiply each part by  <strong>8</strong> ,<br>
+for  <strong>950</strong>  grams, multiply each part by  <strong>9.5</strong> ,<br>
+and for  <strong>1000</strong>  grams, multiply by  <strong>10</strong> .</p>
+<p>In <a href="https://web.archive.org/web/20110224151058/http://www.johnbrittpottery.com/">John Britt</a>’s book “Complete Guide to High Fire Glazes”, I list an  <em>Alkaline Base</em>  Recipe:</p>
+<p>Frit 3110:  <strong>51</strong><br>
+Calcined Zinc Oxide:  <strong>23</strong><br>
+Silica:  <strong>22</strong><br>
+Grolleg Kaolin:  <strong>2.5</strong><br>
+Alumina Hydrate:  <strong>1.5</strong><br>
+=  <strong>100</strong> %</p>
+<p>The above formula is called a  <em>base glaze</em> . Base glazes typically come out clear or white. To this you can add colorants, modifiers, binders, etc. These are  <em>not</em>  usually listed as part of the formula, but you’d still multiply each one by the same number, to get an equal proportion in the glaze.<br>
+For  <strong>750</strong>  grams…<br>
+Frit 3110: 51 (x 7.5) =  <strong>382.5</strong>  grams<br>
+Calcined Zinc Oxide: 23 (x 7.5) =  <strong>172.5</strong>  grams<br>
+Silica: 22 (x 7.5) =  <strong>165</strong>  grams<br>
+Grolleg Kaolin: 2.5 (x 7.5) =  <strong>18.75</strong>  grams<br>
+Alumina Hydrate: 1.5 (x 7.5) =  <strong>11.25</strong>  grams</p>
+<p>To get the dark blue glaze pictured on pg. 137 of Britt’s book, add:<br>
+Cobalt Oxide: 3 (x 7.5) =  <strong>22.5</strong>  grams<br>
+Manganese Dioxide: 3 (x 7.5) =  <strong>22.5</strong>  grams<br>
+Red Iron Oxide: 3 (x 7.5) =  <strong>22.5</strong>  grams<br>
+Bentonite (or CMC as a binder): 1 (x 7.5) =  <strong>7.5</strong>  grams</p>
+<p>So you have  <strong>750</strong>  grams of the base +  <strong>75</strong>  grams of colorant and binder =  <strong>825</strong>  grams.<br>
+Now you can use that result to calculate <a href="https://web.archive.org/web/20110224151058/http://jessehull.com/2008/01/28/adding-water-suspendersbinders-to-a-glaze/">how much water to add</a>.</p>
+          <p><a href="https://wiki.glazy.org/t/reading-calculating-measuring-a-glaze-recipe/626/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/reading-calculating-measuring-a-glaze-recipe/626/1</link>
+        <pubDate>Thu, 15 Nov 2018 13:23:41 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-626-1</guid>
+        <source url="https://wiki.glazy.org/t/reading-calculating-measuring-a-glaze-recipe/626.rss">Reading, Calculating, &amp; Measuring a Glaze Recipe</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Studio Kiln Thermocouple Calibrations</title>
+    <link>https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628</link>
+    <description>[Note: This article is from Jesse Wiseman Hull’s website, now archived here.](https://web.archive.org/web/20110203065842/http://jessehull.com)
+
+Sunday, December 23rd, 2007 
+
+Whether you’re trying to achieve an accurate firing via a peak temperature hold or a calculated ramp, it’s a good idea to calibrate your thermocouples (TC’s) before relying on the factory setting in your controller.
+
+Hopefully you have Type S TC’s … if so, you’re not going to need to calibrate them again for some time. It’s pretty ridiculous that Type K’s are used past 2100°F these days. If you have them and plan to go beyond that temperature, you’ll need to check and adjust for “drift” about every 5-10 firings.
+No matter which TC’s are being used however, I always suggest using witness cones to judge accuracy on each firing.
+
+___________________________________
+
+There are two ways to calibrate your thermocouples. One way is to fire your kiln, inspect the cones afterwards, and then make a guess as to how to offset your TC’s. This can take anywhere from a few to several firings.   I hear of many who do it this way, and honestly- I’ve never understood why.
+
+A more effective approach is to record what your kiln controller reads during a firing, when you see the cone achieving that perfect bend, then establish the offset from there.
+
+**Here’s how:**
+
+**1-**  Check with your manufacturer to see what the factory TC offset for your kiln/controller should be set at, then verify that each TC is offset to the number they give you.
+
+*Example* : L&amp;amp;L Kiln’s factory offset is usually 18 (not zero),
+when using the Bartlett V6-CF control board &amp;amp; Type S TC’s.
+
+**2-**  Stack your kiln with stilts and shelves so that an [Orton self-supporting witness cone](https://web.archive.org/web/20100612225725/http://www.ortonceramic.com/pyrometrics/arts/cones.shtml) can be viewed through each spy, and place another in the center of each shelf. I also put in glaze tests in addition to cones to get as much information as possible. I prefer not to fire a “light” kiln, as the loss in thermal mass could prevent an accurate result, so I use softbrick and/or extra stilts to take up the empty space.
+
+**3-**  Program the controller for a rise of 108°F/hr during the last 150F prior to peak.
+
+*Example* : ^10 = 2345°F at 108°F/hr.
+So program a rise of 108°F/hr from 2145°F to 2345°F.
+
+**4-**  Set a delay if needed so that you can be there around the time the kiln reaches peak. …Obviously, you’ll want to err on being early.
+
+**5-**  Record the temperature of each TC at the time the corresponding cone bends perfectly. Understand that the readings may be different for each zone/TC, and that they can be offset independently.
+**The perfect arch (90°**  **bend) for a self-supporting Orton cone is when the tip is level with the top of the triangular base.**
+
+**6-**  From here you can figure out if your kiln is under or over firing, and by how much.
+
+**7-**  Your controller can be programmed to offset the TC readings by as much as 50° in either direction. To adjust the TC offset on a Bartlett V6-CF, you will need to calculate the number to offset (also refer to [Bartlett’s online manual](https://web.archive.org/web/20100612225725/http://www.bartinst.com/KILN/V6CF%20700/v6cfoverview700.html)):
+
+**To  *lower*  the temperature/heat work**  in the kiln, start with the factory set point and add the number of degrees to compensate  *for each thermocouple* . This will raise the temperature displayed.
+
+**To raise the temperature/heat work**  in the kiln, start with the factory set point and subtract the number of degrees to compensate  *for each thermocouple* . This will lower the temperature displayed.
+To program a number below zero: type in “90″, immediately followed by the number of degrees to compensate… think of the 90 as a (-).
+Consider that since 18 is the factory set point for an L&amp;amp;L with Type S TC’s, you should not need to go below zero. If you find that you do, I would suggest contacting the manufacturer of your kiln or controller.
+
+___________________________________________________
+
+After going through this process with my [new kiln](https://web.archive.org/web/20100612225725/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/), I found that my top TC needed an offset of 19 and my bottom at 25. Leaving it at the factory setting of 18 would have resulted not only in over firing, but also in uneven heatwork between the zones (sections) of the kiln. Go [here](https://web.archive.org/web/20100612225725/http://jessehull.com/2007/12/20/170/) for more on this.</description>
+    
+    <lastBuildDate>Thu, 15 Nov 2018 13:39:42 +0000</lastBuildDate>
+    <category>Electric Kilns</category>
+    <atom:link href="https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Studio Kiln Thermocouple Calibrations</title>
+        <dc:creator><![CDATA[derek]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://web.archive.org/web/20110203065842/http://jessehull.com">Note: This article is from Jesse Wiseman Hull’s website, now archived here.</a></p>
+<p>Sunday, December 23rd, 2007</p>
+<p>Whether you’re trying to achieve an accurate firing via a peak temperature hold or a calculated ramp, it’s a good idea to calibrate your thermocouples (TC’s) before relying on the factory setting in your controller.</p>
+<p>Hopefully you have Type S TC’s … if so, you’re not going to need to calibrate them again for some time. It’s pretty ridiculous that Type K’s are used past 2100°F these days. If you have them and plan to go beyond that temperature, you’ll need to check and adjust for “drift” about every 5-10 firings.<br>
+No matter which TC’s are being used however, I always suggest using witness cones to judge accuracy on each firing.</p>
+<hr>
+<p>There are two ways to calibrate your thermocouples. One way is to fire your kiln, inspect the cones afterwards, and then make a guess as to how to offset your TC’s. This can take anywhere from a few to several firings.   I hear of many who do it this way, and honestly- I’ve never understood why.</p>
+<p>A more effective approach is to record what your kiln controller reads during a firing, when you see the cone achieving that perfect bend, then establish the offset from there.</p>
+<p><strong>Here’s how:</strong></p>
+<p><strong>1-</strong>  Check with your manufacturer to see what the factory TC offset for your kiln/controller should be set at, then verify that each TC is offset to the number they give you.</p>
+<p><em>Example</em> : L&amp;L Kiln’s factory offset is usually 18 (not zero),<br>
+when using the Bartlett V6-CF control board &amp; Type S TC’s.</p>
+<p><strong>2-</strong>  Stack your kiln with stilts and shelves so that an <a href="https://web.archive.org/web/20100612225725/http://www.ortonceramic.com/pyrometrics/arts/cones.shtml">Orton self-supporting witness cone</a> can be viewed through each spy, and place another in the center of each shelf. I also put in glaze tests in addition to cones to get as much information as possible. I prefer not to fire a “light” kiln, as the loss in thermal mass could prevent an accurate result, so I use softbrick and/or extra stilts to take up the empty space.</p>
+<p><strong>3-</strong>  Program the controller for a rise of 108°F/hr during the last 150F prior to peak.</p>
+<p><em>Example</em> : ^10 = 2345°F at 108°F/hr.<br>
+So program a rise of 108°F/hr from 2145°F to 2345°F.</p>
+<p><strong>4-</strong>  Set a delay if needed so that you can be there around the time the kiln reaches peak. …Obviously, you’ll want to err on being early.</p>
+<p><strong>5-</strong>  Record the temperature of each TC at the time the corresponding cone bends perfectly. Understand that the readings may be different for each zone/TC, and that they can be offset independently.<br>
+<strong>The perfect arch (90°</strong>  <strong>bend) for a self-supporting Orton cone is when the tip is level with the top of the triangular base.</strong></p>
+<p><strong>6-</strong>  From here you can figure out if your kiln is under or over firing, and by how much.</p>
+<p><strong>7-</strong>  Your controller can be programmed to offset the TC readings by as much as 50° in either direction. To adjust the TC offset on a Bartlett V6-CF, you will need to calculate the number to offset (also refer to <a href="https://web.archive.org/web/20100612225725/http://www.bartinst.com/KILN/V6CF%20700/v6cfoverview700.html">Bartlett’s online manual</a>):</p>
+<p><strong>To  <em>lower</em>  the temperature/heat work</strong>  in the kiln, start with the factory set point and add the number of degrees to compensate  <em>for each thermocouple</em> . This will raise the temperature displayed.</p>
+<p><strong>To raise the temperature/heat work</strong>  in the kiln, start with the factory set point and subtract the number of degrees to compensate  <em>for each thermocouple</em> . This will lower the temperature displayed.<br>
+To program a number below zero: type in “90″, immediately followed by the number of degrees to compensate… think of the 90 as a (-).<br>
+Consider that since 18 is the factory set point for an L&amp;L with Type S TC’s, you should not need to go below zero. If you find that you do, I would suggest contacting the manufacturer of your kiln or controller.</p>
+<hr>
+<p>After going through this process with my <a href="https://web.archive.org/web/20100612225725/http://jessehull.com/kilns/ll-jd18-jh-electric-kiln/">new kiln</a>, I found that my top TC needed an offset of 19 and my bottom at 25. Leaving it at the factory setting of 18 would have resulted not only in over firing, but also in uneven heatwork between the zones (sections) of the kiln. Go <a href="https://web.archive.org/web/20100612225725/http://jessehull.com/2007/12/20/170/">here</a> for more on this.</p>
+          <p><a href="https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628/1</link>
+        <pubDate>Thu, 15 Nov 2018 13:39:42 +0000</pubDate>
+        <guid isPermaLink="false">wiki.glazy.org-post-628-1</guid>
+        <source url="https://wiki.glazy.org/t/studio-kiln-thermocouple-calibrations/628.rss">Studio Kiln Thermocouple Calibrations</source>
+      </item>
+  </channel>
+</rss>

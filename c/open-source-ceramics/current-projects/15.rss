@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Current Projects - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/open-source-ceramics/current-projects/15</link>
+    <description>Topics in the &#39;Current Projects&#39; category ANY MEMBER CAN ADD OTHER MEMBERS! Direct member requests will not be approved, as no one has time to review individual user profiles.</description>
+    
+      <lastBuildDate>Fri, 21 Apr 2017 09:55:42 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/open-source-ceramics/current-projects/15.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Discourse Knowledge Base &amp; Wiki</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Collaborative knowledge-base.  Stores links to knowledge already shared on mailing lists and forums.  Also allows anyone to easily document ceramics knowledge with text and pictures.  Login via Facebook.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33</link>
+          <pubDate>Fri, 21 Apr 2017 09:55:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-33</guid>
+          <source url="https://wiki.glazy.org/t/discourse-knowledge-base-wiki/33.rss">Discourse Knowledge Base &amp; Wiki</source>
+        </item>
+        <item>
+          <title>Lipgloss Python App</title>
+          <dc:creator><![CDATA[Pieter_Mostert]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Pieter’s Lipgloss, a python app for calculating recipes from UMF analyses. Currently still in development. The source code can be found <a href="https://github.com/PieterMostert/Lipgloss" rel="nofollow noopener">here</a>.</p>
+<p>Version 2, which is faster and (hopefully) easier to install, can be found <a href="https://github.com/PieterMostert/LIPGLOSS2" rel="nofollow noopener">here</a>.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/lipgloss-python-app/32">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/lipgloss-python-app/32</link>
+          <pubDate>Fri, 21 Apr 2017 09:55:20 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-32</guid>
+          <source url="https://wiki.glazy.org/t/lipgloss-python-app/32.rss">Lipgloss Python App</source>
+        </item>
+        <item>
+          <title>Currie Grid Calculator</title>
+          <dc:creator><![CDATA[tomdemeranville]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Tom’s Currie Grid calculator:  <a href="http://demeranville.com/pottery/curriecalc.html">http://demeranville.com/pottery/curriecalc.html</a></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/currie-grid-calculator/31">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/currie-grid-calculator/31</link>
+          <pubDate>Fri, 21 Apr 2017 09:54:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-31</guid>
+          <source url="https://wiki.glazy.org/t/currie-grid-calculator/31.rss">Currie Grid Calculator</source>
+        </item>
+        <item>
+          <title>Glazy (and version 2)</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>Glazy was built using the latest open source tools, including Laravel and Bootstrap.</p>
+<p>The Glazy database of ceramic recipes was seeded with data from Linda Arbuckle’s GlazeChem database, John Sankey’s glaze database, and Louis Katz’s Hyperglaze database. John Britt, Alisa Liskin Clausen, Terry Rorison and Tara Hagen have also included their glaze tests with images.</p>
+<p>Glazy is in continuous development, guided by technical input from a number of potters around the world. In particular, Pieter Mostert and Matt Katz have provided invaluable insights and suggestions.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/glazy-and-version-2/30">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/glazy-and-version-2/30</link>
+          <pubDate>Fri, 21 Apr 2017 09:53:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-30</guid>
+          <source url="https://wiki.glazy.org/t/glazy-and-version-2/30.rss">Glazy (and version 2)</source>
+        </item>
+        <item>
+          <title>List of All Current Projects</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Current Projects</category>
+          <description><![CDATA[
+            <p>ANY MEMBER CAN ADD OTHER MEMBERS! Direct member requests will not be approved, as no one has time to review individual user profiles.</p>
+<p>Guidelines: All posts should be related to software, electronics, and hardware related to ceramics. For discussions of glazes, materials, and studio tools please post to other groups.</p>
+<p>EVERYTHING YOU POST IN FACEBOOK WILL BE LOST.</p>
+<p>If you are interested in preserving knowledge, post on the Glazy Wiki (<a href="https://wiki.glazy.org">https://wiki.glazy.org</a>), instead.</p>
+<p>Current Projects:</p>
+<p>Pieter Mostert’s Lipgloss, a python app for calculating recipes from UMF analyses.</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+      <a href="https://github.com/PieterMostert/Lipgloss" target="_blank">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://wiki.glazy.org/uploads/default/original/2X/0/0135064b27715e095a91972fe6407776cc64b860.png" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/PieterMostert/Lipgloss" target="_blank">PieterMostert/Lipgloss</a></h3>
+
+<p>Python app for creating glaze recipes. Contribute to PieterMostert/Lipgloss development by creating an account on GitHub.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Dan Lizotte’s Glaze Formulator, a web application built using R for creating recipes from UMF analyses:</p>
+<p><a href="https://glaze.warewolves.ca/" class="onebox" target="_blank">https://glaze.warewolves.ca/</a></p>
+<p>Matthew Katz’s U.M.F calculator for Excel</p>
+<p><a href="http://www.ceramicmaterialsworkshop.com/umf-calculator.html" class="onebox" target="_blank">http://www.ceramicmaterialsworkshop.com/umf-calculator.html</a></p>
+<p>Tom Demeranville’s Currie Grid calculator <a href="http://demeranville.com/pottery/curriecalc.html">http://demeranville.com/pottery/curriecalc.html</a></p>
+<p>Jason Bruce’s Specific Gravity calculator</p>
+<p><a href="https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html" class="onebox" target="_blank">https://jbruce12000.github.io/glaze-specific-gravity-calculator/html/specific-gravity.html</a></p>
+<p>The Discourse Wiki on our own secure server.</p>
+<p><a href="https://wiki.glazy.org">https://wiki.glazy.org</a></p>
+<p>Ceramics Dictionary</p>
+<aside class="onebox googledocs">
+  <header class="source">
+      <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank">docs.google.com</a>
+  </header>
+  <article class="onebox-body">
+    <a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank"><span class="googledocs-onebox-logo g-sheets-logo"></span></a>
+
+<h3><a href="https://docs.google.com/spreadsheets/d/1WVEwkShTHL9KsmFClMqaqJFl63WZ_20fLo2OF80Nw_8/edit?usp=sharing" target="_blank">Ceramics Dictionary</a></h3>
+
+<p>README
+
+The Ceramics Dictionary is being locked until Glazy translations are complete.
+
+You can help by translating Glazy Materials Here:
+https://docs.google.com/spreadsheets/d/1jhBzdeqwhltQ7l3SkATl6rZkvUDOS3lpZtnw6zGr0uY/edit?usp=sharing
+
+And join...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Glazy version 2</p>
+<p><a href="https://glazy.org" class="onebox" target="_blank">https://glazy.org</a></p>
+<p><a href="https://derekphilipau.github.io/vue-d3-stull-charts/" class="onebox" target="_blank">https://derekphilipau.github.io/vue-d3-stull-charts/</a></p>
+<p>Ceramic Chemistry Visualization</p>
+<p>Various types of web visualizations for ceramics. Includes Javascript Stull Charts.</p>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="https://derekphilipau.github.io/ceramic-chemistry-visualization/" target="_blank">derekphilipau.github.io</a>
+  </header>
+  <article class="onebox-body">
+    
+
+<h3><a href="https://derekphilipau.github.io/ceramic-chemistry-visualization/" target="_blank">Ceramic Chemistry Visualization</a></h3>
+
+<p>Various types of web visualizations for ceramics.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Related Projects:</p>
+<p>GlazeMaster 3 Downloads (now free, including FileMaker source)</p>
+<p><a href="http://www.masteringglazes.com/glazemaster/downloads.html" class="onebox" target="_blank">http://www.masteringglazes.com/glazemaster/downloads.html</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/list-of-all-current-projects/29">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/list-of-all-current-projects/29</link>
+          <pubDate>Fri, 21 Apr 2017 09:52:57 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-29</guid>
+          <source url="https://wiki.glazy.org/t/list-of-all-current-projects/29.rss">List of All Current Projects</source>
+        </item>
+  </channel>
+</rss>

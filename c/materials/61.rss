@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Materials - Glazy Ceramics Wiki</title>
+    <link>https://wiki.glazy.org/c/materials/61</link>
+    <description>Topics in the &#39;Materials&#39; category </description>
+    
+      <lastBuildDate>Fri, 30 Apr 2021 13:53:04 +0000</lastBuildDate>
+      <atom:link href="https://wiki.glazy.org/c/materials/61.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Manganese dioxide vs manganese carbonate in Glazy calc</title>
+          <dc:creator><![CDATA[juliepeel]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p>I was looking at a bronze glaze by [Ruth Gillet <span class="hashtag">#4576</span>] (<a href="https://glazy.org/recipes/4576" class="inline-onebox" rel="noopener nofollow ugc">Glazy</a>) and amending it to use the materials I have. When I substituted manganese dioxide for manganese carbonate the resulting MnO was treated completely differently <a href="https://glazy.org/recipes/143794" rel="noopener nofollow ugc">see #143794</a>.</p>
+<p>The carbonate in <span class="hashtag">#4576</span> was included with R2 but the dioxide in <span class="hashtag">#143794</span> is shown just as a colourant.  I referred to Digital Fire for the adjustment from carbonate to dioxide and altered all the other materials in <span class="hashtag">#4576</span> before I changed the carbonate to dioxide <a href="https://glazy.org/recipes/143793" rel="noopener nofollow ugc">#143793</a>, so that I could make sure the glaze was in the same general area on Stull.  The glaze looked pretty similar until I changed the manganese and then it went off the Stull chart. Why are the two materials treated so very differently in the Stull analysis?</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://wiki.glazy.org/t/manganese-dioxide-vs-manganese-carbonate-in-glazy-calc/935">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/manganese-dioxide-vs-manganese-carbonate-in-glazy-calc/935</link>
+          <pubDate>Fri, 30 Apr 2021 13:53:04 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-935</guid>
+          <source url="https://wiki.glazy.org/t/manganese-dioxide-vs-manganese-carbonate-in-glazy-calc/935.rss">Manganese dioxide vs manganese carbonate in Glazy calc</source>
+        </item>
+        <item>
+          <title>A Brief Overview of Grog</title>
+          <dc:creator><![CDATA[davidk]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p>Grog is a fired ceramic that is pulverized and added to various clay bodies during the mixing process. There are two large categories of grog: soft grog and hard grog.</p>
+<p>Soft grog is rarely used in the ceramic arts because it is fired at a lower temperature than Cone 10 and it is porous. In a biscuit firing, the soft grog might be softer-fired than the peak biscuit temperature. This means that the grog will melt within the clay. The advantage of soft grog is that due to its porosity, it can temper sticky clays, and aid in quick drying. Hard grog, on the other hand, is fired over Cone 10 and has gone through the entire clay firing phase, making it impossible to melt inside an artist’s clay body. The characteristics and advantages of hard grog make most potters use hard grog.</p>
+<p>Almost all types of clay contain grog them, including some porcelains. Grog is added to a clay body for various reasons. In handbuilding, grog is added to minimize building and drying problems. In throwing, it also minimizes building and drying problems, but also provide a “toothy” quality to the clay. Toothy refers to clay that feels rustic, gritty, and rough, which are one of the qualities that are desired in a stoneware. In slip casting, grog is never added because the advantages of adding grog do not outweigh the disadvantages and problems it will create, such as rough texture.</p>
+<p>Common misconceptions that exist about grog is that grog is the reason why a clay body is more “plastic” than clay that does not have any grog added in. According to recent studies, this is not exactly true. Plasticity is how much clay can be worked, stretched, and/or pulled without cracking. What grog does is creating refractory networks throughout the body, increasing the percentage of non-plastics in a clay body, and minimize building and drying problems.</p>
+<p>Another misconception is that grog in a clay body decreases the shrinkage rate of the body. This is also not really true. A clay body is split into two parts. The clay molecules, and the non-plastics. The clay aspect melts into glass and mullite when fired, the non-plastics do not.</p>
+<p>Let’s do a small thought experiment:</p>
+<p>There is Clay body A and B.<br>
+Clay A is 50% clay 50% non-plastics (no grog)<br>
+Clay B is 25% clay and 75% non-plastics (25% is grog)</p>
+<p>Both clays are fired, and Clay B turns out to have half of the shrinkage rate of Clay A. Does that mean the shrinkage rate has been reduced? No. There is only half the amount of material that can melt in the firing. Therefore, it can be concluded that grog does not decrease shrinkage rates the way that most people think.</p>
+<p>It is also not required to add grog into clay bodies like stonewares. Although grog can increase the Green Packing Density, it is important to realize the level of size that we are working with as potters. (Higher green density in a clay body means higher plasticity, higher building strength, and dry strength.)</p>
+<p>A clay particle is 10,000 Mesh.<br>
+Flint, a glass former, is 325 Mesh.<br>
+Medium sized grog is 20-48 Mesh.</p>
+<p>Even the highest commercial mesh size is around 325. This shows the big difference between clay particles and grog. Therefore, if the clay body itself has a high Green Packing Density, there is no need to include grog from a greenware performance standpoint.</p>
+<p>But, if grog is going to be added to a clay body, 4% fine grog will be good enough to have the toothy quality, and maybe aid in some GPD/particle size distribution. It is always good to have a wide variety of particle sizes in a clay body. But sometimes large grog sizes may cause problems in a clay body due to its’ immense size compared to all other particle sizes within the clay body.</p>
+<p>There are various companies that currently manufacture/supply grog.</p>
+<p>Axner Pottery Supply, Craneyard Clay, Mulcoa, Imerys  Refractory Minerals, ICCS Refractories, C-E Minerals Inc., Christy Minerals Co., Sial, Etc…</p>
+<p>Each company has its own products that are unique and have different mineral compositions.</p>
+<p>The Mulcoa company has various grogs that are on the market. One of their products is called 20 Mulcoa. This means that all the particles will pass through a 20-mesh sieve. This does not mean that all the particles are 20-mesh sized. There will still be smaller mesh-sized particles within, all from 30 mesh to 200 mesh. There are also other grogs that are named like 20x80 Mulcoa. This means that the grogs will pass through a 20 mesh, but not through an 80 mesh. The chemical make-up of 20 Mulcoa is:</p>
+<p>46.8% Alumina, 50.00% Silica, 1.89% Titanium, 0.95% Iron, and 0.36% Trace elements.</p>
+<p>The 20 Mulcoa is a light grey grog which has been calcined or fired at high temperatures, then ground. This grog is mostly Silica and Alumina, which is normal for most grogs that artist’s use. The percentages also show that the grog is contaminated with Titanium and Iron. This is also common in grogs. In a stoneware body, contamination levels like that of 20 Mulcoa are perfectly fine.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://wiki.glazy.org/uploads/default/original/1X/311f7ab15ea6b536aaac35b966843027a6aabe6c.jpeg" data-download-href="https://wiki.glazy.org/uploads/default/311f7ab15ea6b536aaac35b966843027a6aabe6c" title="image.jpg"><img src="https://wiki.glazy.org/uploads/default/original/1X/311f7ab15ea6b536aaac35b966843027a6aabe6c.jpeg" alt="image" width="690" height="176" data-small-upload="https://wiki.glazy.org/uploads/default/optimized/1X/311f7ab15ea6b536aaac35b966843027a6aabe6c_2_10x10.png"></a></div> All credits to Plainsman Clays<p></p>
+<p>Another example of grog is the 200 Mulcoa, which is a much smaller particle sized grog than 20 Mulcoa. The 200 Mulcoa looks a lot lighter than the 20 Mulcoa. This is because the 200 is a lot finer, which makes it look lighter as shown in the picture above. Both grogs come from the same mine source, so they will have very similar chemical compositions. But, it is still important to remember that the chemical compositions that the manufactures provide are the average percentages for the entire mine. As clay is a natural source, every batch of grog will be slightly different, even though it might not affect the clay body in a significant way.</p>
+<p>Another grog type is called Plainsman Grog. This grog is created from pulverizing already fired construction bricks that have 5% porosity by weight. It is very important to know not only the source of the grog but also the chemical composition of the grog. This is because different grogs have different chemical compositions, fired temperatures, and even porosity levels depending on the source. As grog is switched from one to another, the clay itself be altered to have consistent results.</p>
+<p>In a white porcelain body, most grogs will not be desirable due to their high levels of Iron and Titanium, which are basically colorants/contaminators. Therefore, Molochite is an alternative to grog that is added in. Molochite is basically white kaolin that is fired until vitrified (at or past Cone 10) and pulverized. The downside to Molochite is if large particles of them are added to clay bodies, it might cause firing failures such as micro-cracking and large-scale cracks.</p>
+<p>200 Molochite is the second-finest mesh that you can find in the market, 325 being the highest. Unlike the other grogs that are included in this article, Molochite is very clean. The chemical composition of Molochite is:</p>
+<p>42% Alumina, 54.50% Silica, 1% Iron, 2% Potassium, 0.07% Titanium, 0.06% Calcium, and .31% Magnesium</p>
+<p>In contrast to the Mulcoa and CE Minerals grogs, Molochite is chemically cleaner and contain fewer contaminants. When fired, Molochite will be white and glassy, like porcelain. Therefore, most potters and manufacturers add Molochite to their porcelain bodies if need to.</p>
+<p>Usually, if there is no grog manufacturer nearby, the local pottery supply store is a good alternative. Not only do they have a selection of grogs in stock, but they also have the connections with suppliers to make special orders. Nowadays, due to the internet, it is possible to order grog from virtually all the manufacturers in the world. As an artist, having the knowledge of grog and the ability to create personal batches of grog to suit specific clay bodies is a great idea. This opens up possibilities like colored grog, advantages of soft/hard grog, identical chemical make-up to a clay body, and more. In conclusion, grog is only as good as its manufacturer and user. The more knowledge you have about grog, it will become a useful tool to aid in your artistic practice.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/a-brief-overview-of-grog/697">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/a-brief-overview-of-grog/697</link>
+          <pubDate>Sat, 05 Jan 2019 06:06:03 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-697</guid>
+          <source url="https://wiki.glazy.org/t/a-brief-overview-of-grog/697.rss">A Brief Overview of Grog</source>
+        </item>
+        <item>
+          <title>Calcinated Kaolin - Sue McLeod</title>
+          <dc:creator><![CDATA[jpib]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p><a class="attachment" href="https://wiki.glazy.org/uploads/default/original/1X/2d3f86ccdb68ad49529e0d072a201474e555d908.pdf">Sue_McLeod_Ceramics_Calcining_EPK.01.pdf</a> (461.8 KB)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/calcinated-kaolin-sue-mcleod/661">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/calcinated-kaolin-sue-mcleod/661</link>
+          <pubDate>Tue, 20 Nov 2018 21:24:45 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-661</guid>
+          <source url="https://wiki.glazy.org/t/calcinated-kaolin-sue-mcleod/661.rss">Calcinated Kaolin - Sue McLeod</source>
+        </item>
+        <item>
+          <title>Ceramic colorants, stains and oxides</title>
+          <dc:creator><![CDATA[docweathers]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p><a class="attachment" href="https://wiki.glazy.org/uploads/default/original/1X/6555feeb8c717e3647d4827fe76bfdeba9e5cf3e.pdf">FG16_CeramicColor.pdf</a> (722.4 KB)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/ceramic-colorants-stains-and-oxides/651">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/ceramic-colorants-stains-and-oxides/651</link>
+          <pubDate>Mon, 19 Nov 2018 00:01:19 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-651</guid>
+          <source url="https://wiki.glazy.org/t/ceramic-colorants-stains-and-oxides/651.rss">Ceramic colorants, stains and oxides</source>
+        </item>
+        <item>
+          <title>Explains Raw materials</title>
+          <dc:creator><![CDATA[docweathers]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p><a class="attachment" href="https://wiki.glazy.org/uploads/default/original/1X/c14652fef14ca100394dfb6a649074b9adfb9e9c.pdf">RawMaterials_2_opt.pdf</a> (500.3 KB)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/explains-raw-materials/647">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/explains-raw-materials/647</link>
+          <pubDate>Sun, 18 Nov 2018 22:41:20 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-647</guid>
+          <source url="https://wiki.glazy.org/t/explains-raw-materials/647.rss">Explains Raw materials</source>
+        </item>
+        <item>
+          <title>Material analysis for selected frits</title>
+          <dc:creator><![CDATA[docweathers]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p><a class="attachment" href="https://wiki.glazy.org/uploads/default/original/1X/dc8a52c4d77706b943f8a52bf4c388eb051d3f60.pdf">Materials Analysis.pdf</a> (2.2 MB)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/material-analysis-for-selected-frits/643">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/material-analysis-for-selected-frits/643</link>
+          <pubDate>Sun, 18 Nov 2018 22:07:37 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-643</guid>
+          <source url="https://wiki.glazy.org/t/material-analysis-for-selected-frits/643.rss">Material analysis for selected frits</source>
+        </item>
+        <item>
+          <title>Bone Ash, Calcium Phosphate</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <h2>Human Remains</h2>
+<p><img src="https://wiki.glazy.org/uploads/default/original/1X/21d83ba883a35ff0c0e26c22536eaa07e3fbf4e8.jpg" width="360" height="347"></p>
+<p><a href="http://www.funeraltrend.com/2015/05/whats-in-cremated-remains-human-ashes.html" class="onebox" target="_blank" rel="nofollow noopener">http://www.funeraltrend.com/2015/05/whats-in-cremated-remains-human-ashes.html</a></p>
+<p>Analysis found on Clayart (unknown source):</p>
+<p>HUMAN ASH (ANALYSIS)<br>
+CaO 39.0%<br>
+P2O5 50.2%<br>
+K2O 4.8%<br>
+Na2O 3.8%<br>
+MgO 0.9%<br>
+SiO2 1.1%<br>
+Fe2O3 0.2%<br>
+ZnO 0.1%<br>
+LOI 94.8%</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/bone-ash-calcium-phosphate/358">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/bone-ash-calcium-phosphate/358</link>
+          <pubDate>Sun, 23 Jul 2017 01:48:12 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-358</guid>
+          <source url="https://wiki.glazy.org/t/bone-ash-calcium-phosphate/358.rss">Bone Ash, Calcium Phosphate</source>
+        </item>
+        <item>
+          <title>Nepheline Syenite</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <h2>Substitutions</h2>
+<p>100 gr nepheline syenite = 55 gr Potash Feldspar + 45 gr Sodium Feldspar</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/nepheline-syenite/348">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/nepheline-syenite/348</link>
+          <pubDate>Thu, 06 Jul 2017 02:12:28 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-348</guid>
+          <source url="https://wiki.glazy.org/t/nepheline-syenite/348.rss">Nepheline Syenite</source>
+        </item>
+        <item>
+          <title>Barnard Clay</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <h2>Substitutions</h2>
+<p>Calcined china clay  17.976%<br>
+Custer feldspar  15.123%<br>
+Dolomite  0.740%<br>
+Magnesium carbonate 1.333%<br>
+Silica  39.570%<br>
+Rutile  0.744%<br>
+Iron oxide 14.564%<br>
+Manganese dioxide 4.169%</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/barnard-clay/347">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/barnard-clay/347</link>
+          <pubDate>Thu, 06 Jul 2017 02:10:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-347</guid>
+          <source url="https://wiki.glazy.org/t/barnard-clay/347.rss">Barnard Clay</source>
+        </item>
+        <item>
+          <title>Cornwall Stone</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <h2>Synthetic Cornwall Stone Recipes</h2>
+<p><em>From Clara Giorello:</em></p>
+<blockquote>
+<p>100 gr Cornwall Stone = 41 gr Potash Feldspar + 28 gr sodium Feldspar + 8 gr APM112 Clay + 2 gr whiting + 21 silica</p>
+</blockquote>
+<blockquote>
+<p>Cornwall Stone (volume) = potash feldspar 8 + Silica 2 + Kaolin 1</p>
+</blockquote>
+<p><em>From Mike Mangion:</em></p>
+<h3>Cornwall Stone <span class="hashtag">#1</span>
+</h3>
+<p><strong>Original Material, FORMULA &amp; ANALYSIS</strong><br>
+*CaO… .26 2.02%<br>
+*MgO…<br>
+*K2O… .29 3.74%<br>
+*Na2O… .44 3.74%<br>
+Fe2O3… .01 .14%<br>
+TIO2… .01 .07%<br>
+AL2O3… 1.16 16.14%<br>
+SiO2… 9.03 73.65%<br>
+P2O5… .03 .51%<br>
+RATIO 7.76<br>
+EXPAN 399.42<br>
+WEIGHT 735.81</p>
+<p><strong>Substitution Recipe, FORMULA &amp; ANALYSIS</strong></p>
+<p>G 200 SPAR… 53.00%<br>
+EPK… 15.50%<br>
+SILICA… 28.50%<br>
+WHITING… 3.00%<br>
+Total……………100.00%<br>
+*CaO…30 2.18%<br>
+*MgO…01 .03%<br>
+*K2O… .49 5.94%<br>
+*Na2O…21 1.66%<br>
+Fe2O3…01 .18%<br>
+TIO2…00 .05%<br>
+AL2O3… 1.23 16.20%<br>
+SiO2… 9.50 73.74%<br>
+P2O5…00 .02%<br>
+RATIO 7.74<br>
+EXPAN 398.48<br>
+WEIGHT 772.69</p>
+<h3>Cornwall Stone <span class="hashtag">#2</span>
+</h3>
+<p><strong>Original Material, FORMULA &amp; ANALYSIS</strong></p>
+<p>Oxide	Analysis	Formula<br>
+CaO	1.81%	0.240<br>
+MgO	0.14%	0.026<br>
+K2O	4.30%	0.339<br>
+Na2O	3.30%	0.395<br>
+TiO2	0.15%	0.014<br>
+Al2O3	16.33%	1.189<br>
+SiO2	73.76%	9.117<br>
+Fe2O3	0.20%	0.009<br>
+Oxide Weight	742.81<br>
+Formula Weight	742.81</p>
+<p><strong>Substitution Recipe, FORMULA &amp; ANALYSIS</strong></p>
+<h1>Dolomite…     0.37<br>
+Custer Feldspar…    30.43<br>
+Wollastonite…     3.30<br>
+Kaolin…    12.85<br>
+Silica…    29.29<br>
+Nepheline Syenite…    23.75</h1>
+<p>100.00%</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/cornwall-stone/342">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/cornwall-stone/342</link>
+          <pubDate>Wed, 05 Jul 2017 08:41:57 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-342</guid>
+          <source url="https://wiki.glazy.org/t/cornwall-stone/342.rss">Cornwall Stone</source>
+        </item>
+        <item>
+          <title>Albany Slip</title>
+          <dc:creator><![CDATA[ceramicswiki]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <h2>Synthetic Albany Slip Recipes</h2>
+<p>Ceramics Monthly, October 1988, Pg 49: Synthetic Albany Slip by Gerald Rowan.</p>
+<p><strong>Synthetic Albany Slip 1:</strong></p>
+<p>Dolomite  8.5%<br>
+Pearl Ash 4.0%<br>
+Soda Ash  1.0%<br>
+Unwashed Softwood Ash 10.5%<br>
+Kentucky Ball Clay (OM-4)  50%<br>
+Flint 20.0%<br>
+Red Iron Oxide 6%<br>
+Total: 100.0%</p>
+<p><strong>Synthetic Albany Slip 2:</strong></p>
+<p>Dolomite   9%<br>
+Soda Ash   1%<br>
+Cedar Heights Redart Clay   90%<br>
+Total:  100%</p>
+<p><strong>Synthetic Albany Slip 3:</strong></p>
+<p>Dolomite  9%<br>
+Soda Ash  1%<br>
+Terra Sigillata made from Cedar Heights Redart 90%<br>
+Total: 100%</p>
+<p><strong>Synthetic Albany Slip (Tony Hansen):</strong></p>
+<p>Talc  7%<br>
+Whiting  9.5%<br>
+Nepheline Syenite 14%<br>
+<em>Redearth Clay   67.5%<br>
+Black Iron Oxide 2.0%<br>
+Total: 100%<br>
+_</em> Redearth clay from IMC in Medicine Hat, Alberta_</p>
+<h3>Albany slip sub. Lili Krakowski</h3>
+<p><em>via Alisa Liskin Clausen</em></p>
+<p>58 Redart<br>
+8 Dolomite<br>
+25 Whiting</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/albany-slip/341">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/albany-slip/341</link>
+          <pubDate>Wed, 05 Jul 2017 08:36:46 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-341</guid>
+          <source url="https://wiki.glazy.org/t/albany-slip/341.rss">Albany Slip</source>
+        </item>
+        <item>
+          <title>About the Materials category</title>
+          <dc:creator><![CDATA[derek]]></dc:creator>
+          <category>Materials</category>
+          <description><![CDATA[
+            <p>(Replace this first paragraph with a brief description of your new category. This guidance will appear in the category selection area, so try to keep it below 200 characters. <strong>Until you edit this description or create topics, this category won’t appear on the categories page.</strong>)</p>
+<p>Use the following paragraphs for a longer description, or to establish category guidelines or rules:</p>
+<ul>
+<li>
+<p>Why should people use this category? What is it for?</p>
+</li>
+<li>
+<p>How exactly is this different than the other categories we already have?</p>
+</li>
+<li>
+<p>What should topics in this category generally contain?</p>
+</li>
+<li>
+<p>Do we need this category? Can we merge with another category, or subcategory?</p>
+</li>
+</ul>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://wiki.glazy.org/t/about-the-materials-category/102">Read full topic</a></p>
+          ]]></description>
+          <link>https://wiki.glazy.org/t/about-the-materials-category/102</link>
+          <pubDate>Tue, 25 Apr 2017 02:15:09 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">wiki.glazy.org-topic-102</guid>
+          <source url="https://wiki.glazy.org/t/about-the-materials-category/102.rss">About the Materials category</source>
+        </item>
+  </channel>
+</rss>
